@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.6.14)  1 MAR 2024 18:45
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.6.14)  1 MAR 2024 18:55
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1371,30 +1371,23 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.208 \end{document}
+l.216 \end{document}
                      [1] (./lab1.aux)
  ***********
 LaTeX2e <2023-06-01>
 L3 programming layer <2023-06-05>
  ***********
-
-
-Package rerunfilecheck Warning: File `lab1.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `lab1.out':
-(rerunfilecheck)             Before: 77F0B7993B442F4F0D7726CBC3BB3D3D;467
-(rerunfilecheck)             After:  B97ACF551267576329C2A6BF1CB8F7F6;2188.
+Package rerunfilecheck Info: File `lab1.out' has not changed.
+(rerunfilecheck)             Checksum: B97ACF551267576329C2A6BF1CB8F7F6;2188.
  ) 
 Here is how much of TeX's memory you used:
- 53001 strings out of 475734
- 1311394 string characters out of 5786229
- 2165491 words of memory out of 5000000
- 73109 multiletter control sequences out of 15000+600000
+ 53007 strings out of 475734
+ 1311478 string characters out of 5786229
+ 2167492 words of memory out of 5000000
+ 73112 multiletter control sequences out of 15000+600000
  526248 words of font info for 68 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 84i,11n,89p,757b,609s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 84i,11n,89p,1081b,609s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/tex
 live/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2023
 /texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2023/texmf-dis
@@ -1407,10 +1400,10 @@ c:/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm0900.pfb><c:/texlive
 /2023/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb><c:/texlive/2023/texm
 f-dist/fonts/type1/public/cm-super/sfrm1200.pfb><c:/texlive/2023/texmf-dist/fon
 ts/type1/public/cm-super/sfti1200.pfb>
-Output written on lab1.pdf (2 pages, 163326 bytes).
+Output written on lab1.pdf (2 pages, 166529 bytes).
 PDF statistics:
- 100 PDF objects out of 1000 (max. 8388607)
- 69 compressed objects within 1 object stream
- 8 named destinations out of 1000 (max. 500000)
- 29 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 112 PDF objects out of 1000 (max. 8388607)
+ 81 compressed objects within 1 object stream
+ 11 named destinations out of 1000 (max. 500000)
+ 53 words of extra memory for PDF output out of 10000 (max. 10000000)
 
