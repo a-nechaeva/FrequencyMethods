@@ -3,7 +3,7 @@ from manim import *
 # Config file with specific Fourier series functions
 # from func.x2 import *
 #from common_fun import *
-from cos_fun import *
+from first_G import *
 # from func.triangle import *
 # from func.square import *
 

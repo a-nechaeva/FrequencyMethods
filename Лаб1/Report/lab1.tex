@@ -305,23 +305,24 @@ G_N (t) = \sum  \limits_{n=-N}^N c_n e^{i n t}.
 \end{equation}
 Где соответствующий коэффициент:
 \begin{equation}
-c_n = \frac{1}{T} \int \limits_{h}^{h + T} f(t) e^{i \omega_n t} dt = \frac{1}{2 \pi} \int \limits_{\pi}^{3 \pi} f(t) e^{i n t} dt =
-\frac{1}{2 \pi} \left( \int \limits_{\pi}^{2 \pi} e^{i n t} dt + 2 \int \limits_{ 2 \pi}^{3 \pi} e^{i n t} dt \right) 
+c_n = \frac{1}{T} \int \limits_{h}^{h + T} f(t) e^{-i \omega_n t} dt = \frac{1}{2 \pi} \int \limits_{\pi}^{3 \pi} f(t) e^{-i n t} dt =
+\frac{1}{2 \pi} \left( \int \limits_{\pi}^{2 \pi} e^{-i n t} dt + 2 \int \limits_{ 2 \pi}^{3 \pi} e^{-i n t} dt \right) 
 \end{equation}
 
 Отдельно вычислим неопределенный интеграл:
 \begin{equation}
-c_n = \int e^{i n t} dt = \frac{1}{in} \int e^{i n t} d (i n t) =  \frac{e^{i n t}}{in} + C
+c_n = \int e^{-i n t} dt = \frac{-1}{in} \int e^{-i n t} d (-i n t) =  -\frac{e^{-i n t}}{in} + C
 \end{equation}
 
 \begin{equation}
-c_n = \frac{1}{2 \pi} \left(  \left. \frac{e^{i n t}}{in} \right|_{\pi}^{2\pi} + 2  \left. \frac{e^{i n t}}{in} \right|_{2\pi}^{3\pi} \right) =
- \frac{ 2 e^{3i n \pi} - e^{i n \pi} - e^{2i n \pi}}{2 i n \pi}
+c_n = -\frac{1}{2 \pi} \left(  \left. \frac{e^{-i n t}}{in} \right|_{\pi}^{2\pi} + 2  \left. \frac{e^{-i n t}}{in} \right|_{2\pi}^{3\pi} \right) =
+ \frac{ e^{-i n \pi} + e^{-2i n \pi} - 2 e^{-3i n \pi}}{2 i n \pi}
 \end{equation}
+
 
 В итоге полученое разложение:
 \begin{equation}
-G_N (t) = \sum  \limits_{n=-N}^N  \frac{ 2 e^{3i n \pi} - e^{i n  \pi} - e^{2i n \pi}}{2 i n \pi} e^{i n t}.
+G_N (t) = \sum  \limits_{n=-N}^N   \frac{ e^{-i n \pi} + e^{-2i n \pi} - 2 e^{-3i n \pi}}{2 i n \pi} e^{i n t}.
 \end{equation}
 
 

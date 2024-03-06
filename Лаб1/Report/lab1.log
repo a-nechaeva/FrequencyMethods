@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.6.14)  6 MAR 2024 23:32
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.6.14)  7 MAR 2024 02:21
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1407,6 +1407,13 @@ Package fancyhdr Warning: \footskip is too small (0.0pt):
 (fancyhdr)                \setlength{\footskip}{12.0pt}.
 
 [3]
+Overfull \hbox (0.50215pt too wide) detected at line 310
+[][][]\OML/cmm/m/it/10 c[] \OT1/cmr/m/n/10 = [] [] \OML/cmm/m/it/10 f\OT1/cmr/m
+/n/10 (\OML/cmm/m/it/10 t\OT1/cmr/m/n/10 )\OML/cmm/m/it/10 e[]dt \OT1/cmr/m/n/1
+0 = [] [] \OML/cmm/m/it/10 f\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 t\OT1/cmr/m/n/10 
+)\OML/cmm/m/it/10 e[]dt \OT1/cmr/m/n/10 = [] []
+ []
+
 
 Package fancyhdr Warning: \footskip is too small (0.0pt): 
 (fancyhdr)                Make it at least 12.0pt, for example:
@@ -1416,7 +1423,7 @@ Package fancyhdr Warning: \footskip is too small (0.0pt):
 <pic/gr_2.png, id=100, 1341.01pt x 869.2475pt>
 File: pic/gr_2.png Graphic file (type png)
 <use pic/gr_2.png>
-Package pdftex.def Info: pic/gr_2.png  used on input line 339.
+Package pdftex.def Info: pic/gr_2.png  used on input line 340.
 (pdftex.def)             Requested size: 309.84842pt x 200.8379pt.
 
 
@@ -1428,7 +1435,7 @@ Package fancyhdr Warning: \footskip is too small (0.0pt):
 <pic/gr_3.png, id=108, 1341.01pt x 869.2475pt>
 File: pic/gr_3.png Graphic file (type png)
 <use pic/gr_3.png>
-Package pdftex.def Info: pic/gr_3.png  used on input line 354.
+Package pdftex.def Info: pic/gr_3.png  used on input line 355.
 (pdftex.def)             Requested size: 309.84842pt x 200.8379pt.
 
 
@@ -1440,7 +1447,7 @@ Package fancyhdr Warning: \footskip is too small (0.0pt):
 <pic/gr_4.png, id=117, 1341.01pt x 869.2475pt>
 File: pic/gr_4.png Graphic file (type png)
 <use pic/gr_4.png>
-Package pdftex.def Info: pic/gr_4.png  used on input line 369.
+Package pdftex.def Info: pic/gr_4.png  used on input line 370.
 (pdftex.def)             Requested size: 309.84842pt x 200.8379pt.
 
 
@@ -1459,7 +1466,7 @@ Package rerunfilecheck Info: File `lab1.out' has not changed.
 Here is how much of TeX's memory you used:
  53096 strings out of 475734
  1312822 string characters out of 5786229
- 2175492 words of memory out of 5000000
+ 2175491 words of memory out of 5000000
  73157 multiletter control sequences out of 15000+600000
  528667 words of font info for 75 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -1481,7 +1488,7 @@ per/sfrm0900.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm10
 00.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb><c:
 /texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfti0900.pfb><c:/texlive/2
 023/texmf-dist/fonts/type1/public/cm-super/sfti1200.pfb>
-Output written on lab1.pdf (8 pages, 387654 bytes).
+Output written on lab1.pdf (8 pages, 387718 bytes).
 PDF statistics:
  220 PDF objects out of 1000 (max. 8388607)
  162 compressed objects within 2 object streams
