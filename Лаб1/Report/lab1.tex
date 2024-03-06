@@ -167,10 +167,10 @@ escapeinside={\%*}{*)}   % если нужно добавить коммента
 \newpage
 \section{Задание. Вещественные функции.}
 Придумать числа $a, \, b, \, t_0, \, t_1, \, t_2$ такие, что $a, \, b > 0$ и $t_2 > t_1 > t_0 > 0$. \\
-Пусть $a = 1, \, b = 2; \, t_0 = 3, \, t_1 = 4, \, t_2 = 5$. \\ Рассмотрим следующие функции $f\, : \mathbb{R} \to \mathbb{R}$:
+Пусть $a = 1, \, b = 2; \, t_0 = \pi, \, t_1 = 2 \pi, \, t_2 = 3 \pi$. \\ Рассмотрим следующие функции $f\, : \mathbb{R} \to \mathbb{R}$:
 
 \subsection{Квадратная волна.}
-Периодическая функция с периодом $T=t_2 - t_0 = 5 - 3 = 2$ такая, что 
+Периодическая функция с периодом $T=t_2 - t_0 = 3 \pi - \pi = 2 \pi$ такая, что 
 \begin{equation}
 f(t) =
 \begin{cases}
@@ -179,8 +179,8 @@ b, \, \, t \in \, [t_1, \, t_2 )
 \end{cases}
 = \,\,\,\,
 \begin{cases}
-1, \, \, t \in \, [3, \, 4 ),\\
-2, \, \, t \in \, [4, \, 5 )
+1, \, \, t \in \, [\pi, \, 2 \pi ),\\
+2, \, \, t \in \, [2 \pi, \, 3 \pi)
 \end{cases}
 \end{equation}
 
@@ -198,7 +198,103 @@ F_N(t) = \frac{a_0}{2} + \sum  \limits_{n=1}^N \left( a_n \cos \left( \omega_n t
 \begin{equation}
 G_N (t) = \sum  \limits_{n=-N}^N c_n e^{i \omega_n t} \, ,
 \end{equation}
-где $\omega_n = 2 \pi \frac{n}{T}$.
+где $\omega_n = 2 \pi \frac{n}{T}$.\\
+\\
+Перепишем формулы выше с учетом того, что $T = 2 \pi$, следовательно  $\omega_n = 2 \pi \frac{n}{ 2 \pi} = n$:
+\begin{equation}
+F_N(t) = \frac{a_0}{2} + \sum  \limits_{n=1}^N \left( a_n \cos \left( n t \right) + b_n \sin \left( n t \right)  \right) \, ,
+\end{equation}
+
+\begin{equation}
+G_N (t) = \sum  \limits_{n=-N}^N c_n e^{i n t}.
+\end{equation}
+
+Перейдем к разложению по формуле 4.\\
+$f(x)$ определена на $[ \pi, 3\pi]$, преобразуем:
+\begin{equation}
+\pi \leq t \leq 3 \pi \to \pi - 2 \pi \leq t - 2 \pi \leq 3 \pi - 2 \pi \to -\pi \leq t - 2 \pi \leq \pi
+\end{equation}
+Новая переменная $x = t - 2\pi$. Выразим $t = x + 2 \pi$ и запишем новую функцию $\phi (x) = f (x + 2 \pi)$.
+\begin{equation}
+\phi (x) = \frac{a_0}{2} + \sum  \limits_{n=1}^N \left( a_n \cos \left( n x \right) + b_n \sin \left( n x \right)  \right) \, ,
+\end{equation}
+где $a_0, \, a_n, \, b_n$ -- коэффициенты Фурье:
+
+\begin{equation}
+a_0 = \frac{1}{\pi} \int \limits_{-\pi}^{\pi} \phi (x) dx,
+\end{equation}
+\begin{equation}
+a_n = \frac{1}{\pi} \int \limits_{-\pi}^{\pi} \phi (x) \cos (n x) dx,
+\end{equation}
+\begin{equation}
+b_n = \frac{1}{\pi} \int \limits_{-\pi}^{\pi} \phi (x) \sin (nx) dx,
+\end{equation}
+
+Проведем обратную замену $x = t - 2\pi$:
+
+\begin{equation}
+f(t) = \frac{a_0}{2} + \sum  \limits_{n=1}^N \left( a_n \cos \left( n ( t - 2\pi) \right) + b_n \sin \left( n ( t - 2\pi) \right)  \right)
+\end{equation}
+Воспользуемся периодичностью синуса и косинуса:
+\begin{equation}
+f(t) = \frac{a_0}{2} + \sum  \limits_{n=1}^N \left( a_n \cos \left( n t  \right) + b_n \sin \left( n  t  \right)  \right)
+\end{equation}
+\begin{equation}
+a_0 = \frac{1}{\pi} \int \limits_{\pi}^{3\pi} f(t) dt,
+\end{equation}
+\begin{equation}
+a_n = \frac{1}{\pi} \int \limits_{\pi}^{3\pi} f(t) \cos (n t) dt,
+\end{equation}
+\begin{equation}
+b_n = \frac{1}{\pi} \int \limits_{\pi}^{3\pi} f(t) \sin (nt) dt,
+\end{equation}
+Вычислим значения коэффициентов:
+
+\begin{equation}
+a_0 = \frac{1}{\pi} \left( \int \limits_{\pi}^{2\pi} 1 dt + \int \limits_{2\pi}^{3\pi} 2 dt\right) =
+ \frac{1}{\pi} \left( \pi + 2\pi \right) = 3,
+\end{equation}
+
+\begin{equation}
+a_n = \frac{1}{\pi} \left( \int \limits_{\pi}^{2\pi} \cos (n t) dt +  2\int \limits_{2\pi}^{3\pi} \cos (n t) dt \right)
+\end{equation}
+
+Отдельно вычислим неопределенный интеграл:
+\begin{equation}
+\int \cos (n t) dt = \left| u = nt , t = \frac{u}{n},  dt = \frac{du}{n}\right| = \int  \frac{ \cos (u) du}{n} = \frac{\sin u}{n} + C = \frac{\sin (nt)}{n} + C
+\end{equation}
+
+
+Отсюда получим
+\begin{equation}
+a_n = \frac{1}{\pi} \left( \left. \frac{\sin (nt)}{n} \right|_{\pi}^{2\pi} +  2  \left. \frac{\sin (nt)}{n} \right|_{2\pi}^{3\pi} \right) = 0
+\end{equation}
+
+
+
+\begin{multline}
+b_n = \frac{1}{\pi} \left( \int \limits_{\pi}^{2\pi} \sin (n t) dt +  2\int \limits_{2\pi}^{3\pi} \sin (n t) dt \right) =
+-\frac{1}{\pi} \left( \left. \frac{\cos (nt)}{n} \right|_{\pi}^{2\pi} +  2  \left. \frac{\cos (nt)}{n} \right|_{2\pi}^{3\pi} \right) =\\
+= -\frac{1}{\pi} \left( \frac{\cos (2 \pi n) - \cos (\pi n)}{n} +  2 \frac{\cos (3 \pi n) - \cos (2 \pi n)}{n} \right) = \\
+= -\frac{1}{\pi} \left( \frac{ 1 - \cos (\pi n)}{n} +  2 \frac{\cos (3 \pi n) - 1}{n} \right) =
+-\frac{1}{\pi} \left( \frac{ 1 - (-1)^n}{n} +  2 \frac{(-1)^n - 1}{n} \right) =\\
+= -\frac{1}{\pi} \left( \frac{(-1)^n - 1 }{n} \right) = \frac{1 - (-1)^n}{\pi n}
+\end{multline}
+Примеры вычисления первых значений $b_n$:
+\begin{equation}
+b_1 = \frac{1 - (-1)^1}{\pi} = \frac{2}{\pi}
+\end{equation}
+\begin{equation}
+b_2 = \frac{1 - (-1)^2}{2\pi} = 0
+\end{equation}
+\begin{equation}
+b_3 = \frac{1 - (-1)^3}{3\pi} = \frac{2}{3\pi}
+\end{equation}
+\begin{equation}
+b_0 = \frac{1}{\pi} \left( \int \limits_{\pi}^{2\pi} \sin (0) dt +  2\int \limits_{2\pi}^{3\pi} \sin (0) dt \right)  = 0
+\end{equation}
+
+
 
 
 
