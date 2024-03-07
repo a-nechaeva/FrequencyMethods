@@ -16,7 +16,7 @@ def func(x):
 
 # Fourier series for the func above
 def series(x, num_terms):
-    sum_terms = 0
+    sum_terms = 3/2
 
     # reverse order
     # adding up from small numbers

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.6.14)  7 MAR 2024 02:21
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.6.14)  7 MAR 2024 16:48
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1420,10 +1420,16 @@ Package fancyhdr Warning: \footskip is too small (0.0pt):
 (fancyhdr)                \setlength{\footskip}{12.0pt}.
 
 [4]
-<pic/gr_2.png, id=100, 1341.01pt x 869.2475pt>
+
+Package fancyhdr Warning: \footskip is too small (0.0pt): 
+(fancyhdr)                Make it at least 12.0pt, for example:
+(fancyhdr)                \setlength{\footskip}{12.0pt}.
+
+[5]
+<pic/gr_2.png, id=105, 1341.01pt x 869.2475pt>
 File: pic/gr_2.png Graphic file (type png)
 <use pic/gr_2.png>
-Package pdftex.def Info: pic/gr_2.png  used on input line 340.
+Package pdftex.def Info: pic/gr_2.png  used on input line 345.
 (pdftex.def)             Requested size: 309.84842pt x 200.8379pt.
 
 
@@ -1431,11 +1437,11 @@ Package fancyhdr Warning: \footskip is too small (0.0pt):
 (fancyhdr)                Make it at least 12.0pt, for example:
 (fancyhdr)                \setlength{\footskip}{12.0pt}.
 
-[5 <./pic/gr_2.png>]
-<pic/gr_3.png, id=108, 1341.01pt x 869.2475pt>
+[6 <./pic/gr_2.png>]
+<pic/gr_3.png, id=114, 1341.01pt x 869.2475pt>
 File: pic/gr_3.png Graphic file (type png)
 <use pic/gr_3.png>
-Package pdftex.def Info: pic/gr_3.png  used on input line 355.
+Package pdftex.def Info: pic/gr_3.png  used on input line 360.
 (pdftex.def)             Requested size: 309.84842pt x 200.8379pt.
 
 
@@ -1443,11 +1449,11 @@ Package fancyhdr Warning: \footskip is too small (0.0pt):
 (fancyhdr)                Make it at least 12.0pt, for example:
 (fancyhdr)                \setlength{\footskip}{12.0pt}.
 
-[6 <./pic/gr_3.png>]
-<pic/gr_4.png, id=117, 1341.01pt x 869.2475pt>
+[7 <./pic/gr_3.png>]
+<pic/gr_4.png, id=122, 1341.01pt x 869.2475pt>
 File: pic/gr_4.png Graphic file (type png)
 <use pic/gr_4.png>
-Package pdftex.def Info: pic/gr_4.png  used on input line 370.
+Package pdftex.def Info: pic/gr_4.png  used on input line 375.
 (pdftex.def)             Requested size: 309.84842pt x 200.8379pt.
 
 
@@ -1455,7 +1461,7 @@ Package fancyhdr Warning: \footskip is too small (0.0pt):
 (fancyhdr)                Make it at least 12.0pt, for example:
 (fancyhdr)                \setlength{\footskip}{12.0pt}.
 
-[7 <./pic/gr_4.png>] (./lab1.aux)
+[8 <./pic/gr_4.png>] (./lab1.aux)
  ***********
 LaTeX2e <2023-06-01>
 L3 programming layer <2023-06-05>
@@ -1464,9 +1470,9 @@ Package rerunfilecheck Info: File `lab1.out' has not changed.
 (rerunfilecheck)             Checksum: B97ACF551267576329C2A6BF1CB8F7F6;2188.
  ) 
 Here is how much of TeX's memory you used:
- 53096 strings out of 475734
- 1312822 string characters out of 5786229
- 2175491 words of memory out of 5000000
+ 53098 strings out of 475734
+ 1312841 string characters out of 5786229
+ 2175492 words of memory out of 5000000
  73157 multiletter control sequences out of 15000+600000
  528667 words of font info for 75 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -1488,10 +1494,10 @@ per/sfrm0900.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm10
 00.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb><c:
 /texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfti0900.pfb><c:/texlive/2
 023/texmf-dist/fonts/type1/public/cm-super/sfti1200.pfb>
-Output written on lab1.pdf (8 pages, 387718 bytes).
+Output written on lab1.pdf (9 pages, 388552 bytes).
 PDF statistics:
- 220 PDF objects out of 1000 (max. 8388607)
- 162 compressed objects within 2 object streams
- 50 named destinations out of 1000 (max. 500000)
+ 225 PDF objects out of 1000 (max. 8388607)
+ 166 compressed objects within 2 object streams
+ 52 named destinations out of 1000 (max. 500000)
  73 words of extra memory for PDF output out of 10000 (max. 10000000)
 
