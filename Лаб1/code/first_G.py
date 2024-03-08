@@ -23,16 +23,12 @@ def series(x, num_terms):
     for n in range(num_terms, 0, -1):
         sum_part = ((-2 * np.exp(-3 * 1j * n * np.pi) + np.exp(-1j * n * np.pi) + np.exp(-2 * 1j * n * np.pi)) /
                     (1j * 2 * n * np.pi))
-        '''sum_part = ((1j * np.e ** (1j * np.pi * n) + 1j * np.e ** (2j * np.pi * n) - 2j * np.e ** (3j * np.pi * n)) /
-                    (2 * n * np.pi))'''
         mult_part = sum_part * np.exp(1j * n * x)
         sum_terms += mult_part
 
     for n in range(num_terms, 0, -1):
         sum_part = ((-2 * np.exp(-3 * 1j * (-n) * np.pi) + np.exp(-1j * (-n) * np.pi) + np.exp(-2 * 1j * (-n) * np.pi)) /
                     (1j * 2 * (-n) * np.pi))
-        '''sum_part = ((1j * np.e ** (1j * np.pi * (-n)) + 1j * np.e ** (2j * np.pi * (-n)) - 2j * np.e ** (3j * np.pi * (-n))) /
-                    (2 * (-n) * np.pi))'''
         mult_part = sum_part * np.exp(1j * (-n) * x)
         sum_terms += mult_part
 
