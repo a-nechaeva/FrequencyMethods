@@ -184,11 +184,13 @@ b, \, \, t \in \, [t_1, \, t_2 )
 \end{cases}
 \end{equation}
 
+\subsubsection{График функции}
 \begin{figure}[h]
 \center{\includegraphics[width=0.9\linewidth]{pic/gr_1.png}}
 \caption{График функции $f(t)$.}
 \end{figure}
 
+\subsubsection{Частичные суммы Фурье}
 Рассмотрим частичные суммы Фурье $F_N$ и $G_N$ вида
 
 \begin{equation}
@@ -220,6 +222,7 @@ $f(x)$ определена на $[ \pi, 3\pi]$, преобразуем:
 \end{equation}
 где $a_0, \, a_n, \, b_n$ -- коэффициенты Фурье:
 
+\subsubsection{Вычисление коэффициентов $a_n$, $b_n$ и $c_n$}
 \begin{equation}
 a_0 = \frac{1}{\pi} \int \limits_{-\pi}^{\pi} \phi (x) dx,
 \end{equation}
@@ -330,8 +333,13 @@ c_n = -\frac{1}{2 \pi} \left(  \left. \frac{e^{-i n t}}{in} \right|_{\pi}^{2\pi}
 G_N (t) = \sum  \limits_{n=-N}^N   \frac{ e^{-i n \pi} + e^{-2i n \pi} - 2 e^{-3i n \pi}}{2 i n \pi} e^{i n t}.
 \end{equation}
 
+\subsubsection{Построение графиков частичных сумм $F_N$, $G_N$}
 
+...
 
+\subsubsection{Равенство Парсеваля}
+
+...
 
 
 
@@ -342,14 +350,16 @@ G_N (t) = \sum  \limits_{n=-N}^N   \frac{ e^{-i n \pi} + e^{-2i n \pi} - 2 e^{-3
 \newpage
 \subsection{Любая четная периодическая функция.}
 \begin{equation}
-f(t) = \cos^3 t
+f(t) = 4 \cos \left( \sin^2 \left( \frac{x}{2}\right) \right)
 \end{equation}
 
+\subsubsection{График функции}
 \begin{figure}[h]
 \center{\includegraphics[width=0.9\linewidth]{pic/gr_2.png}}
 \caption{График функции $f(t)$.}
 \end{figure}
 
+\subsubsection{Частичные суммы Фурье}
 Рассмотрим частичные суммы Фурье $F_N$ и $G_N$ вида
 
 \begin{equation}
@@ -371,22 +381,29 @@ F_N(t) = \frac{a_0}{2} + \sum  \limits_{n=1}^N \left( a_n \cos \left( n t \right
 G_N (t) = \sum  \limits_{n=-N}^N c_n e^{i n t} \, ,
 \end{equation}
 
+\subsubsection{Вычисление коэффициентов $a_n$, $b_n$ и $c_n$}
 Для начала вычислим коэффициенты $a_0$, $a_n$ и $b_n$ для разложения $F_N(t)$:
 
 \begin{equation}
-a_0 = \frac{2}{T} \int \limits_{h}^{h + T} f(t) dt = \frac{1}{\pi} \int \limits_{-\pi}^{\pi} \cos (t) dt = 0
+a_0 = \frac{2}{T} \int \limits_{h}^{h + T} f(t) dt = \frac{1}{\pi} \int \limits_{-\pi}^{\pi} 4 \cos \left( \sin^2 \left( \frac{x}{2}\right) \right) dt = 0
 \end{equation}
 
 \begin{equation}
-a_n = \frac{2}{T} \int \limits_{h}^{h + T} f(t) \cos (nt) dt =  \frac{1}{\pi}\int \limits_{-\pi}^{\pi} \cos (t) \cos (nt) dt = 0
+a_n = \frac{2}{T} \int \limits_{h}^{h + T} f(t) \cos (nt) dt =  \frac{1}{\pi}\int \limits_{-\pi}^{\pi} 4 \cos \left( \sin^2 \left( \frac{x}{2}\right) \right) \cos (nt) dt = 0
 \end{equation}
 
 \begin{equation}
-b_n = \frac{2}{T} \int \limits_{h}^{h + T} f(t) \sin (nt) dt =  \frac{1}{\pi}\int \limits_{-\pi}^{\pi} \cos (t) \sin (nt) dt = 0
+b_n = \frac{2}{T} \int \limits_{h}^{h + T} f(t) \sin (nt) dt =  \frac{1}{\pi}\int \limits_{-\pi}^{\pi} 4 \cos \left( \sin^2 \left( \frac{x}{2}\right) \right) \sin (nt) dt = 0
 \end{equation}
 
+Вычисление интеграллов в данном случае возможно только численно, так как интегралы, содержащиеся в коэффициентах являются неберущимися.
+\subsubsection{Построение графиков частичных сумм $F_N$, $G_N$}
 
+...
 
+\subsubsection{Равенство Парсеваля}
+
+...
 
 
 
