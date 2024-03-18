@@ -350,7 +350,7 @@ G_N (t) = \sum  \limits_{n=-N}^N   \frac{ e^{-i n \pi} + e^{-2i n \pi} - 2 e^{-3
 \newpage
 \subsection{Любая четная периодическая функция.}
 \begin{equation}
-f(t) = 4 \cos \left( \sin^2 \left( \frac{x}{2}\right) \right)
+f(t) = 4 \cos \left( \sin^2 \left( \frac{t}{2}\right) \right)
 \end{equation}
 
 \subsubsection{График функции}
@@ -382,21 +382,64 @@ G_N (t) = \sum  \limits_{n=-N}^N c_n e^{i n t} \, ,
 \end{equation}
 
 \subsubsection{Вычисление коэффициентов $a_n$, $b_n$ и $c_n$}
-Для начала вычислим коэффициенты $a_0$, $a_n$ и $b_n$ для разложения $F_N(t)$:
+Запишем формулы для вычислия коэффициентов $a_n$, $b_n$ и $c_n$ :
 
 \begin{equation}
-a_0 = \frac{2}{T} \int \limits_{h}^{h + T} f(t) dt = \frac{1}{\pi} \int \limits_{-\pi}^{\pi} 4 \cos \left( \sin^2 \left( \frac{x}{2}\right) \right) dt = 0
+a_n = \frac{2}{T} \int \limits_{h}^{h + T} f(t) \cos (nt) dt =  \frac{1}{\pi}\int \limits_{-\pi}^{\pi} 4 \cos \left( \sin^2 \left( \frac{t}{2}\right) \right) \cos (nt) dt 
 \end{equation}
 
 \begin{equation}
-a_n = \frac{2}{T} \int \limits_{h}^{h + T} f(t) \cos (nt) dt =  \frac{1}{\pi}\int \limits_{-\pi}^{\pi} 4 \cos \left( \sin^2 \left( \frac{x}{2}\right) \right) \cos (nt) dt = 0
+b_n = \frac{2}{T} \int \limits_{h}^{h + T} f(t) \sin (nt) dt =  \frac{1}{\pi}\int \limits_{-\pi}^{\pi} 4 \cos \left( \sin^2 \left( \frac{t}{2}\right) \right) \sin (nt) dt 
 \end{equation}
 
 \begin{equation}
-b_n = \frac{2}{T} \int \limits_{h}^{h + T} f(t) \sin (nt) dt =  \frac{1}{\pi}\int \limits_{-\pi}^{\pi} 4 \cos \left( \sin^2 \left( \frac{x}{2}\right) \right) \sin (nt) dt = 0
+c_n = \frac{1}{T} \int \limits_{h}^{h + T} f(t) e^{-i \omega_n t} dt = \frac{1}{2 \pi} \int \limits_{-\pi}^{\pi} 4 \cos \left( \sin^2 \left( \frac{t}{2}\right) \right) e^{-i n t} dt 
 \end{equation}
 
-Вычисление интеграллов в данном случае возможно только численно, так как интегралы, содержащиеся в коэффициентах являются неберущимися.
+Вычисление интеграллов в данном случае возможно только численно, так как интегралы, содержащиеся в коэффициентах являются неберущимися. Найдем первые 3 значения:\\
+\\
+$n = 0:$
+
+\begin{equation}
+a_0 = \frac{1}{\pi}\int \limits_{-\pi}^{\pi} 4 \cos \left( \sin^2 \left( \frac{t}{2}\right) \right) dt = 6.58868
+\end{equation}
+
+\begin{equation}
+b_0 =  \frac{1}{\pi}\int \limits_{-\pi}^{\pi} 4 \cos \left( \sin^2 \left( \frac{t}{2}\right) \right) \sin (0 \cdot t) dt = 0
+\end{equation}
+
+\begin{equation}
+c_0 = \frac{1}{2 \pi} \int \limits_{-\pi}^{\pi} 4 \cos \left( \sin^2 \left( \frac{t}{2}\right) \right) e^{-i \cdot 0 \cdot t} dt = 3.29434
+\end{equation}
+
+$n = 1:$
+
+\begin{equation}
+a_1  =  \frac{1}{\pi}\int \limits_{-\pi}^{\pi} 4 \cos \left( \sin^2 \left( \frac{t}{2}\right) \right) \cos (t) dt = 0.929197
+\end{equation}
+
+\begin{equation}
+b_1 =  \frac{1}{\pi}\int \limits_{-\pi}^{\pi} 4 \cos \left( \sin^2 \left( \frac{t}{2}\right) \right) \sin (t) dt  = 0
+\end{equation}
+
+\begin{equation}
+c_1 = \frac{1}{2 \pi} \int \limits_{-\pi}^{\pi} 4 \cos \left( \sin^2 \left( \frac{t}{2}\right) \right) e^{-i t} dt = 0.464599
+\end{equation}
+
+$n = 2:$
+
+\begin{equation}
+a_2 =  \frac{1}{\pi}\int \limits_{-\pi}^{\pi} 4 \cos \left( \sin^2 \left( \frac{t}{2}\right) \right) \cos (2t) dt = -0.21486
+\end{equation}
+
+\begin{equation}
+b_2 =  \frac{1}{\pi}\int \limits_{-\pi}^{\pi} 4 \cos \left( \sin^2 \left( \frac{t}{2}\right) \right) \sin (2t) dt = 0
+\end{equation}
+
+\begin{equation}
+c_2 = \frac{1}{2 \pi} \int \limits_{-\pi}^{\pi} 4 \cos \left( \sin^2 \left( \frac{t}{2}\right) \right) e^{-2i t} dt = -0.10743
+\end{equation}
+
 \subsubsection{Построение графиков частичных сумм $F_N$, $G_N$}
 
 ...
@@ -418,14 +461,30 @@ b_n = \frac{2}{T} \int \limits_{h}^{h + T} f(t) \sin (nt) dt =  \frac{1}{\pi}\in
 \newpage
 \subsection{Любая нечетная периодическая функция.}
 \begin{equation}
-f(t) = \sin t
+f(t) = 
+\begin{cases}
+-\pi \, , \, t \in \left[-\pi , \, 0 \right),\\
+\pi \, , \, t \in \left[0, \, \pi \right) 
+\end{cases}
 \end{equation}
 
+\subsubsection{График функции}
 \begin{figure}[h]
 \center{\includegraphics[width=0.9\linewidth]{pic/gr_3.png}}
 \caption{График функции $f(t)$.}
 \end{figure}
 
+\subsubsection{Частичные суммы Фурье}
+
+\subsubsection{Вычисление коэффициентов $a_n$, $b_n$ и $c_n$}
+
+\subsubsection{Построение графиков частичных сумм $F_N$, $G_N$}
+
+...
+
+\subsubsection{Равенство Парсеваля}
+
+...
 
 
 
@@ -436,21 +495,28 @@ f(t) = \sin t
 f(t) = \cos (t + 1)
 \end{equation}
 
+\subsubsection{График функции}
 \begin{figure}[h]
 \center{\includegraphics[width=0.9\linewidth]{pic/gr_4.png}}
 \caption{График функции $f(t)$.}
 \end{figure}
 
+\subsubsection{Частичные суммы Фурье}
 
+\subsubsection{Вычисление коэффициентов $a_n$, $b_n$ и $c_n$}
+
+\subsubsection{Построение графиков частичных сумм $F_N$, $G_N$}
+
+...
+
+\subsubsection{Равенство Парсеваля}
+
+...
 %\begin{center}
 %\begin{lstlisting}[label=some-code,caption={Исходный код для 1207}]
 %\end{lstlisting}
 %\end{center}
 
-%\begin{figure}[h]
-%\center{\includegraphics[width=0.9\linewidth]{pic/screen_1296.png}}
-%\caption{Результат отправки задачи 1296.}
-%\end{figure}
 
  
 \end{document}
