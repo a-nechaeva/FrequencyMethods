@@ -475,8 +475,53 @@ f(t) =
 \end{figure}
 
 \subsubsection{Частичные суммы Фурье}
+Рассмотрим частичные суммы Фурье $F_N$ и $G_N$ вида
+
+\begin{equation}
+F_N(t) = \frac{a_0}{2} + \sum  \limits_{n=1}^N \left( a_n \cos \left( \omega_n t \right) + b_n \sin \left( \omega_n t \right)  \right) \, ,
+\end{equation}
+
+\begin{equation}
+G_N (t) = \sum  \limits_{n=-N}^N c_n e^{i \omega_n t} \, ,
+\end{equation}
+где $\omega_n = 2 \pi \frac{n}{T}$.\\
+\\
+Аналогично, $T = 2 \pi$, следовательно, $\omega_n = n$:
+
+\begin{equation}
+F_N(t) = \frac{a_0}{2} + \sum  \limits_{n=1}^N \left( a_n \cos \left( n t \right) + b_n \sin \left( n t \right)  \right) \, ,
+\end{equation}
+
+\begin{equation}
+G_N (t) = \sum  \limits_{n=-N}^N c_n e^{i n t} \, ,
+\end{equation}
+
+
+
+
 
 \subsubsection{Вычисление коэффициентов $a_n$, $b_n$ и $c_n$}
+
+Запишем формулы для вычислия коэффициентов $a_n$, $b_n$ и $c_n$ :
+
+\begin{equation}
+a_0 =  \frac{2}{T} \int \limits_{h}^{h + T} f(t) dt = -\int \limits_{-\pi}^{0} 1 dt +  \int \limits_{0}^{\pi} 1 dt = - (0 - -\pi) + \pi = 0
+\end{equation}
+
+
+\begin{multline}
+a_n = \frac{2}{T} \int \limits_{h}^{h + T} f(t) \cos (nt) dt =  \frac{1}{\pi}\int \limits_{-\pi}^{0} -\pi \cos (nt) dt +  \frac{1}{\pi}\int \limits_{0}^{\pi} \pi \cos (nt) dt = \\
+= - \int \limits_{-\pi}^{0} \cos (nt) dt + \int \limits_{0}^{\pi} \cos (nt) dt = 0
+\end{multline}
+
+\begin{multline}
+b_n = \frac{2}{T} \int \limits_{h}^{h + T} f(t) \sin (nt) dt =  \frac{1}{\pi}\int \limits_{-\pi}^{0}  -\pi  \sin (nt) dt  + \frac{1}{\pi}\int \limits_{0}^{\pi }  \pi  \sin (nt) dt = \\
+= - \int \limits_{-\pi}^{0} \sin (nt) dt  + \int \limits_{0}^{\pi } \sin (nt) dt = 
+\end{multline}
+
+\begin{equation}
+c_n = \frac{1}{T} \int \limits_{h}^{h + T} f(t) e^{-i \omega_n t} dt = \frac{1}{2 \pi} \int \limits_{-\pi}^{\pi} 4 \cos \left( \sin^2 \left( \frac{t}{2}\right) \right) e^{-i n t} dt 
+\end{equation}
 
 \subsubsection{Построение графиков частичных сумм $F_N$, $G_N$}
 
