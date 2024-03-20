@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.6.14)  20 MAR 2024 14:37
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.6.14)  20 MAR 2024 15:57
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1361,7 +1361,7 @@ File: lstlang1.sty 2023/02/27 1.9 listings language file
 (c:/texlive/2023/texmf-dist/tex/latex/listings/lstmisc.sty
 File: lstmisc.sty 2023/02/27 1.9 (Carsten Heinz)
 )
-<pic/gr_1.png, id=119, 1381.16pt x 654.445pt>
+<pic/gr_1.png, id=135, 1381.16pt x 654.445pt>
 File: pic/gr_1.png Graphic file (type png)
 <use pic/gr_1.png>
 Package pdftex.def Info: pic/gr_1.png  used on input line 189.
@@ -1486,7 +1486,7 @@ Package fancyhdr Warning: \footskip is too small (0.0pt):
 (fancyhdr)                \setlength{\footskip}{12.0pt}.
 
 [5]
-<pic/gr_2.png, id=188, 1113.15875pt x 603.25375pt>
+<pic/gr_2.png, id=203, 1113.15875pt x 603.25375pt>
 File: pic/gr_2.png Graphic file (type png)
 <use pic/gr_2.png>
 Package pdftex.def Info: pic/gr_2.png  used on input line 361.
@@ -1579,7 +1579,7 @@ Package fancyhdr Warning: \footskip is too small (0.0pt):
 (fancyhdr)                \setlength{\footskip}{12.0pt}.
 
 [8]
-<pic/gr_3.png, id=222, 1341.01pt x 869.2475pt>
+<pic/gr_3.png, id=236, 1341.01pt x 869.2475pt>
 File: pic/gr_3.png Graphic file (type png)
 <use pic/gr_3.png>
 Package pdftex.def Info: pic/gr_3.png  used on input line 476.
@@ -1701,7 +1701,7 @@ Package fancyhdr Warning: \footskip is too small (0.0pt):
 (fancyhdr)                \setlength{\footskip}{12.0pt}.
 
 [11]
-<pic/gr_4.png, id=259, 1341.01pt x 869.2475pt>
+<pic/gr_4.png, id=272, 1341.01pt x 869.2475pt>
 File: pic/gr_4.png Graphic file (type png)
 <use pic/gr_4.png>
 Package pdftex.def Info: pic/gr_4.png  used on input line 610.
@@ -1783,21 +1783,14 @@ Package fancyhdr Warning: \footskip is too small (0.0pt):
 LaTeX2e <2023-06-01>
 L3 programming layer <2023-06-05>
  ***********
-
-
-Package rerunfilecheck Warning: File `lab1.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `lab1.out':
-(rerunfilecheck)             Before: 1918099E35A737B0955B27B5DD50FE2A;7592
-(rerunfilecheck)             After:  7EBCD64DF2380176C7E585A8A1DFF0C7;9272.
+Package rerunfilecheck Info: File `lab1.out' has not changed.
+(rerunfilecheck)             Checksum: 7EBCD64DF2380176C7E585A8A1DFF0C7;9272.
  ) 
 Here is how much of TeX's memory you used:
- 53185 strings out of 475734
- 1314242 string characters out of 5786229
+ 53189 strings out of 475734
+ 1314326 string characters out of 5786229
  2175506 words of memory out of 5000000
- 73178 multiletter control sequences out of 15000+600000
+ 73182 multiletter control sequences out of 15000+600000
  529484 words of font info for 76 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  84i,12n,89p,1082b,609s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -1819,10 +1812,10 @@ per/sfrm0800.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm09
 /texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb><c:/texlive/2
 023/texmf-dist/fonts/type1/public/cm-super/sfti0900.pfb><c:/texlive/2023/texmf-
 dist/fonts/type1/public/cm-super/sfti1200.pfb>
-Output written on lab1.pdf (14 pages, 430491 bytes).
+Output written on lab1.pdf (14 pages, 430838 bytes).
 PDF statistics:
- 386 PDF objects out of 1000 (max. 8388607)
- 318 compressed objects within 4 object streams
+ 398 PDF objects out of 1000 (max. 8388607)
+ 330 compressed objects within 4 object streams
  117 named destinations out of 1000 (max. 500000)
- 233 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 265 words of extra memory for PDF output out of 10000 (max. 10000000)
 
