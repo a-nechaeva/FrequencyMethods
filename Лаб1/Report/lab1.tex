@@ -333,6 +333,9 @@ c_n = -\frac{1}{2 \pi} \left(  \left. \frac{e^{-i n t}}{in} \right|_{\pi}^{2\pi}
 G_N (t) = \sum  \limits_{n=-N}^N   \frac{ e^{-i n \pi} + e^{-2i n \pi} - 2 e^{-3i n \pi}}{2 i n \pi} e^{i n t}.
 \end{equation}
 
+
+\subsubsection{Программа для вычисления коэффициентов Фурье}
+
 \subsubsection{Построение графиков частичных сумм $F_N$, $G_N$}
 
 ...
@@ -440,6 +443,10 @@ b_2 =  \frac{1}{\pi}\int \limits_{-\pi}^{\pi} 4 \cos \left( \sin^2 \left( \frac{
 c_2 = \frac{1}{2 \pi} \int \limits_{-\pi}^{\pi} 4 \cos \left( \sin^2 \left( \frac{t}{2}\right) \right) e^{-2i t} dt = -0.10743
 \end{equation}
 
+
+\subsubsection{Программа для вычисления коэффициентов Фурье}
+
+
 \subsubsection{Построение графиков частичных сумм $F_N$, $G_N$}
 
 ...
@@ -501,21 +508,85 @@ G_N (t) = \sum  \limits_{n=-N}^N c_n e^{i n t} \, ,
 Запишем формулы для вычислия коэффициентов $a_n$, $b_n$ и $c_n$ :
 
 \begin{equation}
-a_0 =  \frac{2}{T} \int \limits_{h}^{h + T} f(t) dt =   \frac{1}{\pi} \int \limits_{-\pi}^{\pi} \sin^3(x) dt = 0
+a_0 =  \frac{2}{T} \int \limits_{h}^{h + T} f(t) dt =   \frac{1}{\pi} \int \limits_{-\pi}^{\pi} \sin^3(t) dt = 0
 \end{equation}
 
-
-\begin{multline}
-a_n = \frac{2}{T} \int \limits_{h}^{h + T} f(t) \cos (nt) dt =  
-\end{multline}
-
-\begin{multline}
-b_n = \frac{2}{T} \int \limits_{h}^{h + T} f(t) \sin (nt) dt = 
-\end{multline}
 
 \begin{equation}
-c_n = \frac{1}{T} \int \limits_{h}^{h + T} f(t) e^{-i \omega_n t} dt = 
+a_n = \frac{2}{T} \int \limits_{h}^{h + T} f(t) \cos (nt) dt =  \frac{1}{\pi} \int \limits_{-\pi}^{\pi} \sin^3(t) \cos (nt) dt = 0
 \end{equation}
+
+\begin{equation}
+b_n = \frac{2}{T} \int \limits_{h}^{h + T} f(t) \sin (nt) dt =  \frac{1}{\pi} \int \limits_{-\pi}^{\pi} \sin^3(t) \sin (nt) dt 
+\end{equation}
+
+\begin{equation}
+c_n = \frac{1}{T} \int \limits_{h}^{h + T} f(t) e^{-i \omega_n t} dt =  \frac{1}{2 \pi} \int \limits_{-\pi}^{\pi} \sin^3(t) e^{-i n t} dt  
+\end{equation}
+
+Найдем численные значения коэффициентов для первых нескольких $n$. \\
+\\
+$n = 0:$
+\begin{equation}
+a_0  = 0
+\end{equation}
+
+\begin{equation}
+b_0  = 0
+\end{equation}
+
+\begin{equation}
+c_0  = 0
+\end{equation}
+\\
+\\
+
+$n = 1:$
+\begin{equation}
+a_1 = 0
+\end{equation}
+
+\begin{equation}
+b_1 = \frac{3}{4}
+\end{equation}
+
+\begin{equation}
+c_1  = - \frac{3 i  }{8}
+\end{equation}
+\\
+\\
+
+$n = 2:$
+\begin{equation}
+a_2  = 0
+\end{equation}
+
+\begin{equation}
+b_2 = 0
+\end{equation}
+
+\begin{equation}
+c_2  = 0
+\end{equation}
+\\
+\\
+
+$n = 3:$
+\begin{equation}
+a_3  = 0
+\end{equation}
+
+\begin{equation}
+b_3 = -\frac{1}{4}
+\end{equation}
+
+\begin{equation}
+c_3  = \frac{i}{8}
+\end{equation}
+
+
+\subsubsection{Программа для вычисления коэффициентов Фурье}
+
 
 \subsubsection{Построение графиков частичных сумм $F_N$, $G_N$}
 
@@ -543,6 +614,8 @@ f(t) = \cos (t + 1)
 \subsubsection{Частичные суммы Фурье}
 
 \subsubsection{Вычисление коэффициентов $a_n$, $b_n$ и $c_n$}
+
+\subsubsection{Программа для вычисления коэффициентов Фурье}
 
 \subsubsection{Построение графиков частичных сумм $F_N$, $G_N$}
 
