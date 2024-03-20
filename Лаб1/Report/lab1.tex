@@ -461,11 +461,7 @@ c_2 = \frac{1}{2 \pi} \int \limits_{-\pi}^{\pi} 4 \cos \left( \sin^2 \left( \fra
 \newpage
 \subsection{Любая нечетная периодическая функция.}
 \begin{equation}
-f(t) = 
-\begin{cases}
--\pi \, , \, t \in \left[-\pi , \, 0 \right),\\
-\pi \, , \, t \in \left[0, \, \pi \right) 
-\end{cases}
+f(t) = \sin^3(x)
 \end{equation}
 
 \subsubsection{График функции}
@@ -505,22 +501,20 @@ G_N (t) = \sum  \limits_{n=-N}^N c_n e^{i n t} \, ,
 Запишем формулы для вычислия коэффициентов $a_n$, $b_n$ и $c_n$ :
 
 \begin{equation}
-a_0 =  \frac{2}{T} \int \limits_{h}^{h + T} f(t) dt = -\int \limits_{-\pi}^{0} 1 dt +  \int \limits_{0}^{\pi} 1 dt = - (0 - -\pi) + \pi = 0
+a_0 =  \frac{2}{T} \int \limits_{h}^{h + T} f(t) dt =   \frac{1}{\pi} \int \limits_{-\pi}^{\pi} \sin^3(x) dt = 0
 \end{equation}
 
 
 \begin{multline}
-a_n = \frac{2}{T} \int \limits_{h}^{h + T} f(t) \cos (nt) dt =  \frac{1}{\pi}\int \limits_{-\pi}^{0} -\pi \cos (nt) dt +  \frac{1}{\pi}\int \limits_{0}^{\pi} \pi \cos (nt) dt = \\
-= - \int \limits_{-\pi}^{0} \cos (nt) dt + \int \limits_{0}^{\pi} \cos (nt) dt = 0
+a_n = \frac{2}{T} \int \limits_{h}^{h + T} f(t) \cos (nt) dt =  
 \end{multline}
 
 \begin{multline}
-b_n = \frac{2}{T} \int \limits_{h}^{h + T} f(t) \sin (nt) dt =  \frac{1}{\pi}\int \limits_{-\pi}^{0}  -\pi  \sin (nt) dt  + \frac{1}{\pi}\int \limits_{0}^{\pi }  \pi  \sin (nt) dt = \\
-= - \int \limits_{-\pi}^{0} \sin (nt) dt  + \int \limits_{0}^{\pi } \sin (nt) dt = 
+b_n = \frac{2}{T} \int \limits_{h}^{h + T} f(t) \sin (nt) dt = 
 \end{multline}
 
 \begin{equation}
-c_n = \frac{1}{T} \int \limits_{h}^{h + T} f(t) e^{-i \omega_n t} dt = \frac{1}{2 \pi} \int \limits_{-\pi}^{\pi} 4 \cos \left( \sin^2 \left( \frac{t}{2}\right) \right) e^{-i n t} dt 
+c_n = \frac{1}{T} \int \limits_{h}^{h + T} f(t) e^{-i \omega_n t} dt = 
 \end{equation}
 
 \subsubsection{Построение графиков частичных сумм $F_N$, $G_N$}
