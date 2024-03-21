@@ -12,8 +12,9 @@ def fun_square_wave(t):
 
 fun_even = lambda t: 4 * np.cos(np.sin(t / 2) ** 2)
 
-
 fun_odd = lambda t: np.sin(t) ** 3
+
+
 
 #def fun_not_odd_not_even(t):
 
@@ -28,10 +29,18 @@ def integral_counter(f_1, f_2, a, b):
 
 
 def a_coef(fun, N):
-
     a = []
     for n in range(N):
-        
+        fourier_cos = lambda t: np.cos(n * t)
+        a.append(integral_counter(fun, fourier_cos, -np.pi, np.pi) / np.pi)
 
+    return a
+
+
+def main():
+    print(a_coef(fun_even, 3))
+
+
+main()
 
 
