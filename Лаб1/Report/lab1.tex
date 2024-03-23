@@ -335,6 +335,75 @@ G_N (t) = \sum  \limits_{n=-N}^N   \frac{ e^{-i n \pi} + e^{-2i n \pi} - 2 e^{-3
 
 
 \subsubsection{Программа для вычисления коэффициентов Фурье}
+Код для выисления коэффициентов Фурье написан на \textit{Python} с использованием библитеки $NumPy$.
+
+\begin{center}
+\begin{lstlisting}[label=some-code,caption={Функция, реализующая квадратную волну}]
+def fun_square_wave(t):
+    if (t // np.pi) % 2 == 0:
+        return 2
+    else:
+        return 1
+
+\end{lstlisting}
+\end{center}
+
+Необходимое в процессе нахождения коэффициентов интегрирование реализовано с помощью вычисления скалярного произведения подынтегральных функций.
+
+\begin{center}
+\begin{lstlisting}[label=some-code,caption={Функция, реализующая интегрирование для вычисления коэффициентов Фурье.}]
+def integral_counter(f_1, f_2, a, b):
+
+    t = np.linspace(a, b, my_sigma)
+    dt = (b - a) / my_sigma
+
+    return np.dot(f_1(t), f_2(t)) * dt
+\end{lstlisting}
+\end{center}
+
+Далее приведены функции, непосредственно возвращающие вычисленные значения коэффициентов Фурье.
+
+\begin{center}
+\begin{lstlisting}[label=some-code,caption={Функция для коэффициентов $a_n$}]
+def a_coef(f, N):
+    res = []
+    for n in range(N):
+        fourier_cos = lambda t: np.cos(n * t)
+        res.append(integral_counter(f, fourier_cos, -np.pi, np.pi) / np.pi)
+
+    return res
+
+\end{lstlisting}
+\end{center}
+
+
+\begin{center}
+\begin{lstlisting}[label=some-code,caption={Функция для коэффициентов $b_n$}]
+def b_coef(f, N):
+    res = []
+    for n in range(N):
+        fourier_sin = lambda t: np.sin(n * t)
+        res.append(integral_counter(f, fourier_sin, -np.pi, np.pi) / np.pi)
+    return res
+
+\end{lstlisting}
+\end{center}
+
+
+\begin{center}
+\begin{lstlisting}[label=some-code,caption={Функция для коэффициентов $c_n$}]
+def c_coef(f, N):
+    res = []
+    for n in range(-N, N):
+        fourier_exp = lambda t: np.exp(-1j * n * t)
+        res.append(integral_counter(f, fourier_exp, -np.pi, np.pi) / (2 * np.pi))
+    return res
+
+\end{lstlisting}
+\end{center}
+
+
+
 
 \subsubsection{Построение графиков частичных сумм $F_N$, $G_N$}
 

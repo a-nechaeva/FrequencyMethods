@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.6.14)  20 MAR 2024 15:57
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.6.14)  23 MAR 2024 21:06
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1211,7 +1211,20 @@ LaTeX Font Info:    Trying to load font information for T2A+cmr on input line 1
 9.
  (c:/texlive/2023/texmf-dist/tex/latex/cyrillic/t2acmr.fd
 File: t2acmr.fd 2001/08/11 v1.0a Computer Modern Cyrillic font definitions
-))
+)
+
+LaTeX Warning: Label `some-code' multiply defined.
+
+
+LaTeX Warning: Label `some-code' multiply defined.
+
+
+LaTeX Warning: Label `some-code' multiply defined.
+
+
+LaTeX Warning: Label `some-code' multiply defined.
+
+)
 \openout1 = `lab1.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 142.
@@ -1456,136 +1469,68 @@ Package fancyhdr Warning: \footskip is too small (0.0pt):
 (fancyhdr)                \setlength{\footskip}{12.0pt}.
 
 [4]
+Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on i
+nput line 341.
+LaTeX Font Info:    Trying to load font information for T2A+cmss on input line 
+341.
+ (c:/texlive/2023/texmf-dist/tex/latex/cyrillic/t2acmss.fd
+File: t2acmss.fd 2001/08/11 v1.0a Computer Modern Cyrillic font definitions
+)
+LaTeX Font Info:    Trying to load font information for TS1+cmss on input line 
+358.
 
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 339.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `subscript' on input line 339.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 339.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 339.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `subscript' on input line 339.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 339.
-
+(c:/texlive/2023/texmf-dist/tex/latex/base/ts1cmss.fd
+File: ts1cmss.fd 2023/04/13 v2.5m Standard LaTeX font definitions
+)
 
 Package fancyhdr Warning: \footskip is too small (0.0pt): 
 (fancyhdr)                Make it at least 12.0pt, for example:
 (fancyhdr)                \setlength{\footskip}{12.0pt}.
 
 [5]
-<pic/gr_2.png, id=203, 1113.15875pt x 603.25375pt>
-File: pic/gr_2.png Graphic file (type png)
-<use pic/gr_2.png>
-Package pdftex.def Info: pic/gr_2.png  used on input line 361.
-(pdftex.def)             Requested size: 309.84842pt x 167.91576pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 374--378
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 408.
 
- []
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `subscript' on input line 408.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 408.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 408.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `subscript' on input line 408.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 408.
 
 
 Package fancyhdr Warning: \footskip is too small (0.0pt): 
 (fancyhdr)                Make it at least 12.0pt, for example:
 (fancyhdr)                \setlength{\footskip}{12.0pt}.
 
-[6 <./pic/gr_2.png>]
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 387.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `subscript' on input line 387.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 387.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 387.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `subscript' on input line 387.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 387.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 387.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `subscript' on input line 387.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 387.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 402--405
-
- []
-
+[6{c:/texlive/2023/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}]
 
 Package fancyhdr Warning: \footskip is too small (0.0pt): 
 (fancyhdr)                Make it at least 12.0pt, for example:
 (fancyhdr)                \setlength{\footskip}{12.0pt}.
 
 [7]
+<pic/gr_2.png, id=254, 1113.15875pt x 603.25375pt>
+File: pic/gr_2.png Graphic file (type png)
+<use pic/gr_2.png>
+Package pdftex.def Info: pic/gr_2.png  used on input line 430.
+(pdftex.def)             Requested size: 309.84842pt x 167.91576pt.
 
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 450.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `subscript' on input line 450.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 450.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 450.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `subscript' on input line 450.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 450.
-
-
-Package fancyhdr Warning: \footskip is too small (0.0pt): 
-(fancyhdr)                Make it at least 12.0pt, for example:
-(fancyhdr)                \setlength{\footskip}{12.0pt}.
-
-[8]
-<pic/gr_3.png, id=236, 1341.01pt x 869.2475pt>
-File: pic/gr_3.png Graphic file (type png)
-<use pic/gr_3.png>
-Package pdftex.def Info: pic/gr_3.png  used on input line 476.
-(pdftex.def)             Requested size: 309.84842pt x 200.8379pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 489--493
+Underfull \hbox (badness 10000) in paragraph at lines 443--447
 
  []
 
@@ -1594,57 +1539,77 @@ Package fancyhdr Warning: \footskip is too small (0.0pt):
 (fancyhdr)                Make it at least 12.0pt, for example:
 (fancyhdr)                \setlength{\footskip}{12.0pt}.
 
-[9 <./pic/gr_3.png>]
+[8 <./pic/gr_2.png>]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 506.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `subscript' on input line 506.
+(hyperref)                removing `math shift' on input line 456.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 506.
+(hyperref)                removing `subscript' on input line 456.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 506.
+(hyperref)                removing `math shift' on input line 456.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `subscript' on input line 506.
+(hyperref)                removing `math shift' on input line 456.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 506.
+(hyperref)                removing `subscript' on input line 456.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 506.
+(hyperref)                removing `math shift' on input line 456.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `subscript' on input line 506.
+(hyperref)                removing `math shift' on input line 456.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 506.
+(hyperref)                removing `subscript' on input line 456.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 527--530
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 456.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 471--474
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 540--543
+Package fancyhdr Warning: \footskip is too small (0.0pt): 
+(fancyhdr)                Make it at least 12.0pt, for example:
+(fancyhdr)                \setlength{\footskip}{12.0pt}.
 
- []
+[9]
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 519.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 540--543
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `subscript' on input line 519.
 
- []
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 519.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 519.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `subscript' on input line 519.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 519.
 
 
 Package fancyhdr Warning: \footskip is too small (0.0pt): 
@@ -1652,170 +1617,252 @@ Package fancyhdr Warning: \footskip is too small (0.0pt):
 (fancyhdr)                \setlength{\footskip}{12.0pt}.
 
 [10]
-Underfull \hbox (badness 10000) in paragraph at lines 555--558
+<pic/gr_3.png, id=286, 1341.01pt x 869.2475pt>
+File: pic/gr_3.png Graphic file (type png)
+<use pic/gr_3.png>
+Package pdftex.def Info: pic/gr_3.png  used on input line 545.
+(pdftex.def)             Requested size: 309.84842pt x 200.8379pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 558--562
 
  []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 555--558
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 570--573
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 570--573
-
- []
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 591.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `subscript' on input line 591.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 591.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 591.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `subscript' on input line 591.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 591.
 
 
 Package fancyhdr Warning: \footskip is too small (0.0pt): 
 (fancyhdr)                Make it at least 12.0pt, for example:
 (fancyhdr)                \setlength{\footskip}{12.0pt}.
 
-[11]
-<pic/gr_4.png, id=272, 1341.01pt x 869.2475pt>
+[11 <./pic/gr_3.png>]
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 575.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `subscript' on input line 575.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 575.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 575.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `subscript' on input line 575.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 575.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 575.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `subscript' on input line 575.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 575.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 596--599
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 609--612
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 609--612
+
+ []
+
+
+Package fancyhdr Warning: \footskip is too small (0.0pt): 
+(fancyhdr)                Make it at least 12.0pt, for example:
+(fancyhdr)                \setlength{\footskip}{12.0pt}.
+
+[12]
+Underfull \hbox (badness 10000) in paragraph at lines 624--627
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 624--627
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 639--642
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 639--642
+
+ []
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 660.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `subscript' on input line 660.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 660.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 660.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `subscript' on input line 660.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 660.
+
+
+Package fancyhdr Warning: \footskip is too small (0.0pt): 
+(fancyhdr)                Make it at least 12.0pt, for example:
+(fancyhdr)                \setlength{\footskip}{12.0pt}.
+
+[13]
+<pic/gr_4.png, id=324, 1341.01pt x 869.2475pt>
 File: pic/gr_4.png Graphic file (type png)
 <use pic/gr_4.png>
-Package pdftex.def Info: pic/gr_4.png  used on input line 610.
+Package pdftex.def Info: pic/gr_4.png  used on input line 679.
 (pdftex.def)             Requested size: 309.84842pt x 200.8379pt.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 616.
+(hyperref)                removing `math shift' on input line 685.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `subscript' on input line 616.
+(hyperref)                removing `subscript' on input line 685.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 616.
+(hyperref)                removing `math shift' on input line 685.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 616.
+(hyperref)                removing `math shift' on input line 685.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `subscript' on input line 616.
+(hyperref)                removing `subscript' on input line 685.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 616.
+(hyperref)                removing `math shift' on input line 685.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 616.
+(hyperref)                removing `math shift' on input line 685.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `subscript' on input line 616.
+(hyperref)                removing `subscript' on input line 685.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 616.
+(hyperref)                removing `math shift' on input line 685.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 620.
+(hyperref)                removing `math shift' on input line 689.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `subscript' on input line 620.
+(hyperref)                removing `subscript' on input line 689.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 620.
+(hyperref)                removing `math shift' on input line 689.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 620.
+(hyperref)                removing `math shift' on input line 689.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `subscript' on input line 620.
+(hyperref)                removing `subscript' on input line 689.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 620.
+(hyperref)                removing `math shift' on input line 689.
 
 
 Package fancyhdr Warning: \footskip is too small (0.0pt): 
 (fancyhdr)                Make it at least 12.0pt, for example:
 (fancyhdr)                \setlength{\footskip}{12.0pt}.
 
-[12 <./pic/gr_4.png>]
+[14 <./pic/gr_4.png>]
 
 Package fancyhdr Warning: \footskip is too small (0.0pt): 
 (fancyhdr)                Make it at least 12.0pt, for example:
 (fancyhdr)                \setlength{\footskip}{12.0pt}.
 
-[13] (./lab1.aux)
+[15] (./lab1.aux)
  ***********
 LaTeX2e <2023-06-01>
 L3 programming layer <2023-06-05>
  ***********
+
+
+LaTeX Warning: There were multiply-defined labels.
+
 Package rerunfilecheck Info: File `lab1.out' has not changed.
 (rerunfilecheck)             Checksum: 7EBCD64DF2380176C7E585A8A1DFF0C7;9272.
  ) 
 Here is how much of TeX's memory you used:
- 53189 strings out of 475734
- 1314326 string characters out of 5786229
- 2175506 words of memory out of 5000000
- 73182 multiletter control sequences out of 15000+600000
- 529484 words of font info for 76 fonts, out of 8000000 for 9000
+ 53674 strings out of 475734
+ 1319616 string characters out of 5786229
+ 2367625 words of memory out of 5000000
+ 73617 multiletter control sequences out of 15000+600000
+ 534014 words of font info for 82 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 84i,12n,89p,1082b,609s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 84i,12n,89p,1082b,1432s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/tex
 live/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2023
 /texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb><c:/texlive/2023/texmf-dis
-t/fonts/type1/public/amsfonts/cm/cmmi7.pfb><c:/texlive/2023/texmf-dist/fonts/ty
-pe1/public/amsfonts/cm/cmmi9.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public
-/amsfonts/cm/cmr10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/
-cm/cmr7.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb
-><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texl
-ive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb><c:/texlive/2023/t
-exmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb><c:/texlive/2023/texmf
--dist/fonts/type1/public/cm-super/sfbx1000.pfb><c:/texlive/2023/texmf-dist/font
-s/type1/public/cm-super/sfbx1200.pfb><c:/texlive/2023/texmf-dist/fonts/type1/pu
-blic/cm-super/sfbx1440.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/cm-su
-per/sfrm0800.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm09
-00.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb><c:
-/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb><c:/texlive/2
-023/texmf-dist/fonts/type1/public/cm-super/sfti0900.pfb><c:/texlive/2023/texmf-
-dist/fonts/type1/public/cm-super/sfti1200.pfb>
-Output written on lab1.pdf (14 pages, 430838 bytes).
+t/fonts/type1/public/amsfonts/cm/cmmi6.pfb><c:/texlive/2023/texmf-dist/fonts/ty
+pe1/public/amsfonts/cm/cmmi7.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public
+/amsfonts/cm/cmmi9.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/
+cm/cmr10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pf
+b><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb><c:/texli
+ve/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2023/t
+exmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb><c:/texlive/2023/texmf-dist/
+fonts/type1/public/amsfonts/symbols/msbm10.pfb><c:/texlive/2023/texmf-dist/font
+s/type1/public/cm-super/sfbx1000.pfb><c:/texlive/2023/texmf-dist/fonts/type1/pu
+blic/cm-super/sfbx1200.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/cm-su
+per/sfbx1440.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm05
+00.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm0800.pfb><c:
+/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm0900.pfb><c:/texlive/2
+023/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb><c:/texlive/2023/texmf-
+dist/fonts/type1/public/cm-super/sfrm1200.pfb><c:/texlive/2023/texmf-dist/fonts
+/type1/public/cm-super/sfsi0900.pfb><c:/texlive/2023/texmf-dist/fonts/type1/pub
+lic/cm-super/sfss0900.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/cm-sup
+er/sfsx0900.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfti090
+0.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfti1000.pfb><c:/
+texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfti1200.pfb>
+Output written on lab1.pdf (16 pages, 516960 bytes).
 PDF statistics:
- 398 PDF objects out of 1000 (max. 8388607)
- 330 compressed objects within 4 object streams
- 117 named destinations out of 1000 (max. 500000)
+ 482 PDF objects out of 1000 (max. 8388607)
+ 399 compressed objects within 4 object streams
+ 154 named destinations out of 1000 (max. 500000)
  265 words of extra memory for PDF output out of 10000 (max. 10000000)
 
