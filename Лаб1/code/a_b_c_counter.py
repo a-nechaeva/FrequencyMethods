@@ -54,8 +54,21 @@ def c_coef(f, N):
     return res
 
 
+f_1_test = lambda t: t / 2.5
+f_2_test = lambda t: 2 - t / 2.5
+
+
+def for_test(f_1, f_2, N):
+    res = []
+    for n in range(1, 2):
+        new_exp = lambda t: np.exp(-2j * np.pi * t)
+        res.append(integral_counter(f_1, new_exp, 0, 2.5))
+        res.append(integral_counter(f_2, new_exp, 2.5, 5))
+    return res
+
+
 def main():
-    N = 3
+    '''N = 3
     a = a_coef(fun_wave, N)
     b = b_coef(fun_wave, N)
     c = c_coef(fun_wave, N)
@@ -63,7 +76,10 @@ def main():
     for n in range(N):
         print("a_", n, " = ", a[n], "    ", "b_", n, " = ", b[n],  "\n")
 
-    print(c_coef(fun_wave, 3))
+    print(c_coef(fun_wave, 3))'''
+    f_test_1 = for_test(f_1_test, f_2_test, 1)
+
+    print(f_test_1[0] + f_test_1[1])
 
 
 main()
