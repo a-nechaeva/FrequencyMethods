@@ -33,7 +33,7 @@ def a_coef(f, N):
     res = []
     for n in range(N):
         fourier_cos = lambda t: np.cos(n * t)
-        res.append(integral_counter(f, fourier_cos, -np.pi, np.pi) / np.pi)
+        res.append(integral_counter(f, fourier_cos, np.pi, 3 * np.pi) / np.pi)
 
     return res
 
@@ -42,15 +42,15 @@ def b_coef(f, N):
     res = []
     for n in range(N):
         fourier_sin = lambda t: np.sin(n * t)
-        res.append(integral_counter(f, fourier_sin, -np.pi, np.pi) / np.pi)
+        res.append(integral_counter(f, fourier_sin, np.pi, 3 * np.pi) / np.pi)
     return res
 
 
 def c_coef(f, N):
     res = []
-    for n in range(-N, N):
+    for n in range(N):
         fourier_exp = lambda t: np.exp(-1j * n * t)
-        res.append(integral_counter(f, fourier_exp, -np.pi, np.pi) / (2 * np.pi))
+        res.append(integral_counter(f, fourier_exp, np.pi, 3 * np.pi) / (2 * np.pi))
     return res
 
 
@@ -68,7 +68,7 @@ def for_test(f_1, f_2, N):
 
 
 def main():
-    '''N = 3
+    N = 4
     a = a_coef(fun_wave, N)
     b = b_coef(fun_wave, N)
     c = c_coef(fun_wave, N)
@@ -76,10 +76,11 @@ def main():
     for n in range(N):
         print("a_", n, " = ", a[n], "    ", "b_", n, " = ", b[n],  "\n")
 
-    print(c_coef(fun_wave, 3))'''
-    f_test_1 = for_test(f_1_test, f_2_test, 1)
+    print(c_coef(fun_wave, 3))
 
-    print(f_test_1[0] + f_test_1[1])
+    #f_test_1 = for_test(f_1_test, f_2_test, 1)
+
+    #print(f_test_1[0] + f_test_1[1])
 
 
 main()

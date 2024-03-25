@@ -345,6 +345,8 @@ def fun_square_wave(t):
     else:
         return 1
 
+
+fun_wave = np.vectorize(fun_square_wave)
 \end{lstlisting}
 \end{center}
 
@@ -369,10 +371,9 @@ def a_coef(f, N):
     res = []
     for n in range(N):
         fourier_cos = lambda t: np.cos(n * t)
-        res.append(integral_counter(f, fourier_cos, -np.pi, np.pi) / np.pi)
+        res.append(integral_counter(f, fourier_cos, np.pi, 3 * np.pi) / np.pi)
 
     return res
-
 \end{lstlisting}
 \end{center}
 
@@ -383,9 +384,8 @@ def b_coef(f, N):
     res = []
     for n in range(N):
         fourier_sin = lambda t: np.sin(n * t)
-        res.append(integral_counter(f, fourier_sin, -np.pi, np.pi) / np.pi)
+        res.append(integral_counter(f, fourier_sin, np.pi, 3 * np.pi) / np.pi)
     return res
-
 \end{lstlisting}
 \end{center}
 
@@ -394,13 +394,30 @@ def b_coef(f, N):
 \begin{lstlisting}[label=some-code,caption={Функция для коэффициентов $c_n$}]
 def c_coef(f, N):
     res = []
-    for n in range(-N, N):
+    for n in range(N):
         fourier_exp = lambda t: np.exp(-1j * n * t)
-        res.append(integral_counter(f, fourier_exp, -np.pi, np.pi) / (2 * np.pi))
+        res.append(integral_counter(f, fourier_exp, np.pi, 3 * np.pi) / (2 * np.pi))
     return res
-
 \end{lstlisting}
 \end{center}
+
+\begin{table}[h]
+\caption{Значения коэффициентов, вычисленных с помощью написанной программы для квадратной волны.}
+\label{tabular:timesandtenses}
+\begin{center}
+\begin{tabular}{|c|c|c|c|c|}
+\hline
+n & $a_n$ & $b_n$ & $Re(c_n)$ & $Im(c_n)$ \\
+\hline
+0 & 2.9998 & 0 & 1.4999 & 0\\
+\hline
+1 & -0.0001 & 0.6366 & -0.00005 & -0.3183\\
+\hline
+2 & 0.0001 & 0 & 0.00005  & 0\\
+\hline
+\end{tabular}
+\end{center}
+\end{table}
 
 
 
