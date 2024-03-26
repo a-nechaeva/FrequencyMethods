@@ -31,7 +31,7 @@ def integral_counter(f_1, f_2, a, b):
 
 def a_coef(f, N):
     res = []
-    for n in range(N):
+    for n in range(N + 1):
         fourier_cos = lambda t: np.cos(n * t)
         res.append(integral_counter(f, fourier_cos, np.pi, 3 * np.pi) / np.pi)
 
@@ -40,7 +40,7 @@ def a_coef(f, N):
 
 def b_coef(f, N):
     res = []
-    for n in range(N):
+    for n in range(N + 1):
         fourier_sin = lambda t: np.sin(n * t)
         res.append(integral_counter(f, fourier_sin, np.pi, 3 * np.pi) / np.pi)
     return res

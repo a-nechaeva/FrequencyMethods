@@ -8,7 +8,7 @@ def graphics_F(t, N, f):
     b_n = b_coef(f, N)
     res = a_n[0] / 2
 
-    for n in range(1, N):
+    for n in range(1, N + 1):
         res += a_n[n] * np.cos(n * t) + b_n[n] * np.sin(n * t)
 
     return res
@@ -16,21 +16,35 @@ def graphics_F(t, N, f):
 
 def graphics_G(t, N, f):
     c_n = c_coef(f, N)
-    res = 0
+    res = 0 + 0j
 
     for n in range(-N, N + 1):
         res += c_n[n + N] * np.exp(1j * n * t)
 
     return res
 
-def draw_():
+def draw_1():
     N = 2
     t = np.linspace(-7, 7, 1000)
-    plt.plot(t, fun_wave(t))
-    plt.plot(t, graphics_F(t, N, fun_wave))
+    plt.plot(t, fun_odd(t), label='Исходная функция')
+    plt.plot(t, graphics_F(t, N, fun_odd), label='График F(t)')
+    plt.title('Нечетная функция, N = 2, приближение F(t).')
     plt.grid()
+    plt.legend()
     plt.show()
 
-draw_()
+
+def draw_2():
+    N = 50
+    t = np.linspace(-7, 7, 1000)
+    plt.plot(t, fun_odd(t), label='Исходная функция')
+    plt.plot(t, graphics_G(t, N, fun_odd), label='График G(t)')
+    plt.grid()
+    plt.title('Нечетная функция, N = 50, приближение G(t).')
+    plt.legend()
+    plt.show()
+
+#draw_1()
+draw_2()
 
 
