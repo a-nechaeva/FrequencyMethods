@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.6.14)  26 MAR 2024 01:35
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.6.14)  27 MAR 2024 00:27
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -494,7 +494,7 @@ Package caption Info: New subtype `subtable' on input line 239.
 \c@subtable=\count288
 )
 Package caption Info: Option `figurewithin=none' requires the `newfloat' packag
-e on input line 56.
+e on input line 58.
 
 (c:/texlive/2023/texmf-dist/tex/latex/newfloat/newfloat.sty
 Package: newfloat 2019/09/02 v1.1l Defining new floating environments (AR)
@@ -1227,27 +1227,27 @@ LaTeX Warning: Label `some-code' multiply defined.
 )
 \openout1 = `lab1.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 142.
-LaTeX Font Info:    ... okay on input line 142.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 142.
-LaTeX Font Info:    ... okay on input line 142.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 142.
-LaTeX Font Info:    ... okay on input line 142.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 142.
-LaTeX Font Info:    ... okay on input line 142.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 142.
-LaTeX Font Info:    ... okay on input line 142.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 142.
-LaTeX Font Info:    ... okay on input line 142.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 142.
-LaTeX Font Info:    ... okay on input line 142.
-LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 142.
-LaTeX Font Info:    ... okay on input line 142.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 142.
-LaTeX Font Info:    ... okay on input line 142.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 142.
-LaTeX Font Info:    ... okay on input line 142.
-LaTeX Info: Redefining \th on input line 142.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 144.
+LaTeX Font Info:    ... okay on input line 144.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 144.
+LaTeX Font Info:    ... okay on input line 144.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 144.
+LaTeX Font Info:    ... okay on input line 144.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 144.
+LaTeX Font Info:    ... okay on input line 144.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 144.
+LaTeX Font Info:    ... okay on input line 144.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 144.
+LaTeX Font Info:    ... okay on input line 144.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 144.
+LaTeX Font Info:    ... okay on input line 144.
+LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 144.
+LaTeX Font Info:    ... okay on input line 144.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 144.
+LaTeX Font Info:    ... okay on input line 144.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 144.
+LaTeX Font Info:    ... okay on input line 144.
+LaTeX Info: Redefining \th on input line 144.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -1314,20 +1314,20 @@ Package caption Info: End \AtBeginDocument code.
 Package pgfplots Warning: running in backwards compatibility mode (unsuitable t
 ick labels; missing features). Consider writing \pgfplotsset{compat=1.18} into 
 your preamble.
- on input line 142.
+ on input line 144.
 
-Package hyperref Info: Link coloring OFF on input line 142.
+Package hyperref Info: Link coloring OFF on input line 144.
 (./lab1.out) (./lab1.out)
 \@outlinefile=\write4
 \openout4 = `lab1.out'.
 
-LaTeX Font Info:    Trying to load font information for U+msa on input line 143
+LaTeX Font Info:    Trying to load font information for U+msa on input line 145
 .
 
 (c:/texlive/2023/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 143
+LaTeX Font Info:    Trying to load font information for U+msb on input line 145
 .
 
 (c:/texlive/2023/texmf-dist/tex/latex/amsfonts/umsb.fd
@@ -1354,19 +1354,19 @@ Package fancyhdr Warning: \footskip is too small (0.0pt):
 Package fancyhdr Warning: \fancyhead's `E' option without twoside option is use
 less.
 (fancyhdr)                Please consider using the `twoside' option on input l
-ine 144.
+ine 146.
 
 
 Package fancyhdr Warning: \fancyhead's `E' option without twoside option is use
 less.
 (fancyhdr)                Please consider using the `twoside' option on input l
-ine 144.
+ine 146.
 
 
 Package fancyhdr Warning: \fancyfoot's `E' option without twoside option is use
 less.
 (fancyhdr)                Please consider using the `twoside' option on input l
-ine 144.
+ine 146.
 
 (c:/texlive/2023/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2023/02/27 1.9 listings language file
@@ -1377,7 +1377,7 @@ File: lstmisc.sty 2023/02/27 1.9 (Carsten Heinz)
 <pic/gr_1.png, id=135, 1381.16pt x 654.445pt>
 File: pic/gr_1.png Graphic file (type png)
 <use pic/gr_1.png>
-Package pdftex.def Info: pic/gr_1.png  used on input line 189.
+Package pdftex.def Info: pic/gr_1.png  used on input line 191.
 (pdftex.def)             Requested size: 309.84842pt x 146.81436pt.
 
 
@@ -1390,47 +1390,47 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.202 \end{equation}
+l.204 \end{equation}
                      [1 <./pic/gr_1.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 202--206
+Underfull \hbox (badness 10000) in paragraph at lines 204--208
 
  []
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 225.
+(hyperref)                removing `math shift' on input line 227.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `subscript' on input line 225.
+(hyperref)                removing `subscript' on input line 227.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 225.
+(hyperref)                removing `math shift' on input line 227.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 225.
+(hyperref)                removing `math shift' on input line 227.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `subscript' on input line 225.
+(hyperref)                removing `subscript' on input line 227.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 225.
+(hyperref)                removing `math shift' on input line 227.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 225.
+(hyperref)                removing `math shift' on input line 227.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `subscript' on input line 225.
+(hyperref)                removing `subscript' on input line 227.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 225.
+(hyperref)                removing `math shift' on input line 227.
 
 
 Package fancyhdr Warning: \footskip is too small (0.0pt): 
@@ -1438,14 +1438,14 @@ Package fancyhdr Warning: \footskip is too small (0.0pt):
 (fancyhdr)                \setlength{\footskip}{12.0pt}.
 
 [2]
-Overfull \hbox (2.67537pt too wide) detected at line 268
+Overfull \hbox (2.67537pt too wide) detected at line 270
 [][][][] []\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 nt\OT1/cmr/m/n/10 )\OML/cmm/m/it/1
 0 dt \OT1/cmr/m/n/10 = [] = [] [] = [] + \OML/cmm/m/it/10 C \OT1/cmr/m/n/10 = [
 ] + \OML/cmm/m/it/10 C
  []
 
 
-Overfull \hbox (6.37624pt too wide) detected at line 285
+Overfull \hbox (6.37624pt too wide) detected at line 287
  []$[]  \OML/cmm/m/it/10 b[] \OT1/cmr/m/n/10 = [] [] = \OMS/cmsy/m/n/10 ^^@[] [
 ] \OT1/cmr/m/n/10 =$ 
  []
@@ -1456,7 +1456,7 @@ Package fancyhdr Warning: \footskip is too small (0.0pt):
 (fancyhdr)                \setlength{\footskip}{12.0pt}.
 
 [3]
-Overfull \hbox (0.50215pt too wide) detected at line 313
+Overfull \hbox (0.50215pt too wide) detected at line 315
 [][][]\OML/cmm/m/it/10 c[] \OT1/cmr/m/n/10 = [] [] \OML/cmm/m/it/10 f\OT1/cmr/m
 /n/10 (\OML/cmm/m/it/10 t\OT1/cmr/m/n/10 )\OML/cmm/m/it/10 e[]dt \OT1/cmr/m/n/1
 0 = [] [] \OML/cmm/m/it/10 f\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 t\OT1/cmr/m/n/10 
@@ -1470,9 +1470,9 @@ Package fancyhdr Warning: \footskip is too small (0.0pt):
 
 [4]
 Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on i
-nput line 341.
+nput line 343.
 LaTeX Font Info:    Trying to load font information for T2A+cmss on input line 
-341.
+343.
  (c:/texlive/2023/texmf-dist/tex/latex/cyrillic/t2acmss.fd
 File: t2acmss.fd 2001/08/11 v1.0a Computer Modern Cyrillic font definitions
 )
@@ -1483,7 +1483,7 @@ Package fancyhdr Warning: \footskip is too small (0.0pt):
 
 [5]
 LaTeX Font Info:    Trying to load font information for TS1+cmss on input line 
-360.
+362.
  (c:/texlive/2023/texmf-dist/tex/latex/base/ts1cmss.fd
 File: ts1cmss.fd 2023/04/13 v2.5m Standard LaTeX font definitions
 )
@@ -1495,41 +1495,136 @@ Package fancyhdr Warning: \footskip is too small (0.0pt):
 [6{c:/texlive/2023/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 425.
+(hyperref)                removing `math shift' on input line 424.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `subscript' on input line 425.
+(hyperref)                removing `subscript' on input line 424.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 425.
+(hyperref)                removing `math shift' on input line 424.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 425.
+(hyperref)                removing `math shift' on input line 424.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `subscript' on input line 425.
+(hyperref)                removing `subscript' on input line 424.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 425.
+(hyperref)                removing `math shift' on input line 424.
+
+<gr_wave/f2.png, id=253, 642.4pt x 481.8pt>
+File: gr_wave/f2.png Graphic file (type png)
+<use gr_wave/f2.png>
+Package pdftex.def Info: gr_wave/f2.png  used on input line 428.
+(pdftex.def)             Requested size: 172.13918pt x 129.1026pt.
+<gr_wave/g2.png, id=254, 642.4pt x 481.8pt>
+File: gr_wave/g2.png Graphic file (type png)
+<use gr_wave/g2.png>
+Package pdftex.def Info: gr_wave/g2.png  used on input line 432.
+(pdftex.def)             Requested size: 172.13918pt x 129.1026pt.
+
+Overfull \hbox (2.22166pt too wide) in paragraph at lines 427--434
+[]$[]$  $[]$ 
+ []
+
+<gr_wave/f3.png, id=255, 642.4pt x 481.8pt>
+File: gr_wave/f3.png Graphic file (type png)
+<use gr_wave/f3.png>
+Package pdftex.def Info: gr_wave/f3.png  used on input line 439.
+(pdftex.def)             Requested size: 172.13918pt x 129.1026pt.
+<gr_wave/g3.png, id=256, 642.4pt x 481.8pt>
+File: gr_wave/g3.png Graphic file (type png)
+<use gr_wave/g3.png>
+Package pdftex.def Info: gr_wave/g3.png  used on input line 443.
+(pdftex.def)             Requested size: 172.13918pt x 129.1026pt.
+
+Overfull \hbox (2.22166pt too wide) in paragraph at lines 438--445
+[]$[]$  $[]$ 
+ []
+
+<gr_wave/f5.png, id=257, 642.4pt x 481.8pt>
+File: gr_wave/f5.png Graphic file (type png)
+<use gr_wave/f5.png>
+Package pdftex.def Info: gr_wave/f5.png  used on input line 449.
+(pdftex.def)             Requested size: 172.13918pt x 129.1026pt.
+<gr_wave/g5.png, id=258, 642.4pt x 481.8pt>
+File: gr_wave/g5.png Graphic file (type png)
+<use gr_wave/g5.png>
+Package pdftex.def Info: gr_wave/g5.png  used on input line 453.
+(pdftex.def)             Requested size: 172.13918pt x 129.1026pt.
+
+Overfull \hbox (2.22166pt too wide) in paragraph at lines 448--455
+[]$[]$  $[]$ 
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<gr_wave/f20.png, id=259, 642.4pt x 481.8pt>
+File: gr_wave/f20.png Graphic file (type png)
+<use gr_wave/f20.png>
+Package pdftex.def Info: gr_wave/f20.png  used on input line 460.
+(pdftex.def)             Requested size: 172.13918pt x 129.1026pt.
+<gr_wave/g20.png, id=260, 642.4pt x 481.8pt>
+File: gr_wave/g20.png Graphic file (type png)
+<use gr_wave/g20.png>
+Package pdftex.def Info: gr_wave/g20.png  used on input line 464.
+(pdftex.def)             Requested size: 172.13918pt x 129.1026pt.
+
+Overfull \hbox (2.22166pt too wide) in paragraph at lines 459--466
+[]$[]$  $[]$ 
+ []
+
+<gr_wave/f50.png, id=261, 642.4pt x 481.8pt>
+File: gr_wave/f50.png Graphic file (type png)
+<use gr_wave/f50.png>
+Package pdftex.def Info: gr_wave/f50.png  used on input line 469.
+(pdftex.def)             Requested size: 172.13918pt x 129.1026pt.
+<gr_wave/g50.png, id=262, 642.4pt x 481.8pt>
+File: gr_wave/g50.png Graphic file (type png)
+<use gr_wave/g50.png>
+Package pdftex.def Info: gr_wave/g50.png  used on input line 473.
+(pdftex.def)             Requested size: 172.13918pt x 129.1026pt.
+
+Overfull \hbox (2.22166pt too wide) in paragraph at lines 468--475
+[]$[]$  $[]$ 
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
 
 
 Package fancyhdr Warning: \footskip is too small (0.0pt): 
 (fancyhdr)                Make it at least 12.0pt, for example:
 (fancyhdr)                \setlength{\footskip}{12.0pt}.
 
-[7]
-<pic/gr_2.png, id=258, 1113.15875pt x 603.25375pt>
+[7 <./gr_wave/f2.png (PNG copy)> <./gr_wave/g2.png (PNG copy)>]
+
+Package fancyhdr Warning: \footskip is too small (0.0pt): 
+(fancyhdr)                Make it at least 12.0pt, for example:
+(fancyhdr)                \setlength{\footskip}{12.0pt}.
+
+[8 <./gr_wave/f3.png (PNG copy)> <./gr_wave/g3.png (PNG copy)> <./gr_wave/f5.pn
+g (PNG copy)> <./gr_wave/g5.png (PNG copy)>]
+
+Package fancyhdr Warning: \footskip is too small (0.0pt): 
+(fancyhdr)                Make it at least 12.0pt, for example:
+(fancyhdr)                \setlength{\footskip}{12.0pt}.
+
+[9 <./gr_wave/f20.png (PNG copy)> <./gr_wave/g20.png (PNG copy)> <./gr_wave/f50
+.png (PNG copy)> <./gr_wave/g50.png (PNG copy)>]
+<pic/gr_2.png, id=279, 1113.15875pt x 603.25375pt>
 File: pic/gr_2.png Graphic file (type png)
 <use pic/gr_2.png>
-Package pdftex.def Info: pic/gr_2.png  used on input line 447.
+Package pdftex.def Info: pic/gr_2.png  used on input line 504.
 (pdftex.def)             Requested size: 309.84842pt x 167.91576pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 460--464
+Underfull \hbox (badness 10000) in paragraph at lines 517--521
 
  []
 
@@ -1538,45 +1633,45 @@ Package fancyhdr Warning: \footskip is too small (0.0pt):
 (fancyhdr)                Make it at least 12.0pt, for example:
 (fancyhdr)                \setlength{\footskip}{12.0pt}.
 
-[8 <./pic/gr_2.png>]
+[10 <./pic/gr_2.png>]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 473.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `subscript' on input line 473.
+(hyperref)                removing `math shift' on input line 530.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 473.
+(hyperref)                removing `subscript' on input line 530.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 473.
+(hyperref)                removing `math shift' on input line 530.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `subscript' on input line 473.
+(hyperref)                removing `math shift' on input line 530.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 473.
+(hyperref)                removing `subscript' on input line 530.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 473.
+(hyperref)                removing `math shift' on input line 530.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `subscript' on input line 473.
+(hyperref)                removing `math shift' on input line 530.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 473.
+(hyperref)                removing `subscript' on input line 530.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 488--491
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 530.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 545--548
 
  []
 
@@ -1585,103 +1680,30 @@ Package fancyhdr Warning: \footskip is too small (0.0pt):
 (fancyhdr)                Make it at least 12.0pt, for example:
 (fancyhdr)                \setlength{\footskip}{12.0pt}.
 
-[9]
+[11]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 536.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `subscript' on input line 536.
+(hyperref)                removing `math shift' on input line 593.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 536.
+(hyperref)                removing `subscript' on input line 593.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 536.
+(hyperref)                removing `math shift' on input line 593.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `subscript' on input line 536.
+(hyperref)                removing `math shift' on input line 593.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 536.
-
-
-Package fancyhdr Warning: \footskip is too small (0.0pt): 
-(fancyhdr)                Make it at least 12.0pt, for example:
-(fancyhdr)                \setlength{\footskip}{12.0pt}.
-
-[10]
-<pic/gr_3.png, id=290, 1341.01pt x 869.2475pt>
-File: pic/gr_3.png Graphic file (type png)
-<use pic/gr_3.png>
-Package pdftex.def Info: pic/gr_3.png  used on input line 562.
-(pdftex.def)             Requested size: 309.84842pt x 200.8379pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 575--579
-
- []
-
-
-Package fancyhdr Warning: \footskip is too small (0.0pt): 
-(fancyhdr)                Make it at least 12.0pt, for example:
-(fancyhdr)                \setlength{\footskip}{12.0pt}.
-
-[11 <./pic/gr_3.png>]
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 592.
+(hyperref)                removing `subscript' on input line 593.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `subscript' on input line 592.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 592.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 592.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `subscript' on input line 592.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 592.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 592.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `subscript' on input line 592.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 592.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 613--616
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 626--629
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 626--629
-
- []
+(hyperref)                removing `math shift' on input line 593.
 
 
 Package fancyhdr Warning: \footskip is too small (0.0pt): 
@@ -1689,133 +1711,206 @@ Package fancyhdr Warning: \footskip is too small (0.0pt):
 (fancyhdr)                \setlength{\footskip}{12.0pt}.
 
 [12]
-Underfull \hbox (badness 10000) in paragraph at lines 641--644
+<pic/gr_3.png, id=313, 1341.01pt x 869.2475pt>
+File: pic/gr_3.png Graphic file (type png)
+<use pic/gr_3.png>
+Package pdftex.def Info: pic/gr_3.png  used on input line 619.
+(pdftex.def)             Requested size: 309.84842pt x 200.8379pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 632--636
 
  []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 641--644
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 656--659
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 656--659
-
- []
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 677.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `subscript' on input line 677.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 677.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 677.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `subscript' on input line 677.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 677.
 
 
 Package fancyhdr Warning: \footskip is too small (0.0pt): 
 (fancyhdr)                Make it at least 12.0pt, for example:
 (fancyhdr)                \setlength{\footskip}{12.0pt}.
 
-[13]
-<pic/gr_4.png, id=328, 1341.01pt x 869.2475pt>
+[13 <./pic/gr_3.png>]
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 649.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `subscript' on input line 649.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 649.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 649.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `subscript' on input line 649.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 649.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 649.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `subscript' on input line 649.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 649.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 670--673
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 683--686
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 683--686
+
+ []
+
+
+Package fancyhdr Warning: \footskip is too small (0.0pt): 
+(fancyhdr)                Make it at least 12.0pt, for example:
+(fancyhdr)                \setlength{\footskip}{12.0pt}.
+
+[14]
+Underfull \hbox (badness 10000) in paragraph at lines 698--701
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 698--701
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 713--716
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 713--716
+
+ []
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 734.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `subscript' on input line 734.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 734.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 734.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `subscript' on input line 734.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 734.
+
+
+Package fancyhdr Warning: \footskip is too small (0.0pt): 
+(fancyhdr)                Make it at least 12.0pt, for example:
+(fancyhdr)                \setlength{\footskip}{12.0pt}.
+
+[15]
+<pic/gr_4.png, id=349, 1341.01pt x 869.2475pt>
 File: pic/gr_4.png Graphic file (type png)
 <use pic/gr_4.png>
-Package pdftex.def Info: pic/gr_4.png  used on input line 696.
+Package pdftex.def Info: pic/gr_4.png  used on input line 753.
 (pdftex.def)             Requested size: 309.84842pt x 200.8379pt.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 702.
+(hyperref)                removing `math shift' on input line 759.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `subscript' on input line 702.
+(hyperref)                removing `subscript' on input line 759.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 702.
+(hyperref)                removing `math shift' on input line 759.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 702.
+(hyperref)                removing `math shift' on input line 759.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `subscript' on input line 702.
+(hyperref)                removing `subscript' on input line 759.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 702.
+(hyperref)                removing `math shift' on input line 759.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 702.
+(hyperref)                removing `math shift' on input line 759.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `subscript' on input line 702.
+(hyperref)                removing `subscript' on input line 759.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 702.
+(hyperref)                removing `math shift' on input line 759.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 706.
+(hyperref)                removing `math shift' on input line 763.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `subscript' on input line 706.
+(hyperref)                removing `subscript' on input line 763.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 706.
+(hyperref)                removing `math shift' on input line 763.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 706.
+(hyperref)                removing `math shift' on input line 763.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `subscript' on input line 706.
+(hyperref)                removing `subscript' on input line 763.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 706.
+(hyperref)                removing `math shift' on input line 763.
 
 
 Package fancyhdr Warning: \footskip is too small (0.0pt): 
 (fancyhdr)                Make it at least 12.0pt, for example:
 (fancyhdr)                \setlength{\footskip}{12.0pt}.
 
-[14 <./pic/gr_4.png>]
+[16 <./pic/gr_4.png>]
 
 Package fancyhdr Warning: \footskip is too small (0.0pt): 
 (fancyhdr)                Make it at least 12.0pt, for example:
 (fancyhdr)                \setlength{\footskip}{12.0pt}.
 
-[15] (./lab1.aux)
+[17] (./lab1.aux)
  ***********
 LaTeX2e <2023-06-01>
 L3 programming layer <2023-06-05>
@@ -1828,10 +1923,10 @@ Package rerunfilecheck Info: File `lab1.out' has not changed.
 (rerunfilecheck)             Checksum: 7EBCD64DF2380176C7E585A8A1DFF0C7;9272.
  ) 
 Here is how much of TeX's memory you used:
- 53689 strings out of 475734
- 1319895 string characters out of 5786229
- 2384819 words of memory out of 5000000
- 73628 multiletter control sequences out of 15000+600000
+ 53766 strings out of 475734
+ 1321505 string characters out of 5786229
+ 2384818 words of memory out of 5000000
+ 73700 multiletter control sequences out of 15000+600000
  534014 words of font info for 82 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  84i,12n,89p,1082b,2082s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -1858,10 +1953,10 @@ lic/cm-super/sfss0900.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/cm-sup
 er/sfsx0900.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfti090
 0.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfti1000.pfb><c:/
 texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfti1200.pfb>
-Output written on lab1.pdf (16 pages, 521246 bytes).
+Output written on lab1.pdf (18 pages, 984195 bytes).
 PDF statistics:
- 488 PDF objects out of 1000 (max. 8388607)
- 404 compressed objects within 5 object streams
- 158 named destinations out of 1000 (max. 500000)
- 265 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 510 PDF objects out of 1000 (max. 8388607)
+ 414 compressed objects within 5 object streams
+ 163 named destinations out of 1000 (max. 500000)
+ 315 words of extra memory for PDF output out of 10000 (max. 10000000)
 
