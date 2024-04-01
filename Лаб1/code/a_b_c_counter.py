@@ -48,7 +48,7 @@ def b_coef(f, N):
 
 def c_coef(f, N):
     res = []
-    for n in range(0, N + 1):
+    for n in range(-N, N + 1):
         fourier_exp = lambda t: np.exp(-1j * n * t)
         res.append(integral_counter(f, fourier_exp, np.pi, 3 * np.pi) / (2 * np.pi))
     return res

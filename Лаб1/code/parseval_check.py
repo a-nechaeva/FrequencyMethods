@@ -32,9 +32,9 @@ _f2 = lambda f: integral_counter(f, f, -np.pi, np.pi)
 
 def parseval_check():
     N = 10
-    print('Parseval for F: ', parseval_F(fun_even, N), '\n')
-    print('Parseval for G: ', parseval_G(fun_even, N), '\n')
-    print('||f||^2: ', _f2(fun_even), '\n')
+    print('Parseval for F: ', parseval_F(fun_odd, N), '\n')
+    print('Parseval for G: ', parseval_G(fun_odd, N), '\n')
+    print('||f||^2: ', _f2(fun_odd), '\n')
 
 
 parseval_check()

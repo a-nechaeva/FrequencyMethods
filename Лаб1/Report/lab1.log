@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.6.14)  1 APR 2024 23:40
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.6.14)  1 APR 2024 23:44
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2047,77 +2047,81 @@ Package fancyhdr Warning: \footskip is too small (0.0pt):
 
 [22 <./gr_odd/f20.png (PNG copy)> <./gr_odd/g20.png (PNG copy)> <./gr_odd/f50.p
 ng (PNG copy)> <./gr_odd/g50.png (PNG copy)>]
+Underfull \hbox (badness 10000) in paragraph at lines 967--972
+
+ []
+
 
 Package fancyhdr Warning: \footskip is too small (0.0pt): 
 (fancyhdr)                Make it at least 12.0pt, for example:
 (fancyhdr)                \setlength{\footskip}{12.0pt}.
 
 [23]
-<pic/gr_4.png, id=414, 1341.01pt x 869.2475pt>
+<pic/gr_4.png, id=416, 1341.01pt x 869.2475pt>
 File: pic/gr_4.png Graphic file (type png)
 <use pic/gr_4.png>
-Package pdftex.def Info: pic/gr_4.png  used on input line 971.
+Package pdftex.def Info: pic/gr_4.png  used on input line 997.
 (pdftex.def)             Requested size: 309.84842pt x 200.8379pt.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 977.
+(hyperref)                removing `math shift' on input line 1003.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `subscript' on input line 977.
+(hyperref)                removing `subscript' on input line 1003.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 977.
+(hyperref)                removing `math shift' on input line 1003.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 977.
+(hyperref)                removing `math shift' on input line 1003.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `subscript' on input line 977.
+(hyperref)                removing `subscript' on input line 1003.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 977.
+(hyperref)                removing `math shift' on input line 1003.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 977.
+(hyperref)                removing `math shift' on input line 1003.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `subscript' on input line 977.
+(hyperref)                removing `subscript' on input line 1003.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 977.
+(hyperref)                removing `math shift' on input line 1003.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 981.
+(hyperref)                removing `math shift' on input line 1007.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `subscript' on input line 981.
+(hyperref)                removing `subscript' on input line 1007.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 981.
+(hyperref)                removing `math shift' on input line 1007.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 981.
+(hyperref)                removing `math shift' on input line 1007.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `subscript' on input line 981.
+(hyperref)                removing `subscript' on input line 1007.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 981.
+(hyperref)                removing `math shift' on input line 1007.
 
 
 Package fancyhdr Warning: \footskip is too small (0.0pt): 
@@ -2143,8 +2147,8 @@ Package rerunfilecheck Info: File `lab1.out' has not changed.
 (rerunfilecheck)             Checksum: 7EBCD64DF2380176C7E585A8A1DFF0C7;9272.
  ) 
 Here is how much of TeX's memory you used:
- 53928 strings out of 475734
- 1324714 string characters out of 5786229
+ 53930 strings out of 475734
+ 1324740 string characters out of 5786229
  2384849 words of memory out of 5000000
  73842 multiletter control sequences out of 15000+600000
  534014 words of font info for 82 fonts, out of 8000000 for 9000
@@ -2173,10 +2177,10 @@ lic/cm-super/sfss0900.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/cm-sup
 er/sfsx0900.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfti090
 0.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfti1000.pfb><c:/
 texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfti1200.pfb>
-Output written on lab1.pdf (26 pages, 1840768 bytes).
+Output written on lab1.pdf (26 pages, 1841952 bytes).
 PDF statistics:
- 580 PDF objects out of 1000 (max. 8388607)
- 456 compressed objects within 5 object streams
- 183 named destinations out of 1000 (max. 500000)
+ 582 PDF objects out of 1000 (max. 8388607)
+ 458 compressed objects within 5 object streams
+ 185 named destinations out of 1000 (max. 500000)
  415 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -955,7 +955,33 @@ n & $a_n$ & $b_n$ & $Re(c_n)$ & $Im(c_n)$ \\
 \newpage
 \subsubsection{Равенство Парсеваля}
 
-...
+Вновь запишем равенство Парсеваля для $F_N$:
+\begin{equation}
+\| f \|^2 = \pi \left( \frac{a_0^2}{2} + \sum \limits_{n=1}^{\infty} \left( a_n^2 + b_n^2 \right) \right)
+\end{equation}
+
+и для $G_N$:
+
+\begin{equation}
+\| f \|^2 = 2 \pi \sum \limits_{n = -\infty}^{\infty} |c_n |^2,
+\end{equation}
+где $\| f \|^2 = \int_a^b (f(t))^2 dt $.
+\\
+\\
+ В выводе программы при $N=10$ получаем:
+\begin{equation*}
+ \pi \left( \frac{a_0^2}{2} + \sum \limits_{n=1}^{\infty} \left( a_n^2 + b_n^2 \right) \right) = 1.9631027290468754 
+\end{equation*}
+
+\begin{equation*}
+2 \pi \sum \limits_{n = -\infty}^{\infty} |c_n |^2 = 1.963102729046876
+\end{equation*}
+
+\begin{equation*}
+\| f \|^2  = 1.9632990589527717
+\end{equation*}
+\\
+Следовательно, равенство Парсеваля для нечетной функции выполнено. Результаты вычислений равны с точностью до тысячных.
 
 
 
