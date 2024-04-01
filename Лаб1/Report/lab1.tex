@@ -498,8 +498,11 @@ n & $a_n$ & $b_n$ & $Re(c_n)$ & $Im(c_n)$ \\
 и для $G_N$:
 
 \begin{equation}
-\| f \|^2 = 2 \pi \sum \limits_{n = -\infty}^{\infty} |c_n |^2
+\| f \|^2 = 2 \pi \sum \limits_{n = -\infty}^{\infty} |c_n |^2,
 \end{equation}
+где $\| f \|^2 = \int_a^b (f(t))^2 dt $.
+\\
+Проведем численную проверку того, что равенство выполнено, для этого напишем новые функции на $Python$.
 
 
 
