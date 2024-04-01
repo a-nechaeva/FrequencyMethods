@@ -48,7 +48,7 @@ def b_coef(f, N):
 
 def c_coef(f, N):
     res = []
-    for n in range(-N, N + 1):
+    for n in range(0, N + 1):
         fourier_exp = lambda t: np.exp(-1j * n * t)
         res.append(integral_counter(f, fourier_exp, np.pi, 3 * np.pi) / (2 * np.pi))
     return res
@@ -69,15 +69,17 @@ def for_test(f_1, f_2, N):
 
 def m():
     N = 4
-    a = a_coef(fun_wave, N)
-    b = b_coef(fun_wave, N)
-    c = c_coef(fun_wave, N)
+    a = a_coef(fun_odd, N)
+    b = b_coef(fun_odd, N)
+    #  c = c_coef(fun_even, N)
 
     for n in range(N):
         print("a_", n, " = ", a[n], "    ", "b_", n, " = ", b[n],  "\n")
 
-    print(c_coef(fun_wave, 3))
+    print(c_coef(fun_odd, 3))
 
+
+m()
     #f_test_1 = for_test(f_1_test, f_2_test, 1)
 
     #print(f_test_1[0] + f_test_1[1])

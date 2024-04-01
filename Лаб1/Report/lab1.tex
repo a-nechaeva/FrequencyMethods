@@ -421,6 +421,8 @@ n & $a_n$ & $b_n$ & $Re(c_n)$ & $Im(c_n)$ \\
 \end{center}
 \end{table}
 
+Значения коэффициентов для первых трех значений $n$, вычисленные с помощью программы близки к числам, полученным аналитически.
+
 \subsubsection{Построение графиков частичных сумм $F_N$, $G_N$}
 
 \begin{figure}[h]
@@ -492,7 +494,7 @@ n & $a_n$ & $b_n$ & $Re(c_n)$ & $Im(c_n)$ \\
 
 Запишем равенство Парсеваля для $F_N$:
 \begin{equation}
-\| f \|^2 = \pi \left( \frac{a_0^2}{2} + \sum \limits_{n=0}^{\infty} \left( a_n^2 + b_n^2 \right) \right)
+\| f \|^2 = \pi \left( \frac{a_0^2}{2} + \sum \limits_{n=1}^{\infty} \left( a_n^2 + b_n^2 \right) \right)
 \end{equation}
 
 и для $G_N$:
@@ -502,7 +504,21 @@ n & $a_n$ & $b_n$ & $Re(c_n)$ & $Im(c_n)$ \\
 \end{equation}
 где $\| f \|^2 = \int_a^b (f(t))^2 dt $.
 \\
-Проведем численную проверку того, что равенство выполнено, для этого напишем новые функции на $Python$.
+Проведем численную проверку того, что равенство выполнено, для этого напишем новые функции на $Python$. \\
+В результате получим выполнение равенства уже при $N=100$, при округлении полученных значений до сотых. В выводе программы получаем:
+\begin{equation*}
+ \pi \left( \frac{a_0^2}{2} + \sum \limits_{n=1}^{\infty} \left( a_n^2 + b_n^2 \right) \right) = 15.699401582331111
+\end{equation*}
+
+\begin{equation*}
+2 \pi \sum \limits_{n = -\infty}^{\infty} |c_n |^2 = 15.699401613754796
+\end{equation*}
+
+\begin{equation*}
+\| f \|^2  = 15.706078312356812
+\end{equation*}
+
+Следовательно, равенство Парсеваля для функции квадратной волны выполнено.
 
 
 
@@ -604,15 +620,120 @@ c_2 = \frac{1}{2 \pi} \int \limits_{-\pi}^{\pi} 4 \cos \left( \sin^2 \left( \fra
 
 
 \subsubsection{Программа для вычисления коэффициентов Фурье}
+Программа аналогична той, которая использовалась для случая квадратной волны, поэтому приведем здесь лишь вычисленные значения для первых трех $n$.
 
+\begin{table}[h]
+\caption{Значения коэффициентов, вычисленных с помощью написанной программы для четной периодической функции.}
+\label{tabular:timesandtenses}
+\begin{center}
+\begin{tabular}{|c|c|c|c|c|}
+\hline
+n & $a_n$ & $b_n$ & $Re(c_n)$ & $Im(c_n)$ \\
+\hline
+0 & 6.5885 & 0 & 3.2942 & 0\\
+\hline
+1 & 0.9287 & 0 & 0.4643 & 0\\
+\hline
+2 & -0.2144 & 0 & -0.1072  & 0\\
+\hline
+\end{tabular}
+\end{center}
+\end{table}
+
+Для четной функции так же легко убедиться, что численные значения близки к полученным аналитическим путем (сложные интегралы в этом случае были посчитаны с помощью \textit{Wolfram}).
 
 \subsubsection{Построение графиков частичных сумм $F_N$, $G_N$}
 
-...
+\begin{figure}[h]
+\begin{minipage}[h]{0.5\linewidth}
+\center{\includegraphics[width=1\linewidth]{gr_even/f2.png} \\ а)}
+\end{minipage}
+\hfill
+\begin{minipage}[h]{0.5\linewidth}
+\center{\includegraphics[width=1\linewidth]{gr_even/g2.png} \\ б)}
+\end{minipage}
+\caption{Построение графиков частичных сумм, для четной функции, $N=2$.}
+\vfill
 
+\begin{minipage}[h]{0.5\linewidth}
+\center{\includegraphics[width=1\linewidth]{gr_even/f3.png} \\ а)}
+\end{minipage}
+\hfill
+\begin{minipage}[h]{0.5\linewidth}
+\center{\includegraphics[width=1\linewidth]{gr_even/g3.png} \\ б)}
+\end{minipage}
+\caption{Построение графиков частичных сумм, для четной функции, $N=3$.}
+\end{figure}
+
+\begin{figure}[h]
+
+\begin{minipage}[h]{0.5\linewidth}
+\center{\includegraphics[width=1\linewidth]{gr_even/f5.png} \\ а)}
+\end{minipage}
+\hfill
+\begin{minipage}[h]{0.5\linewidth}
+\center{\includegraphics[width=1\linewidth]{gr_even/g5.png} \\ б)}
+\end{minipage}
+\caption{Построение графиков частичных сумм, для четной функции, $N=5$.}
+
+\vfill
+\begin{minipage}[h]{0.5\linewidth}
+\center{\includegraphics[width=1\linewidth]{gr_even/f20.png} \\ а)}
+\end{minipage}
+\hfill
+\begin{minipage}[h]{0.5\linewidth}
+\center{\includegraphics[width=1\linewidth]{gr_even/g20.png} \\ б)}
+\end{minipage}
+\caption{Построение графиков частичных сумм, для четной функции, $N=20$.}
+\end{figure}
+\begin{figure}[h]
+
+
+\begin{minipage}[h]{0.5\linewidth}
+\center{\includegraphics[width=1\linewidth]{gr_even/f50.png} \\ а)}
+\end{minipage}
+\hfill
+\begin{minipage}[h]{0.5\linewidth}
+\center{\includegraphics[width=1\linewidth]{gr_even/g50.png} \\ б)}
+\end{minipage}
+\caption{Построение графиков частичных сумм, для четной функции, $N=50$.}
+\end{figure}
+
+Для функции $4 \cos \left( \sin^2 \left( \frac{t}{2}\right) \right)$ суммы $F_N$ и $G_N$ с высокой точностью приближают исходную функцию уже при минимальном $N=2$. 
+\newpage
+\,
+\newpage
 \subsubsection{Равенство Парсеваля}
 
-...
+Вновь запишем равенство Парсеваля для $F_N$:
+\begin{equation}
+\| f \|^2 = \pi \left( \frac{a_0^2}{2} + \sum \limits_{n=1}^{\infty} \left( a_n^2 + b_n^2 \right) \right)
+\end{equation}
+
+и для $G_N$:
+
+\begin{equation}
+\| f \|^2 = 2 \pi \sum \limits_{n = -\infty}^{\infty} |c_n |^2,
+\end{equation}
+где $\| f \|^2 = \int_a^b (f(t))^2 dt $.
+\\
+ В выводе программы при $N=10$ получаем:
+\begin{equation*}
+ \pi \left( \frac{a_0^2}{2} + \sum \limits_{n=1}^{\infty} \left( a_n^2 + b_n^2 \right) \right) = 71.03881254047784
+\end{equation*}
+
+\begin{equation*}
+2 \pi \sum \limits_{n = -\infty}^{\infty} |c_n |^2 = 71.03881312743097 
+\end{equation*}
+
+\begin{equation*}
+\| f \|^2  = 71.04297678948326 
+\end{equation*}
+
+Следовательно, равенство Парсеваля для четной функции выполнено. Вновь результаты вычислений оказались равны с точностью до сотых.
+
+
+
 
 
 
@@ -743,14 +864,95 @@ b_3 = -\frac{1}{4}
 c_3  = \frac{i}{8}
 \end{equation}
 
-
+\newpage
 \subsubsection{Программа для вычисления коэффициентов Фурье}
+
+Программа для вычисления коэффициентов Фурье идентична, использовавшейся ранее, поэтому приведем численные результаты для первых четырех значений коэффициентов.
+
+\begin{table}[h]
+\caption{Значения коэффициентов, вычисленных с помощью написанной программы для нечетной периодической функции.}
+\label{tabular:timesandtenses}
+\begin{center}
+\begin{tabular}{|c|c|c|c|c|}
+\hline
+n & $a_n$ & $b_n$ & $Re(c_n)$ & $Im(c_n)$ \\
+\hline
+0 & 0 & 0 & 0 & 0\\
+\hline
+1 & 0 & 0.74992 & 0 & -0.37496\\
+\hline
+2 & 0 & 0 & 0  & 0\\
+\hline
+3 & 0 & -0.24998 & 0  & 0.12499\\
+\hline
+\end{tabular}
+\end{center}
+\end{table}
+
+С помощью программы были посчитаны довольно близкие к аналитическим значения коэффициентов.
 
 
 \subsubsection{Построение графиков частичных сумм $F_N$, $G_N$}
 
-...
+Ниже предствлены графики частичных сумм для нечетной периодической функции $f(t) = \sin^3(t)$:
 
+\begin{figure}[h]
+\begin{minipage}[h]{0.5\linewidth}
+\center{\includegraphics[width=1\linewidth]{gr_odd/f2.png} \\ а)}
+\end{minipage}
+\hfill
+\begin{minipage}[h]{0.5\linewidth}
+\center{\includegraphics[width=1\linewidth]{gr_odd/g2.png} \\ б)}
+\end{minipage}
+\caption{Построение графиков частичных сумм, для нечетной функции, $N=2$.}
+\end{figure}
+
+\begin{figure}[h]
+\begin{minipage}[h]{0.5\linewidth}
+\center{\includegraphics[width=1\linewidth]{gr_odd/f3.png} \\ а)}
+\end{minipage}
+\hfill
+\begin{minipage}[h]{0.5\linewidth}
+\center{\includegraphics[width=1\linewidth]{gr_odd/g3.png} \\ б)}
+\end{minipage}
+\caption{Построение графиков частичных сумм, для нечетной функции, $N=3$.}
+\vfill
+
+\begin{minipage}[h]{0.5\linewidth}
+\center{\includegraphics[width=1\linewidth]{gr_odd/f5.png} \\ а)}
+\end{minipage}
+\hfill
+\begin{minipage}[h]{0.5\linewidth}
+\center{\includegraphics[width=1\linewidth]{gr_odd/g5.png} \\ б)}
+\end{minipage}
+\caption{Построение графиков частичных сумм, для нечетной функции, $N=5$.}
+\end{figure}
+
+\begin{figure}[h]
+\begin{minipage}[h]{0.5\linewidth}
+\center{\includegraphics[width=1\linewidth]{gr_odd/f20.png} \\ а)}
+\end{minipage}
+\hfill
+\begin{minipage}[h]{0.5\linewidth}
+\center{\includegraphics[width=1\linewidth]{gr_odd/g20.png} \\ б)}
+\end{minipage}
+\caption{Построение графиков частичных сумм, для нечетной функции, $N=20$.}
+
+\begin{minipage}[h]{0.5\linewidth}
+\center{\includegraphics[width=1\linewidth]{gr_odd/f50.png} \\ а)}
+\end{minipage}
+\hfill
+\begin{minipage}[h]{0.5\linewidth}
+\center{\includegraphics[width=1\linewidth]{gr_odd/g50.png} \\ б)}
+\end{minipage}
+\caption{Построение графиков частичных сумм, для нечетной функции, $N=50$.}
+\end{figure}
+
+Для функции $f(t) = \sin^3(t)$ неотличимыми от исходной функции графики частичных сумм становится с $N=3$, при $N=2$ приближение минимальное (рисунок 14).
+
+\newpage
+\,
+\newpage
 \subsubsection{Равенство Парсеваля}
 
 ...

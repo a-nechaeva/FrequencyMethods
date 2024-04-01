@@ -18,6 +18,23 @@ def parseval_F(f, N):
 def parseval_G(f, N):
 
     c = c_coef(f, N)
+    res = 0
 
     for n in range(len(c)):
-        
+        res += abs(c[n]) ** 2
+
+    return 2 * np.pi * res
+
+
+#  ||f||^2
+_f2 = lambda f: integral_counter(f, f, -np.pi, np.pi)
+
+
+def parseval_check():
+    N = 10
+    print('Parseval for F: ', parseval_F(fun_even, N), '\n')
+    print('Parseval for G: ', parseval_G(fun_even, N), '\n')
+    print('||f||^2: ', _f2(fun_even), '\n')
+
+
+parseval_check()
