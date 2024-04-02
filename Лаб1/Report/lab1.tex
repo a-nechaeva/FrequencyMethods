@@ -989,7 +989,7 @@ n & $a_n$ & $b_n$ & $Re(c_n)$ & $Im(c_n)$ \\
 \newpage
 \subsection{Любая периодическая функция, график которой состоит не только из прямых линий, и которая не является ни четной, ни нечетной.}
 \begin{equation}
-f(t) = \cos (t + 1)
+f(t) = \sin(t) - \cos^2(t) 
 \end{equation}
 
 \subsubsection{График функции}
@@ -1000,17 +1000,214 @@ f(t) = \cos (t + 1)
 
 \subsubsection{Частичные суммы Фурье}
 
+Рассмотрим частичные суммы Фурье $F_N$ и $G_N$ вида
+
+\begin{equation}
+F_N(t) = \frac{a_0}{2} + \sum  \limits_{n=1}^N \left( a_n \cos \left( \omega_n t \right) + b_n \sin \left( \omega_n t \right)  \right) \, ,
+\end{equation}
+
+\begin{equation}
+G_N (t) = \sum  \limits_{n=-N}^N c_n e^{i \omega_n t} \, ,
+\end{equation}
+где $\omega_n = 2 \pi \frac{n}{T}$.\\
+\\
+Аналогично, $T = 2 \pi$, следовательно, $\omega_n = n$:
+
+\begin{equation}
+F_N(t) = \frac{a_0}{2} + \sum  \limits_{n=1}^N \left( a_n \cos \left( n t \right) + b_n \sin \left( n t \right)  \right) \, ,
+\end{equation}
+
+\begin{equation}
+G_N (t) = \sum  \limits_{n=-N}^N c_n e^{i n t} \, ,
+\end{equation}
+
+
 \subsubsection{Вычисление коэффициентов $a_n$, $b_n$ и $c_n$}
+
+Запишем формулы для вычислия коэффициентов $a_n$, $b_n$ и $c_n$ :
+
+\begin{equation}
+a_0 =  \frac{2}{T} \int \limits_{h}^{h + T} f(t) dt =   \frac{1}{\pi} \int \limits_{-\pi}^{\pi} \left( \sin(t) - \cos^2(t) \right) dt = -1
+\end{equation}
+
+
+\begin{equation}
+a_n =  \frac{1}{\pi} \int \limits_{-\pi}^{\pi} \left( \sin(t) - \cos^2(t) \right) \cos (nt) dt = -\frac{2(n^2 - 2)\sin(\pi n)}{\pi n (n^2 - 4)}
+\end{equation}
+
+\begin{equation}
+b_n  =  \frac{1}{\pi} \int \limits_{-\pi}^{\pi} \left( \sin(t) - \cos^2(t) \right) \sin (nt) dt  = \frac{2 \sin (\pi n)}{\pi (1 - n^2)}
+\end{equation}
+
+\begin{equation}
+c_n =  \frac{1}{2 \pi} \int \limits_{-\pi}^{\pi} \left( \sin(t) - \cos^2(t) \right) e^{-i n t} dt  = \frac{2 }{\pi} \left( \frac{2 - n^2}{n(n^2 - 4)} + \frac{i}{n^2 - 1} \right) \sin (\pi n)
+\end{equation}
+
+Найдем численные значения коэффициентов для первых нескольких $n$. \\
+\\
+$n = 0:$
+\begin{equation}
+a_0  = -1
+\end{equation}
+
+\begin{equation}
+b_0  = 0
+\end{equation}
+
+\begin{equation}
+c_0  = -0.5
+\end{equation}
+\\
+\\
+
+$n = 1:$
+\begin{equation}
+a_1 = 0
+\end{equation}
+
+\begin{equation}
+b_1 =  1
+\end{equation}
+
+\begin{equation}
+c_1  = -0.5 i
+\end{equation}
+\\
+\\
+
+$n = 2:$
+\begin{equation}
+a_2  = -0.5
+\end{equation}
+
+\begin{equation}
+b_2 = 0
+\end{equation}
+
+\begin{equation}
+c_2  = -0.25
+\end{equation}
+\\
 
 \subsubsection{Программа для вычисления коэффициентов Фурье}
 
+Программа для вычисления коэффициентов Фурье идентична, использовавшейся ранее, поэтому приведем численные результаты для первых трех значений коэффициентов.
+
+\begin{table}[h]
+\caption{Значения коэффициентов, вычисленных с помощью написанной программы для ни четной, ни нечетной периодической функции.}
+\label{tabular:timesandtenses}
+\begin{center}
+\begin{tabular}{|c|c|c|c|c|}
+\hline
+n & $a_n$ & $b_n$ & $Re(c_n)$ & $Im(c_n)$ \\
+\hline
+0 & -1 & 0 & -0.5 & 0\\
+\hline
+1 & 0 & 1 & 0 & -0.5\\
+\hline
+2 & -0.5 & 0 & -0.25  & 0\\
+\hline
+\end{tabular}
+\end{center}
+\end{table}
+
+С помощью программы были посчитаны идентичные аналитическим значения коэффициентов.
+
 \subsubsection{Построение графиков частичных сумм $F_N$, $G_N$}
 
-...
+Ниже предствлены графики частичных сумм для ни четной, ни нечетной периодической функции $f(t) = \sin(t) - \cos^2(t)$:
+
+\begin{figure}[h]
+\begin{minipage}[h]{0.5\linewidth}
+\center{\includegraphics[width=1\linewidth]{gr_neo/f2.png} \\ а)}
+\end{minipage}
+\hfill
+\begin{minipage}[h]{0.5\linewidth}
+\center{\includegraphics[width=1\linewidth]{gr_neo/g2.png} \\ б)}
+\end{minipage}
+\caption{Графики частичных сумм для ни чет. ни нечет. функции, $N=2$.}
+\vfill
+\begin{minipage}[h]{0.5\linewidth}
+\center{\includegraphics[width=1\linewidth]{gr_neo/f3.png} \\ а)}
+\end{minipage}
+\hfill
+\begin{minipage}[h]{0.5\linewidth}
+\center{\includegraphics[width=1\linewidth]{gr_neo/g3.png} \\ б)}
+\end{minipage}
+\caption{Графики частичных сумм для ни чет. ни нечет. функции, $N=3$.}
+\end{figure}
+
+\begin{figure}[h]
+\begin{minipage}[h]{0.5\linewidth}
+\center{\includegraphics[width=1\linewidth]{gr_neo/f5.png} \\ а)}
+\end{minipage}
+\hfill
+\begin{minipage}[h]{0.5\linewidth}
+\center{\includegraphics[width=1\linewidth]{gr_neo/g5.png} \\ б)}
+\end{minipage}
+\caption{Графики частичных сумм для ни чет. ни нечет. функции, $N=5$.}
+\vfill
+\begin{minipage}[h]{0.5\linewidth}
+\center{\includegraphics[width=1\linewidth]{gr_neo/f20.png} \\ а)}
+\end{minipage}
+\hfill
+\begin{minipage}[h]{0.5\linewidth}
+\center{\includegraphics[width=1\linewidth]{gr_neo/g20.png} \\ б)}
+\end{minipage}
+\caption{Графики частичных сумм для ни чет. ни нечет. функции, $N=20$.}
+\end{figure}
+
+\begin{figure}[h]
+\begin{minipage}[h]{0.5\linewidth}
+\center{\includegraphics[width=1\linewidth]{gr_neo/f50.png} \\ а)}
+\end{minipage}
+\hfill
+\begin{minipage}[h]{0.5\linewidth}
+\center{\includegraphics[width=1\linewidth]{gr_neo/g50.png} \\ б)}
+\end{minipage}
+\caption{Графики частичных сумм для ни чет. ни нечет. функции, $N=50$.}
+\end{figure}
+
+Несложно заметить, что уже при значении $N=2$ оба графика частичных сумм практически совпадают с исходной функцией.
+
+
+\newpage
+\,
+\newpage
+\,
 
 \subsubsection{Равенство Парсеваля}
 
-...
+Вновь запишем равенство Парсеваля для $F_N$:
+\begin{equation}
+\| f \|^2 = \pi \left( \frac{a_0^2}{2} + \sum \limits_{n=1}^{\infty} \left( a_n^2 + b_n^2 \right) \right)
+\end{equation}
+
+и для $G_N$:
+
+\begin{equation}
+\| f \|^2 = 2 \pi \sum \limits_{n = -\infty}^{\infty} |c_n |^2,
+\end{equation}
+где $\| f \|^2 = \int_a^b (f(t))^2 dt $.
+\\
+\\
+ В выводе программы при $N=10$ получаем:
+\begin{equation*}
+ \pi \left( \frac{a_0^2}{2} + \sum \limits_{n=1}^{\infty} \left( a_n^2 + b_n^2 \right) \right) = 5.497945346534191
+\end{equation*}
+
+\begin{equation*}
+2 \pi \sum \limits_{n = -\infty}^{\infty} |c_n |^2 = 5.497945472197905
+\end{equation*}
+
+\begin{equation*}
+\| f \|^2  = 5.497865683598477
+\end{equation*}
+\\
+Следовательно, равенство Парсеваля для ни четной, ни нечетной функции выполнено. Результаты вычислений равны с точностью до четвертого знака после запятой.
+
+
+
 %\begin{center}
 %\begin{lstlisting}[label=some-code,caption={Исходный код для 1207}]
 %\end{lstlisting}

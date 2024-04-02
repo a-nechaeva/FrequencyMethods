@@ -17,8 +17,7 @@ fun_even = lambda t: 4 * np.cos(np.sin(t / 2) ** 2)
 
 fun_odd = lambda t: np.sin(t) ** 3
 
-
-#def fun_not_odd_not_even(t):
+fun_not_odd_not_even = lambda t: np.sin(t) - (np.cos(t)) ** 2
 
 # here we count integral of two fun mult
 def integral_counter(f_1, f_2, a, b):
@@ -69,14 +68,14 @@ def for_test(f_1, f_2, N):
 
 def m():
     N = 4
-    a = a_coef(fun_odd, N)
-    b = b_coef(fun_odd, N)
+    a = a_coef(fun_not_odd_not_even, N)
+    b = b_coef(fun_not_odd_not_even, N)
     #  c = c_coef(fun_even, N)
 
     for n in range(N):
         print("a_", n, " = ", a[n], "    ", "b_", n, " = ", b[n],  "\n")
 
-    print(c_coef(fun_odd, 3))
+    print(c_coef(fun_not_odd_not_even, 3))
 
 
 m()
