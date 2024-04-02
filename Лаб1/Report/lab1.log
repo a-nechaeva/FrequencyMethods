@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.6.14)  2 APR 2024 03:44
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.6.14)  2 APR 2024 23:45
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1233,6 +1233,12 @@ LaTeX Warning: Label `tabular:timesandtenses' multiply defined.
 
 LaTeX Warning: Label `tabular:timesandtenses' multiply defined.
 
+
+LaTeX Warning: Label `some-code' multiply defined.
+
+
+LaTeX Warning: Label `tabular:timesandtenses' multiply defined.
+
 )
 \openout1 = `lab1.aux'.
 
@@ -1383,7 +1389,7 @@ File: lstlang1.sty 2023/02/27 1.9 listings language file
 (c:/texlive/2023/texmf-dist/tex/latex/listings/lstmisc.sty
 File: lstmisc.sty 2023/02/27 1.9 (Carsten Heinz)
 )
-<pic/gr_1.png, id=139, 1381.16pt x 654.445pt>
+<pic/gr_1.png, id=159, 1381.16pt x 654.445pt>
 File: pic/gr_1.png Graphic file (type png)
 <use pic/gr_1.png>
 Package pdftex.def Info: pic/gr_1.png  used on input line 191.
@@ -1526,12 +1532,12 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 426.
 
-<gr_wave/f2.png, id=257, 642.4pt x 481.8pt>
+<gr_wave/f2.png, id=277, 642.4pt x 481.8pt>
 File: gr_wave/f2.png Graphic file (type png)
 <use gr_wave/f2.png>
 Package pdftex.def Info: gr_wave/f2.png  used on input line 430.
 (pdftex.def)             Requested size: 172.13918pt x 129.1026pt.
-<gr_wave/g2.png, id=258, 642.4pt x 481.8pt>
+<gr_wave/g2.png, id=278, 642.4pt x 481.8pt>
 File: gr_wave/g2.png Graphic file (type png)
 <use gr_wave/g2.png>
 Package pdftex.def Info: gr_wave/g2.png  used on input line 434.
@@ -1541,12 +1547,12 @@ Overfull \hbox (2.22166pt too wide) in paragraph at lines 429--436
 []$[]$  $[]$ 
  []
 
-<gr_wave/f3.png, id=259, 642.4pt x 481.8pt>
+<gr_wave/f3.png, id=279, 642.4pt x 481.8pt>
 File: gr_wave/f3.png Graphic file (type png)
 <use gr_wave/f3.png>
 Package pdftex.def Info: gr_wave/f3.png  used on input line 441.
 (pdftex.def)             Requested size: 172.13918pt x 129.1026pt.
-<gr_wave/g3.png, id=260, 642.4pt x 481.8pt>
+<gr_wave/g3.png, id=280, 642.4pt x 481.8pt>
 File: gr_wave/g3.png Graphic file (type png)
 <use gr_wave/g3.png>
 Package pdftex.def Info: gr_wave/g3.png  used on input line 445.
@@ -1556,12 +1562,12 @@ Overfull \hbox (2.22166pt too wide) in paragraph at lines 440--447
 []$[]$  $[]$ 
  []
 
-<gr_wave/f5.png, id=261, 642.4pt x 481.8pt>
+<gr_wave/f5.png, id=281, 642.4pt x 481.8pt>
 File: gr_wave/f5.png Graphic file (type png)
 <use gr_wave/f5.png>
 Package pdftex.def Info: gr_wave/f5.png  used on input line 451.
 (pdftex.def)             Requested size: 172.13918pt x 129.1026pt.
-<gr_wave/g5.png, id=262, 642.4pt x 481.8pt>
+<gr_wave/g5.png, id=282, 642.4pt x 481.8pt>
 File: gr_wave/g5.png Graphic file (type png)
 <use gr_wave/g5.png>
 Package pdftex.def Info: gr_wave/g5.png  used on input line 455.
@@ -1574,12 +1580,12 @@ Overfull \hbox (2.22166pt too wide) in paragraph at lines 450--457
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<gr_wave/f20.png, id=263, 642.4pt x 481.8pt>
+<gr_wave/f20.png, id=283, 642.4pt x 481.8pt>
 File: gr_wave/f20.png Graphic file (type png)
 <use gr_wave/f20.png>
 Package pdftex.def Info: gr_wave/f20.png  used on input line 462.
 (pdftex.def)             Requested size: 172.13918pt x 129.1026pt.
-<gr_wave/g20.png, id=264, 642.4pt x 481.8pt>
+<gr_wave/g20.png, id=284, 642.4pt x 481.8pt>
 File: gr_wave/g20.png Graphic file (type png)
 <use gr_wave/g20.png>
 Package pdftex.def Info: gr_wave/g20.png  used on input line 466.
@@ -1589,12 +1595,12 @@ Overfull \hbox (2.22166pt too wide) in paragraph at lines 461--468
 []$[]$  $[]$ 
  []
 
-<gr_wave/f50.png, id=265, 642.4pt x 481.8pt>
+<gr_wave/f50.png, id=285, 642.4pt x 481.8pt>
 File: gr_wave/f50.png Graphic file (type png)
 <use gr_wave/f50.png>
 Package pdftex.def Info: gr_wave/f50.png  used on input line 471.
 (pdftex.def)             Requested size: 172.13918pt x 129.1026pt.
-<gr_wave/g50.png, id=266, 642.4pt x 481.8pt>
+<gr_wave/g50.png, id=286, 642.4pt x 481.8pt>
 File: gr_wave/g50.png Graphic file (type png)
 <use gr_wave/g50.png>
 Package pdftex.def Info: gr_wave/g50.png  used on input line 475.
@@ -1633,7 +1639,7 @@ Package fancyhdr Warning: \footskip is too small (0.0pt):
 (fancyhdr)                \setlength{\footskip}{12.0pt}.
 
 [10]
-<pic/gr_2.png, id=289, 1113.15875pt x 603.25375pt>
+<pic/gr_2.png, id=309, 1113.15875pt x 603.25375pt>
 File: pic/gr_2.png Graphic file (type png)
 <use pic/gr_2.png>
 Package pdftex.def Info: pic/gr_2.png  used on input line 536.
@@ -1726,12 +1732,12 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 645.
 
-<gr_even/f2.png, id=324, 642.4pt x 481.8pt>
+<gr_even/f2.png, id=344, 642.4pt x 481.8pt>
 File: gr_even/f2.png Graphic file (type png)
 <use gr_even/f2.png>
 Package pdftex.def Info: gr_even/f2.png  used on input line 649.
 (pdftex.def)             Requested size: 172.13918pt x 129.1026pt.
-<gr_even/g2.png, id=325, 642.4pt x 481.8pt>
+<gr_even/g2.png, id=345, 642.4pt x 481.8pt>
 File: gr_even/g2.png Graphic file (type png)
 <use gr_even/g2.png>
 Package pdftex.def Info: gr_even/g2.png  used on input line 653.
@@ -1741,12 +1747,12 @@ Overfull \hbox (2.22166pt too wide) in paragraph at lines 648--655
 []$[]$  $[]$ 
  []
 
-<gr_even/f3.png, id=326, 642.4pt x 481.8pt>
+<gr_even/f3.png, id=346, 642.4pt x 481.8pt>
 File: gr_even/f3.png Graphic file (type png)
 <use gr_even/f3.png>
 Package pdftex.def Info: gr_even/f3.png  used on input line 659.
 (pdftex.def)             Requested size: 172.13918pt x 129.1026pt.
-<gr_even/g3.png, id=327, 642.4pt x 481.8pt>
+<gr_even/g3.png, id=347, 642.4pt x 481.8pt>
 File: gr_even/g3.png Graphic file (type png)
 <use gr_even/g3.png>
 Package pdftex.def Info: gr_even/g3.png  used on input line 663.
@@ -1756,12 +1762,12 @@ Overfull \hbox (2.22166pt too wide) in paragraph at lines 658--665
 []$[]$  $[]$ 
  []
 
-<gr_even/f5.png, id=328, 642.4pt x 481.8pt>
+<gr_even/f5.png, id=348, 642.4pt x 481.8pt>
 File: gr_even/f5.png Graphic file (type png)
 <use gr_even/f5.png>
 Package pdftex.def Info: gr_even/f5.png  used on input line 671.
 (pdftex.def)             Requested size: 172.13918pt x 129.1026pt.
-<gr_even/g5.png, id=329, 642.4pt x 481.8pt>
+<gr_even/g5.png, id=349, 642.4pt x 481.8pt>
 File: gr_even/g5.png Graphic file (type png)
 <use gr_even/g5.png>
 Package pdftex.def Info: gr_even/g5.png  used on input line 675.
@@ -1771,12 +1777,12 @@ Overfull \hbox (2.22166pt too wide) in paragraph at lines 670--677
 []$[]$  $[]$ 
  []
 
-<gr_even/f20.png, id=330, 642.4pt x 481.8pt>
+<gr_even/f20.png, id=350, 642.4pt x 481.8pt>
 File: gr_even/f20.png Graphic file (type png)
 <use gr_even/f20.png>
 Package pdftex.def Info: gr_even/f20.png  used on input line 681.
 (pdftex.def)             Requested size: 172.13918pt x 129.1026pt.
-<gr_even/g20.png, id=331, 642.4pt x 481.8pt>
+<gr_even/g20.png, id=351, 642.4pt x 481.8pt>
 File: gr_even/g20.png Graphic file (type png)
 <use gr_even/g20.png>
 Package pdftex.def Info: gr_even/g20.png  used on input line 685.
@@ -1789,12 +1795,12 @@ Overfull \hbox (2.22166pt too wide) in paragraph at lines 680--687
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<gr_even/f50.png, id=332, 642.4pt x 481.8pt>
+<gr_even/f50.png, id=352, 642.4pt x 481.8pt>
 File: gr_even/f50.png Graphic file (type png)
 <use gr_even/f50.png>
 Package pdftex.def Info: gr_even/f50.png  used on input line 693.
 (pdftex.def)             Requested size: 172.13918pt x 129.1026pt.
-<gr_even/g50.png, id=333, 642.4pt x 481.8pt>
+<gr_even/g50.png, id=353, 642.4pt x 481.8pt>
 File: gr_even/g50.png Graphic file (type png)
 <use gr_even/g50.png>
 Package pdftex.def Info: gr_even/g50.png  used on input line 697.
@@ -1827,7 +1833,7 @@ Package fancyhdr Warning: \footskip is too small (0.0pt):
 (fancyhdr)                \setlength{\footskip}{12.0pt}.
 
 [16 <./gr_even/f50.png (PNG copy)> <./gr_even/g50.png (PNG copy)>]
-<pic/gr_3.png, id=351, 1341.01pt x 869.2475pt>
+<pic/gr_3.png, id=371, 1341.01pt x 869.2475pt>
 File: pic/gr_3.png Graphic file (type png)
 <use pic/gr_3.png>
 Package pdftex.def Info: pic/gr_3.png  used on input line 756.
@@ -1949,12 +1955,12 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 895.
 
-<gr_odd/f2.png, id=388, 642.4pt x 481.8pt>
+<gr_odd/f2.png, id=408, 642.4pt x 481.8pt>
 File: gr_odd/f2.png Graphic file (type png)
 <use gr_odd/f2.png>
 Package pdftex.def Info: gr_odd/f2.png  used on input line 901.
 (pdftex.def)             Requested size: 172.13918pt x 129.1026pt.
-<gr_odd/g2.png, id=389, 642.4pt x 481.8pt>
+<gr_odd/g2.png, id=409, 642.4pt x 481.8pt>
 File: gr_odd/g2.png Graphic file (type png)
 <use gr_odd/g2.png>
 Package pdftex.def Info: gr_odd/g2.png  used on input line 905.
@@ -1964,12 +1970,12 @@ Overfull \hbox (2.22166pt too wide) in paragraph at lines 900--907
 []$[]$  $[]$ 
  []
 
-<gr_odd/f3.png, id=390, 642.4pt x 481.8pt>
+<gr_odd/f3.png, id=410, 642.4pt x 481.8pt>
 File: gr_odd/f3.png Graphic file (type png)
 <use gr_odd/f3.png>
 Package pdftex.def Info: gr_odd/f3.png  used on input line 912.
 (pdftex.def)             Requested size: 172.13918pt x 129.1026pt.
-<gr_odd/g3.png, id=391, 642.4pt x 481.8pt>
+<gr_odd/g3.png, id=411, 642.4pt x 481.8pt>
 File: gr_odd/g3.png Graphic file (type png)
 <use gr_odd/g3.png>
 Package pdftex.def Info: gr_odd/g3.png  used on input line 916.
@@ -1979,12 +1985,12 @@ Overfull \hbox (2.22166pt too wide) in paragraph at lines 911--918
 []$[]$  $[]$ 
  []
 
-<gr_odd/f5.png, id=392, 642.4pt x 481.8pt>
+<gr_odd/f5.png, id=412, 642.4pt x 481.8pt>
 File: gr_odd/f5.png Graphic file (type png)
 <use gr_odd/f5.png>
 Package pdftex.def Info: gr_odd/f5.png  used on input line 922.
 (pdftex.def)             Requested size: 172.13918pt x 129.1026pt.
-<gr_odd/g5.png, id=393, 642.4pt x 481.8pt>
+<gr_odd/g5.png, id=413, 642.4pt x 481.8pt>
 File: gr_odd/g5.png Graphic file (type png)
 <use gr_odd/g5.png>
 Package pdftex.def Info: gr_odd/g5.png  used on input line 926.
@@ -1997,12 +2003,12 @@ Overfull \hbox (2.22166pt too wide) in paragraph at lines 921--928
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<gr_odd/f20.png, id=394, 642.4pt x 481.8pt>
+<gr_odd/f20.png, id=414, 642.4pt x 481.8pt>
 File: gr_odd/f20.png Graphic file (type png)
 <use gr_odd/f20.png>
 Package pdftex.def Info: gr_odd/f20.png  used on input line 933.
 (pdftex.def)             Requested size: 172.13918pt x 129.1026pt.
-<gr_odd/g20.png, id=395, 642.4pt x 481.8pt>
+<gr_odd/g20.png, id=415, 642.4pt x 481.8pt>
 File: gr_odd/g20.png Graphic file (type png)
 <use gr_odd/g20.png>
 Package pdftex.def Info: gr_odd/g20.png  used on input line 937.
@@ -2012,12 +2018,12 @@ Overfull \hbox (2.22166pt too wide) in paragraph at lines 932--939
 []$[]$  $[]$ 
  []
 
-<gr_odd/f50.png, id=396, 642.4pt x 481.8pt>
+<gr_odd/f50.png, id=416, 642.4pt x 481.8pt>
 File: gr_odd/f50.png Graphic file (type png)
 <use gr_odd/f50.png>
 Package pdftex.def Info: gr_odd/f50.png  used on input line 942.
 (pdftex.def)             Requested size: 172.13918pt x 129.1026pt.
-<gr_odd/g50.png, id=397, 642.4pt x 481.8pt>
+<gr_odd/g50.png, id=417, 642.4pt x 481.8pt>
 File: gr_odd/g50.png Graphic file (type png)
 <use gr_odd/g50.png>
 Package pdftex.def Info: gr_odd/g50.png  used on input line 946.
@@ -2060,7 +2066,7 @@ Package fancyhdr Warning: \footskip is too small (0.0pt):
 (fancyhdr)                \setlength{\footskip}{12.0pt}.
 
 [23]
-<pic/gr_4.png, id=420, 1575.8875pt x 869.2475pt>
+<pic/gr_4.png, id=440, 1575.8875pt x 869.2475pt>
 File: pic/gr_4.png Graphic file (type png)
 <use pic/gr_4.png>
 Package pdftex.def Info: pic/gr_4.png  used on input line 997.
@@ -2171,12 +2177,12 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 1116.
 
-<gr_neo/f2.png, id=445, 642.4pt x 481.8pt>
+<gr_neo/f2.png, id=465, 642.4pt x 481.8pt>
 File: gr_neo/f2.png Graphic file (type png)
 <use gr_neo/f2.png>
 Package pdftex.def Info: gr_neo/f2.png  used on input line 1122.
 (pdftex.def)             Requested size: 172.13918pt x 129.1026pt.
-<gr_neo/g2.png, id=446, 642.4pt x 481.8pt>
+<gr_neo/g2.png, id=466, 642.4pt x 481.8pt>
 File: gr_neo/g2.png Graphic file (type png)
 <use gr_neo/g2.png>
 Package pdftex.def Info: gr_neo/g2.png  used on input line 1126.
@@ -2186,12 +2192,12 @@ Overfull \hbox (2.22166pt too wide) in paragraph at lines 1121--1128
 []$[]$  $[]$ 
  []
 
-<gr_neo/f3.png, id=447, 642.4pt x 481.8pt>
+<gr_neo/f3.png, id=467, 642.4pt x 481.8pt>
 File: gr_neo/f3.png Graphic file (type png)
 <use gr_neo/f3.png>
 Package pdftex.def Info: gr_neo/f3.png  used on input line 1131.
 (pdftex.def)             Requested size: 172.13918pt x 129.1026pt.
-<gr_neo/g3.png, id=448, 642.4pt x 481.8pt>
+<gr_neo/g3.png, id=468, 642.4pt x 481.8pt>
 File: gr_neo/g3.png Graphic file (type png)
 <use gr_neo/g3.png>
 Package pdftex.def Info: gr_neo/g3.png  used on input line 1135.
@@ -2207,12 +2213,12 @@ Package fancyhdr Warning: \footskip is too small (0.0pt):
 (fancyhdr)                \setlength{\footskip}{12.0pt}.
 
 [26]
-<gr_neo/f5.png, id=460, 642.4pt x 481.8pt>
+<gr_neo/f5.png, id=480, 642.4pt x 481.8pt>
 File: gr_neo/f5.png Graphic file (type png)
 <use gr_neo/f5.png>
 Package pdftex.def Info: gr_neo/f5.png  used on input line 1142.
 (pdftex.def)             Requested size: 172.13918pt x 129.1026pt.
-<gr_neo/g5.png, id=461, 642.4pt x 481.8pt>
+<gr_neo/g5.png, id=481, 642.4pt x 481.8pt>
 File: gr_neo/g5.png Graphic file (type png)
 <use gr_neo/g5.png>
 Package pdftex.def Info: gr_neo/g5.png  used on input line 1146.
@@ -2222,12 +2228,12 @@ Overfull \hbox (2.22166pt too wide) in paragraph at lines 1141--1148
 []$[]$  $[]$ 
  []
 
-<gr_neo/f20.png, id=462, 642.4pt x 481.8pt>
+<gr_neo/f20.png, id=482, 642.4pt x 481.8pt>
 File: gr_neo/f20.png Graphic file (type png)
 <use gr_neo/f20.png>
 Package pdftex.def Info: gr_neo/f20.png  used on input line 1151.
 (pdftex.def)             Requested size: 172.13918pt x 129.1026pt.
-<gr_neo/g20.png, id=463, 642.4pt x 481.8pt>
+<gr_neo/g20.png, id=483, 642.4pt x 481.8pt>
 File: gr_neo/g20.png Graphic file (type png)
 <use gr_neo/g20.png>
 Package pdftex.def Info: gr_neo/g20.png  used on input line 1155.
@@ -2240,12 +2246,12 @@ Overfull \hbox (2.22166pt too wide) in paragraph at lines 1150--1157
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<gr_neo/f50.png, id=464, 642.4pt x 481.8pt>
+<gr_neo/f50.png, id=484, 642.4pt x 481.8pt>
 File: gr_neo/f50.png Graphic file (type png)
 <use gr_neo/f50.png>
 Package pdftex.def Info: gr_neo/f50.png  used on input line 1162.
 (pdftex.def)             Requested size: 172.13918pt x 129.1026pt.
-<gr_neo/g50.png, id=465, 642.4pt x 481.8pt>
+<gr_neo/g50.png, id=485, 642.4pt x 481.8pt>
 File: gr_neo/g50.png Graphic file (type png)
 <use gr_neo/g50.png>
 Package pdftex.def Info: gr_neo/g50.png  used on input line 1166.
@@ -2288,12 +2294,102 @@ Package fancyhdr Warning: \footskip is too small (0.0pt):
 (fancyhdr)                \setlength{\footskip}{12.0pt}.
 
 [30]
+Overfull \hbox (17.73679pt too wide) detected at line 1231
+[][][]\OML/cmm/m/it/10 Ref\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 t\OT1/cmr/m/n/10 ) 
+= []     \OML/cmm/m/it/10 Imf\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 t\OT1/cmr/m/n/10
+ ) = []
+ []
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 1254.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 1254.
+
+<pic/gr_5.png, id=508, 642.4pt x 481.8pt>
+File: pic/gr_5.png Graphic file (type png)
+<use pic/gr_5.png>
+Package pdftex.def Info: pic/gr_5.png  used on input line 1257.
+(pdftex.def)             Requested size: 234.10677pt x 175.57985pt.
 
 Package fancyhdr Warning: \footskip is too small (0.0pt): 
 (fancyhdr)                Make it at least 12.0pt, for example:
 (fancyhdr)                \setlength{\footskip}{12.0pt}.
 
-[31] (./lab1.aux)
+[31 <./pic/gr_5.png (PNG copy)>]
+Underfull \hbox (badness 10000) in paragraph at lines 1265--1269
+
+ []
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 1275.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `subscript' on input line 1275.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 1275.
+
+
+Overfull \hbox (19.12125pt too wide) detected at line 1285
+ []$[]  \OML/cmm/m/it/10 c[] \OT1/cmr/m/n/10 = [] [] \OML/cmm/m/it/10 f\OT1/cmr
+/m/n/10 (\OML/cmm/m/it/10 t\OT1/cmr/m/n/10 )\OML/cmm/m/it/10 e[]dt \OT1/cmr/m/n
+/10 = [] [] []  $ 
+ []
+
+
+Package fancyhdr Warning: \footskip is too small (0.0pt): 
+(fancyhdr)                Make it at least 12.0pt, for example:
+(fancyhdr)                \setlength{\footskip}{12.0pt}.
+
+[32]
+Overfull \hbox (24.9215pt too wide) detected at line 1311
+ []$[]  \OML/cmm/m/it/10 c[] \OT1/cmr/m/n/10 = [] [] []  $ 
+ []
+
+
+Overfull \hbox (24.9215pt too wide) detected at line 1339
+ []$[]  \OML/cmm/m/it/10 c[] \OT1/cmr/m/n/10 = [] [] []  $ 
+ []
+
+
+Package fancyhdr Warning: \footskip is too small (0.0pt): 
+(fancyhdr)                Make it at least 12.0pt, for example:
+(fancyhdr)                \setlength{\footskip}{12.0pt}.
+
+[33]
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 1363.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `subscript' on input line 1363.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 1363.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Package fancyhdr Warning: \footskip is too small (0.0pt): 
+(fancyhdr)                Make it at least 12.0pt, for example:
+(fancyhdr)                \setlength{\footskip}{12.0pt}.
+
+[34]
+
+Package fancyhdr Warning: \footskip is too small (0.0pt): 
+(fancyhdr)                Make it at least 12.0pt, for example:
+(fancyhdr)                \setlength{\footskip}{12.0pt}.
+
+[35] (./lab1.aux)
  ***********
 LaTeX2e <2023-06-01>
 L3 programming layer <2023-06-05>
@@ -2303,13 +2399,13 @@ L3 programming layer <2023-06-05>
 LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `lab1.out' has not changed.
-(rerunfilecheck)             Checksum: 510597EEB957A1D613214396D0DF469B;9542.
+(rerunfilecheck)             Checksum: 123B6879D5D3B910D570354F64080599;10822.
  ) 
 Here is how much of TeX's memory you used:
- 54033 strings out of 475734
- 1326560 string characters out of 5786229
+ 54096 strings out of 475734
+ 1327494 string characters out of 5786229
  2384872 words of memory out of 5000000
- 73913 multiletter control sequences out of 15000+600000
+ 73939 multiletter control sequences out of 15000+600000
  534014 words of font info for 82 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  84i,12n,89p,1082b,2082s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -2319,27 +2415,29 @@ live/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2023
 t/fonts/type1/public/amsfonts/cm/cmmi6.pfb><c:/texlive/2023/texmf-dist/fonts/ty
 pe1/public/amsfonts/cm/cmmi7.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public
 /amsfonts/cm/cmmi9.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/
-cm/cmr10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pf
-b><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb><c:/texli
-ve/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2023/t
-exmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb><c:/texlive/2023/texmf-dist/
-fonts/type1/public/amsfonts/symbols/msbm10.pfb><c:/texlive/2023/texmf-dist/font
-s/type1/public/cm-super/sfbx1000.pfb><c:/texlive/2023/texmf-dist/fonts/type1/pu
-blic/cm-super/sfbx1200.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/cm-su
-per/sfbx1440.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm05
-00.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm0800.pfb><c:
-/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm0900.pfb><c:/texlive/2
-023/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb><c:/texlive/2023/texmf-
-dist/fonts/type1/public/cm-super/sfrm1200.pfb><c:/texlive/2023/texmf-dist/fonts
-/type1/public/cm-super/sfsi0900.pfb><c:/texlive/2023/texmf-dist/fonts/type1/pub
-lic/cm-super/sfss0900.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/cm-sup
-er/sfsx0900.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfti090
-0.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfti1000.pfb><c:/
-texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfti1200.pfb>
-Output written on lab1.pdf (32 pages, 2308277 bytes).
+cm/cmr10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pf
+b><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><c:/texli
+ve/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb><c:/texlive/2023/tex
+mf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2023/texmf-dist/f
+onts/type1/public/amsfonts/cm/cmsy5.pfb><c:/texlive/2023/texmf-dist/fonts/type1
+/public/amsfonts/cm/cmsy7.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/am
+sfonts/symbols/msbm10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/cm-sup
+er/sfbx1000.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfbx120
+0.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb><c:/
+texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm0500.pfb><c:/texlive/20
+23/texmf-dist/fonts/type1/public/cm-super/sfrm0800.pfb><c:/texlive/2023/texmf-d
+ist/fonts/type1/public/cm-super/sfrm0900.pfb><c:/texlive/2023/texmf-dist/fonts/
+type1/public/cm-super/sfrm1000.pfb><c:/texlive/2023/texmf-dist/fonts/type1/publ
+ic/cm-super/sfrm1200.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/cm-supe
+r/sfsi0900.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfss0900
+.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfsx0900.pfb><c:/t
+exlive/2023/texmf-dist/fonts/type1/public/cm-super/sfti0900.pfb><c:/texlive/202
+3/texmf-dist/fonts/type1/public/cm-super/sfti1000.pfb><c:/texlive/2023/texmf-di
+st/fonts/type1/public/cm-super/sfti1200.pfb>
+Output written on lab1.pdf (36 pages, 2359256 bytes).
 PDF statistics:
- 656 PDF objects out of 1000 (max. 8388607)
- 515 compressed objects within 6 object streams
- 217 named destinations out of 1000 (max. 500000)
- 473 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 738 PDF objects out of 1000 (max. 8388607)
+ 588 compressed objects within 6 object streams
+ 254 named destinations out of 1000 (max. 500000)
+ 518 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -2,7 +2,7 @@ import scipy.integrate as integrate
 import numpy as np
 
 
-my_sigma = 10000  # мелкость разбиения
+my_sigma = 100000  # мелкость разбиения
 
 
 def fun_square_wave(t):
@@ -78,7 +78,7 @@ def m():
     print(c_coef(fun_not_odd_not_even, 3))
 
 
-m()
+#m()
     #f_test_1 = for_test(f_1_test, f_2_test, 1)
 
     #print(f_test_1[0] + f_test_1[1])
