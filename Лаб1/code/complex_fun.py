@@ -66,6 +66,33 @@ def graphics_G(t, N, f):
     return res
 
 
+#  draw Re f(t)
+def _graph_re_f():
+    N = 10
+    t = np.linspace(-1, 7, 1000)
+    plt.plot(t, fc_vec(t).real, label=r'$Re \, f(t)$')
+    plt.plot(t, graphics_G(t, N, fc_vec).real, label=r'$Re \, G_N(t)$')
+    plt.grid()
+    plt.title('Графики вещественной части при N = 10.')
+    plt.legend()
+    plt.show()
+
+
+#  draw Im f(t)
+def _graph_im_f():
+    N = 10
+    t = np.linspace(-1, 7, 1000)
+    plt.plot(t, fc_vec(t).imag, label=r'$Im \, f(t)$')
+    plt.plot(t, graphics_G(t, N, fc_vec).imag, label=r'$Im \, G_N(t)$')
+    plt.grid()
+    plt.title('Графики мнимой части при N = 10.')
+    plt.legend()
+    plt.show()
+
+
+#  draw Re GN(t)
+#  draw Im GN(t)
+
 def mm():
     c = c_complex(fc_vec, 3)
     for n in range(len(c)):
@@ -73,5 +100,6 @@ def mm():
 
 
 #mm()
-_graphic_complex()
+#_graphic_complex()
+_graph_re_f()
 
