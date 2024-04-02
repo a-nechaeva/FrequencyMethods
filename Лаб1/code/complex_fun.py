@@ -34,10 +34,12 @@ fc_vec = np.vectorize(fun_complex)
 
 #  draw graphic of complex fun
 def _graphic_complex():
+    N = 10
     t = np.linspace(-1, 7, 1000)
     plt.plot(fc_vec(t).real, fc_vec(t).imag, label='Исходная функция')
+    plt.plot(graphics_G(t, N, fc_vec).real, graphics_G(t, N, fc_vec).imag, label='График G(t)')
     plt.grid()
-    plt.title('График исходной функции.')
+    plt.title('Комплексная функция, N = 10, приближение G(t).')
     plt.xlabel('Re (f)')
     plt.ylabel('Im (f)')
     plt.legend()
@@ -49,7 +51,18 @@ def c_complex(f, N):
     res = []
     for n in range(-N, N + 1):
         fourier_exp = lambda t: np.exp(-1j * n * t * np.pi / 4)
-        res.append(integral_counter(f, fourier_exp, -1, 7) / (8))
+        res.append(integral_counter(f, fourier_exp, -1, 7) / 8)
+    return res
+
+
+#  GN function for complex
+def graphics_G(t, N, f):
+    c_n = c_complex(f, N)
+    res = 0 + 0j
+
+    for n in range(-N, N + 1):
+        res += c_n[n + N] * np.exp(1j * n * t * np.pi / 4)
+
     return res
 
 
@@ -59,6 +72,6 @@ def mm():
         print(round(c[n].real, 5), '        ', round(c[n].imag, 2))
 
 
-mm()
-#_graphic_complex()
+#mm()
+_graphic_complex()
 
