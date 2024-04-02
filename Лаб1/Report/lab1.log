@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.6.14)  3 APR 2024 00:43
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.6.14)  3 APR 2024 02:34
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2444,51 +2444,153 @@ Package fancyhdr Warning: \footskip is too small (0.0pt):
 
 [37 <./gr_com/g3.png (PNG copy)>]
 
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 1431.
+Package fancyhdr Warning: \footskip is too small (0.0pt): 
+(fancyhdr)                Make it at least 12.0pt, for example:
+(fancyhdr)                \setlength{\footskip}{12.0pt}.
 
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 1431.
-
+[38 <./gr_com/g10.png (PNG copy)>]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 1431.
+(hyperref)                removing `math shift' on input line 1432.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 1431.
+(hyperref)                removing `math shift' on input line 1432.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 1431.
+(hyperref)                removing `math shift' on input line 1432.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `subscript' on input line 1431.
+(hyperref)                removing `math shift' on input line 1432.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 1431.
+(hyperref)                removing `math shift' on input line 1432.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 1431.
+(hyperref)                removing `subscript' on input line 1432.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `subscript' on input line 1431.
+(hyperref)                removing `math shift' on input line 1432.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 1431.
+(hyperref)                removing `math shift' on input line 1432.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `subscript' on input line 1432.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 1432.
+
+<rei_com/r_f.png, id=591, 642.4pt x 481.8pt>
+File: rei_com/r_f.png Graphic file (type png)
+<use rei_com/r_f.png>
+Package pdftex.def Info: rei_com/r_f.png  used on input line 1436.
+(pdftex.def)             Requested size: 172.13918pt x 129.1026pt.
+<rei_com/i_f.png, id=592, 642.4pt x 481.8pt>
+File: rei_com/i_f.png Graphic file (type png)
+<use rei_com/i_f.png>
+Package pdftex.def Info: rei_com/i_f.png  used on input line 1440.
+(pdftex.def)             Requested size: 172.13918pt x 129.1026pt.
+
+Overfull \hbox (2.22166pt too wide) in paragraph at lines 1435--1442
+[]$[]$  $[]$ 
+ []
+
+<rei_com/r_1.png, id=593, 642.4pt x 481.8pt>
+File: rei_com/r_1.png Graphic file (type png)
+<use rei_com/r_1.png>
+Package pdftex.def Info: rei_com/r_1.png  used on input line 1447.
+(pdftex.def)             Requested size: 172.13918pt x 129.1026pt.
+<rei_com/i_1.png, id=594, 642.4pt x 481.8pt>
+File: rei_com/i_1.png Graphic file (type png)
+<use rei_com/i_1.png>
+Package pdftex.def Info: rei_com/i_1.png  used on input line 1451.
+(pdftex.def)             Requested size: 172.13918pt x 129.1026pt.
+
+Overfull \hbox (2.22166pt too wide) in paragraph at lines 1446--1453
+[]$[]$  $[]$ 
+ []
+
+<rei_com/r_2.png, id=595, 642.4pt x 481.8pt>
+File: rei_com/r_2.png Graphic file (type png)
+<use rei_com/r_2.png>
+Package pdftex.def Info: rei_com/r_2.png  used on input line 1460.
+(pdftex.def)             Requested size: 172.13918pt x 129.1026pt.
+<rei_com/i_2.png, id=596, 642.4pt x 481.8pt>
+File: rei_com/i_2.png Graphic file (type png)
+<use rei_com/i_2.png>
+Package pdftex.def Info: rei_com/i_2.png  used on input line 1464.
+(pdftex.def)             Requested size: 172.13918pt x 129.1026pt.
+
+Overfull \hbox (2.22166pt too wide) in paragraph at lines 1459--1466
+[]$[]$  $[]$ 
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
 
 
 Package fancyhdr Warning: \footskip is too small (0.0pt): 
 (fancyhdr)                Make it at least 12.0pt, for example:
 (fancyhdr)                \setlength{\footskip}{12.0pt}.
 
-[38 <./gr_com/g10.png (PNG copy)>] (./lab1.aux)
+[39 <./rei_com/r_f.png (PNG copy)> <./rei_com/i_f.png (PNG copy)> <./rei_com/r_
+1.png (PNG copy)> <./rei_com/i_1.png (PNG copy)>]
+<rei_com/r_3.png, id=603, 642.4pt x 481.8pt>
+File: rei_com/r_3.png Graphic file (type png)
+<use rei_com/r_3.png>
+Package pdftex.def Info: rei_com/r_3.png  used on input line 1474.
+(pdftex.def)             Requested size: 172.13918pt x 129.1026pt.
+<rei_com/i_3.png, id=604, 642.4pt x 481.8pt>
+File: rei_com/i_3.png Graphic file (type png)
+<use rei_com/i_3.png>
+Package pdftex.def Info: rei_com/i_3.png  used on input line 1478.
+(pdftex.def)             Requested size: 172.13918pt x 129.1026pt.
+
+Overfull \hbox (2.22166pt too wide) in paragraph at lines 1473--1480
+[]$[]$  $[]$ 
+ []
+
+<rei_com/r_10.png, id=605, 642.4pt x 481.8pt>
+File: rei_com/r_10.png Graphic file (type png)
+<use rei_com/r_10.png>
+Package pdftex.def Info: rei_com/r_10.png  used on input line 1487.
+(pdftex.def)             Requested size: 172.13918pt x 129.1026pt.
+<rei_com/i_10.png, id=606, 642.4pt x 481.8pt>
+File: rei_com/i_10.png Graphic file (type png)
+<use rei_com/i_10.png>
+Package pdftex.def Info: rei_com/i_10.png  used on input line 1491.
+(pdftex.def)             Requested size: 172.13918pt x 129.1026pt.
+
+Overfull \hbox (2.22166pt too wide) in paragraph at lines 1486--1493
+[]$[]$  $[]$ 
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Package fancyhdr Warning: \footskip is too small (0.0pt): 
+(fancyhdr)                Make it at least 12.0pt, for example:
+(fancyhdr)                \setlength{\footskip}{12.0pt}.
+
+[40 <./rei_com/r_2.png (PNG copy)> <./rei_com/i_2.png (PNG copy)> <./rei_com/r_
+3.png (PNG copy)> <./rei_com/i_3.png (PNG copy)>]
+
+Package fancyhdr Warning: \footskip is too small (0.0pt): 
+(fancyhdr)                Make it at least 12.0pt, for example:
+(fancyhdr)                \setlength{\footskip}{12.0pt}.
+
+[41 <./rei_com/r_10.png (PNG copy)> <./rei_com/i_10.png (PNG copy)>]
+(./lab1.aux)
  ***********
 LaTeX2e <2023-06-01>
 L3 programming layer <2023-06-05>
@@ -2501,10 +2603,10 @@ Package rerunfilecheck Info: File `lab1.out' has not changed.
 (rerunfilecheck)             Checksum: FEF6C89093BBFF8D8D246CD113E72B80;11673.
  ) 
 Here is how much of TeX's memory you used:
- 54135 strings out of 475734
- 1328226 string characters out of 5786229
- 2384870 words of memory out of 5000000
- 73969 multiletter control sequences out of 15000+600000
+ 54213 strings out of 475734
+ 1329876 string characters out of 5786229
+ 2384871 words of memory out of 5000000
+ 74039 multiletter control sequences out of 15000+600000
  534014 words of font info for 82 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  84i,12n,89p,1082b,2082s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -2533,10 +2635,10 @@ r/sfsi0900.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfss0900
 exlive/2023/texmf-dist/fonts/type1/public/cm-super/sfti0900.pfb><c:/texlive/202
 3/texmf-dist/fonts/type1/public/cm-super/sfti1000.pfb><c:/texlive/2023/texmf-di
 st/fonts/type1/public/cm-super/sfti1200.pfb>
-Output written on lab1.pdf (39 pages, 2501867 bytes).
+Output written on lab1.pdf (42 pages, 2834929 bytes).
 PDF statistics:
- 771 PDF objects out of 1000 (max. 8388607)
- 613 compressed objects within 7 object streams
- 263 named destinations out of 1000 (max. 500000)
- 554 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 800 PDF objects out of 1000 (max. 8388607)
+ 629 compressed objects within 7 object streams
+ 271 named destinations out of 1000 (max. 500000)
+ 604 words of extra memory for PDF output out of 10000 (max. 10000000)
 
