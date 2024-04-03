@@ -39,7 +39,7 @@ def _draw_noise(a, b, c, d, t_1, t_2, T, _sigma):
     plt.plot(t, _noise_fun(a, b, c, d, t_1, t_2, t), label='g(t) with noise')
     plt.legend()
     plt.grid()
-    plt.title('Зашумленный график функции g(t) при b = 0.5, c = 0.5, d = 0.5')
+    plt.title('Зашумленный график функции g(t) при b = 0.5, c = 0, d = 0.5')
     plt.show()
 
 
@@ -48,7 +48,7 @@ def _draw_noise(a, b, c, d, t_1, t_2, T, _sigma):
 def _run():
     a = 1
     b = 0.5
-    c = 0.5
+    c = 0
     d = 0.5
 
     t_1 = 0

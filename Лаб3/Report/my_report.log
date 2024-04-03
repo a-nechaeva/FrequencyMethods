@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.6.14)  3 APR 2024 16:03
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.6.14)  3 APR 2024 17:13
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1364,15 +1364,20 @@ Underfull \hbox (badness 10000) in paragraph at lines 148--151
 File: pic/g_orig.png Graphic file (type png)
 <use pic/g_orig.png>
 Package pdftex.def Info: pic/g_orig.png  used on input line 157.
-(pdftex.def)             Requested size: 292.6387pt x 219.484pt.
+(pdftex.def)             Requested size: 275.42374pt x 206.57446pt.
 <pic/n_0.5_0.5_0.5.png, id=40, 642.4pt x 481.8pt>
 File: pic/n_0.5_0.5_0.5.png Graphic file (type png)
 <use pic/n_0.5_0.5_0.5.png>
 Package pdftex.def Info: pic/n_0.5_0.5_0.5.png  used on input line 162.
-(pdftex.def)             Requested size: 292.6387pt x 219.484pt.
+(pdftex.def)             Requested size: 240.9938pt x 180.7407pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
+<pic/n_0.5_0_0.5.png, id=41, 642.4pt x 481.8pt>
+File: pic/n_0.5_0_0.5.png Graphic file (type png)
+<use pic/n_0.5_0_0.5.png>
+Package pdftex.def Info: pic/n_0.5_0_0.5.png  used on input line 169.
+(pdftex.def)             Requested size: 240.9938pt x 180.7407pt.
 
 Package fancyhdr Warning: \footskip is too small (0.0pt): 
 (fancyhdr)                Make it at least 12.0pt, for example:
@@ -1383,21 +1388,26 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.178 \subsection
-                 {Убираем специфические частоты}
-[1 <./pic/g_orig.png (PNG copy)>]
+l.171 \end{figure}
+                   [1 <./pic/g_orig.png (PNG copy)>]
 
 Package fancyhdr Warning: \footskip is too small (0.0pt): 
 (fancyhdr)                Make it at least 12.0pt, for example:
 (fancyhdr)                \setlength{\footskip}{12.0pt}.
 
-[2 <./pic/n_0.5_0.5_0.5.png (PNG copy)>]
+[2 <./pic/n_0.5_0.5_0.5.png (PNG copy)> <./pic/n_0.5_0_0.5.png (PNG copy)>]
 
 Package fancyhdr Warning: \footskip is too small (0.0pt): 
 (fancyhdr)                Make it at least 12.0pt, for example:
 (fancyhdr)                \setlength{\footskip}{12.0pt}.
 
-[3] (./my_report.aux)
+[3]
+
+Package fancyhdr Warning: \footskip is too small (0.0pt): 
+(fancyhdr)                Make it at least 12.0pt, for example:
+(fancyhdr)                \setlength{\footskip}{12.0pt}.
+
+[4] (./my_report.aux)
  ***********
 LaTeX2e <2023-06-01>
 L3 programming layer <2023-06-05>
@@ -1406,30 +1416,32 @@ Package rerunfilecheck Info: File `my_report.out' has not changed.
 (rerunfilecheck)             Checksum: 875D21EFF76A057357D45BE0DA4BF253;1250.
  ) 
 Here is how much of TeX's memory you used:
- 52998 strings out of 475734
- 1311267 string characters out of 5786229
+ 53010 strings out of 475734
+ 1311542 string characters out of 5786229
  2000901 words of memory out of 5000000
- 73103 multiletter control sequences out of 15000+600000
+ 73112 multiletter control sequences out of 15000+600000
  528667 words of font info for 75 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 84i,11n,89p,762b,609s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/tex
-live/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb><c:/texlive/2023/
-texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2023/texmf-dist
-/fonts/type1/public/amsfonts/cm/cmr7.pfb><c:/texlive/2023/texmf-dist/fonts/type
-1/public/amsfonts/cm/cmr9.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/am
-sfonts/cm/cmsy10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sf
-bx1200.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb
-><c:/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm0800.pfb><c:/texli
-ve/2023/texmf-dist/fonts/type1/public/cm-super/sfrm0900.pfb><c:/texlive/2023/te
-xmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb><c:/texlive/2023/texmf-dist/f
-onts/type1/public/cm-super/sfrm1200.pfb><c:/texlive/2023/texmf-dist/fonts/type1
-/public/cm-super/sfti0900.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/cm
--super/sfti1200.pfb>
-Output written on my_report.pdf (4 pages, 268935 bytes).
+ 84i,12n,89p,762b,609s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/tex
+live/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2023
+/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb><c:/texlive/2023/texmf-dis
+t/fonts/type1/public/amsfonts/cm/cmmi9.pfb><c:/texlive/2023/texmf-dist/fonts/ty
+pe1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public
+/amsfonts/cm/cmr7.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/c
+m/cmr9.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pf
+b><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb><c:/texl
+ive/2023/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb><c:/texlive/2023/t
+exmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb><c:/texlive/2023/texmf-dist/
+fonts/type1/public/cm-super/sfrm0800.pfb><c:/texlive/2023/texmf-dist/fonts/type
+1/public/cm-super/sfrm0900.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/c
+m-super/sfrm1000.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sf
+rm1200.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfti0900.pfb
+><c:/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfti1200.pfb>
+Output written on my_report.pdf (5 pages, 346154 bytes).
 PDF statistics:
- 125 PDF objects out of 1000 (max. 8388607)
- 88 compressed objects within 1 object stream
- 11 named destinations out of 1000 (max. 500000)
- 63 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 149 PDF objects out of 1000 (max. 8388607)
+ 103 compressed objects within 2 object streams
+ 14 named destinations out of 1000 (max. 500000)
+ 68 words of extra memory for PDF output out of 10000 (max. 10000000)
 

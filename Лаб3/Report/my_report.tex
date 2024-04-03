@@ -154,19 +154,27 @@ $$u = g + b \cdot (rand(size(t))-0.5) + c \cdot \sin (d \cdot t)$$
 
 
 \begin{figure}[h]
-\center{\includegraphics[width=0.85\linewidth]{pic/g_orig.png}}
+\center{\includegraphics[width=0.8\linewidth]{pic/g_orig.png}}
 \caption{График исходной функции $g(t)$.}
 \end{figure}
 
 \begin{figure}[h]
-\center{\includegraphics[width=0.85\linewidth]{pic/n_0.5_0.5_0.5.png}}
+\center{\includegraphics[width=0.7\linewidth]{pic/n_0.5_0.5_0.5.png}}
 \caption{График функции $g(t)$ с шумами при $b = 0.5, c = 0.5, d = 0.5$.}
 \end{figure}
 
 \subsection{Убираем высокие частоты}
 
-Пусть $c = 0$
+\begin{figure}[h!]
+\center{\includegraphics[width=0.7\linewidth]{pic/n_0.5_0_0.5.png}}
+\caption{График функции $g(t)$ с шумами при $b = 0.5, c = 0, d = 0.5$.}
+\end{figure}
 
+График с шумами при $c= 0$ представлен на рисунке 3. \\
+Найдем Фурье-образ сигнала $u$.
+\begin{equation}
+\hat{f}(\omega) = \frac{1}{\sqrt{2 \pi}} \int_{-\infty}^{\infty} f(t) e^{-i t \omega} dt
+\end{equation}
 
 
 
