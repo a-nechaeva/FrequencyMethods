@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.6.14)  3 APR 2024 15:12
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.6.14)  3 APR 2024 16:03
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1360,11 +1360,19 @@ Underfull \hbox (badness 10000) in paragraph at lines 148--151
 
  []
 
-<pic/g_orig.png, id=27, 642.4pt x 481.8pt>
+<pic/g_orig.png, id=39, 642.4pt x 481.8pt>
 File: pic/g_orig.png Graphic file (type png)
 <use pic/g_orig.png>
 Package pdftex.def Info: pic/g_orig.png  used on input line 157.
 (pdftex.def)             Requested size: 292.6387pt x 219.484pt.
+<pic/n_0.5_0.5_0.5.png, id=40, 642.4pt x 481.8pt>
+File: pic/n_0.5_0.5_0.5.png Graphic file (type png)
+<use pic/n_0.5_0.5_0.5.png>
+Package pdftex.def Info: pic/n_0.5_0.5_0.5.png  used on input line 162.
+(pdftex.def)             Requested size: 292.6387pt x 219.484pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
 
 Package fancyhdr Warning: \footskip is too small (0.0pt): 
 (fancyhdr)                Make it at least 12.0pt, for example:
@@ -1375,14 +1383,15 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.189 \newpage
-               [1 <./pic/g_orig.png (PNG copy)>]
+l.178 \subsection
+                 {Убираем специфические частоты}
+[1 <./pic/g_orig.png (PNG copy)>]
 
 Package fancyhdr Warning: \footskip is too small (0.0pt): 
 (fancyhdr)                Make it at least 12.0pt, for example:
 (fancyhdr)                \setlength{\footskip}{12.0pt}.
 
-[2]
+[2 <./pic/n_0.5_0.5_0.5.png (PNG copy)>]
 
 Package fancyhdr Warning: \footskip is too small (0.0pt): 
 (fancyhdr)                Make it at least 12.0pt, for example:
@@ -1393,21 +1402,14 @@ Package fancyhdr Warning: \footskip is too small (0.0pt):
 LaTeX2e <2023-06-01>
 L3 programming layer <2023-06-05>
  ***********
-
-
-Package rerunfilecheck Warning: File `my_report.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `my_report.out':
-(rerunfilecheck)             Before: F9299A12E5297D18C04EA663F1EAAAC9;482
-(rerunfilecheck)             After:  875D21EFF76A057357D45BE0DA4BF253;1250.
+Package rerunfilecheck Info: File `my_report.out' has not changed.
+(rerunfilecheck)             Checksum: 875D21EFF76A057357D45BE0DA4BF253;1250.
  ) 
 Here is how much of TeX's memory you used:
- 52987 strings out of 475734
- 1311008 string characters out of 5786229
- 1999901 words of memory out of 5000000
- 73093 multiletter control sequences out of 15000+600000
+ 52998 strings out of 475734
+ 1311267 string characters out of 5786229
+ 2000901 words of memory out of 5000000
+ 73103 multiletter control sequences out of 15000+600000
  528667 words of font info for 75 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  84i,11n,89p,762b,609s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -1424,10 +1426,10 @@ xmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb><c:/texlive/2023/texmf-dist/f
 onts/type1/public/cm-super/sfrm1200.pfb><c:/texlive/2023/texmf-dist/fonts/type1
 /public/cm-super/sfti0900.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/cm
 -super/sfti1200.pfb>
-Output written on my_report.pdf (4 pages, 214506 bytes).
+Output written on my_report.pdf (4 pages, 268935 bytes).
 PDF statistics:
- 114 PDF objects out of 1000 (max. 8388607)
- 78 compressed objects within 1 object stream
- 10 named destinations out of 1000 (max. 500000)
- 34 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 125 PDF objects out of 1000 (max. 8388607)
+ 88 compressed objects within 1 object stream
+ 11 named destinations out of 1000 (max. 500000)
+ 63 words of extra memory for PDF output out of 10000 (max. 10000000)
 
