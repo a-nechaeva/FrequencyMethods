@@ -2,7 +2,7 @@ import scipy.integrate as integrate
 import numpy as np
 
 
-my_sigma = 1000  # мелкость разбиения
+my_sigma = 100000  # мелкость разбиения
 
 
 def fun_square_wave(t):

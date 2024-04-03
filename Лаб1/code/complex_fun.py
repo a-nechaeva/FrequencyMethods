@@ -90,17 +90,23 @@ def _graph_im_f():
     plt.show()
 
 
+def c_integral_counter(f_1, f_2, a, b):
+
+    t = np.linspace(a, b, my_sigma)
+    dt = (b + a) / my_sigma
+
+    return np.dot(abs(f_1(t)), abs(f_2(t))) * dt
+
+
 #  parseval check for complex function
 def _c_parseval(f, N):
     c = c_complex(f, N)
     res = 0
 
     for n in range(len(c)):
-        res += abs(c[n]) ** 2
+        res += (abs(c[n])) ** 2
 
-    abs_complex = np.vectorize(lambda x: abs(fun_complex(x)))
-
-    f_norm = integral_counter(abs_complex, abs_complex, -1, 7)
+    f_norm = c_integral_counter(fc_vec, fc_vec, -1, 7)
 
     print(res * 2 * np.pi)
     print(f_norm)
@@ -115,4 +121,4 @@ def mm():
 #_graphic_complex()
 #_graph_re_f()
 
-_c_parseval(fc_vec, 3)
+_c_parseval(fc_vec, 100)
