@@ -57,8 +57,8 @@ def integral_counter(X, f_1, f_2):
 #  convert to fourier-image
 def _fourier_img_0(f, V):
     X = np.linspace(-10, 10, 1000)
-    return np.array([1 / (np.sqrt(2 * np.pi)) * integral_counter(X, f, (lambda t: 0 * np.e ** (-1j * image_clip * t)
-    if -10 <= image_clip <= 10 else np.e ** (-1j * image_clip * t))(X))
+    return np.array([1 / (np.sqrt(2 * np.pi)) * integral_counter(X, f, (lambda t:  np.e ** (-1j * image_clip * t)
+    if -10 <= image_clip <= 10 else 0 * np.e ** (-1j * image_clip * t))(X))
                      for image_clip in V])
 
 
@@ -136,8 +136,8 @@ def _draw_abs_images_fourier(u, f):
 #  run function
 def _run():
     a = 1
-    b = 0.5
-    c = 0.5
+    b = 1
+    c = 1
     d = 1
 
     t_1 = 0
