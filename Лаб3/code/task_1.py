@@ -57,8 +57,8 @@ def integral_counter(X, f_1, f_2):
 #  convert to fourier-image
 def _fourier_img_0(f, V):
     X = np.linspace(-10, 10, 1000)
-    return np.array([1 / (np.sqrt(2 * np.pi)) * integral_counter(X, f, (lambda t: np.e ** (-1j * image_clip * t)
-    if -10 <= image_clip <= 10 else 0 * np.e ** (-1j * image_clip * t) )(X))
+    return np.array([1 / (np.sqrt(2 * np.pi)) * integral_counter(X, f, (lambda t: 0 * np.e ** (-1j * image_clip * t)
+    if -10 <= image_clip <= 10 else np.e ** (-1j * image_clip * t))(X))
                      for image_clip in V])
 
 
@@ -100,7 +100,7 @@ def _draw_orig_and_ift(f):
     plt.legend()
     plt.xlabel(r'$t$')
     plt.ylabel(r'$f(t)$')
-    plt.title(r'График $g(t)$ и $u(t)$ после фильтрации при b = 1 d = 0.5 c = 0')
+    plt.title(r'График $g(t)$ и $u(t)$ после фильтрации при b = 0.5 d = 1 c = 0.5')
     plt.show()
 
 
@@ -114,7 +114,7 @@ def _draw_image_fourier(f):
     plt.legend()
     plt.xlabel(r'$\nu$')
     plt.ylabel(r'$\hat{f}(\nu)$')
-    plt.title('Фурье-образ сигнала u при b = d = 0.5, c = 0 после фильтрации')
+    plt.title('Фурье-образ сигнала u при b = c = 0.5, d = 5')
     plt.show()
 
 
@@ -122,13 +122,13 @@ def _draw_image_fourier(f):
 def _draw_abs_images_fourier(u, f):
     V_1 = np.linspace(-25, 25, 1000)
 
-    plt.plot(V_1, abs(_fourier_img_0(u, V_1)), label=r'$ |u(t)|$')
+    plt.plot(V_1, abs(_fourier_img_1(u, V_1)), label=r'$ |u(t)|$')
     plt.plot(V_1, abs(_fourier_img_1(f, V_1)), label=r'$|g(t)|$')
     plt.grid()
     plt.legend()
     plt.xlabel(r'$\nu$')
     plt.ylabel(r'$\hat{f}(\nu)$')
-    plt.title(r'Модули Фурье-образов $u(t)$ после фильтрации и '
+    plt.title(r'Модули Фурье-образов $u(t)$ до фильтрации и '
               r'$g(t)$')
     plt.show()
 
@@ -136,9 +136,9 @@ def _draw_abs_images_fourier(u, f):
 #  run function
 def _run():
     a = 1
-    b = 1
-    c = 0
-    d = 0.5
+    b = 0.5
+    c = 0.5
+    d = 1
 
     t_1 = 0
     t_2 = 2
@@ -150,7 +150,7 @@ def _run():
     #_draw_noise(a, b, c, d, t_1, t_2, T, _sigma)
     #wave = get_wave_func(a, t_1, t_2)(X)
     t = np.linspace(-10, 10, 1000)
-    #_draw_image_fourier(_noise_fun(a, b, c, d, t_1, t_2, t))
+    _draw_image_fourier(_noise_fun(a, b, c, d, t_1, t_2, t))
     #_draw_inverse(_noise_fun(a, b, c, d, t_1, t_2, t))
     _draw_orig_and_ift(_noise_fun(a, b, c, d, t_1, t_2, t))
     #_draw_abs_images_fourier(_noise_fun(a, b, c, d, t_1, t_2, t), _g_vec(a, t_1, t_2, t))

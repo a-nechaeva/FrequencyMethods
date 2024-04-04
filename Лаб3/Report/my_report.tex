@@ -325,18 +325,87 @@ $$u = g + b \cdot (rand(size(t))-0.5) + c \cdot \sin (d \cdot t)$$
 
 \subsection{Убираем специфические частоты}
 
+Пусть $b = 0.5, c = 0.5, d = 5$. Найдем Фурье-образ сигнала.
+
+\begin{figure}[h!]
+\center{\includegraphics[width=1\linewidth]{pic/s_0.5_0.5_5.png}}
+\caption{Фурье-образ функции $u(t)$ при $b = 0.5, c = 0.5, d = 5$.}
+\end{figure}
+
+\newpage
+Попробуем убрать сначала высокие частоты, с помощью обнуления определенного диапазона частот, возьмем $\nu_0 = 10$ и воспользуемся способом из пункта 1.1.
+
+
+\begin{figure}[h!]
+\center{\includegraphics[width=0.7\linewidth]{pic/s_res_0.5_0.5_5.png}}
+\caption{Функция $g(t)$ при $b = 0.5, c = 0.5, d = 5$  и $u(t)$ без высоких частот.}
+\end{figure}
+
+Получим график (рисунок 17), в котором теперь основной шум представляют гармонические колебания. Попробуем обнулить частоты, которым соответствуют наибольшие скачки функции $Im \hat{f}(\nu)$ (рисунок 16), то есть около 5 и -5.
+
+\begin{figure}[h!]
+\center{\includegraphics[width=0.8\linewidth]{pic/s_im_res_0.5_0.5_5.png}}
+\caption{Фурье-образ функции $u(t)$ при $b = 0.5, c = 0.5, d = 5$ после фильтрации.}
+\end{figure}
+
+
+
+\begin{figure}[h!]
+\center{\includegraphics[width=0.7\linewidth]{pic/s_res.png}}
+\caption{Функция $g(t)$ при $b = 0.5, c = 0.5, d = 5$  и $u(t)$ после фильтрации от высоких частот и от специальных.}
+\end{figure}
 
 
 
 
+\begin{figure}[h!]
+\begin{minipage}[h]{0.5\linewidth}
+\center{\includegraphics[width=1\linewidth]{pic/s_abs_start.png}\\а)}
+\end{minipage}
+\hfill
+\begin{minipage}[h]{0.5\linewidth}
+\center{\includegraphics[width=1\linewidth]{pic/s_abs_res.png}\\б)}
+\end{minipage}
+\caption{Модули образов $g(t)$ и сигнала $u(t)$ до фильтрации (а) и после(б).}
+\end{figure}
+
+\newpage
+В результате получаем график, изображенный на рисунке 19, шумы, присутствующие ранее заметно снизились и теперь $u(t)$ лучше приближает исходную функцию $g(t)$.\\
+%Исследуем влияние частот среза и значений параметров $b, c, d$ на вид помех и эффективность фильтрации.
 
 
 
-
-
+\newpage
 \subsection{Убираем низкие частоты?}
+Рассмотрим фильтр, который обнуляет Фурье-образ на всех частотах в некоторой окрестности точки $\nu = 0$.
+
+\begin{figure}[h!]
+\center{\includegraphics[width=0.65\linewidth]{pic/l_st.png}}
+\caption{Функция $g(t)$ при $b = 0.5, c = 0.5, d = 1$  и $u(t)$ до фильтрации.}
+\end{figure}
+
+\begin{figure}[h!]
+\center{\includegraphics[width=0.7\linewidth]{pic/l_aft_5.png}}
+\caption{Функция $g(t)$ при $b = 0.5, c = 0.5, d = 1$  и $u(t)$ после фильтрации $|\nu | < 5$.}
+\end{figure}
+
+Заметим, что фильтр снизил амплитуду гармонической составляющей помех, но вместе с ней понизилось и сходство с графиком исходной функции (рисунок 22).\\ 
+
+ Рассмотрим влияние изменения ширины промежутка, в котором мы зануляем частоты.
 
 
+\begin{figure}[h!]
+\begin{minipage}[h]{0.5\linewidth}
+\center{\includegraphics[width=1\linewidth]{pic/l_1.png}\\а)}
+\end{minipage}
+\hfill
+\begin{minipage}[h]{0.5\linewidth}
+\center{\includegraphics[width=1\linewidth]{pic/l_10.png}\\б)}
+\end{minipage}
+\caption{Графики $g(t)$ и сигнала $u(t)$ после фильтрации при а) $|\nu| < 1$ и б) $|\nu| < 10$.}
+\end{figure}
+
+На рисунках 22-23 заметно, что при увеличении промежутка снижется количество шумов, но пропадает и нужный нам сигнал. В нашем случае фильтрация низких частот оказалась малоэффективной при любом промежутке $[-\nu, \nu]$.
 
 
 
