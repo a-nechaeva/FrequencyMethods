@@ -181,7 +181,142 @@ $$u = g + b \cdot (rand(size(t))-0.5) + c \cdot \sin (d \cdot t)$$
 \caption{Фурье-образ функции $u(t)$ при $b = 0.5, c = 0, d = 0.5$.}
 \end{figure}
 
+Частоту мы определили так: $V = 1 / dt = 1000 / 20 = 50$ $-$ ширина диапазона частот, $dv = 1 / T = 1 / 20$ $-$ шаг частоты.\\
 
+Оставим неизменным Фурье-образ для диапазона частот $[-\nu_0, \nu_0]$ и обнулим его значения на всех остальных частотах. Пусть $\nu_0 = 8$. Результат предствлен на рисунке 5.
+
+\begin{figure}[h!]
+\center{\includegraphics[width=1\linewidth]{pic/f_im_0.5_0_0.5_filter88.png}}
+\caption{Фурье-образ функции $u(t)$ при $b = 0.5, c = 0, d = 0.5$ после обнуления.}
+\end{figure}
+
+
+
+\newpage
+Теперь выполним обратное преобразование Фурье для полученного графика. \\
+Формула для обратного преобразования Фурье:
+\begin{equation}
+  f(t) = \frac{1}{\sqrt{2 \pi}} \int_{-\infty}^{\infty}\hat{f}(\omega) e^{i t \omega} d \omega
+\end{equation}
+
+\begin{figure}[h!]
+\center{\includegraphics[width=1\linewidth]{pic/f_ift_0.5_0_0.5.png}}
+\caption{Обратное Фурье-преобразование функции $u(t)$ при $b = 0.5, c = 0, d = 0.5$ после фильтрации.}
+\end{figure}
+
+
+\begin{figure}[h]
+\begin{minipage}[h]{0.5\linewidth}
+\center{\includegraphics[width=1\linewidth]{pic/n_0.5_0_0.5.png}\\а)}
+\end{minipage}
+\hfill
+\begin{minipage}[h]{0.5\linewidth}
+\center{\includegraphics[width=1\linewidth]{pic/ift_0.5_0_0.5.png}\\б)}
+\end{minipage}
+\caption{Сигнал $u(t)$ до фильтрации высоких частот(а) и после(б).}
+\end{figure}
+
+\newpage
+На рисунках 6 и 7 хорошо заметно, что полученный после фильтрации график менее зашумлен.\\
+\\
+Рисунок 8 иллюстрирует близость исходной функции к полученному после фильтрации высоких частот зашумленному графику.
+
+
+\begin{figure}[h!]
+\center{\includegraphics[width=0.9\linewidth]{pic/or_fil_0.5_0_0.5.png}}
+\caption{Исходная функция $g(t)$ при $b = 0.5, c = 0, d = 0.5$  и после очистки зашумленного сигнала.}
+\end{figure}
+
+
+
+
+\newpage
+
+
+Построим сравнительные графики модуля Фурье-образа исходного и фильтрованного сигналов.
+
+
+\begin{figure}[h!]
+\center{\includegraphics[width=0.9\linewidth]{pic/abs_0.5_0_0.5.png}}
+\caption{Сравнительные графики модуля Фурье-образа исходного и фильтрованного сигналов при $b = 0.5, c = 0, d = 0.5$.}
+\end{figure}
+
+Исследуем влияние частоты среза $\nu_0$ и значения параметра $b$ на эффективность фильтрации. \\
+
+Пусть $\nu_0 = [4, 8, 10]$, $b = [0.1, 0.25, 0.5, 1]$.
+
+
+
+\begin{figure}[h!]
+\begin{minipage}[h]{0.5\linewidth}
+\center{\includegraphics[width=1\linewidth]{pic/f_0.1_4.png}\\а)}
+\end{minipage}
+\hfill
+\begin{minipage}[h]{0.5\linewidth}
+\center{\includegraphics[width=1\linewidth]{pic/f_0.25_4.png}\\б)}
+\end{minipage}
+\caption{Сигнал $g(t)$ и $u(t)$ после фильтрации при $\nu_0 = 4$ а) $b=0.1$, б) $b=0.25$.}
+
+\begin{minipage}[h]{0.5\linewidth}
+\center{\includegraphics[width=1\linewidth]{pic/f_0.5_4.png}\\а)}
+\end{minipage}
+\hfill
+\begin{minipage}[h]{0.5\linewidth}
+\center{\includegraphics[width=1\linewidth]{pic/f_1_4.png}\\б)}
+\end{minipage}
+\caption{Сигнал $g(t)$ и $u(t)$ после фильтрации при $\nu_0 = 4$ а) $b=0.5$, б) $b=1$.}
+\end{figure}
+
+\newpage
+При анализе графиков с одинаковой частотой, но разным коэффициентом $b$, можно заметить,  незначительно эффективнее прошла фильтрации при наименьшем значении $b$ (рисунки 10-11).
+
+\begin{figure}[h!]
+\begin{minipage}[h]{0.5\linewidth}
+\center{\includegraphics[width=1\linewidth]{pic/f_0.1_8.png}\\а)}
+\end{minipage}
+\hfill
+\begin{minipage}[h]{0.5\linewidth}
+\center{\includegraphics[width=1\linewidth]{pic/f_0.25_8.png}\\б)}
+\end{minipage}
+\caption{Сигнал $g(t)$ и $u(t)$ после фильтрации при $\nu_0 = 8$ а) $b=0.1$, б) $b=0.25$.}
+
+\begin{minipage}[h]{0.5\linewidth}
+\center{\includegraphics[width=1\linewidth]{pic/f_0.5_8.png}\\а)}
+\end{minipage}
+\hfill
+\begin{minipage}[h]{0.5\linewidth}
+\center{\includegraphics[width=1\linewidth]{pic/f_1_8.png}\\б)}
+\end{minipage}
+\caption{Сигнал $g(t)$ и $u(t)$ после фильтрации при $\nu_0 = 8$ а) $b=0.5$, б) $b=1$.}
+\end{figure}
+
+
+\newpage
+Графики на рисунках 12 и 13 демонстрируют ту же тенденцию: при одинаковом $\nu_0$ наиболее эффективной является фильтрация при $b$ минимальном.
+
+
+\begin{figure}[h!]
+\begin{minipage}[h]{0.5\linewidth}
+\center{\includegraphics[width=1\linewidth]{pic/f_0.1_10.png}\\а)}
+\end{minipage}
+\hfill
+\begin{minipage}[h]{0.5\linewidth}
+\center{\includegraphics[width=1\linewidth]{pic/f_0.25_10.png}\\б)}
+\end{minipage}
+\caption{Сигнал $g(t)$ и $u(t)$ после фильтрации при $\nu_0 = 10$ а) $b=0.1$, б) $b=0.25$.}
+
+\begin{minipage}[h]{0.5\linewidth}
+\center{\includegraphics[width=1\linewidth]{pic/f_0.5_10.png}\\а)}
+\end{minipage}
+\hfill
+\begin{minipage}[h]{0.5\linewidth}
+\center{\includegraphics[width=1\linewidth]{pic/f_1_10.png}\\б)}
+\end{minipage}
+\caption{Сигнал $g(t)$ и $u(t)$ после фильтрации при $\nu_0 = 10$ а) $b=0.5$, б) $b=1$.}
+\end{figure}
+
+\newpage
+ При увеличении параметра $b$ в уравнении, задающем шумы, снижается эффективность фильтрации. Это происходит, потому что чем больше значение $b$, тем больше шумов добавляется к исходной функции $g(t)$. При увеличении параметра $\nu_0$ полученная после фильтрации картинка становится четче и ближе к исходной функции $g(t)$.
 
 
 

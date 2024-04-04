@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.6.14)  4 APR 2024 17:36
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.6.14)  4 APR 2024 20:32
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1402,18 +1402,227 @@ File: pic/f_im_0.5_0_0.5.png Graphic file (type png)
 Package pdftex.def Info: pic/f_im_0.5_0_0.5.png  used on input line 180.
 (pdftex.def)             Requested size: 344.27837pt x 258.21257pt.
 
+Underfull \hbox (badness 10000) in paragraph at lines 184--185
+
+ []
+
+<pic/f_im_0.5_0_0.5_filter88.png, id=60, 642.4pt x 481.8pt>
+File: pic/f_im_0.5_0_0.5_filter88.png Graphic file (type png)
+<use pic/f_im_0.5_0_0.5_filter88.png>
+Package pdftex.def Info: pic/f_im_0.5_0_0.5_filter88.png  used on input line 18
+9.
+(pdftex.def)             Requested size: 344.27837pt x 258.21257pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
 
 Package fancyhdr Warning: \footskip is too small (0.0pt): 
 (fancyhdr)                Make it at least 12.0pt, for example:
 (fancyhdr)                \setlength{\footskip}{12.0pt}.
 
 [3 <./pic/f_im_0.5_0_0.5.png (PNG copy)>]
+<pic/f_ift_0.5_0_0.5.png, id=70, 642.4pt x 481.8pt>
+File: pic/f_ift_0.5_0_0.5.png Graphic file (type png)
+<use pic/f_ift_0.5_0_0.5.png>
+Package pdftex.def Info: pic/f_ift_0.5_0_0.5.png  used on input line 203.
+(pdftex.def)             Requested size: 344.27837pt x 258.21257pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+File: pic/n_0.5_0_0.5.png Graphic file (type png)
+<use pic/n_0.5_0_0.5.png>
+Package pdftex.def Info: pic/n_0.5_0_0.5.png  used on input line 210.
+(pdftex.def)             Requested size: 172.13918pt x 129.1026pt.
+<pic/ift_0.5_0_0.5.png, id=71, 642.4pt x 481.8pt>
+File: pic/ift_0.5_0_0.5.png Graphic file (type png)
+<use pic/ift_0.5_0_0.5.png>
+Package pdftex.def Info: pic/ift_0.5_0_0.5.png  used on input line 214.
+(pdftex.def)             Requested size: 172.13918pt x 129.1026pt.
+
+Overfull \hbox (2.22166pt too wide) in paragraph at lines 209--216
+[]$[]$  $[]$ 
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
 
 Package fancyhdr Warning: \footskip is too small (0.0pt): 
 (fancyhdr)                Make it at least 12.0pt, for example:
 (fancyhdr)                \setlength{\footskip}{12.0pt}.
 
-[4] (./my_report.aux)
+[4 <./pic/f_im_0.5_0_0.5_filter88.png (PNG copy)>]
+Underfull \hbox (badness 10000) in paragraph at lines 220--223
+
+ []
+
+<pic/or_fil_0.5_0_0.5.png, id=78, 642.4pt x 481.8pt>
+File: pic/or_fil_0.5_0_0.5.png Graphic file (type png)
+<use pic/or_fil_0.5_0_0.5.png>
+Package pdftex.def Info: pic/or_fil_0.5_0_0.5.png  used on input line 226.
+(pdftex.def)             Requested size: 309.84842pt x 232.39352pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Package fancyhdr Warning: \footskip is too small (0.0pt): 
+(fancyhdr)                Make it at least 12.0pt, for example:
+(fancyhdr)                \setlength{\footskip}{12.0pt}.
+
+[5 <./pic/f_ift_0.5_0_0.5.png (PNG copy)>]
+
+LaTeX Warning: Text page 6 contains only floats.
+
+
+Package fancyhdr Warning: \footskip is too small (0.0pt): 
+(fancyhdr)                Make it at least 12.0pt, for example:
+(fancyhdr)                \setlength{\footskip}{12.0pt}.
+
+[6 <./pic/ift_0.5_0_0.5.png (PNG copy)> <./pic/or_fil_0.5_0_0.5.png (PNG copy)>
+]
+<pic/abs_0.5_0_0.5.png, id=91, 642.4pt x 481.8pt>
+File: pic/abs_0.5_0_0.5.png Graphic file (type png)
+<use pic/abs_0.5_0_0.5.png>
+Package pdftex.def Info: pic/abs_0.5_0_0.5.png  used on input line 240.
+(pdftex.def)             Requested size: 309.84842pt x 232.39352pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 244--245
+
+ []
+
+<pic/f_0.1_4.png, id=92, 642.4pt x 481.8pt>
+File: pic/f_0.1_4.png Graphic file (type png)
+<use pic/f_0.1_4.png>
+Package pdftex.def Info: pic/f_0.1_4.png  used on input line 252.
+(pdftex.def)             Requested size: 172.13918pt x 129.1026pt.
+<pic/f_0.25_4.png, id=93, 642.4pt x 481.8pt>
+File: pic/f_0.25_4.png Graphic file (type png)
+<use pic/f_0.25_4.png>
+Package pdftex.def Info: pic/f_0.25_4.png  used on input line 256.
+(pdftex.def)             Requested size: 172.13918pt x 129.1026pt.
+
+Overfull \hbox (2.22166pt too wide) in paragraph at lines 251--258
+[]$[]$  $[]$ 
+ []
+
+<pic/f_0.5_4.png, id=94, 642.4pt x 481.8pt>
+File: pic/f_0.5_4.png Graphic file (type png)
+<use pic/f_0.5_4.png>
+Package pdftex.def Info: pic/f_0.5_4.png  used on input line 261.
+(pdftex.def)             Requested size: 172.13918pt x 129.1026pt.
+<pic/f_1_4.png, id=95, 642.4pt x 481.8pt>
+File: pic/f_1_4.png Graphic file (type png)
+<use pic/f_1_4.png>
+Package pdftex.def Info: pic/f_1_4.png  used on input line 265.
+(pdftex.def)             Requested size: 172.13918pt x 129.1026pt.
+
+Overfull \hbox (2.22166pt too wide) in paragraph at lines 260--267
+[]$[]$  $[]$ 
+ []
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Package fancyhdr Warning: \footskip is too small (0.0pt): 
+(fancyhdr)                Make it at least 12.0pt, for example:
+(fancyhdr)                \setlength{\footskip}{12.0pt}.
+
+[7 <./pic/abs_0.5_0_0.5.png (PNG copy)>]
+<pic/f_0.1_8.png, id=101, 642.4pt x 481.8pt>
+File: pic/f_0.1_8.png Graphic file (type png)
+<use pic/f_0.1_8.png>
+Package pdftex.def Info: pic/f_0.1_8.png  used on input line 275.
+(pdftex.def)             Requested size: 172.13918pt x 129.1026pt.
+<pic/f_0.25_8.png, id=102, 642.4pt x 481.8pt>
+File: pic/f_0.25_8.png Graphic file (type png)
+<use pic/f_0.25_8.png>
+Package pdftex.def Info: pic/f_0.25_8.png  used on input line 279.
+(pdftex.def)             Requested size: 172.13918pt x 129.1026pt.
+
+Overfull \hbox (2.22166pt too wide) in paragraph at lines 274--281
+[]$[]$  $[]$ 
+ []
+
+<pic/f_0.5_8.png, id=103, 642.4pt x 481.8pt>
+File: pic/f_0.5_8.png Graphic file (type png)
+<use pic/f_0.5_8.png>
+Package pdftex.def Info: pic/f_0.5_8.png  used on input line 284.
+(pdftex.def)             Requested size: 172.13918pt x 129.1026pt.
+<pic/f_1_8.png, id=104, 642.4pt x 481.8pt>
+File: pic/f_1_8.png Graphic file (type png)
+<use pic/f_1_8.png>
+Package pdftex.def Info: pic/f_1_8.png  used on input line 288.
+(pdftex.def)             Requested size: 172.13918pt x 129.1026pt.
+
+Overfull \hbox (2.22166pt too wide) in paragraph at lines 283--290
+[]$[]$  $[]$ 
+ []
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Package fancyhdr Warning: \footskip is too small (0.0pt): 
+(fancyhdr)                Make it at least 12.0pt, for example:
+(fancyhdr)                \setlength{\footskip}{12.0pt}.
+
+[8 <./pic/f_0.1_4.png (PNG copy)> <./pic/f_0.25_4.png (PNG copy)> <./pic/f_0.5_
+4.png (PNG copy)> <./pic/f_1_4.png (PNG copy)>]
+<pic/f_0.1_10.png, id=111, 642.4pt x 481.8pt>
+File: pic/f_0.1_10.png Graphic file (type png)
+<use pic/f_0.1_10.png>
+Package pdftex.def Info: pic/f_0.1_10.png  used on input line 300.
+(pdftex.def)             Requested size: 172.13918pt x 129.1026pt.
+<pic/f_0.25_10.png, id=112, 642.4pt x 481.8pt>
+File: pic/f_0.25_10.png Graphic file (type png)
+<use pic/f_0.25_10.png>
+Package pdftex.def Info: pic/f_0.25_10.png  used on input line 304.
+(pdftex.def)             Requested size: 172.13918pt x 129.1026pt.
+
+Overfull \hbox (2.22166pt too wide) in paragraph at lines 299--306
+[]$[]$  $[]$ 
+ []
+
+<pic/f_0.5_10.png, id=113, 642.4pt x 481.8pt>
+File: pic/f_0.5_10.png Graphic file (type png)
+<use pic/f_0.5_10.png>
+Package pdftex.def Info: pic/f_0.5_10.png  used on input line 309.
+(pdftex.def)             Requested size: 172.13918pt x 129.1026pt.
+<pic/f_1_10.png, id=114, 642.4pt x 481.8pt>
+File: pic/f_1_10.png Graphic file (type png)
+<use pic/f_1_10.png>
+Package pdftex.def Info: pic/f_1_10.png  used on input line 313.
+(pdftex.def)             Requested size: 172.13918pt x 129.1026pt.
+
+Overfull \hbox (2.22166pt too wide) in paragraph at lines 308--315
+[]$[]$  $[]$ 
+ []
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Package fancyhdr Warning: \footskip is too small (0.0pt): 
+(fancyhdr)                Make it at least 12.0pt, for example:
+(fancyhdr)                \setlength{\footskip}{12.0pt}.
+
+[9 <./pic/f_0.1_8.png (PNG copy)> <./pic/f_0.25_8.png (PNG copy)> <./pic/f_0.5_
+8.png (PNG copy)> <./pic/f_1_8.png (PNG copy)>]
+
+Package fancyhdr Warning: \footskip is too small (0.0pt): 
+(fancyhdr)                Make it at least 12.0pt, for example:
+(fancyhdr)                \setlength{\footskip}{12.0pt}.
+
+[10 <./pic/f_0.1_10.png (PNG copy)> <./pic/f_0.25_10.png (PNG copy)> <./pic/f_0
+.5_10.png (PNG copy)> <./pic/f_1_10.png (PNG copy)>]
+
+Package fancyhdr Warning: \footskip is too small (0.0pt): 
+(fancyhdr)                Make it at least 12.0pt, for example:
+(fancyhdr)                \setlength{\footskip}{12.0pt}.
+
+[11] (./my_report.aux)
  ***********
 LaTeX2e <2023-06-01>
 L3 programming layer <2023-06-05>
@@ -1422,10 +1631,10 @@ Package rerunfilecheck Info: File `my_report.out' has not changed.
 (rerunfilecheck)             Checksum: 875D21EFF76A057357D45BE0DA4BF253;1250.
  ) 
 Here is how much of TeX's memory you used:
- 53018 strings out of 475734
- 1311760 string characters out of 5786229
- 2000901 words of memory out of 5000000
- 73119 multiletter control sequences out of 15000+600000
+ 53155 strings out of 475734
+ 1314930 string characters out of 5786229
+ 2000903 words of memory out of 5000000
+ 73240 multiletter control sequences out of 15000+600000
  528667 words of font info for 75 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  84i,12n,89p,762b,609s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -1434,20 +1643,21 @@ live/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2023
 /texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb><c:/texlive/2023/texmf-dis
 t/fonts/type1/public/amsfonts/cm/cmmi9.pfb><c:/texlive/2023/texmf-dist/fonts/ty
 pe1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public
-/amsfonts/cm/cmr7.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/c
-m/cmr9.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pf
-b><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb><c:/texl
-ive/2023/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb><c:/texlive/2023/t
-exmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb><c:/texlive/2023/texmf-dist/
-fonts/type1/public/cm-super/sfrm0800.pfb><c:/texlive/2023/texmf-dist/fonts/type
-1/public/cm-super/sfrm0900.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/c
-m-super/sfrm1000.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sf
-rm1200.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfti0900.pfb
-><c:/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfti1200.pfb>
-Output written on my_report.pdf (5 pages, 392052 bytes).
+/amsfonts/cm/cmr6.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/c
+m/cmr7.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb>
+<c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texli
+ve/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb><c:/texlive/2023/te
+xmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb><c:/texlive/2023/texmf-dist/f
+onts/type1/public/cm-super/sfbx1440.pfb><c:/texlive/2023/texmf-dist/fonts/type1
+/public/cm-super/sfrm0800.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/cm
+-super/sfrm0900.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfr
+m1000.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb>
+<c:/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfti0900.pfb><c:/texliv
+e/2023/texmf-dist/fonts/type1/public/cm-super/sfti1200.pfb>
+Output written on my_report.pdf (12 pages, 1073230 bytes).
 PDF statistics:
- 151 PDF objects out of 1000 (max. 8388607)
- 104 compressed objects within 2 object streams
- 15 named destinations out of 1000 (max. 500000)
- 73 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 215 PDF objects out of 1000 (max. 8388607)
+ 142 compressed objects within 2 object streams
+ 31 named destinations out of 1000 (max. 500000)
+ 158 words of extra memory for PDF output out of 10000 (max. 10000000)
 
