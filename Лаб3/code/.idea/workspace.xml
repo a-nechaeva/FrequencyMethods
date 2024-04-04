@@ -1,7 +1,74 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="10068c63-6c17-430d-aa26-d66fe66012c4" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../Report/pic/f_im_0.5_0_0.5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/f_im_0.5_0_0.5.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Report/my_report.aux" beforeDir="false" afterPath="$PROJECT_DIR$/../Report/my_report.aux" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Report/my_report.log" beforeDir="false" afterPath="$PROJECT_DIR$/../Report/my_report.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Report/my_report.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/../Report/my_report.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Report/my_report.synctex.gz" beforeDir="false" afterPath="$PROJECT_DIR$/../Report/my_report.synctex.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Report/my_report.tex" beforeDir="false" afterPath="$PROJECT_DIR$/../Report/my_report.tex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_1.py" beforeDir="false" afterPath="$PROJECT_DIR$/task_1.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 0
+}]]></component>
+  <component name="ProjectId" id="2edVLCsQPs7xFhUeeQCJDstwKxI" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/user/Desktop/STUDY_2.0/2 курс робототехника/4 семестр/ЧастМетоды/FrequencyMethods/Лаб3/Report/pic",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\user\Desktop\STUDY_2.0\2 курс робототехника\4 семестр\ЧастМетоды\FrequencyMethods\Лаб3\Report\pic" />
+      <recent name="C:\Users\user\Desktop\STUDY_2.0\2 курс робототехника\4 семестр\ЧастМетоды\FrequencyMethods\Лаб3\code" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="10068c63-6c17-430d-aa26-d66fe66012c4" name="Changes" comment="" />
+      <created>1712234386480</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1712234386480</updated>
+      <workItem from="1712234387850" duration="5271000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/code$task_1.coverage" NAME="task_1 Coverage Results" MODIFIED="1712241038746" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>

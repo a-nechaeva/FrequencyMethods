@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.6.14)  3 APR 2024 17:13
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.6.14)  4 APR 2024 17:36
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1396,12 +1396,18 @@ Package fancyhdr Warning: \footskip is too small (0.0pt):
 (fancyhdr)                \setlength{\footskip}{12.0pt}.
 
 [2 <./pic/n_0.5_0.5_0.5.png (PNG copy)> <./pic/n_0.5_0_0.5.png (PNG copy)>]
+<pic/f_im_0.5_0_0.5.png, id=59, 642.4pt x 481.8pt>
+File: pic/f_im_0.5_0_0.5.png Graphic file (type png)
+<use pic/f_im_0.5_0_0.5.png>
+Package pdftex.def Info: pic/f_im_0.5_0_0.5.png  used on input line 180.
+(pdftex.def)             Requested size: 344.27837pt x 258.21257pt.
+
 
 Package fancyhdr Warning: \footskip is too small (0.0pt): 
 (fancyhdr)                Make it at least 12.0pt, for example:
 (fancyhdr)                \setlength{\footskip}{12.0pt}.
 
-[3]
+[3 <./pic/f_im_0.5_0_0.5.png (PNG copy)>]
 
 Package fancyhdr Warning: \footskip is too small (0.0pt): 
 (fancyhdr)                Make it at least 12.0pt, for example:
@@ -1416,10 +1422,10 @@ Package rerunfilecheck Info: File `my_report.out' has not changed.
 (rerunfilecheck)             Checksum: 875D21EFF76A057357D45BE0DA4BF253;1250.
  ) 
 Here is how much of TeX's memory you used:
- 53010 strings out of 475734
- 1311542 string characters out of 5786229
+ 53018 strings out of 475734
+ 1311760 string characters out of 5786229
  2000901 words of memory out of 5000000
- 73112 multiletter control sequences out of 15000+600000
+ 73119 multiletter control sequences out of 15000+600000
  528667 words of font info for 75 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  84i,12n,89p,762b,609s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -1438,10 +1444,10 @@ fonts/type1/public/cm-super/sfrm0800.pfb><c:/texlive/2023/texmf-dist/fonts/type
 m-super/sfrm1000.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sf
 rm1200.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfti0900.pfb
 ><c:/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfti1200.pfb>
-Output written on my_report.pdf (5 pages, 346154 bytes).
+Output written on my_report.pdf (5 pages, 392052 bytes).
 PDF statistics:
- 149 PDF objects out of 1000 (max. 8388607)
- 103 compressed objects within 2 object streams
- 14 named destinations out of 1000 (max. 500000)
- 68 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 151 PDF objects out of 1000 (max. 8388607)
+ 104 compressed objects within 2 object streams
+ 15 named destinations out of 1000 (max. 500000)
+ 73 words of extra memory for PDF output out of 10000 (max. 10000000)
 

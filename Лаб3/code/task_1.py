@@ -43,6 +43,33 @@ def _draw_noise(a, b, c, d, t_1, t_2, T, _sigma):
     plt.show()
 
 
+# here we count integral of two fun mult
+def integral_counter(X, f_1, f_2):
+
+    dt = X[1] - X[0]
+
+    return np.dot(f_1, f_2) * dt
+
+
+#get_wave_func = lambda a, t1, t2: np.vectorize(lambda t: _g(a, t1, t2, t), otypes=[complex])
+
+
+#  convert to fourier-image
+def _fourier_img(f, V):
+    X = np.linspace(-10, 10, 1000)
+    return np.array([1 / (np.sqrt(2 * np.pi)) * integral_counter(X, f, (lambda t: np.e ** (-1j * image_clip * t))(X)) for image_clip in V])
+
+
+#  draw fourier image
+def _draw_image_fourier(f):
+    V = np.linspace(-10, 10, 1000)
+    plt.plot(V, _fourier_img(f, V).real, label=r'$Re \, u$')
+    plt.plot(V, _fourier_img(f, V).imag, label=r'$Im \, u$')
+    plt.grid()
+    plt.legend()
+    plt.title('Фурье-образ сигнала u при b = d = 0.5, c = 0')
+    plt.show()
+
 
 #  run function
 def _run():
@@ -55,9 +82,13 @@ def _run():
     t_2 = 2
     T = 20
     _sigma = 1000
+    X = np.linspace(-10, 10, 1000)
 
     #  _draw_g(a, t_1, t_2, T, _sigma)
-    _draw_noise(a, b, c, d, t_1, t_2, T, _sigma)
+    #_draw_noise(a, b, c, d, t_1, t_2, T, _sigma)
+    #wave = get_wave_func(a, t_1, t_2)(X)
+    t = np.linspace(-10, 10, 1000)
+    _draw_image_fourier(_noise_fun(a, b, c, d, t_1, t_2, t))
 
 
 _run()
