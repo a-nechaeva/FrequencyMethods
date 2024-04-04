@@ -5,31 +5,32 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="10068c63-6c17-430d-aa26-d66fe66012c4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../Report/pic/l_1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Report/pic/l_10.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Report/pic/l_aft_5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Report/pic/l_st.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Report/pic/s_0.5_0.5_0.5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Report/pic/s_0.5_0.5_0.5_1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Report/pic/s_0.5_0.5_5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Report/pic/s_0_0_0.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Report/pic/s_abs_res.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Report/pic/s_abs_start.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Report/pic/s_im_res_0.5_0.5_5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Report/pic/s_res.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Report/pic/s_res_0.5_0.5_5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Report/pic/MUHA_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Report/pic/MUHA_mod_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Report/pic/MUHA_mod_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Report/pic/MUHA_st_im.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Report/pic/muha_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MUHA.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task_2.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Report/my_report.aux" beforeDir="false" afterPath="$PROJECT_DIR$/../Report/my_report.aux" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Report/my_report.log" beforeDir="false" afterPath="$PROJECT_DIR$/../Report/my_report.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Report/my_report.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/../Report/my_report.pdf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Report/my_report.synctex.gz" beforeDir="false" afterPath="$PROJECT_DIR$/../Report/my_report.synctex.gz" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Report/my_report.tex" beforeDir="false" afterPath="$PROJECT_DIR$/../Report/my_report.tex" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_1.py" beforeDir="false" afterPath="$PROJECT_DIR$/task_1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/f_im_0.5_0_0.5.png" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
@@ -65,6 +66,9 @@
       <recent name="C:\Users\user\Desktop\STUDY_2.0\2 курс робототехника\4 семестр\ЧастМетоды\FrequencyMethods\Лаб3\Report\pic" />
       <recent name="C:\Users\user\Desktop\STUDY_2.0\2 курс робототехника\4 семестр\ЧастМетоды\FrequencyMethods\Лаб3\code" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\user\Desktop\STUDY_2.0\2 курс робототехника\4 семестр\ЧастМетоды\FrequencyMethods\Лаб3\code" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -74,7 +78,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1712234386480</updated>
-      <workItem from="1712234387850" duration="17376000" />
+      <workItem from="1712234387850" duration="23836000" />
     </task>
     <servers />
   </component>
@@ -83,5 +87,6 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/code$task_1.coverage" NAME="task_1 Coverage Results" MODIFIED="1712255867857" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/code$task_2.coverage" NAME="task_2 Coverage Results" MODIFIED="1712262086376" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>

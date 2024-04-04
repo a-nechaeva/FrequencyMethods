@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.6.14)  4 APR 2024 21:42
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.6.14)  4 APR 2024 23:25
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1742,12 +1742,61 @@ Package fancyhdr Warning: \footskip is too small (0.0pt):
 (fancyhdr)                \setlength{\footskip}{12.0pt}.
 
 [15 <./pic/l_1.png (PNG copy)> <./pic/l_10.png (PNG copy)>]
+<pic/MUHA_1.png, id=165, 642.4pt x 481.8pt>
+File: pic/MUHA_1.png Graphic file (type png)
+<use pic/MUHA_1.png>
+Package pdftex.def Info: pic/MUHA_1.png  used on input line 417.
+(pdftex.def)             Requested size: 344.27837pt x 258.21257pt.
+<pic/MUHA_mod_1.png, id=166, 642.4pt x 481.8pt>
+File: pic/MUHA_mod_1.png Graphic file (type png)
+<use pic/MUHA_mod_1.png>
+Package pdftex.def Info: pic/MUHA_mod_1.png  used on input line 425.
+(pdftex.def)             Requested size: 344.27837pt x 258.21257pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
 
 Package fancyhdr Warning: \footskip is too small (0.0pt): 
 (fancyhdr)                Make it at least 12.0pt, for example:
 (fancyhdr)                \setlength{\footskip}{12.0pt}.
 
-[16] (./my_report.aux)
+[16 <./pic/muha_1.png (PNG copy)>]
+<pic/MUHA_2.png, id=172, 642.4pt x 481.8pt>
+File: pic/MUHA_2.png Graphic file (type png)
+<use pic/MUHA_2.png>
+Package pdftex.def Info: pic/MUHA_2.png  used on input line 434.
+(pdftex.def)             Requested size: 344.27837pt x 258.21257pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<pic/MUHA_mod_2.png, id=173, 642.4pt x 481.8pt>
+File: pic/MUHA_mod_2.png Graphic file (type png)
+<use pic/MUHA_mod_2.png>
+Package pdftex.def Info: pic/MUHA_mod_2.png  used on input line 440.
+(pdftex.def)             Requested size: 344.27837pt x 258.21257pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Package fancyhdr Warning: \footskip is too small (0.0pt): 
+(fancyhdr)                Make it at least 12.0pt, for example:
+(fancyhdr)                \setlength{\footskip}{12.0pt}.
+
+[17 <./pic/MUHA_mod_1.png (PNG copy)>]
+
+Package fancyhdr Warning: \footskip is too small (0.0pt): 
+(fancyhdr)                Make it at least 12.0pt, for example:
+(fancyhdr)                \setlength{\footskip}{12.0pt}.
+
+[18 <./pic/MUHA_2.png (PNG copy)>]
+
+Package fancyhdr Warning: \footskip is too small (0.0pt): 
+(fancyhdr)                Make it at least 12.0pt, for example:
+(fancyhdr)                \setlength{\footskip}{12.0pt}.
+
+[19 <./pic/MUHA_mod_2.png (PNG copy)>] (./my_report.aux)
  ***********
 LaTeX2e <2023-06-01>
 L3 programming layer <2023-06-05>
@@ -1756,13 +1805,13 @@ Package rerunfilecheck Info: File `my_report.out' has not changed.
 (rerunfilecheck)             Checksum: 875D21EFF76A057357D45BE0DA4BF253;1250.
  ) 
 Here is how much of TeX's memory you used:
- 53238 strings out of 475734
- 1316750 string characters out of 5786229
+ 53273 strings out of 475734
+ 1317479 string characters out of 5786229
  2000903 words of memory out of 5000000
- 73310 multiletter control sequences out of 15000+600000
+ 73338 multiletter control sequences out of 15000+600000
  528667 words of font info for 75 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 84i,12n,89p,762b,609s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 84i,12n,89p,1155b,609s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/tex
 live/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2023
 /texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb><c:/texlive/2023/texmf-dis
@@ -1780,10 +1829,10 @@ m0900.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb>
 <c:/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb><c:/texliv
 e/2023/texmf-dist/fonts/type1/public/cm-super/sfti0900.pfb><c:/texlive/2023/tex
 mf-dist/fonts/type1/public/cm-super/sfti1200.pfb>
-Output written on my_report.pdf (17 pages, 1532297 bytes).
+Output written on my_report.pdf (20 pages, 1654861 bytes).
 PDF statistics:
- 263 PDF objects out of 1000 (max. 8388607)
- 173 compressed objects within 2 object streams
- 44 named destinations out of 1000 (max. 500000)
- 208 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 286 PDF objects out of 1000 (max. 8388607)
+ 189 compressed objects within 2 object streams
+ 51 named destinations out of 1000 (max. 500000)
+ 228 words of extra memory for PDF output out of 10000 (max. 10000000)
 
