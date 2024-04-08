@@ -22,7 +22,6 @@ def _draw_g():
 def _draw_image_fourier_muha():
 
     plt.plot(fftfreq(len(y), 1 / sr), abs(fft(y)), label=r'$Re \, \hat{f}(\nu)$')
-    #plt.plot(fftfreq(len(y), 1 / sr), fft(y).imag, label=r'$Im \, \hat{f}(\nu)$')
     plt.grid()
     plt.legend()
     plt.xlabel(r'$\nu$')

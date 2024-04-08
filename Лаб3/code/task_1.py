@@ -156,4 +156,4 @@ def _run():
     #_draw_abs_images_fourier(_noise_fun(a, b, c, d, t_1, t_2, t), _g_vec(a, t_1, t_2, t))
 
 
-_run()
+#  _run()
