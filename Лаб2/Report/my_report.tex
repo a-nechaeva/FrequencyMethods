@@ -215,9 +215,17 @@ a - |at / b|, & |t| \leq b,\\
 \end{equation}
 
 \begin{equation}
-\int \limits_{-b}^{0}  t e^{-i \omega t} dt -  \int \limits_{0}^{b}  t e^{-i \omega t} dt  =  \frac{1}{\omega^2} -
- \frac{1 - i \omega b}{\omega^2 e^{-i \omega b}} - \frac{1 + i \omega b}{\omega^2 e^{i \omega b}} +\frac{1}{\omega^2} 
+\int \limits_{-b}^{0}  t e^{-i \omega t} dt -  \int \limits_{0}^{b}  t e^{-i \omega t} dt  =  \frac{2}{\omega^2} -
+ \frac{1 - i \omega b}{\omega^2 e^{-i \omega b}} - \frac{1 + i \omega b}{\omega^2 e^{i \omega b}} 
 \end{equation}
+
+\begin{multline}
+\fbox{=} \frac{a ( e^{-i \omega b} -  e^{i \omega b})}{-i\omega \sqrt{2 \pi}} + \frac{a}{b\sqrt{2 \pi}} \left( \frac{2}{\omega^2} -
+ \frac{1 - i \omega b}{\omega^2 e^{-i \omega b}} - \frac{1 + i \omega b}{\omega^2 e^{i \omega b}}  \right) =\\
+=\frac{a}{b \omega^2 \sqrt{2 \pi}} \left( i\omega b (e^{-i \omega b} - e^{i \omega b}) + 2 - e^{i\omega b} + i \omega b e^{i\omega b} - e^{-i\omega b} - i \omega b e^{-i\omega b} \right) = \\
+= \frac{a}{b \omega^2 \sqrt{2 \pi}} \left( i\omega b e^{-i \omega b} - i\omega b e^{i \omega b} + 2 - e^{i\omega b} + i \omega b e^{i\omega b} - e^{-i\omega b} - i \omega b e^{-i\omega b} \right) = \\
+= \frac{a}{b \omega^2 \sqrt{2 \pi}} \left( 2 - e^{i\omega b}  - e^{-i\omega b} \right) 
+\end{multline}
 
 
 
@@ -231,7 +239,17 @@ f(t) = a sinc(bt)
 
 \subsubsection{Аналитическое выражение Фурье-образа}
 
+Результат получен с помощью калькулятора $Wolfram$.
 
+\begin{equation}
+\hat{f}(\omega) =
+ \frac{1}{\sqrt{2 \pi}} \int \limits_{-\infty}^{\infty}  a sinc(bt) e^{-i \omega t} dt = 
+ \frac{a}{|b|} \sqrt{\frac{\pi}{2}} \cdot
+\begin{cases}
+0, & \left( \frac{b}{\omega} \right)^2 \leq 1\\
+1 & (otherwise)
+\end{cases}
+\end{equation}
 
 
 
@@ -249,6 +267,14 @@ f(t) = a e^{-bt^2}
 
 \subsubsection{Аналитическое выражение Фурье-образа}
 
+Результат получен с помощью калькулятора $Wolfram$.
+
+\begin{equation}
+\hat{f}(\omega) =
+ \frac{1}{\sqrt{2 \pi}} \int \limits_{-\infty}^{\infty}  a e^{-bt^2} e^{-i \omega t} dt = \frac{a}{\sqrt{2b}} e^{-\frac{\omega^2}{4b}}
+\end{equation}
+
+
 
 
 
@@ -263,7 +289,14 @@ f(t) = a e^{-b|t|}
 
 \subsubsection{Аналитическое выражение Фурье-образа}
 
-
+\begin{multline}
+\hat{f}(\omega) =
+ \frac{1}{\sqrt{2 \pi}} \int \limits_{-\infty}^{\infty} a e^{-b|t|} e^{-i \omega t} dt =  \frac{a}{\sqrt{2 \pi}}  \left( \int \limits_{-\infty}^{0} e^{b t} e^{-i \omega t} dt  + \int \limits_{0}^{\infty} e^{-b t} e^{-i \omega t} dt  \right) = \\
+=  \frac{a}{\sqrt{2 \pi}}  \left( \int \limits_{-\infty}^{0} e^{(b-i \omega) t} dt  + \int \limits_{0}^{\infty}e^{-(b + i \omega) t} dt  \right) 
+= \frac{a}{\sqrt{2 \pi}}  \left(  \left. \frac{e^{(b-i \omega) t}}{b-i \omega} \right|_{-\infty}^{0} + \left. \frac{e^{-(b + i \omega) t}}{-(b + i \omega)} \right|_{0}^{\infty}  \right) =\\
+=\frac{a}{\sqrt{2 \pi}}  \left( \frac{1}{b-i \omega} + \frac{1}{b + i \omega}  \right) =
+\frac{a}{\sqrt{2 \pi}}   \frac{b + i \omega +b - i \omega}{b^2 + \omega^2} = \frac{2ab}{\sqrt{2 \pi} (b^2 + \omega^2)}
+\end{multline}
 
 
 
