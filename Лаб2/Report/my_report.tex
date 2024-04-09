@@ -145,6 +145,9 @@
 \newpage
 \textit{В заданиях 1 и 2 используется унитарное преобразование Фурье к угловой частоте} $\omega$.
 
+
+
+
 \section{Задание. Вещественное.}
 Все функции ниже $f : \mathbb{R} \to \mathbb{R}$.
 
@@ -159,6 +162,21 @@ a, & |t| \leq b,\\
 \end{equation}
 
 
+\subsubsection{Аналитическое выражение Фурье-образа}
+
+Фурье-образ функции $f(t)$ будем находить по формуле:
+\begin{equation}
+\hat{f}(\omega) = \frac{1}{\sqrt{2 \pi}} \int \limits_{-\infty}^{\infty} f(t) e^{-i \omega t} dt
+\end{equation}
+
+
+
+\begin{multline}
+\hat{f}(\omega) = \frac{1}{\sqrt{2 \pi}} \int \limits_{-\infty}^{\infty} f(t) e^{-i \omega t} dt = \frac{1}{\sqrt{2 \pi}} \int \limits_{-b}^{b} a e^{-i \omega t} dt =   \frac{a ( e^{-i \omega b} -  e^{i \omega b})}{-i\omega \sqrt{2 \pi}}
+\end{multline}
+
+
+\newpage
 \subsection{Треугольная функция}
 
 \begin{equation}
@@ -170,18 +188,85 @@ a - |at / b|, & |t| \leq b,\\
 \end{equation}
 
 
+\subsubsection{Аналитическое выражение Фурье-образа}
+
+\begin{multline*}
+\hat{f}(\omega) = \frac{1}{\sqrt{2 \pi}} \int \limits_{-\infty}^{\infty} f(t) e^{-i \omega t} dt =
+ \frac{1}{\sqrt{2 \pi}} \int \limits_{-b}^{b} (a - |at / b|) e^{-i \omega t} dt =  \frac{1}{\sqrt{2 \pi}} \int \limits_{-b}^{b} a e^{-i \omega t} dt  -\\
+- \frac{1}{\sqrt{2 \pi}} \int \limits_{-b}^{b}  |at / b| e^{-i \omega t} dt =   \frac{a ( e^{-i \omega b} -  e^{i \omega b})}{-i\omega \sqrt{2 \pi}} 
++ \frac{a}{b\sqrt{2 \pi}} \left( \int \limits_{-b}^{0}  t e^{-i \omega t} dt -  \int \limits_{0}^{b}  t e^{-i \omega t} dt  \right) \fbox{=}
+\end{multline*}
+
+Отдельно вычислим неопределенный интеграл:
+\begin{multline}
+\int  t e^{-i \omega t} dt = \left|  \right| u = t, \, dv =  e^{-i \omega t} dt, du=dt, v = -\frac{e^{-i \omega t}}{i \omega}\left|  \right| =\\
+=  -\frac{t e^{-i \omega t}}{i \omega} + \int \frac{e^{-i \omega t}}{i \omega} dt =  -\frac{t e^{-i \omega t}}{i \omega} + \frac{e^{-i \omega t}}{ \omega^2} + C = \frac{1 + i \omega t}{\omega^2 e^{i \omega t}} + C
+\end{multline} 
+
+И два соотвествующих определенных интеграла:
+\begin{equation}
+\int \limits_{-b}^{0}  t e^{-i \omega t} dt =  \left. \frac{1 + i \omega t}{\omega^2 e^{i \omega t}} \right|^0_{-b} =  \frac{1}{\omega^2} -
+ \frac{1 - i \omega b}{\omega^2 e^{-i \omega b}}
+\end{equation}
+
+\begin{equation}
+\int \limits_{0}^{b}  t e^{-i \omega t} dt =  \left. \frac{1 + i \omega t}{\omega^2 e^{i \omega t}} \right|^b_{0} =
+ \frac{1 + i \omega b}{\omega^2 e^{i \omega b}} -\frac{1}{\omega^2} 
+\end{equation}
+
+\begin{equation}
+\int \limits_{-b}^{0}  t e^{-i \omega t} dt -  \int \limits_{0}^{b}  t e^{-i \omega t} dt  =  \frac{1}{\omega^2} -
+ \frac{1 - i \omega b}{\omega^2 e^{-i \omega b}} - \frac{1 + i \omega b}{\omega^2 e^{i \omega b}} +\frac{1}{\omega^2} 
+\end{equation}
+
+
+
+
+\newpage
 \subsection{Кардинальный синус}
 \begin{equation}
 f(t) = a sinc(bt)
 \end{equation}
 
 
+\subsubsection{Аналитическое выражение Фурье-образа}
 
+
+
+
+
+
+
+
+
+\newpage
 \subsection{Функция Гаусса}
 
+\begin{equation}
+f(t) = a e^{-bt^2}
+\end{equation}
 
 
+\subsubsection{Аналитическое выражение Фурье-образа}
+
+
+
+
+
+\newpage
 \subsection{Двустороннее затухание}
+
+\begin{equation}
+f(t) = a e^{-b|t|}
+\end{equation}
+
+
+\subsubsection{Аналитическое выражение Фурье-образа}
+
+
+
+
+
 
 
 
