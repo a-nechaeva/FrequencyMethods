@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 
 
 a = 1
-b = 5
+b = 1
 
 #  functions
 _rectangle_f = lambda t: a if b >= abs(t) else 0
@@ -12,9 +12,12 @@ _v_rect = np.vectorize(_rectangle_f)
 get_wave_func = lambda: np.vectorize(lambda t: _rectangle_f(t), otypes=[complex])
 
 
-_triangle_f = lambda t: a - abs(a * t / b) if b >= abs(t) else 0
+_triangle_f = lambda t: (a - abs(a * t / b)) if b >= abs(t) else 0
 
-_v_triag = np.vectorize(_triangle_f)
+get_tria_func = lambda: np.vectorize(lambda t: _triangle_f(t), otypes=[complex])
+
+_v_tria = np.vectorize(_triangle_f)
+
 
 _sinc_f = lambda t: a * np.sinc(b * t)
 
@@ -26,14 +29,14 @@ _attenuation_f = lambda t: a * np.exp(-b * abs(t))
 #  draw plots of functions
 def _draw_fun(f):
 
-    t = np.linspace(-10, 10, 1000)
+    t = np.linspace(-10, 10, 10000)
 
     plt.plot(t, f(t), label=r'f(t)')
     plt.ylabel(r'f(t)')
     plt.xlabel(r't')
     plt.legend()
     plt.grid()
-    plt.title('Прямоугольная функция a = ' + str(a) + ', b = ' + str(b))
+    plt.title('Треугольная функция a = ' + str(a) + ', b = ' + str(b))
     plt.show()
 
 
@@ -56,7 +59,7 @@ def _fourier_img_0(f, V):
 def _draw_image_fourier(f):
     X = np.linspace(-10, 10, 1000)
 
-    wave = get_wave_func()(X)
+    wave = f()(X)
 
     V_1 = np.linspace(-25, 25, 1000)
 
@@ -70,7 +73,7 @@ def _draw_image_fourier(f):
     plt.show()
 
 
-#  _draw_fun(_v_rect)
-_draw_image_fourier(get_wave_func)
+_draw_fun(_v_tria)
+#_draw_image_fourier(get_tria_func)
 
 
