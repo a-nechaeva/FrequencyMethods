@@ -5,10 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="10068c63-6c17-430d-aa26-d66fe66012c4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/for_test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_1.py" beforeDir="false" afterPath="$PROJECT_DIR$/task_1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_2.py" beforeDir="false" afterPath="$PROJECT_DIR$/task_2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Лаб2/Report/my_report.aux" beforeDir="false" afterPath="$PROJECT_DIR$/../../Лаб2/Report/my_report.aux" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Лаб2/Report/my_report.log" beforeDir="false" afterPath="$PROJECT_DIR$/../../Лаб2/Report/my_report.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Лаб2/Report/my_report.out" beforeDir="false" afterPath="$PROJECT_DIR$/../../Лаб2/Report/my_report.out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Лаб2/Report/my_report.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/../../Лаб2/Report/my_report.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Лаб2/Report/my_report.synctex.gz" beforeDir="false" afterPath="$PROJECT_DIR$/../../Лаб2/Report/my_report.synctex.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Лаб2/Report/my_report.tex" beforeDir="false" afterPath="$PROJECT_DIR$/../../Лаб2/Report/my_report.tex" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,6 +72,7 @@
       <updated>1712234386480</updated>
       <workItem from="1712234387850" duration="25276000" />
       <workItem from="1712516753061" duration="965000" />
+      <workItem from="1712693272992" duration="29000" />
     </task>
     <servers />
   </component>
