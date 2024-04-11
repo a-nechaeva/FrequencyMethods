@@ -88,12 +88,27 @@ def _draw_image_fourier(f):
     plt.show()
 
 
-#  function of parseval
-def _parseval_(f):
-    
+# here we count integral of two fun mult
+def _par_integral_counter(f_1, f_2, st, fn):
+
+    t = np.linspace(st, fn, 1000)
+    dt = (fn - st) / 1000
+
+    return np.dot(f_1(t), f_2(t)) * dt
 
 
-#_draw_fun(_attenuation_f)
-_draw_image_fourier(get_atten)
+#  ||f||^2
+_f2 = lambda f: _par_integral_counter(f, f, -10, 10)
+_im_f2 = lambda f: _par_integral_counter(f, f, -25, 25)
+
+
+def parseval_check():
+    print('||f||^2: ', _f2(_v_rect), '\n')
+    print('||im_f||^2: ', _im_f2(_v_rect), '\n')
+
+
+parseval_check()
+#  _draw_fun(_attenuation_f)
+#  _draw_image_fourier(get_atten)
 
 
