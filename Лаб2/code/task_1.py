@@ -103,17 +103,17 @@ def fourier_image(func, st, fn):
 
 
 def parseval_check(f):
-    f_image = fourier_image(f, -25, 25)
+    f_image = fourier_image(f, -1, 1)
 
     f_image_abs = np.vectorize(lambda t: abs(f_image(t)))
 
-    left = _par_integral_counter(f, f, -100, 100)
+    left = _par_integral_counter(f, f, -1, 1)
 
-    right = _par_integral_counter(f_image_abs, f_image_abs, -100, 100)
+    right = _par_integral_counter(f_image_abs, f_image_abs, -10, 10)
     print(left, right)
 
 
-parseval_check(_v_rect)
+parseval_check(_v_tria)
 #  _draw_fun(_attenuation_f)
 #  _draw_image_fourier(get_atten)
 
