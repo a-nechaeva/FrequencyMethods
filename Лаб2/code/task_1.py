@@ -2,7 +2,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 
-a = 5
+a = 1
 b = 1
 
 #  functions
@@ -97,17 +97,23 @@ def _par_integral_counter(f_1, f_2, st, fn):
     return np.dot(f_1(t), f_2(t)) * dt
 
 
-#  ||f||^2
-_f2 = lambda f: _par_integral_counter(f, f, -10, 10)
-_im_f2 = lambda f: _par_integral_counter(f, f, -25, 25)
+def fourier_image(func, st, fn):
+    image = lambda v: 1 / (np.sqrt(2 * np.pi)) * _par_integral_counter(func, lambda t: np.e ** (-1j * v * t), st, fn)
+    return np.vectorize(image)
 
 
-def parseval_check():
-    print('||f||^2: ', _f2(_v_rect), '\n')
-    print('||im_f||^2: ', _im_f2(_v_rect), '\n')
+def parseval_check(f):
+    f_image = fourier_image(f, -25, 25)
+
+    f_image_abs = np.vectorize(lambda t: abs(f_image(t)))
+
+    left = _par_integral_counter(f, f, -100, 100)
+
+    right = _par_integral_counter(f_image_abs, f_image_abs, -100, 100)
+    print(left, right)
 
 
-parseval_check()
+parseval_check(_v_rect)
 #  _draw_fun(_attenuation_f)
 #  _draw_image_fourier(get_atten)
 

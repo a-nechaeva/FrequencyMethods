@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.6.14)  11 APR 2024 21:12
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.6.14)  12 APR 2024 00:03
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1206,12 +1206,7 @@ File: l3backend-pdftex.def 2023-04-19 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count356
 \l__pdf_internal_box=\box118
 )
-(./my_report.aux
-LaTeX Font Info:    Trying to load font information for T2A+cmr on input line 1
-9.
- (c:/texlive/2023/texmf-dist/tex/latex/cyrillic/t2acmr.fd
-File: t2acmr.fd 2001/08/11 v1.0a Computer Modern Cyrillic font definitions
-))
+No file my_report.aux.
 \openout1 = `my_report.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 142.
@@ -1229,6 +1224,11 @@ LaTeX Font Info:    ... okay on input line 142.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 142.
 LaTeX Font Info:    ... okay on input line 142.
 LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 142.
+LaTeX Font Info:    Trying to load font information for T2A+cmr on input line 1
+42.
+(c:/texlive/2023/texmf-dist/tex/latex/cyrillic/t2acmr.fd
+File: t2acmr.fd 2001/08/11 v1.0a Computer Modern Cyrillic font definitions
+)
 LaTeX Font Info:    ... okay on input line 142.
 LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 142.
 LaTeX Font Info:    ... okay on input line 142.
@@ -1304,13 +1304,11 @@ your preamble.
  on input line 142.
 
 Package hyperref Info: Link coloring OFF on input line 142.
-(./my_report.out) (./my_report.out)
 \@outlinefile=\write4
 \openout4 = `my_report.out'.
 
 LaTeX Font Info:    Trying to load font information for U+msa on input line 143
 .
-
 (c:/texlive/2023/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
@@ -1375,22 +1373,22 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 179.
 
-<rect/f_1_1.png, id=118, 642.4pt x 481.8pt>
+<rect/f_1_1.png, id=37, 642.4pt x 481.8pt>
 File: rect/f_1_1.png Graphic file (type png)
 <use rect/f_1_1.png>
 Package pdftex.def Info: rect/f_1_1.png  used on input line 182.
 (pdftex.def)             Requested size: 261.64966pt x 196.23802pt.
-<rect/f_1_5.png, id=119, 642.4pt x 481.8pt>
+<rect/f_1_5.png, id=38, 642.4pt x 481.8pt>
 File: rect/f_1_5.png Graphic file (type png)
 <use rect/f_1_5.png>
 Package pdftex.def Info: rect/f_1_5.png  used on input line 184.
 (pdftex.def)             Requested size: 261.64966pt x 196.23802pt.
-<rect/f_5_1.png, id=120, 642.4pt x 481.8pt>
+<rect/f_5_1.png, id=39, 642.4pt x 481.8pt>
 File: rect/f_5_1.png Graphic file (type png)
 <use rect/f_5_1.png>
 Package pdftex.def Info: rect/f_5_1.png  used on input line 190.
 (pdftex.def)             Requested size: 261.64966pt x 196.23802pt.
-<rect/f_5_5.png, id=121, 642.4pt x 481.8pt>
+<rect/f_5_5.png, id=40, 642.4pt x 481.8pt>
 File: rect/f_5_5.png Graphic file (type png)
 <use rect/f_5_5.png>
 Package pdftex.def Info: rect/f_5_5.png  used on input line 192.
@@ -1413,12 +1411,12 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 197.
 
-<rect/im_1_1.png, id=130, 642.4pt x 481.8pt>
+<rect/im_1_1.png, id=50, 642.4pt x 481.8pt>
 File: rect/im_1_1.png Graphic file (type png)
 <use rect/im_1_1.png>
 Package pdftex.def Info: rect/im_1_1.png  used on input line 201.
 (pdftex.def)             Requested size: 258.20877pt x 193.6576pt.
-<rect/im_1_5.png, id=131, 642.4pt x 481.8pt>
+<rect/im_1_5.png, id=51, 642.4pt x 481.8pt>
 File: rect/im_1_5.png Graphic file (type png)
 <use rect/im_1_5.png>
 Package pdftex.def Info: rect/im_1_5.png  used on input line 203.
@@ -1429,12 +1427,12 @@ Package fancyhdr Warning: \footskip is too small (0.0pt):
 (fancyhdr)                \setlength{\footskip}{12.0pt}.
 
 [3 <./rect/f_5_1.png (PNG copy)> <./rect/f_5_5.png (PNG copy)>]
-<rect/im_5_1.png, id=137, 642.4pt x 481.8pt>
+<rect/im_5_1.png, id=57, 642.4pt x 481.8pt>
 File: rect/im_5_1.png Graphic file (type png)
 <use rect/im_5_1.png>
 Package pdftex.def Info: rect/im_5_1.png  used on input line 209.
 (pdftex.def)             Requested size: 261.64966pt x 196.23802pt.
-<rect/im_5_5.png, id=138, 642.4pt x 481.8pt>
+<rect/im_5_5.png, id=58, 642.4pt x 481.8pt>
 File: rect/im_5_5.png Graphic file (type png)
 <use rect/im_5_5.png>
 Package pdftex.def Info: rect/im_5_5.png  used on input line 211.
@@ -1452,7 +1450,13 @@ Package fancyhdr Warning: \footskip is too small (0.0pt):
 (fancyhdr)                \setlength{\footskip}{12.0pt}.
 
 [5 <./rect/im_5_1.png (PNG copy)> <./rect/im_5_5.png (PNG copy)>]
-Overfull \hbox (3.0819pt too wide) detected at line 243
+
+Package fancyhdr Warning: \footskip is too small (0.0pt): 
+(fancyhdr)                Make it at least 12.0pt, for example:
+(fancyhdr)                \setlength{\footskip}{12.0pt}.
+
+[6]
+Overfull \hbox (3.0819pt too wide) detected at line 264
  []$[]  []\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 !\OT1/cmr/m/n/10 ) = [] [] \OML/cmm
 /m/it/10 f\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 t\OT1/cmr/m/n/10 )\OML/cmm/m/it/10 
 e[]dt \OT1/cmr/m/n/10 = [] [](\OML/cmm/m/it/10 a \OMS/cmsy/m/n/10 ^^@ j\OML/cmm
@@ -1461,7 +1465,7 @@ e[]dt \OT1/cmr/m/n/10 = [] [](\OML/cmm/m/it/10 a \OMS/cmsy/m/n/10 ^^@ j\OML/cmm
  []
 
 
-Overfull \hbox (19.35332pt too wide) detected at line 243
+Overfull \hbox (19.35332pt too wide) detected at line 264
  []$[] \OMS/cmsy/m/n/10 ^^@ [] [] j\OML/cmm/m/it/10 at=b\OMS/cmsy/m/n/10 j\OML/
 cmm/m/it/10 e[]dt \OT1/cmr/m/n/10 = [] + [] [] []  $ 
  []
@@ -1471,37 +1475,37 @@ Package fancyhdr Warning: \footskip is too small (0.0pt):
 (fancyhdr)                Make it at least 12.0pt, for example:
 (fancyhdr)                \setlength{\footskip}{12.0pt}.
 
-[6]
+[7]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 276.
+(hyperref)                removing `math shift' on input line 297.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 276.
+(hyperref)                removing `math shift' on input line 297.
 
-<tria/f_1_1.png, id=160, 642.4pt x 481.8pt>
+<tria/f_1_1.png, id=89, 642.4pt x 481.8pt>
 File: tria/f_1_1.png Graphic file (type png)
 <use tria/f_1_1.png>
-Package pdftex.def Info: tria/f_1_1.png  used on input line 279.
+Package pdftex.def Info: tria/f_1_1.png  used on input line 300.
 (pdftex.def)             Requested size: 261.64966pt x 196.23802pt.
-<tria/f_1_5.png, id=161, 642.4pt x 481.8pt>
+<tria/f_1_5.png, id=90, 642.4pt x 481.8pt>
 File: tria/f_1_5.png Graphic file (type png)
 <use tria/f_1_5.png>
-Package pdftex.def Info: tria/f_1_5.png  used on input line 285.
+Package pdftex.def Info: tria/f_1_5.png  used on input line 306.
 (pdftex.def)             Requested size: 261.64966pt x 196.23802pt.
-<tria/f_5_1.png, id=162, 642.4pt x 481.8pt>
+<tria/f_5_1.png, id=91, 642.4pt x 481.8pt>
 File: tria/f_5_1.png Graphic file (type png)
 <use tria/f_5_1.png>
-Package pdftex.def Info: tria/f_5_1.png  used on input line 287.
+Package pdftex.def Info: tria/f_5_1.png  used on input line 308.
 (pdftex.def)             Requested size: 261.64966pt x 196.23802pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<tria/f_5_5.png, id=163, 642.4pt x 481.8pt>
+<tria/f_5_5.png, id=92, 642.4pt x 481.8pt>
 File: tria/f_5_5.png Graphic file (type png)
 <use tria/f_5_5.png>
-Package pdftex.def Info: tria/f_5_5.png  used on input line 293.
+Package pdftex.def Info: tria/f_5_5.png  used on input line 314.
 (pdftex.def)             Requested size: 261.64966pt x 196.23802pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
@@ -1511,79 +1515,53 @@ Package fancyhdr Warning: \footskip is too small (0.0pt):
 (fancyhdr)                Make it at least 12.0pt, for example:
 (fancyhdr)                \setlength{\footskip}{12.0pt}.
 
-[7 <./tria/f_1_1.png (PNG copy)>]
+[8 <./tria/f_1_1.png (PNG copy)>]
 
-LaTeX Warning: Text page 8 contains only floats.
-
-
-Package fancyhdr Warning: \footskip is too small (0.0pt): 
-(fancyhdr)                Make it at least 12.0pt, for example:
-(fancyhdr)                \setlength{\footskip}{12.0pt}.
-
-[8 <./tria/f_1_5.png (PNG copy)> <./tria/f_5_1.png (PNG copy)>]
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 301.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\omega' on input line 301.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 301.
+LaTeX Warning: Text page 9 contains only floats.
 
 
 Package fancyhdr Warning: \footskip is too small (0.0pt): 
 (fancyhdr)                Make it at least 12.0pt, for example:
 (fancyhdr)                \setlength{\footskip}{12.0pt}.
 
-[9 <./tria/f_5_5.png (PNG copy)>]
+[9 <./tria/f_1_5.png (PNG copy)> <./tria/f_5_1.png (PNG copy)>]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 333.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 333.
+(hyperref)                removing `math shift' on input line 322.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 340.
+(hyperref)                removing `\omega' on input line 322.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\omega' on input line 340.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 340.
+(hyperref)                removing `math shift' on input line 322.
 
 
 Package fancyhdr Warning: \footskip is too small (0.0pt): 
 (fancyhdr)                Make it at least 12.0pt, for example:
 (fancyhdr)                \setlength{\footskip}{12.0pt}.
 
-[10]
+[10 <./tria/f_5_5.png (PNG copy)>]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 367.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 367.
+(hyperref)                removing `math shift' on input line 374.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 373.
+(hyperref)                removing `math shift' on input line 374.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\omega' on input line 373.
+(hyperref)                removing `math shift' on input line 381.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 373.
+(hyperref)                removing `\omega' on input line 381.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 381.
 
 
 Package fancyhdr Warning: \footskip is too small (0.0pt): 
@@ -1591,48 +1569,84 @@ Package fancyhdr Warning: \footskip is too small (0.0pt):
 (fancyhdr)                \setlength{\footskip}{12.0pt}.
 
 [11]
-Overfull \hbox (25.06082pt too wide) detected at line 399
- []$[] \OT1/cmr/m/n/10 = [] [] = [] [] =$ 
- []
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 431.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 401.
+(hyperref)                removing `math shift' on input line 431.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 401.
+(hyperref)                removing `math shift' on input line 437.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 406.
+(hyperref)                removing `\omega' on input line 437.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\omega' on input line 406.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 406.
+(hyperref)                removing `math shift' on input line 437.
 
 
 Package fancyhdr Warning: \footskip is too small (0.0pt): 
 (fancyhdr)                Make it at least 12.0pt, for example:
 (fancyhdr)                \setlength{\footskip}{12.0pt}.
 
-[12] (./my_report.aux)
+[12]
+Overfull \hbox (25.06082pt too wide) detected at line 486
+ []$[] \OT1/cmr/m/n/10 = [] [] = [] [] =$ 
+ []
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 488.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 488.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 493.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\omega' on input line 493.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 493.
+
+
+Package fancyhdr Warning: \footskip is too small (0.0pt): 
+(fancyhdr)                Make it at least 12.0pt, for example:
+(fancyhdr)                \setlength{\footskip}{12.0pt}.
+
+[13] (./my_report.aux)
  ***********
 LaTeX2e <2023-06-01>
 L3 programming layer <2023-06-05>
  ***********
-Package rerunfilecheck Info: File `my_report.out' has not changed.
-(rerunfilecheck)             Checksum: 5AA207DC2D5494938E60EB96CAF7AF90;6367.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+
+Package rerunfilecheck Warning: File `my_report.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `my_report.out':
+(rerunfilecheck)             Before: <no file>
+(rerunfilecheck)             After:  F4AEEDF45A634729C6FC98A3F6A03028;7827.
  ) 
 Here is how much of TeX's memory you used:
- 53141 strings out of 475734
- 1313951 string characters out of 5786229
- 2010911 words of memory out of 5000000
- 73199 multiletter control sequences out of 15000+600000
+ 53129 strings out of 475734
+ 1313758 string characters out of 5786229
+ 2010855 words of memory out of 5000000
+ 73182 multiletter control sequences out of 15000+600000
  530358 words of font info for 77 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  84i,12n,89p,762b,609s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -1656,10 +1670,10 @@ texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb><c:/texlive/20
 ist/fonts/type1/public/cm-super/sfti0900.pfb><c:/texlive/2023/texmf-dist/fonts/
 type1/public/cm-super/sfti1000.pfb><c:/texlive/2023/texmf-dist/fonts/type1/publ
 ic/cm-super/sfti1200.pfb>
-Output written on my_report.pdf (13 pages, 626426 bytes).
+Output written on my_report.pdf (14 pages, 634802 bytes).
 PDF statistics:
- 311 PDF objects out of 1000 (max. 8388607)
- 237 compressed objects within 3 object streams
- 56 named destinations out of 1000 (max. 500000)
- 241 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 262 PDF objects out of 1000 (max. 8388607)
+ 188 compressed objects within 2 object streams
+ 67 named destinations out of 1000 (max. 500000)
+ 73 words of extra memory for PDF output out of 10000 (max. 10000000)
 
