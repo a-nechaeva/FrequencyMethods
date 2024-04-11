@@ -2,7 +2,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 
-a = 1
+a = 5
 b = 1
 
 #  functions
@@ -12,7 +12,12 @@ _v_rect = np.vectorize(_rectangle_f)
 get_wave_func = lambda: np.vectorize(lambda t: _rectangle_f(t), otypes=[complex])
 
 
-_triangle_f = lambda t: (a - abs(a * t / b)) if b >= abs(t) else 0
+#  _triangle_f = lambda t: (a - abs((a * t) / b)) if b >= abs(t) else 0
+def _triangle_f(t):
+    if b >= abs(t):
+        return a - abs(a * t / b)
+    else:
+        return 0
 
 get_tria_func = lambda: np.vectorize(lambda t: _triangle_f(t), otypes=[complex])
 
@@ -21,22 +26,32 @@ _v_tria = np.vectorize(_triangle_f)
 
 _sinc_f = lambda t: a * np.sinc(b * t)
 
+get_sinc = lambda: np.vectorize(lambda t: _sinc_f(t), otypes=[complex])
+
 _gauss_f = lambda t: a * np.exp(-b * t ** 2)
 
+get_gauss = lambda: np.vectorize(lambda t: _gauss_f(t), otypes=[complex])
+
 _attenuation_f = lambda t: a * np.exp(-b * abs(t))
+
+get_atten = lambda: np.vectorize(lambda t: _attenuation_f(t), otypes=[complex])
 
 
 #  draw plots of functions
 def _draw_fun(f):
 
-    t = np.linspace(-10, 10, 10000)
+    t = np.linspace(-10, 10, 1000)
 
-    plt.plot(t, f(t), label=r'f(t)')
+    plt.plot(t, f(t), label=r'f(t)', color='b')
+    #  t_1 = np.linspace(-10, -b, 100)
+    #  t_2 = np.linspace(b, 10, 100)
+    #  plt.plot(t_1, f(t_1), color='b')
+    #  plt.plot(t_2, f(t_2), color='b')
     plt.ylabel(r'f(t)')
     plt.xlabel(r't')
     plt.legend()
     plt.grid()
-    plt.title('Треугольная функция a = ' + str(a) + ', b = ' + str(b))
+    plt.title('Двустороннее затухание a = ' + str(a) + ', b = ' + str(b))
     plt.show()
 
 
@@ -63,17 +78,22 @@ def _draw_image_fourier(f):
 
     V_1 = np.linspace(-25, 25, 1000)
 
-    plt.plot(V_1, _fourier_img_0(wave, V_1).real, label=r'$Re \, \hat{f}(\omega)$')
+    plt.plot(V_1, _fourier_img_0(wave, V_1).real, label=r'$Re \, \hat{f}(\omega)$', color='b')
     #  plt.plot(V_1, _fourier_img_0(wave, V_1).imag, label=r'$Im \, \hat{f}(\omega)$')
     plt.grid()
     plt.legend()
     plt.xlabel(r'$\omega$')
     plt.ylabel(r'$\hat{f}(\omega)$')
-    plt.title('Фурье-образ прямоугольной функции a = ' + str(a) + ', b = ' + str(b))
+    plt.title('Фурье-образ двустороннего затухания a = ' + str(a) + ', b = ' + str(b))
     plt.show()
 
 
-_draw_fun(_v_tria)
-#_draw_image_fourier(get_tria_func)
+#  function of parseval
+def _parseval_(f):
+    
+
+
+#_draw_fun(_attenuation_f)
+_draw_image_fourier(get_atten)
 
 
