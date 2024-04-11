@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.6.14)  12 APR 2024 01:58
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.6.14)  12 APR 2024 02:35
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1595,26 +1595,6 @@ Package fancyhdr Warning: \footskip is too small (0.0pt):
 
 [12 <./tria/im_5_5.png (PNG copy)>]
 
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 401.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 401.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 408.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\omega' on input line 408.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 408.
-
-
 Package fancyhdr Warning: \footskip is too small (0.0pt): 
 (fancyhdr)                Make it at least 12.0pt, for example:
 (fancyhdr)                \setlength{\footskip}{12.0pt}.
@@ -1622,42 +1602,161 @@ Package fancyhdr Warning: \footskip is too small (0.0pt):
 [13]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 460.
+(hyperref)                removing `math shift' on input line 402.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 460.
+(hyperref)                removing `math shift' on input line 402.
 
+<card/f_1_1.png, id=247, 642.4pt x 481.8pt>
+File: card/f_1_1.png Graphic file (type png)
+<use card/f_1_1.png>
+Package pdftex.def Info: card/f_1_1.png  used on input line 405.
+(pdftex.def)             Requested size: 261.64966pt x 196.23802pt.
+<card/f_1_5.png, id=248, 642.4pt x 481.8pt>
+File: card/f_1_5.png Graphic file (type png)
+<use card/f_1_5.png>
+Package pdftex.def Info: card/f_1_5.png  used on input line 411.
+(pdftex.def)             Requested size: 261.64966pt x 196.23802pt.
+<card/f_5_1.png, id=249, 642.4pt x 481.8pt>
+File: card/f_5_1.png Graphic file (type png)
+<use card/f_5_1.png>
+Package pdftex.def Info: card/f_5_1.png  used on input line 413.
+(pdftex.def)             Requested size: 261.64966pt x 196.23802pt.
 
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 466.
+LaTeX Warning: `!h' float specifier changed to `!ht'.
 
+<card/f_5_5.png, id=250, 642.4pt x 481.8pt>
+File: card/f_5_5.png Graphic file (type png)
+<use card/f_5_5.png>
+Package pdftex.def Info: card/f_5_5.png  used on input line 419.
+(pdftex.def)             Requested size: 261.64966pt x 196.23802pt.
 
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\omega' on input line 466.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 466.
+LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
 Package fancyhdr Warning: \footskip is too small (0.0pt): 
 (fancyhdr)                Make it at least 12.0pt, for example:
 (fancyhdr)                \setlength{\footskip}{12.0pt}.
 
-[14]
-Overfull \hbox (25.06082pt too wide) detected at line 517
- []$[] \OT1/cmr/m/n/10 = [] [] = [] [] =$ 
- []
+[14 <./card/f_1_1.png (PNG copy)>]
+
+LaTeX Warning: Text page 15 contains only floats.
+
+
+Package fancyhdr Warning: \footskip is too small (0.0pt): 
+(fancyhdr)                Make it at least 12.0pt, for example:
+(fancyhdr)                \setlength{\footskip}{12.0pt}.
+
+[15 <./card/f_1_5.png (PNG copy)> <./card/f_5_1.png (PNG copy)>]
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 427.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 519.
+(hyperref)                removing `\omega' on input line 427.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 519.
+(hyperref)                removing `math shift' on input line 427.
 
+<card/im_1_1.png, id=263, 642.4pt x 481.8pt>
+File: card/im_1_1.png Graphic file (type png)
+<use card/im_1_1.png>
+Package pdftex.def Info: card/im_1_1.png  used on input line 430.
+(pdftex.def)             Requested size: 247.88083pt x 185.90894pt.
+<card/im_1_5.png, id=264, 642.4pt x 481.8pt>
+File: card/im_1_5.png Graphic file (type png)
+<use card/im_1_5.png>
+Package pdftex.def Info: card/im_1_5.png  used on input line 436.
+(pdftex.def)             Requested size: 261.64966pt x 196.23802pt.
+<card/im_5_1.png, id=265, 642.4pt x 481.8pt>
+File: card/im_5_1.png Graphic file (type png)
+<use card/im_5_1.png>
+Package pdftex.def Info: card/im_5_1.png  used on input line 438.
+(pdftex.def)             Requested size: 261.64966pt x 196.23802pt.
+
+Package fancyhdr Warning: \footskip is too small (0.0pt): 
+(fancyhdr)                Make it at least 12.0pt, for example:
+(fancyhdr)                \setlength{\footskip}{12.0pt}.
+
+[16 <./card/f_5_5.png (PNG copy)> <./card/im_1_1.png (PNG copy)>]
+<card/im_5_5.png, id=272, 642.4pt x 481.8pt>
+File: card/im_5_5.png Graphic file (type png)
+<use card/im_5_5.png>
+Package pdftex.def Info: card/im_5_5.png  used on input line 444.
+(pdftex.def)             Requested size: 261.64966pt x 196.23802pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Package fancyhdr Warning: \footskip is too small (0.0pt): 
+(fancyhdr)                Make it at least 12.0pt, for example:
+(fancyhdr)                \setlength{\footskip}{12.0pt}.
+
+[17 <./card/im_1_5.png (PNG copy)> <./card/im_5_1.png (PNG copy)>]
+
+Package fancyhdr Warning: \footskip is too small (0.0pt): 
+(fancyhdr)                Make it at least 12.0pt, for example:
+(fancyhdr)                \setlength{\footskip}{12.0pt}.
+
+[18 <./card/im_5_5.png (PNG copy)>]
+
+Package fancyhdr Warning: \footskip is too small (0.0pt): 
+(fancyhdr)                Make it at least 12.0pt, for example:
+(fancyhdr)                \setlength{\footskip}{12.0pt}.
+
+[19]
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 500.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 500.
+
+<gauss/f_1_1.png, id=289, 642.4pt x 481.8pt>
+File: gauss/f_1_1.png Graphic file (type png)
+<use gauss/f_1_1.png>
+Package pdftex.def Info: gauss/f_1_1.png  used on input line 503.
+(pdftex.def)             Requested size: 261.64966pt x 196.23802pt.
+<gauss/f_1_5.png, id=290, 642.4pt x 481.8pt>
+File: gauss/f_1_5.png Graphic file (type png)
+<use gauss/f_1_5.png>
+Package pdftex.def Info: gauss/f_1_5.png  used on input line 509.
+(pdftex.def)             Requested size: 261.64966pt x 196.23802pt.
+File: card/f_5_1.png Graphic file (type png)
+<use card/f_5_1.png>
+Package pdftex.def Info: card/f_5_1.png  used on input line 511.
+(pdftex.def)             Requested size: 261.64966pt x 196.23802pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<gauss/f_5_5.png, id=291, 642.4pt x 481.8pt>
+File: gauss/f_5_5.png Graphic file (type png)
+<use gauss/f_5_5.png>
+Package pdftex.def Info: gauss/f_5_5.png  used on input line 517.
+(pdftex.def)             Requested size: 261.64966pt x 196.23802pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Package fancyhdr Warning: \footskip is too small (0.0pt): 
+(fancyhdr)                Make it at least 12.0pt, for example:
+(fancyhdr)                \setlength{\footskip}{12.0pt}.
+
+[20 <./gauss/f_1_1.png (PNG copy)>]
+
+LaTeX Warning: Text page 21 contains only floats.
+
+
+Package fancyhdr Warning: \footskip is too small (0.0pt): 
+(fancyhdr)                Make it at least 12.0pt, for example:
+(fancyhdr)                \setlength{\footskip}{12.0pt}.
+
+[21 <./gauss/f_1_5.png (PNG copy)>]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 524.
@@ -1670,12 +1769,168 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 524.
 
+<gauss/im_1_1.png, id=306, 642.4pt x 481.8pt>
+File: gauss/im_1_1.png Graphic file (type png)
+<use gauss/im_1_1.png>
+Package pdftex.def Info: gauss/im_1_1.png  used on input line 528.
+(pdftex.def)             Requested size: 247.88083pt x 185.90894pt.
+<gauss/im_1_5.png, id=307, 642.4pt x 481.8pt>
+File: gauss/im_1_5.png Graphic file (type png)
+<use gauss/im_1_5.png>
+Package pdftex.def Info: gauss/im_1_5.png  used on input line 534.
+(pdftex.def)             Requested size: 261.64966pt x 196.23802pt.
+<gauss/im_5_1.png, id=308, 642.4pt x 481.8pt>
+File: gauss/im_5_1.png Graphic file (type png)
+<use gauss/im_5_1.png>
+Package pdftex.def Info: gauss/im_5_1.png  used on input line 536.
+(pdftex.def)             Requested size: 261.64966pt x 196.23802pt.
 
 Package fancyhdr Warning: \footskip is too small (0.0pt): 
 (fancyhdr)                Make it at least 12.0pt, for example:
 (fancyhdr)                \setlength{\footskip}{12.0pt}.
 
-[15] (./my_report.aux)
+[22 <./gauss/f_5_5.png (PNG copy)> <./gauss/im_1_1.png (PNG copy)>]
+<gauss/im_5_5.png, id=315, 642.4pt x 481.8pt>
+File: gauss/im_5_5.png Graphic file (type png)
+<use gauss/im_5_5.png>
+Package pdftex.def Info: gauss/im_5_5.png  used on input line 542.
+(pdftex.def)             Requested size: 261.64966pt x 196.23802pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Package fancyhdr Warning: \footskip is too small (0.0pt): 
+(fancyhdr)                Make it at least 12.0pt, for example:
+(fancyhdr)                \setlength{\footskip}{12.0pt}.
+
+[23 <./gauss/im_1_5.png (PNG copy)> <./gauss/im_5_1.png (PNG copy)>]
+
+Package fancyhdr Warning: \footskip is too small (0.0pt): 
+(fancyhdr)                Make it at least 12.0pt, for example:
+(fancyhdr)                \setlength{\footskip}{12.0pt}.
+
+[24 <./gauss/im_5_5.png (PNG copy)>]
+
+Package fancyhdr Warning: \footskip is too small (0.0pt): 
+(fancyhdr)                Make it at least 12.0pt, for example:
+(fancyhdr)                \setlength{\footskip}{12.0pt}.
+
+[25]
+Overfull \hbox (25.06082pt too wide) detected at line 598
+ []$[] \OT1/cmr/m/n/10 = [] [] = [] [] =$ 
+ []
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 600.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 600.
+
+<atten/f_1_1.png, id=333, 642.4pt x 481.8pt>
+File: atten/f_1_1.png Graphic file (type png)
+<use atten/f_1_1.png>
+Package pdftex.def Info: atten/f_1_1.png  used on input line 603.
+(pdftex.def)             Requested size: 261.64966pt x 196.23802pt.
+<atten/f_1_5.png, id=334, 642.4pt x 481.8pt>
+File: atten/f_1_5.png Graphic file (type png)
+<use atten/f_1_5.png>
+Package pdftex.def Info: atten/f_1_5.png  used on input line 609.
+(pdftex.def)             Requested size: 261.64966pt x 196.23802pt.
+<atten/f_5_1.png, id=335, 642.4pt x 481.8pt>
+File: atten/f_5_1.png Graphic file (type png)
+<use atten/f_5_1.png>
+Package pdftex.def Info: atten/f_5_1.png  used on input line 611.
+(pdftex.def)             Requested size: 261.64966pt x 196.23802pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<atten/f_5_5.png, id=336, 642.4pt x 481.8pt>
+File: atten/f_5_5.png Graphic file (type png)
+<use atten/f_5_5.png>
+Package pdftex.def Info: atten/f_5_5.png  used on input line 617.
+(pdftex.def)             Requested size: 261.64966pt x 196.23802pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 623.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\omega' on input line 623.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 623.
+
+<atten/im_1_1.png, id=337, 642.4pt x 481.8pt>
+File: atten/im_1_1.png Graphic file (type png)
+<use atten/im_1_1.png>
+Package pdftex.def Info: atten/im_1_1.png  used on input line 626.
+(pdftex.def)             Requested size: 247.88083pt x 185.90894pt.
+
+Package fancyhdr Warning: \footskip is too small (0.0pt): 
+(fancyhdr)                Make it at least 12.0pt, for example:
+(fancyhdr)                \setlength{\footskip}{12.0pt}.
+
+[26 <./atten/f_1_1.png (PNG copy)>]
+
+LaTeX Warning: Text page 27 contains only floats.
+
+
+Package fancyhdr Warning: \footskip is too small (0.0pt): 
+(fancyhdr)                Make it at least 12.0pt, for example:
+(fancyhdr)                \setlength{\footskip}{12.0pt}.
+
+[27 <./atten/f_1_5.png (PNG copy)> <./atten/f_5_1.png (PNG copy)>]
+<atten/im_1_5.png, id=350, 642.4pt x 481.8pt>
+File: atten/im_1_5.png Graphic file (type png)
+<use atten/im_1_5.png>
+Package pdftex.def Info: atten/im_1_5.png  used on input line 632.
+(pdftex.def)             Requested size: 261.64966pt x 196.23802pt.
+<atten/im_5_1.png, id=351, 642.4pt x 481.8pt>
+File: atten/im_5_1.png Graphic file (type png)
+<use atten/im_5_1.png>
+Package pdftex.def Info: atten/im_5_1.png  used on input line 634.
+(pdftex.def)             Requested size: 261.64966pt x 196.23802pt.
+
+
+Package fancyhdr Warning: \footskip is too small (0.0pt): 
+(fancyhdr)                Make it at least 12.0pt, for example:
+(fancyhdr)                \setlength{\footskip}{12.0pt}.
+
+[28 <./atten/f_5_5.png (PNG copy)> <./atten/im_1_1.png (PNG copy)>]
+<atten/im_5_5.png, id=358, 642.4pt x 481.8pt>
+File: atten/im_5_5.png Graphic file (type png)
+<use atten/im_5_5.png>
+Package pdftex.def Info: atten/im_5_5.png  used on input line 640.
+(pdftex.def)             Requested size: 261.64966pt x 196.23802pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Package fancyhdr Warning: \footskip is too small (0.0pt): 
+(fancyhdr)                Make it at least 12.0pt, for example:
+(fancyhdr)                \setlength{\footskip}{12.0pt}.
+
+[29 <./atten/im_1_5.png (PNG copy)> <./atten/im_5_1.png (PNG copy)>]
+
+Package fancyhdr Warning: \footskip is too small (0.0pt): 
+(fancyhdr)                Make it at least 12.0pt, for example:
+(fancyhdr)                \setlength{\footskip}{12.0pt}.
+
+[30 <./atten/im_5_5.png (PNG copy)>]
+
+Package fancyhdr Warning: \footskip is too small (0.0pt): 
+(fancyhdr)                Make it at least 12.0pt, for example:
+(fancyhdr)                \setlength{\footskip}{12.0pt}.
+
+[31] (./my_report.aux)
  ***********
 LaTeX2e <2023-06-01>
 L3 programming layer <2023-06-05>
@@ -1688,10 +1943,10 @@ Package rerunfilecheck Info: File `my_report.out' has not changed.
 (rerunfilecheck)             Checksum: FADB49931EB9DB8C4457087E405482E0;8887.
  ) 
 Here is how much of TeX's memory you used:
- 53207 strings out of 475734
- 1315284 string characters out of 5786229
+ 53402 strings out of 475734
+ 1319249 string characters out of 5786229
  2011072 words of memory out of 5000000
- 73244 multiletter control sequences out of 15000+600000
+ 73405 multiletter control sequences out of 15000+600000
  530358 words of font info for 77 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  84i,12n,89p,762b,609s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -1715,10 +1970,10 @@ texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb><c:/texlive/20
 ist/fonts/type1/public/cm-super/sfti0900.pfb><c:/texlive/2023/texmf-dist/fonts/
 type1/public/cm-super/sfti1000.pfb><c:/texlive/2023/texmf-dist/fonts/type1/publ
 ic/cm-super/sfti1200.pfb>
-Output written on my_report.pdf (16 pages, 757221 bytes).
+Output written on my_report.pdf (32 pages, 1432161 bytes).
 PDF statistics:
- 379 PDF objects out of 1000 (max. 8388607)
- 298 compressed objects within 3 object streams
- 77 named destinations out of 1000 (max. 500000)
- 341 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 495 PDF objects out of 1000 (max. 8388607)
+ 374 compressed objects within 4 object streams
+ 111 named destinations out of 1000 (max. 500000)
+ 456 words of extra memory for PDF output out of 10000 (max. 10000000)
 

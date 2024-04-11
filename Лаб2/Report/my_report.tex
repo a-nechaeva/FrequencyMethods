@@ -370,8 +370,9 @@ n & $a$ & $b$ & $\| f \|^2 = \int_{-d}^d |f(t)|^2 dt $ & $\| \hat{f} \|^2 = \int
 \end{center}
 \end{table}
 
+Заметим, что числа так же сходятся с точностью до целых, для небольших значений, с точностью до сотых (см. наборы $(1, 1)$, $(1, 5)$ вида $(a, b)$ в таблице 2).
 
-
+\newpage
 \subsubsection{Анализ результатов}
 
 
@@ -400,12 +401,49 @@ f(t) = a sinc(bt)
 
 \subsubsection{Построение графиков функции $f(t)$}
 
+\begin{figure}[h!]
+\center{\includegraphics[width=0.76\linewidth]{card/f_1_1.png}}
+\caption{График $f(t)$ при $a = 1$, $b = 1$.}
+\end{figure}
+
+
+\begin{figure}[h!]
+\center{\includegraphics[width=0.76\linewidth]{card/f_1_5.png}}
+\caption{График $f(t)$ при $a = 1$, $b = 5$.}
+\center{\includegraphics[width=0.76\linewidth]{card/f_5_1.png}}
+\caption{График $f(t)$ при $a = 5$, $b = 1$.}
+\end{figure}
+
+
+\begin{figure}[h!]
+\center{\includegraphics[width=0.76\linewidth]{card/f_5_5.png}}
+\caption{График $f(t)$ при $a = 5$, $b = 5$.}
+\end{figure}
 
 
 
 
-
+\newpage
 \subsubsection{Построение графиков Фурье-образа $\hat{f} (\omega)$}
+
+\begin{figure}[h!]
+\center{\includegraphics[width=0.72\linewidth]{card/im_1_1.png}}
+\caption{График $\hat{f}(t)$ при $a = 1$, $b = 1$.}
+\end{figure}
+
+
+\begin{figure}[h!]
+\center{\includegraphics[width=0.76\linewidth]{card/im_1_5.png}}
+\caption{График $\hat{f}(t)$ при $a = 1$, $b = 5$.}
+\center{\includegraphics[width=0.76\linewidth]{card/im_5_1.png}}
+\caption{График $\hat{f}(t)$ при $a = 5$, $b = 1$.}
+\end{figure}
+
+
+\begin{figure}[h!]
+\center{\includegraphics[width=0.76\linewidth]{card/im_5_5.png}}
+\caption{График $\hat{f}(t)$ при $a = 5$, $b = 5$.}
+\end{figure}
 
 
 
@@ -421,19 +459,21 @@ f(t) = a sinc(bt)
 \hline
 n & $a$ & $b$ & $\| f \|^2 = \int_{-d}^d |f(t)|^2 dt $ & $\| \hat{f} \|^2 = \int_{-d}^d |\hat{f}(\omega)|^2 d\omega $ \\
 \hline
-1 & 1 & 1 &  2.0& 2.0\\
+1 & 1 & 1 &  0.9979& 0.9896\\
 \hline
-2 & 1 & 5 &  & \\
+2 & 1 & 5 & 0.1994 &0.1989 \\
 \hline
-3 & 5 & 1 &  & \\
+3 & 5 & 1 & 24.94 & 24.74 \\
 \hline
-4 & 5 & 5 &  & \\
+4 & 5 & 5 & 4.984 & 4.973 \\
 \hline
 \end{tabular}
 \end{center}
 \end{table}
 
+С точностью до целых значения совпадают, более малые -- с точностью до десятых или сотых. Равенство Парсеваля выполнено для всех рассматриваемых наборов $(a, b)$.
 
+\newpage
 \subsubsection{Анализ результатов}
 
 
@@ -459,11 +499,50 @@ f(t) = a e^{-bt^2}
 
 \subsubsection{Построение графиков функции $f(t)$}
 
+\begin{figure}[h!]
+\center{\includegraphics[width=0.76\linewidth]{gauss/f_1_1.png}}
+\caption{График $f(t)$ при $a = 1$, $b = 1$.}
+\end{figure}
+
+
+\begin{figure}[h!]
+\center{\includegraphics[width=0.76\linewidth]{gauss/f_1_5.png}}
+\caption{График $f(t)$ при $a = 1$, $b = 5$.}
+\center{\includegraphics[width=0.76\linewidth]{card/f_5_1.png}}
+\caption{График $f(t)$ при $a = 5$, $b = 1$.}
+\end{figure}
+
+
+\begin{figure}[h!]
+\center{\includegraphics[width=0.76\linewidth]{gauss/f_5_5.png}}
+\caption{График $f(t)$ при $a = 5$, $b = 5$.}
+\end{figure}
 
 
 
-
+\newpage
 \subsubsection{Построение графиков Фурье-образа $\hat{f} (\omega)$}
+
+
+\begin{figure}[h!]
+\center{\includegraphics[width=0.72\linewidth]{gauss/im_1_1.png}}
+\caption{График $\hat{f}(t)$ при $a = 1$, $b = 1$.}
+\end{figure}
+
+
+\begin{figure}[h!]
+\center{\includegraphics[width=0.76\linewidth]{gauss/im_1_5.png}}
+\caption{График $\hat{f}(t)$ при $a = 1$, $b = 5$.}
+\center{\includegraphics[width=0.76\linewidth]{gauss/im_5_1.png}}
+\caption{График $\hat{f}(t)$ при $a = 5$, $b = 1$.}
+\end{figure}
+
+
+\begin{figure}[h!]
+\center{\includegraphics[width=0.76\linewidth]{gauss/im_5_5.png}}
+\caption{График $\hat{f}(t)$ при $a = 5$, $b = 5$.}
+\end{figure}
+
 
 
 
@@ -478,20 +557,22 @@ f(t) = a e^{-bt^2}
 \hline
 n & $a$ & $b$ & $\| f \|^2 = \int_{-d}^d |f(t)|^2 dt $ & $\| \hat{f} \|^2 = \int_{-d}^d |\hat{f}(\omega)|^2 d\omega $ \\
 \hline
-1 & 1 & 1 &  2.0& 2.0\\
+1 & 1 & 1 &  1.252& 1.250\\
 \hline
-2 & 1 & 5 &  & \\
+2 & 1 & 5 & 0.5599 & 0.5588 \\
 \hline
-3 & 5 & 1 &  & \\
+3 & 5 & 1 & 31.30  & 31.24 \\
 \hline
-4 & 5 & 5 &  & \\
+4 & 5 & 5 & 13.99  & 13.97\\
 \hline
 \end{tabular}
 \end{center}
 \end{table}
 
+Равенство Парсеваля выполнено с высокой степенью точности.
 
 
+\newpage
 \subsubsection{Анализ результатов}
 
 
@@ -518,10 +599,47 @@ f(t) = a e^{-b|t|}
 
 \subsubsection{Построение графиков функции $f(t)$}
 
+\begin{figure}[h!]
+\center{\includegraphics[width=0.76\linewidth]{atten/f_1_1.png}}
+\caption{График $f(t)$ при $a = 1$, $b = 1$.}
+\end{figure}
+
+
+\begin{figure}[h!]
+\center{\includegraphics[width=0.76\linewidth]{atten/f_1_5.png}}
+\caption{График $f(t)$ при $a = 1$, $b = 5$.}
+\center{\includegraphics[width=0.76\linewidth]{atten/f_5_1.png}}
+\caption{График $f(t)$ при $a = 5$, $b = 1$.}
+\end{figure}
+
+
+\begin{figure}[h!]
+\center{\includegraphics[width=0.76\linewidth]{atten/f_5_5.png}}
+\caption{График $f(t)$ при $a = 5$, $b = 5$.}
+\end{figure}
 
 
 
 \subsubsection{Построение графиков Фурье-образа $\hat{f} (\omega)$}
+
+\begin{figure}[h!]
+\center{\includegraphics[width=0.72\linewidth]{atten/im_1_1.png}}
+\caption{График $\hat{f}(t)$ при $a = 1$, $b = 1$.}
+\end{figure}
+
+
+\begin{figure}[h!]
+\center{\includegraphics[width=0.76\linewidth]{atten/im_1_5.png}}
+\caption{График $\hat{f}(t)$ при $a = 1$, $b = 5$.}
+\center{\includegraphics[width=0.76\linewidth]{atten/im_5_1.png}}
+\caption{График $\hat{f}(t)$ при $a = 5$, $b = 1$.}
+\end{figure}
+
+
+\begin{figure}[h!]
+\center{\includegraphics[width=0.76\linewidth]{atten/im_5_5.png}}
+\caption{График $\hat{f}(t)$ при $a = 5$, $b = 5$.}
+\end{figure}
 
 
 
@@ -535,20 +653,22 @@ f(t) = a e^{-b|t|}
 \hline
 n & $a$ & $b$ & $\| f \|^2 = \int_{-d}^d |f(t)|^2 dt $ & $\| \hat{f} \|^2 = \int_{-d}^d |\hat{f}(\omega)|^2 d\omega $ \\
 \hline
-1 & 1 & 1 &  2.0& 2.0\\
+1 & 1 & 1 &  0.9924& 0.9966\\
 \hline
-2 & 1 & 5 &  & \\
+2 & 1 & 5 & 0.1700 & 0.1977\\
 \hline
-3 & 5 & 1 &  & \\
+3 & 5 & 1 & 24.81 & 24.92 \\
 \hline
-4 & 5 & 5 &  & \\
+4 & 5 & 5 & 4.249  & 4.943 \\
 \hline
 \end{tabular}
 \end{center}
 \end{table}
 
+Как и в предыдущих случаях, значения норм оказались достаточно близки для того, чтобы считать равенство Парсеваля выполненным для всех рассматриваемых наборов значений параметров $(a, b)$.
 
 
+\newpage
 \subsubsection{Анализ результатов}
 
 
