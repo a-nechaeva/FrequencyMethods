@@ -2,8 +2,8 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 
-a = 1
-b = 1
+a = 5
+b = 5
 
 #  functions
 _rectangle_f = lambda t: a if b >= abs(t) else 0
@@ -103,11 +103,11 @@ def fourier_image(func, st, fn):
 
 
 def parseval_check(f):
-    f_image = fourier_image(f, -1, 1)
+    f_image = fourier_image(f, -5, 5)
 
     f_image_abs = np.vectorize(lambda t: abs(f_image(t)))
 
-    left = _par_integral_counter(f, f, -1, 1)
+    left = _par_integral_counter(f, f, -5, 5)
 
     right = _par_integral_counter(f_image_abs, f_image_abs, -10, 10)
     print(left, right)
