@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.6.14)  12 APR 2024 03:32
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.6.14)  12 APR 2024 04:43
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1957,6 +1957,10 @@ Package fancyhdr Warning: \footskip is too small (0.0pt):
 (fancyhdr)                \setlength{\footskip}{12.0pt}.
 
 [30 <./atten/im_5_5.png (PNG copy)>]
+Underfull \hbox (badness 10000) in paragraph at lines 694--695
+
+ []
+
 
 Package fancyhdr Warning: \footskip is too small (0.0pt): 
 (fancyhdr)                Make it at least 12.0pt, for example:
@@ -2002,7 +2006,7 @@ texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb><c:/texlive/20
 ist/fonts/type1/public/cm-super/sfti0900.pfb><c:/texlive/2023/texmf-dist/fonts/
 type1/public/cm-super/sfti1000.pfb><c:/texlive/2023/texmf-dist/fonts/type1/publ
 ic/cm-super/sfti1200.pfb>
-Output written on my_report.pdf (32 pages, 1463813 bytes).
+Output written on my_report.pdf (32 pages, 1464199 bytes).
 PDF statistics:
  496 PDF objects out of 1000 (max. 8388607)
  374 compressed objects within 4 object streams
