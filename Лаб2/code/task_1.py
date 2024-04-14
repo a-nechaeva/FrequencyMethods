@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 
 a = 1
 b = 1
-c = -1
+c = 5
 
 
 #  functions
@@ -123,7 +123,7 @@ def _draw_image_fourier_abs(f):
 
     V_1 = np.linspace(-25, 25, 1000)
 
-    plt.plot(V_1, abs(_fourier_img_0(wave, V_1)), label=r'$ | \hat{g}(\omega) |$', color='b')
+    plt.plot(V_1, np.sqrt(_fourier_img_0(wave, V_1).real ** 2 + _fourier_img_0(wave, V_1).imag ** 2), label=r'$ | \hat{g}(\omega) |$', color='b')
     #plt.plot(V_1, _fourier_img_0(wave, V_1).imag, label=r'$Im \, \hat{g}(\omega)$', color='r')
     plt.grid()
     plt.legend()

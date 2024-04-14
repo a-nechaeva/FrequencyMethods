@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.6.14)  15 APR 2024 00:10
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.6.14)  15 APR 2024 00:27
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2133,6 +2133,10 @@ Package fancyhdr Warning: \footskip is too small (0.0pt):
 (fancyhdr)                \setlength{\footskip}{12.0pt}.
 
 [39 <./cx/abs_-0.5.png (PNG copy)> <./cx/abs_-1.png (PNG copy)>]
+Underfull \hbox (badness 10000) in paragraph at lines 824--825
+
+ []
+
 
 Package fancyhdr Warning: \footskip is too small (0.0pt): 
 (fancyhdr)                Make it at least 12.0pt, for example:
@@ -2157,10 +2161,10 @@ Package rerunfilecheck Info: File `my_report.out' has not changed.
 (rerunfilecheck)             Checksum: AA3ACDC4CA43048D4FA92220655A2C64;10249.
  ) 
 Here is how much of TeX's memory you used:
- 53532 strings out of 475734
- 1321468 string characters out of 5786229
+ 53533 strings out of 475734
+ 1321484 string characters out of 5786229
  2011071 words of memory out of 5000000
- 73507 multiletter control sequences out of 15000+600000
+ 73508 multiletter control sequences out of 15000+600000
  530358 words of font info for 77 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  84i,12n,89p,762b,609s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -2186,7 +2190,7 @@ dist/fonts/type1/public/cm-super/sfrm0900.pfb><c:/texlive/2023/texmf-dist/fonts
 lic/cm-super/sfrm1200.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/cm-sup
 er/sfti0900.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfti100
 0.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfti1200.pfb>
-Output written on my_report.pdf (42 pages, 1874461 bytes).
+Output written on my_report.pdf (42 pages, 1875050 bytes).
 PDF statistics:
  605 PDF objects out of 1000 (max. 8388607)
  454 compressed objects within 5 object streams
