@@ -333,21 +333,21 @@ a - |at / b|, & |t| \leq b,\\
 
 \begin{figure}[h!]
 \center{\includegraphics[width=0.72\linewidth]{tria/im_1_1.png}}
-\caption{График $\hat{f}(t)$ при $a = 1$, $b = 1$.}
+\caption{График $\hat{f}(\omega)$ при $a = 1$, $b = 1$.}
 \end{figure}
 
 
 \begin{figure}[h!]
 \center{\includegraphics[width=0.76\linewidth]{tria/im_1_5.png}}
-\caption{График $\hat{f}(t)$ при $a = 1$, $b = 5$.}
+\caption{График $\hat{f}(\omega)$ при $a = 1$, $b = 5$.}
 \center{\includegraphics[width=0.76\linewidth]{tria/im_5_1.png}}
-\caption{График $\hat{f}(t)$ при $a = 5$, $b = 1$.}
+\caption{График $\hat{f}(\omega)$ при $a = 5$, $b = 1$.}
 \end{figure}
 
 
 \begin{figure}[h!]
 \center{\includegraphics[width=0.76\linewidth]{tria/im_5_5.png}}
-\caption{График $\hat{f}(t)$ при $a = 5$, $b = 5$.}
+\caption{График $\hat{f}(\omega)$ при $a = 5$, $b = 5$.}
 \end{figure}
 
 
@@ -441,21 +441,21 @@ f(t) = a sinc(bt)
 
 \begin{figure}[h!]
 \center{\includegraphics[width=0.72\linewidth]{card/im_1_1.png}}
-\caption{График $\hat{f}(t)$ при $a = 1$, $b = 1$.}
+\caption{График $\hat{f}(\omega)$ при $a = 1$, $b = 1$.}
 \end{figure}
 
 
 \begin{figure}[h!]
 \center{\includegraphics[width=0.76\linewidth]{card/im_1_5.png}}
-\caption{График $\hat{f}(t)$ при $a = 1$, $b = 5$.}
+\caption{График $\hat{f}(\omega)$ при $a = 1$, $b = 5$.}
 \center{\includegraphics[width=0.76\linewidth]{card/im_5_1.png}}
-\caption{График $\hat{f}(t)$ при $a = 5$, $b = 1$.}
+\caption{График $\hat{f}(\omega)$ при $a = 5$, $b = 1$.}
 \end{figure}
 
 
 \begin{figure}[h!]
 \center{\includegraphics[width=0.76\linewidth]{card/im_5_5.png}}
-\caption{График $\hat{f}(t)$ при $a = 5$, $b = 5$.}
+\caption{График $\hat{f}(\omega)$ при $a = 5$, $b = 5$.}
 \end{figure}
 
 
@@ -542,21 +542,21 @@ f(t) = a e^{-bt^2}
 
 \begin{figure}[h!]
 \center{\includegraphics[width=0.72\linewidth]{gauss/im_1_1.png}}
-\caption{График $\hat{f}(t)$ при $a = 1$, $b = 1$.}
+\caption{График $\hat{f}(\omega)$ при $a = 1$, $b = 1$.}
 \end{figure}
 
 
 \begin{figure}[h!]
 \center{\includegraphics[width=0.76\linewidth]{gauss/im_1_5.png}}
-\caption{График $\hat{f}(t)$ при $a = 1$, $b = 5$.}
+\caption{График $\hat{f}(\omega)$ при $a = 1$, $b = 5$.}
 \center{\includegraphics[width=0.76\linewidth]{gauss/im_5_1.png}}
-\caption{График $\hat{f}(t)$ при $a = 5$, $b = 1$.}
+\caption{График $\hat{f}(\omega)$ при $a = 5$, $b = 1$.}
 \end{figure}
 
 
 \begin{figure}[h!]
 \center{\includegraphics[width=0.76\linewidth]{gauss/im_5_5.png}}
-\caption{График $\hat{f}(t)$ при $a = 5$, $b = 5$.}
+\caption{График $\hat{f}(\omega)$ при $a = 5$, $b = 5$.}
 \end{figure}
 
 
@@ -668,21 +668,21 @@ f(t) =  a e^{-b|t|}
 
 \begin{figure}[h!]
 \center{\includegraphics[width=0.72\linewidth]{atten/im_1_1.png}}
-\caption{График $\hat{f}(t)$ при $a = 1$, $b = 1$.}
+\caption{График $\hat{f}(\omega)$ при $a = 1$, $b = 1$.}
 \end{figure}
 
 
 \begin{figure}[h!]
 \center{\includegraphics[width=0.76\linewidth]{atten/im_1_5.png}}
-\caption{График $\hat{f}(t)$ при $a = 1$, $b = 5$.}
+\caption{График $\hat{f}(\omega)$ при $a = 1$, $b = 5$.}
 \center{\includegraphics[width=0.76\linewidth]{atten/im_5_1.png}}
-\caption{График $\hat{f}(t)$ при $a = 5$, $b = 1$.}
+\caption{График $\hat{f}(\omega)$ при $a = 5$, $b = 1$.}
 \end{figure}
 
 
 \begin{figure}[h!]
 \center{\includegraphics[width=0.76\linewidth]{atten/im_5_5.png}}
-\caption{График $\hat{f}(t)$ при $a = 5$, $b = 5$.}
+\caption{График $\hat{f}(\omega)$ при $a = 5$, $b = 5$.}
 \end{figure}
 
 
@@ -725,8 +725,107 @@ d & $a$ & $b$ & $\| f \|^2 = \int_{-d}^d |f(t)|^2 dt $ & $\| \hat{f} \|^2 = \int
 
 \newpage
 \section{Задание. Комплексное.}
+Выберем функцию двустороннего затухания $f(t) =  a e^{-b|t|}$, зафиксируем параметры $a=1$, $b=1$. Рассмотрим сдвинутую функцию $g(t) = f(t+c)$:
+
+\begin{equation}
+g(t) = e^{-|t+c|}
+\end{equation}
+
+\subsection{Аналитическое выражение для Фурье-образа}
+
+\begin{multline}
+\hat{g}(\omega) =  \frac{1}{\sqrt{2 \pi}} \int \limits_{-\infty}^{\infty}  e^{-|t + c|} e^{-i \omega t} dt = 
+ \frac{1}{\sqrt{2 \pi}} \left(  \int \limits_{-\infty}^{-c}  e^{t + c -i \omega t} dt  +  \int \limits_{-c}^{\infty}  e^{-t - c -i \omega t} dt   \right) = \\
+\\
+= \frac{e^{-c}}{\sqrt{2 \pi}} \left( e^{2c} \int \limits_{-\infty}^{-c}  e^{t(1 -i \omega)} dt  + \int \limits_{-c}^{\infty}  e^{-t(1+i \omega)} dt   \right) = \\
+\\
+ =\frac{e^{-c}}{\sqrt{2 \pi}} \left( e^{2c} \left.  \frac{e^{t(1 -i \omega)}}{1 -i \omega} \right|_{-\infty}^{-c}  - \left. \frac{e^{-t(1+i \omega)}}{1+i \omega}  \right|_{-c}^{\infty}  \right) =
+\frac{e^{-c}}{\sqrt{2 \pi}} \left( e^{2c}   \frac{e^{-c(1 -i \omega)}}{1 -i \omega} +  \frac{e^{c(1+i \omega)}}{1+i \omega}  \right) = \\
+\\
+= \frac{e^{-c}}{\sqrt{2 \pi}} \left(   \frac{e^{c +ic \omega}}{1 -i \omega} +  \frac{e^{c+i c\omega}}{1+i \omega}  \right) =
+\frac{1}{\sqrt{2 \pi}} \left(   \frac{e^{ic \omega}}{1 -i \omega} +  \frac{e^{i c\omega}}{1+i \omega}  \right)=\\
+\\
+= \frac{1}{\sqrt{2 \pi}} \left(   \frac{e^{ic \omega} + i \omega e^{ic \omega} + e^{ic \omega} -  i \omega e^{ic \omega}}{1 + \omega^2}  \right)=
+\frac{2e^{ic \omega} }{\sqrt{2 \pi}(1 + \omega^2)}
+\end{multline}
 
 
+
+\newpage
+\subsection{Построение графика $g(t)$}
+
+\begin{figure}[h!]
+\center{\includegraphics[width=0.8\linewidth]{cx/f_1.png}}
+\caption{График $g(t)$ при $c = 1$.}
+\end{figure}
+
+
+\begin{figure}[h!]
+\center{\includegraphics[width=0.77\linewidth]{cx/f_-1.png}}
+\caption{График $g(t)$ при $c = -1$.}
+\center{\includegraphics[width=0.77\linewidth]{cx/f_-0.5.png}}
+\caption{График $g(t)$ при $c = -0.5$.}
+\end{figure}
+
+
+\begin{figure}[h!]
+\center{\includegraphics[width=0.8\linewidth]{cx/f_5.png}}
+\caption{График $g(t)$ при $c = 5$.}
+\end{figure}
+
+
+
+\newpage
+\,
+\newpage
+\subsection{Построение Фурье-образа и его модуля}
+
+\begin{figure}[h!]
+\center{\includegraphics[width=0.8\linewidth]{cx/im_1.png}}
+\caption{График $\hat{g}(\omega)$ при $c = 1$.}
+\end{figure}
+
+
+\begin{figure}[h!]
+\center{\includegraphics[width=0.76\linewidth]{cx/c_-1.png}}
+\caption{График $\hat{g}(\omega)$ при $c = -1$.}
+\center{\includegraphics[width=0.76\linewidth]{cx/im_-0.5.png}}
+\caption{График $\hat{g}(\omega)$ при $c = -0.5$.}
+\end{figure}
+
+
+\begin{figure}[h!]
+\center{\includegraphics[width=0.76\linewidth]{cx/im_5.png}}
+\caption{График $\hat{g}(\omega)$ при $c = 5$.}
+\center{\includegraphics[width=0.76\linewidth]{cx/abs_5.png}}
+\caption{График $|\hat{g}(\omega)|$ при $c = 5$.}
+\end{figure}
+
+\begin{figure}[h!]
+\center{\includegraphics[width=0.76\linewidth]{cx/abs_-0.5.png}}
+\caption{График $|\hat{g}(\omega)|$ при $c =-0.5$.}
+\center{\includegraphics[width=0.76\linewidth]{cx/abs_-1.png}}
+\caption{График $|\hat{g}(\omega)|$ при $c = -1$.}
+\end{figure}
+
+\begin{figure}[h!]
+\center{\includegraphics[width=0.76\linewidth]{cx/abs_1.png}}
+\caption{График $|\hat{g}(\omega)|$ при $c = 1$.}
+\end{figure}
+
+
+
+
+
+
+\newpage
+\subsection{Анализ результатов}
+
+
+
+
+
+\newpage
 
 Для визуализации был написан код на языке \textit{Python}. \\
 Код расположен на \href{https://github.com/a-nechaeva/practical_Linal/tree/main/lab4}{\textbf{GitHub}}.
