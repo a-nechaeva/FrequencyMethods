@@ -1,5 +1,7 @@
 import numpy as np
 import matplotlib.pyplot as plt
+import librosa.display
+import librosa
 
 
 a = 1
@@ -101,7 +103,7 @@ def _par_integral_counter(f_1, f_2, st, fn):
 
 def fourier_image(func, st, fn):
     image = lambda v: 1 / (np.sqrt(2 * np.pi)) * _par_integral_counter(func, lambda t: np.e ** (-1j * v * t), st, fn)
-    return np.vectorize(image)
+    return np.array(image)
 
 
 def parseval_check(f):
@@ -136,6 +138,22 @@ def _draw_image_fourier_abs(f):
 #  parseval_check(_attenuation_f)
 #  _draw_fun(_attenuation_f)
 #  _draw_image_fourier(get_atten)
-_draw_image_fourier_abs(get_atten)
+#  _draw_image_fourier_abs(get_atten)
+
+
+# music task 3
+
+wave_from_sample, sr = librosa.load('m29.mp3')
+
+wave_from_time = np.vectorize(lambda t: wave_from_sample[int(t * sr)])
+time = len(wave_from_sample) / sr - 0.001
+
+# plot_waveform(wave_from_time, time, caption='Waveform of Chord23', title='media/waveform')
+
+# # fourier transform
+wave_image = wave_fourier_image(wave_from_time, 0, 0.1)
+wave_image_abs = lambda t: abs(wave_image(t))
+# plot_wave_image(wave_image_abs, 0, 4000, caption='Fourier image of Chord23', title='media/wave_image')
+
 
 
