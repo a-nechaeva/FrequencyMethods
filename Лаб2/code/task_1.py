@@ -1,7 +1,7 @@
 import numpy as np
 import matplotlib.pyplot as plt
-import librosa.display
 import librosa
+import soundfile as sf
 
 
 a = 1
@@ -148,11 +148,77 @@ wave_from_sample, sr = librosa.load('m29.mp3')
 wave_from_time = np.vectorize(lambda t: wave_from_sample[int(t * sr)])
 time = len(wave_from_sample) / sr - 0.001
 
-# plot_waveform(wave_from_time, time, caption='Waveform of Chord23', title='media/waveform')
 
+def _draw_mp3(f, _time):
+    t = np.linspace(0, _time - 0.1, 100000)
+    plt.plot(t, f(t), label=r'f(t)', color='purple')
+    plt.ylabel(r'f(t)')
+    plt.xlabel(r't')
+    plt.grid()
+    plt.legend()
+    plt.title(r'График f(t)')
+    plt.show()
+
+
+#_draw_mp3(wave_from_time, time)
+
+_v = 1000
+_v_arr = np.linspace(-_v, _v, 1000)
+
+
+def _draw_mp3_image(f, _time):
+    t = np.linspace(0, _time, 10000)
+    wave = f(t)
+    V_1 = np.linspace(0, 1000, 10000)
+    Y_1 = []
+    Y_2 = []
+
+    max_1 = 0
+    max_2 = 0
+    max_3 = 0
+
+    fr1 = 0
+    fr2 = 0
+    fr3 = 0
+
+    for v_1 in V_1:
+        k = abs(np.trapz(wave * np.exp(-1j * 2 * np.pi * v_1 * t), t))
+        Y_1.append(k)
+        if k > max_1:
+            max_1 = k
+            fr1 = v_1
+        if k > max_2 and (max_1 != k) and (v_1 < 170):
+            max_2 = k
+            fr2 = v_1
+
+        if k > max_3 and (max_2 != k) and (max_1 != k) and (v_1 > 200):
+            max_3 = k
+            fr3 = v_1
+        #Y_1.append(np.trapz(wave * np.exp(-1j * 2 * np.pi * v_1 * t), t).real)
+        #Y_2.append(np.trapz(wave * np.exp(-1j * 2 * np.pi * v_1 * t), t).imag)
+    print('max_1 = ' + str(max_1) + ' nu = ' + str(fr1))
+    print('max_2 = ' + str(max_2) + ' nu = ' + str(fr2))
+    print('max_3 = ' + str(max_3) + ' nu = ' + str(fr3))
+
+    #plt.plot(V_1, Y_1, label=r'$Re \, \hat{g}(\nu)$', color='b')
+    plt.plot(V_1, Y_1, label=r'$| \hat{g}(\nu)|$', color='purple')
+    #plt.plot(V_1, Y_2, label=r'$Im \, \hat{g}(\nu)$', color='r')
+    plt.ylabel(r'$\hat{g}(\nu)$')
+    plt.xlabel(r'$\nu$')
+    plt.legend()
+    plt.grid()
+    plt.title('Модуль Фурье-образа первой четверти аудиодорожки')
+    #plt.plot(V_1, Y.imag)
+
+    plt.show()
+
+
+
+_draw_mp3_image(wave_from_time, time / 4)
+# print(time)
 # # fourier transform
-wave_image = wave_fourier_image(wave_from_time, 0, 0.1)
-wave_image_abs = lambda t: abs(wave_image(t))
+#wave_image = wave_fourier_image(wave_from_time, 0, 0.1)
+#wave_image_abs = lambda t: abs(wave_image(t))
 # plot_wave_image(wave_image_abs, 0, 4000, caption='Fourier image of Chord23', title='media/wave_image')
 
 
