@@ -146,6 +146,86 @@
 
 
 \section{Задание. Спектральное дифференцирование}
+ \subsection{Исходный график}
+Рассмотрим сигнал $y=\sin (t)$ на промежутке $[-100; 100]$ (рисунок 1).
+
+\begin{figure}[h!]
+\center{\includegraphics[width=1\linewidth]{pic1/sin_1.png}}
+\caption{Исходный график $f= \sin(t)$.}
+\end{figure}
+
+Будем также рассматривать часть исходного графика на промежутке $[-10; 10]$ (рисунок 2) для большей наглядности.
+
+\begin{figure}[h!]
+\center{\includegraphics[width=1\linewidth]{pic1/sin_2.png}}
+\caption{Часть исходный график $f= \sin(t)$.}
+\end{figure}
+
+
+\newpage
+\subsection{Добавление шума}
+
+Добавим к исходному графику функции небольшой шум вида $$a \cdot \left( rand (size(t)) - 0.5  \right)$$ результат представлен на рисунках 4 и 5.
+
+\begin{figure}[h!]
+\center{\includegraphics[width=0.78\linewidth]{pic1/n_1.png}}
+\caption{Зашумленный график.}
+\center{\includegraphics[width=0.78\linewidth]{pic1/n_2.png}}
+\caption{Часть зашумленного графика.}
+\end{figure}
+
+
+\newpage
+\subsection{Численная производная}
+Найдем \textit{численную производную} от зашумленного сигнала, используя формулу поэлементного дифференцирования
+
+\begin{equation}
+\frac{y(k+1) - y(k)}{dt}
+\end{equation}
+
+\begin{figure}[h!]
+\center{\includegraphics[width=1\linewidth]{pic1/n_d_1.png}}
+\caption{Численная производная зашумленного графика функции при $a=1$ на полном промежутке $[-100; 100]$.}
+\end{figure}
+
+\begin{figure}[h!]
+\center{\includegraphics[width=0.78\linewidth]{pic1/n_d_2.png}}
+\caption{Численная производная зашумленного графика функции при $a=1$.}
+\center{\includegraphics[width=0.78\linewidth]{pic1/n_d_3.png}}
+\caption{Численная производная зашумленного графика функции при $a=0.1$.}
+\end{figure}
+
+
+Несмотря на то, что исходный график функции можно узнать при добавлении шума с коэффициентом $a=1$, график численной производной в этом случае практически неузнаваем (рисунки 5-6), но при $a=0.1$ очертания косинуса хорошо заметны и на графике численной производной (рисунок 7).
+
+
+\newpage
+\subsection{Спектральная производная}
+
+Найдем \textit{спектральную производную} от зашумленного сигнала. Для этого с помощью численного интегрирования (\textit{numpy.trapz}) найдем Фурье-образ сигнала и домножим его на $\omega i$, так как $F\{ f'(t)\} = \omega i F\{ f(t)\}$, для того, чтобы получить Фурье-образ производной. \\
+После чего выполним обратное преобразование Фурье для получения спектральной производной.
+
+\begin{figure}[h!]
+\center{\includegraphics[width=1\linewidth]{pic1/sp_d_10_1.png}}
+\caption{Спектральная производная зашумленного графика функции при $a=1$.}
+\end{figure}
+
+\begin{figure}[h!]
+\center{\includegraphics[width=0.78\linewidth]{pic1/sp_d_10_0.1.png}}
+\caption{Спектральная производная зашумленного графика функции при $a=0.1$.}
+\center{\includegraphics[width=0.78\linewidth]{pic1/true_d.png}}
+\caption{График истинной производной.}
+\end{figure}
+
+\begin{figure}[h!]
+\center{\includegraphics[width=0.78\linewidth]{pic1/im_10_0.1.png}}
+\caption{График Фурье-образа зашумленной функции при $a=0.1$.}
+\center{\includegraphics[width=0.78\linewidth]{pic1/im_10_1.png}}
+\caption{График Фурье-образа зашумленной функции при $a=1$.}
+\end{figure}
+
+
+На промежутке $[-10; 10]$ графика заметно, что спектральная производная сильнее приближает точную производную $f'(t) = \cos(t)$ (рисунок 10) исходного графика функции по сравнению с численной производной. Причем как в случае $a=1$, так и $a=0.1$. Спектральная производная отличается меньщим количеством шумов, чем численная.
 
 
 
