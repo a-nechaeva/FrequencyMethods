@@ -236,6 +236,66 @@
 \newpage
 \section{Задание. Линейные фильтры.}
 
+Рассмотрим сигнал $$u = g + b \cdot (rand(size(t)) - 0.5) + c \cdot \sin (d \cdot t)$$
+и выполним фильтрацию указанного сигнала, используя линейные фильтры.\\
+ Сигнал $g(t)$ также перепишем из лабораторной 3: зададимся числами $a=1$, $t_1 = 0$, $t_2 = 2$ и рассмотрим функцию $g(t) = a$ при $t \in [t_1, t_2]$ и $g(t) = 0$ при других $t$.
+
+\begin{figure}[h!]
+\center{\includegraphics[width=1\linewidth]{pic2/g.png}}
+\caption{Исходный график функции $g(t)$.}
+\end{figure}
+
+\begin{figure}[h!]
+\center{\includegraphics[width=1\linewidth]{pic2/u_0.5_0_1.png}}
+\caption{График $u(t)$ при $b=0.5$, $c = 0$, $d = 1$.}
+\end{figure}
+
+
+\newpage
+\subsection{Фильтр первого порядка.}
+Пусть $c= 0$. Зададим постоянную времени $T > 0$ и пропустим сигнал $u$ через линейный фильтр первого порядка
+
+\begin{equation}
+W_1 (p) = \frac{1}{Tp + 1}
+\end{equation}
+
+
+
+\begin{figure}[h!]
+\center{\includegraphics[width=0.78\linewidth]{pic2/f_1_0.01.png}}
+\caption{График после фильтрации при $T = 0.01$.}
+\center{\includegraphics[width=0.78\linewidth]{pic2/f_1_0.1.png}}
+\caption{График после фильтрации при $T = 0.1$.}
+\end{figure}
+
+Заметим, что при малом значении параметра $T$ шумы из сигнала практически не убираются (рисунок 15), но при увеличении значения коэффициента $T$ график становится более гладким (рисунок 16).\\
+
+
+\begin{figure}[h!]
+\center{\includegraphics[width=0.78\linewidth]{pic2/f_1_0.5.png}}
+\caption{График после фильтрации при $T = 0.5$.}
+\center{\includegraphics[width=0.78\linewidth]{pic2/f_1_1.png}}
+\caption{График после фильтрации при $T = 1$.}
+\end{figure}
+\,\\
+\\
+\\
+\\
+При дальнейшем увеличении значения параметра $T$, начиная с $T= 1$ (рисунок 18), теряется точность передаваемого сигнала.
+
+\begin{figure}[h!]
+\center{\includegraphics[width=0.78\linewidth]{pic2/comp_1.png}}
+\caption{График до и после фильтрации при $T = 0.1$.}
+\end{figure}
+
+
+
+
+\newpage
+\subsection{Специальный фильтр}
+
+
+
 
 
 

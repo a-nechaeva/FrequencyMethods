@@ -48,12 +48,12 @@ def _noise_diff(t, dt):
 
 def _draw_fun(f):
     t = np.linspace(-10, 10, 1000)
-    plt.plot(t, f(t), label=r'$f(t)$', color='midnightblue')
-    plt.ylabel(r'$f(t)$')
+    plt.plot(t, f(t), label=r'$g(t)$', color='midnightblue')
+    plt.ylabel(r'$g(t)$')
     plt.xlabel(r'$t$')
     plt.grid()
     plt.legend()
-    plt.title(r'График функции $f = cos(t)$')
+    plt.title(r'График функции $g(t)$')
     plt.show()
 
 
@@ -118,7 +118,7 @@ def _draw_image(f):
     plt.show()
 
 
-_draw_fun(_cos)
+#_draw_fun(_cos)
 #_draw_noise_diff(_noise_dif)
 t_ = np.linspace(-10, 10, 1000)
 #_draw_spectrum_diff(_noise_sin(t_))
