@@ -8,6 +8,7 @@ from task_1 import _draw_fun, _fourier_img_0
 b = 0.5
 c = 0
 d = 1
+a = 2
 
 
 
@@ -15,7 +16,7 @@ d = 1
 def _g(t):
 
     if 0 <= t <= 2:
-        return 2
+        return a
     else:
         return 0
 
@@ -56,7 +57,7 @@ def _filter_(_fil, _t, _f):
     z, p, k = _fil(_t)
     w, h = freqs_zpk(z, p, k, worN=np.linspace(-25, 25, 1000))
 
-    plt.plot(w, h.real, label='АЧХ фильтра', color='midnightblue')
+    #plt.plot(w, h.real, label='АЧХ фильтра', color='midnightblue')
 
     #plt.plot(v, abs(img_1), label=r'исходный', color='b')
     #plt.plot(v, abs(img_2), label=r'фильтрованный', color='r')
@@ -64,21 +65,23 @@ def _filter_(_fil, _t, _f):
     #t_f, g_f, remainder_ = lsim(_fil(_t), noised_g, t)
 
     #plt.plot(t, _f(t), label=r'зашумленный', color='skyblue')
-    #plt.plot(t_f, g_f, label=r'отфильтрованный', color='r')
-    #plt.plot(t, _g_vec(t), label=r'исходный', color='indigo')
+    plt.plot(t_f, g_f, label=r'отфильтрованный', color='r')
+    plt.plot(_t_, _g_vec(_t_), label=r'исходный', color='indigo')
     #plt.ylabel(r'$\hat{f}(\omega)$')
-    plt.ylabel(r'$|A|$')
-    plt.xlabel(r'$\omega$')
+    #plt.ylabel(r'$|A|$')
+    #plt.xlabel(r'$\omega$')
+    plt.ylabel(r'$f(t)$')
+    plt.xlabel(r'$t$')
     plt.grid()
     plt.legend()
-    plt.title(r'АЧХ фильтра при $T=$' + str(_t))
+    #plt.title(r'АЧХ фильтра при $T=$' + str(_t))
     #plt.title(r'Фурье-образы исходного и фильтрованного сигналов $T=$' + str(_t))
-    #plt.title(r'Сигнал исходный, зашумленный и после фильтрации при $T=$' + str(_t))
+    plt.title(r'Исходный и сигнал после фильтрации при $T=$' + str(_t) +', $a=$' + str(a))
     plt.show()
 
 
 
 
 # _draw_u(_noise_fun)
-_filter_(f_filter, 1, _noise_fun)
+_filter_(f_filter, 0.01, _noise_fun)
 

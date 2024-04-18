@@ -282,7 +282,7 @@ W_1 (p) = \frac{1}{Tp + 1}
 \\
 \\
 При дальнейшем увеличении значения параметра $T$, начиная с $T= 1$ (рисунок 18), теряется точность передаваемого сигнала.
-
+\subsubsection{Сравнительные графики исходного, зашумленного и сигнала после фильтрации}
 \begin{figure}[h!]
 \center{\includegraphics[width=1\linewidth]{pic2/trio_0.01.png}}
 \caption{Сравнительные графики при $T = 0.01$.}
@@ -307,12 +307,8 @@ W_1 (p) = \frac{1}{Tp + 1}
 \\
 \\
 \\
-\\
-\\
-\\
-\\
 Наибольшее сходство фильтрованного сигнала с исходным достигается при $T=0.1$, в чем можно убедиться, сравнив результаты, представленные на рисунках 19 - 22.\\
-
+\subsubsection{Модули Фурье-образов}
 Модули Фурье-образов исходного и фильтрованного сигналов наиболее близки друг к другу при небольших значениях $T$, например, $T=0.01$ (рисунок 23) и $T=0.1$ (рисунок 24). При дальнейшем возрастании параметра $T$ модуль Фурье-образа фильтрованного сигнала становится все более гладким и отличным от исходного сигнала. Фильтр избавляет от более высоких частот и чем выше параметр $T$ тем ниже модуль подавляемых частот.
 
 \begin{figure}[h!]
@@ -330,10 +326,7 @@ W_1 (p) = \frac{1}{Tp + 1}
 \caption{Модули Фурье-образов сигналов при $T = 1$.}
 \end{figure}
 \, \\
-\\
-\\
-\\
-\\
+\subsubsection{Амплитудно-частотные характеристики фильтра}
 Построим также графики амплитудно-частотной характеристики линейного фильтра первого порядка.
 \begin{figure}[h!]
 \center{\includegraphics[width=1\linewidth]{pic2/zpk_1_0.01.png}}
@@ -354,11 +347,114 @@ W_1 (p) = \frac{1}{Tp + 1}
 \caption{АЧХ при $T = 1$.}
 \end{figure}
 
+\subsubsection{Влияние параметра $a$}
+Рассмотрим, как изменится результат фильтрации при $a = \{0.1, 0.5, 1, 2\}$ при $T=\{ 0.01, 0.1, 0.5, 1\}$.\\
+
+Параметр $a$ существенно не влияет на успешность фильтрации: при $T=0.01$ -- очистки от шумов практически не происходит, при $T=1$ график получается слишком пологим, а наиболее оптимальный результат немного отличается, например, при $a=0.1$ лучшее значение параметра $T=0.5$, для значений $a=0.5$, $a=1$, $a=2$ подходит $T=0.1$.
+
+\begin{figure}[h!]
+\begin{minipage}[h!]{0.47\linewidth}
+\center{\includegraphics[width=1\linewidth]{pic2/a_0.1_0.01}} a) \\
+\end{minipage}
+\hfill
+\begin{minipage}[h!]{0.47\linewidth}
+\center{\includegraphics[width=1\linewidth]{pic2/a_0.1_0.1}} \\b)
+\end{minipage}
+\vfill
+\begin{minipage}[h!]{0.47\linewidth}
+\center{\includegraphics[width=1\linewidth]{pic2/a_0.1_0.5}} c) \\
+\end{minipage}
+\hfill
+\begin{minipage}[h!]{0.47\linewidth}
+\center{\includegraphics[width=1\linewidth]{pic2/a_0.1_1}} d) \\
+\end{minipage}
+\caption{Сравнительные графики исходного и фильтрованного сигналов для $a=0.1$ при: a) $T=0.01$, b)
+$T=0.1$, c) $T=0.5$, d) $T=1$.}
+\end{figure}
+
+\begin{figure}[h!]
+\begin{minipage}[h!]{0.47\linewidth}
+\center{\includegraphics[width=1\linewidth]{pic2/a_0.5_0.01}} a) \\
+\end{minipage}
+\hfill
+\begin{minipage}[h!]{0.47\linewidth}
+\center{\includegraphics[width=1\linewidth]{pic2/a_0.5_0.1}} \\b)
+\end{minipage}
+\vfill
+\begin{minipage}[h!]{0.47\linewidth}
+\center{\includegraphics[width=1\linewidth]{pic2/a_0.5_0.5}} c) \\
+\end{minipage}
+\hfill
+\begin{minipage}[h!]{0.47\linewidth}
+\center{\includegraphics[width=1\linewidth]{pic2/a_0.5_1}} d) \\
+\end{minipage}
+\caption{Сравнительные графики исходного и фильтрованного сигналов для $a=0.5$ при: a) $T=0.01$, b)
+$T=0.1$, c) $T=0.5$, d) $T=1$.}
+\end{figure}
+
+\begin{figure}[h!]
+\begin{minipage}[h!]{0.47\linewidth}
+\center{\includegraphics[width=1\linewidth]{pic2/a_1_0.1}} a) \\
+\end{minipage}
+\hfill
+\begin{minipage}[h!]{0.47\linewidth}
+\center{\includegraphics[width=1\linewidth]{pic2/a_1_t_0.1}} \\b)
+\end{minipage}
+\vfill
+\begin{minipage}[h!]{0.47\linewidth}
+\center{\includegraphics[width=1\linewidth]{pic2/a_1_t_0.5}} c) \\
+\end{minipage}
+\hfill
+\begin{minipage}[h!]{0.47\linewidth}
+\center{\includegraphics[width=1\linewidth]{pic2/a_1_t_1}} d) \\
+\end{minipage}
+\caption{Сравнительные графики исходного и фильтрованного сигналов для $a=1$ при: a) $T=0.01$, b)
+$T=0.1$, c) $T=0.5$, d) $T=1$.}
+\end{figure}
+
+\begin{figure}[h!]
+\begin{minipage}[h!]{0.47\linewidth}
+\center{\includegraphics[width=1\linewidth]{pic2/a_2_t_0.01}} a) \\
+\end{minipage}
+\hfill
+\begin{minipage}[h!]{0.47\linewidth}
+\center{\includegraphics[width=1\linewidth]{pic2/a_2_t_0.1}} \\b)
+\end{minipage}
+\vfill
+\begin{minipage}[h!]{0.47\linewidth}
+\center{\includegraphics[width=1\linewidth]{pic2/a_2_t_0.5}} c) \\
+\end{minipage}
+\hfill
+\begin{minipage}[h!]{0.47\linewidth}
+\center{\includegraphics[width=1\linewidth]{pic2/a_2_t_1}} d) \\
+\end{minipage}
+\caption{Сравнительные графики исходного и фильтрованного сигналов для $a=2$ при: a) $T=0.01$, b)
+$T=0.1$, c) $T=0.5$, d) $T=1$.}
+\end{figure}
 
 
 
 
+\,
+\\\\\\
+\\
+\\
+\\
+\\
+\\
+\\
+\\
+\\
+\\
+\\
+\\
+\\
+\\
 
+\newpage
+\,
+\newpage
+\,
 \newpage
 \subsection{Специальный фильтр}
 

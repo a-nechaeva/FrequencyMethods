@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.6.14)  18 APR 2024 19:23
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.6.14)  18 APR 2024 20:21
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1360,12 +1360,12 @@ Overfull \hbox (0.27795pt too wide) in paragraph at lines 148--148
 []\T2A/cmr/bx/n/14.4 Задание. Спек-траль-ное диф-фе-рен-ци-ро-ва-ние 
  []
 
-<pic1/sin_1.png, id=55, 642.4pt x 481.8pt>
+<pic1/sin_1.png, id=71, 642.4pt x 481.8pt>
 File: pic1/sin_1.png Graphic file (type png)
 <use pic1/sin_1.png>
 Package pdftex.def Info: pic1/sin_1.png  used on input line 153.
 (pdftex.def)             Requested size: 344.27837pt x 258.21257pt.
-<pic1/sin_2.png, id=56, 642.4pt x 481.8pt>
+<pic1/sin_2.png, id=72, 642.4pt x 481.8pt>
 File: pic1/sin_2.png Graphic file (type png)
 <use pic1/sin_2.png>
 Package pdftex.def Info: pic1/sin_2.png  used on input line 160.
@@ -1385,12 +1385,12 @@ been already used, duplicate ignored
                    \relax 
 l.165 \newpage
                [1 <./pic1/sin_1.png (PNG copy)>]
-<pic1/n_1.png, id=67, 642.4pt x 481.8pt>
+<pic1/n_1.png, id=83, 642.4pt x 481.8pt>
 File: pic1/n_1.png Graphic file (type png)
 <use pic1/n_1.png>
 Package pdftex.def Info: pic1/n_1.png  used on input line 171.
 (pdftex.def)             Requested size: 268.5367pt x 201.40625pt.
-<pic1/n_2.png, id=68, 642.4pt x 481.8pt>
+<pic1/n_2.png, id=84, 642.4pt x 481.8pt>
 File: pic1/n_2.png Graphic file (type png)
 <use pic1/n_2.png>
 Package pdftex.def Info: pic1/n_2.png  used on input line 173.
@@ -1418,17 +1418,17 @@ Package fancyhdr Warning: \footskip is too small (0.0pt):
 (fancyhdr)                \setlength{\footskip}{12.0pt}.
 
 [3 <./pic1/n_1.png (PNG copy)> <./pic1/n_2.png (PNG copy)>]
-<pic1/n_d_1.png, id=79, 642.4pt x 481.8pt>
+<pic1/n_d_1.png, id=95, 642.4pt x 481.8pt>
 File: pic1/n_d_1.png Graphic file (type png)
 <use pic1/n_d_1.png>
 Package pdftex.def Info: pic1/n_d_1.png  used on input line 187.
 (pdftex.def)             Requested size: 344.27837pt x 258.21257pt.
-<pic1/n_d_2.png, id=80, 642.4pt x 481.8pt>
+<pic1/n_d_2.png, id=96, 642.4pt x 481.8pt>
 File: pic1/n_d_2.png Graphic file (type png)
 <use pic1/n_d_2.png>
 Package pdftex.def Info: pic1/n_d_2.png  used on input line 192.
 (pdftex.def)             Requested size: 268.5367pt x 201.40625pt.
-<pic1/n_d_3.png, id=81, 642.4pt x 481.8pt>
+<pic1/n_d_3.png, id=97, 642.4pt x 481.8pt>
 File: pic1/n_d_3.png Graphic file (type png)
 <use pic1/n_d_3.png>
 Package pdftex.def Info: pic1/n_d_3.png  used on input line 194.
@@ -1456,17 +1456,17 @@ Package fancyhdr Warning: \footskip is too small (0.0pt):
 (fancyhdr)                \setlength{\footskip}{12.0pt}.
 
 [5 <./pic1/n_d_2.png (PNG copy)> <./pic1/n_d_3.png (PNG copy)>]
-<pic1/sp_d_10_1.png, id=95, 642.4pt x 481.8pt>
+<pic1/sp_d_10_1.png, id=111, 642.4pt x 481.8pt>
 File: pic1/sp_d_10_1.png Graphic file (type png)
 <use pic1/sp_d_10_1.png>
 Package pdftex.def Info: pic1/sp_d_10_1.png  used on input line 209.
 (pdftex.def)             Requested size: 344.27837pt x 258.21257pt.
-<pic1/sp_d_10_0.1.png, id=96, 642.4pt x 481.8pt>
+<pic1/sp_d_10_0.1.png, id=112, 642.4pt x 481.8pt>
 File: pic1/sp_d_10_0.1.png Graphic file (type png)
 <use pic1/sp_d_10_0.1.png>
 Package pdftex.def Info: pic1/sp_d_10_0.1.png  used on input line 214.
 (pdftex.def)             Requested size: 268.5367pt x 201.40625pt.
-<pic1/true_d.png, id=97, 642.4pt x 481.8pt>
+<pic1/true_d.png, id=113, 642.4pt x 481.8pt>
 File: pic1/true_d.png Graphic file (type png)
 <use pic1/true_d.png>
 Package pdftex.def Info: pic1/true_d.png  used on input line 216.
@@ -1475,12 +1475,12 @@ Package pdftex.def Info: pic1/true_d.png  used on input line 216.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<pic1/im_10_0.1.png, id=98, 642.4pt x 481.8pt>
+<pic1/im_10_0.1.png, id=114, 642.4pt x 481.8pt>
 File: pic1/im_10_0.1.png Graphic file (type png)
 <use pic1/im_10_0.1.png>
 Package pdftex.def Info: pic1/im_10_0.1.png  used on input line 221.
 (pdftex.def)             Requested size: 268.5367pt x 201.40625pt.
-<pic1/im_10_1.png, id=99, 642.4pt x 481.8pt>
+<pic1/im_10_1.png, id=115, 642.4pt x 481.8pt>
 File: pic1/im_10_1.png Graphic file (type png)
 <use pic1/im_10_1.png>
 Package pdftex.def Info: pic1/im_10_1.png  used on input line 223.
@@ -1520,12 +1520,12 @@ Package fancyhdr Warning: \footskip is too small (0.0pt):
 (fancyhdr)                \setlength{\footskip}{12.0pt}.
 
 [8 <./pic1/im_10_0.1.png (PNG copy)> <./pic1/im_10_1.png (PNG copy)>]
-<pic2/g.png, id=118, 642.4pt x 481.8pt>
+<pic2/g.png, id=134, 642.4pt x 481.8pt>
 File: pic2/g.png Graphic file (type png)
 <use pic2/g.png>
 Package pdftex.def Info: pic2/g.png  used on input line 244.
 (pdftex.def)             Requested size: 344.27837pt x 258.21257pt.
-<pic2/u_0.5_0_1.png, id=119, 642.4pt x 481.8pt>
+<pic2/u_0.5_0_1.png, id=135, 642.4pt x 481.8pt>
 File: pic2/u_0.5_0_1.png Graphic file (type png)
 <use pic2/u_0.5_0_1.png>
 Package pdftex.def Info: pic2/u_0.5_0_1.png  used on input line 249.
@@ -1540,12 +1540,12 @@ Package fancyhdr Warning: \footskip is too small (0.0pt):
 (fancyhdr)                \setlength{\footskip}{12.0pt}.
 
 [9 <./pic2/g.png (PNG copy)>]
-<pic2/f_1_0.01.png, id=126, 642.4pt x 481.8pt>
+<pic2/f_1_0.01.png, id=142, 642.4pt x 481.8pt>
 File: pic2/f_1_0.01.png Graphic file (type png)
 <use pic2/f_1_0.01.png>
 Package pdftex.def Info: pic2/f_1_0.01.png  used on input line 265.
 (pdftex.def)             Requested size: 268.5367pt x 201.40625pt.
-<pic2/f_1_0.1.png, id=127, 642.4pt x 481.8pt>
+<pic2/f_1_0.1.png, id=143, 642.4pt x 481.8pt>
 File: pic2/f_1_0.1.png Graphic file (type png)
 <use pic2/f_1_0.1.png>
 Package pdftex.def Info: pic2/f_1_0.1.png  used on input line 267.
@@ -1559,12 +1559,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 271--272
 
  []
 
-<pic2/f_1_0.5.png, id=128, 642.4pt x 481.8pt>
+<pic2/f_1_0.5.png, id=144, 642.4pt x 481.8pt>
 File: pic2/f_1_0.5.png Graphic file (type png)
 <use pic2/f_1_0.5.png>
 Package pdftex.def Info: pic2/f_1_0.5.png  used on input line 275.
 (pdftex.def)             Requested size: 268.5367pt x 201.40625pt.
-<pic2/f_1_1.png, id=129, 642.4pt x 481.8pt>
+<pic2/f_1_1.png, id=145, 642.4pt x 481.8pt>
 File: pic2/f_1_1.png Graphic file (type png)
 <use pic2/f_1_1.png>
 Package pdftex.def Info: pic2/f_1_1.png  used on input line 277.
@@ -1619,17 +1619,17 @@ Package fancyhdr Warning: \footskip is too small (0.0pt):
 (fancyhdr)                \setlength{\footskip}{12.0pt}.
 
 [12 <./pic2/f_1_0.5.png (PNG copy)> <./pic2/f_1_1.png (PNG copy)>]
-<pic2/trio_0.01.png, id=147, 642.4pt x 481.8pt>
+<pic2/trio_0.01.png, id=163, 642.4pt x 481.8pt>
 File: pic2/trio_0.01.png Graphic file (type png)
 <use pic2/trio_0.01.png>
 Package pdftex.def Info: pic2/trio_0.01.png  used on input line 287.
 (pdftex.def)             Requested size: 344.27837pt x 258.21257pt.
-<pic2/trio_0.1.png, id=148, 642.4pt x 481.8pt>
+<pic2/trio_0.1.png, id=164, 642.4pt x 481.8pt>
 File: pic2/trio_0.1.png Graphic file (type png)
 <use pic2/trio_0.1.png>
 Package pdftex.def Info: pic2/trio_0.1.png  used on input line 294.
 (pdftex.def)             Requested size: 268.5367pt x 201.40625pt.
-<pic2/trio_0.5.png, id=149, 642.4pt x 481.8pt>
+<pic2/trio_0.5.png, id=165, 642.4pt x 481.8pt>
 File: pic2/trio_0.5.png Graphic file (type png)
 <use pic2/trio_0.5.png>
 Package pdftex.def Info: pic2/trio_0.5.png  used on input line 296.
@@ -1638,7 +1638,7 @@ Package pdftex.def Info: pic2/trio_0.5.png  used on input line 296.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<pic2/trio_1.png, id=150, 642.4pt x 481.8pt>
+<pic2/trio_1.png, id=166, 642.4pt x 481.8pt>
 File: pic2/trio_1.png Graphic file (type png)
 <use pic2/trio_1.png>
 Package pdftex.def Info: pic2/trio_1.png  used on input line 301.
@@ -1647,52 +1647,32 @@ Package pdftex.def Info: pic2/trio_1.png  used on input line 301.
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 304--315
+Underfull \hbox (badness 10000) in paragraph at lines 304--311
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 304--315
+Underfull \hbox (badness 10000) in paragraph at lines 304--311
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 304--315
+Underfull \hbox (badness 10000) in paragraph at lines 304--311
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 304--315
+Underfull \hbox (badness 10000) in paragraph at lines 304--311
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 304--315
+Underfull \hbox (badness 10000) in paragraph at lines 304--311
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 304--315
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 304--315
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 304--315
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 304--315
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 304--315
+Underfull \hbox (badness 10000) in paragraph at lines 304--311
 
  []
 
@@ -1715,58 +1695,43 @@ Package fancyhdr Warning: \footskip is too small (0.0pt):
 (fancyhdr)                \setlength{\footskip}{12.0pt}.
 
 [14 <./pic2/trio_0.1.png (PNG copy)> <./pic2/trio_0.5.png (PNG copy)>]
-<pic2/mod_im_0.01.png, id=161, 642.4pt x 481.8pt>
+<pic2/mod_im_0.01.png, id=177, 642.4pt x 481.8pt>
 File: pic2/mod_im_0.01.png Graphic file (type png)
 <use pic2/mod_im_0.01.png>
-Package pdftex.def Info: pic2/mod_im_0.01.png  used on input line 319.
+Package pdftex.def Info: pic2/mod_im_0.01.png  used on input line 315.
 (pdftex.def)             Requested size: 268.5367pt x 201.40625pt.
-<pic2/mod_im_0.1.png, id=162, 642.4pt x 481.8pt>
+<pic2/mod_im_0.1.png, id=178, 642.4pt x 481.8pt>
 File: pic2/mod_im_0.1.png Graphic file (type png)
 <use pic2/mod_im_0.1.png>
-Package pdftex.def Info: pic2/mod_im_0.1.png  used on input line 321.
+Package pdftex.def Info: pic2/mod_im_0.1.png  used on input line 317.
 (pdftex.def)             Requested size: 268.5367pt x 201.40625pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<pic2/mod_im_0.5.png, id=163, 642.4pt x 481.8pt>
+<pic2/mod_im_0.5.png, id=179, 642.4pt x 481.8pt>
 File: pic2/mod_im_0.5.png Graphic file (type png)
 <use pic2/mod_im_0.5.png>
-Package pdftex.def Info: pic2/mod_im_0.5.png  used on input line 327.
+Package pdftex.def Info: pic2/mod_im_0.5.png  used on input line 323.
 (pdftex.def)             Requested size: 268.5367pt x 201.40625pt.
-<pic2/mod_im_1.png, id=164, 642.4pt x 481.8pt>
+<pic2/mod_im_1.png, id=180, 642.4pt x 481.8pt>
 File: pic2/mod_im_1.png Graphic file (type png)
 <use pic2/mod_im_1.png>
-Package pdftex.def Info: pic2/mod_im_1.png  used on input line 329.
+Package pdftex.def Info: pic2/mod_im_1.png  used on input line 325.
 (pdftex.def)             Requested size: 268.5367pt x 201.40625pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<pic2/zpk_1_0.01.png, id=165, 642.4pt x 481.8pt>
+
+Underfull \hbox (badness 10000) in paragraph at lines 328--329
+
+ []
+
+<pic2/zpk_1_0.01.png, id=181, 642.4pt x 481.8pt>
 File: pic2/zpk_1_0.01.png Graphic file (type png)
 <use pic2/zpk_1_0.01.png>
-Package pdftex.def Info: pic2/zpk_1_0.01.png  used on input line 339.
+Package pdftex.def Info: pic2/zpk_1_0.01.png  used on input line 332.
 (pdftex.def)             Requested size: 344.27837pt x 258.21257pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 332--342
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 332--342
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 332--342
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 332--342
-
- []
-
 
 Package fancyhdr Warning: \footskip is too small (0.0pt): 
 (fancyhdr)                Make it at least 12.0pt, for example:
@@ -1799,27 +1764,40 @@ Package fancyhdr Warning: \footskip is too small (0.0pt):
 (fancyhdr)                \setlength{\footskip}{12.0pt}.
 
 [17 <./pic2/mod_im_0.5.png (PNG copy)> <./pic2/mod_im_1.png (PNG copy)>]
-<pic2/zpk_1_0.1.png, id=181, 642.4pt x 481.8pt>
+<pic2/zpk_1_0.1.png, id=198, 642.4pt x 481.8pt>
 File: pic2/zpk_1_0.1.png Graphic file (type png)
 <use pic2/zpk_1_0.1.png>
-Package pdftex.def Info: pic2/zpk_1_0.1.png  used on input line 346.
+Package pdftex.def Info: pic2/zpk_1_0.1.png  used on input line 339.
 (pdftex.def)             Requested size: 268.5367pt x 201.40625pt.
-<pic2/zpk_1_0.5.png, id=182, 642.4pt x 481.8pt>
+<pic2/zpk_1_0.5.png, id=199, 642.4pt x 481.8pt>
 File: pic2/zpk_1_0.5.png Graphic file (type png)
 <use pic2/zpk_1_0.5.png>
-Package pdftex.def Info: pic2/zpk_1_0.5.png  used on input line 348.
+Package pdftex.def Info: pic2/zpk_1_0.5.png  used on input line 341.
 (pdftex.def)             Requested size: 268.5367pt x 201.40625pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<pic2/zpk_1_1.png, id=183, 642.4pt x 481.8pt>
+<pic2/zpk_1_1.png, id=200, 642.4pt x 481.8pt>
 File: pic2/zpk_1_1.png Graphic file (type png)
 <use pic2/zpk_1_1.png>
-Package pdftex.def Info: pic2/zpk_1_1.png  used on input line 353.
+Package pdftex.def Info: pic2/zpk_1_1.png  used on input line 346.
 (pdftex.def)             Requested size: 344.27837pt x 258.21257pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 350.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 350.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 351--352
+
+ []
 
 
 Package fancyhdr Warning: \footskip is too small (0.0pt): 
@@ -1840,6 +1818,179 @@ Package fancyhdr Warning: \footskip is too small (0.0pt):
 (fancyhdr)                \setlength{\footskip}{12.0pt}.
 
 [19 <./pic2/zpk_1_0.1.png (PNG copy)> <./pic2/zpk_1_0.5.png (PNG copy)>]
+<pic2/a_0.1_0.01.png, id=212, 642.4pt x 481.8pt>
+File: pic2/a_0.1_0.01.png Graphic file (type png)
+<use pic2/a_0.1_0.01.png>
+Package pdftex.def Info: pic2/a_0.1_0.01.png  used on input line 357.
+(pdftex.def)             Requested size: 161.81125pt x 121.35396pt.
+<pic2/a_0.1_0.1.png, id=213, 642.4pt x 481.8pt>
+File: pic2/a_0.1_0.1.png Graphic file (type png)
+<use pic2/a_0.1_0.1.png>
+Package pdftex.def Info: pic2/a_0.1_0.1.png  used on input line 361.
+(pdftex.def)             Requested size: 161.81125pt x 121.35396pt.
+<pic2/a_0.1_0.5.png, id=214, 642.4pt x 481.8pt>
+File: pic2/a_0.1_0.5.png Graphic file (type png)
+<use pic2/a_0.1_0.5.png>
+Package pdftex.def Info: pic2/a_0.1_0.5.png  used on input line 365.
+(pdftex.def)             Requested size: 161.81125pt x 121.35396pt.
+<pic2/a_0.1_1.png, id=215, 642.4pt x 481.8pt>
+File: pic2/a_0.1_1.png Graphic file (type png)
+<use pic2/a_0.1_1.png>
+Package pdftex.def Info: pic2/a_0.1_1.png  used on input line 369.
+(pdftex.def)             Requested size: 161.81125pt x 121.35396pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<pic2/a_0.5_0.01.png, id=216, 642.4pt x 481.8pt>
+File: pic2/a_0.5_0.01.png Graphic file (type png)
+<use pic2/a_0.5_0.01.png>
+Package pdftex.def Info: pic2/a_0.5_0.01.png  used on input line 377.
+(pdftex.def)             Requested size: 161.81125pt x 121.35396pt.
+<pic2/a_0.5_0.1.png, id=217, 642.4pt x 481.8pt>
+File: pic2/a_0.5_0.1.png Graphic file (type png)
+<use pic2/a_0.5_0.1.png>
+Package pdftex.def Info: pic2/a_0.5_0.1.png  used on input line 381.
+(pdftex.def)             Requested size: 161.81125pt x 121.35396pt.
+<pic2/a_0.5_0.5.png, id=218, 642.4pt x 481.8pt>
+File: pic2/a_0.5_0.5.png Graphic file (type png)
+<use pic2/a_0.5_0.5.png>
+Package pdftex.def Info: pic2/a_0.5_0.5.png  used on input line 385.
+(pdftex.def)             Requested size: 161.81125pt x 121.35396pt.
+<pic2/a_0.5_1.png, id=219, 642.4pt x 481.8pt>
+File: pic2/a_0.5_1.png Graphic file (type png)
+<use pic2/a_0.5_1.png>
+Package pdftex.def Info: pic2/a_0.5_1.png  used on input line 389.
+(pdftex.def)             Requested size: 161.81125pt x 121.35396pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<pic2/a_1_0.1.png, id=220, 642.4pt x 481.8pt>
+File: pic2/a_1_0.1.png Graphic file (type png)
+<use pic2/a_1_0.1.png>
+Package pdftex.def Info: pic2/a_1_0.1.png  used on input line 397.
+(pdftex.def)             Requested size: 161.81125pt x 121.35396pt.
+<pic2/a_1_t_0.1.png, id=221, 642.4pt x 481.8pt>
+File: pic2/a_1_t_0.1.png Graphic file (type png)
+<use pic2/a_1_t_0.1.png>
+Package pdftex.def Info: pic2/a_1_t_0.1.png  used on input line 401.
+(pdftex.def)             Requested size: 161.81125pt x 121.35396pt.
+<pic2/a_1_t_0.5.png, id=222, 642.4pt x 481.8pt>
+File: pic2/a_1_t_0.5.png Graphic file (type png)
+<use pic2/a_1_t_0.5.png>
+Package pdftex.def Info: pic2/a_1_t_0.5.png  used on input line 405.
+(pdftex.def)             Requested size: 161.81125pt x 121.35396pt.
+<pic2/a_1_t_1.png, id=223, 642.4pt x 481.8pt>
+File: pic2/a_1_t_1.png Graphic file (type png)
+<use pic2/a_1_t_1.png>
+Package pdftex.def Info: pic2/a_1_t_1.png  used on input line 409.
+(pdftex.def)             Requested size: 161.81125pt x 121.35396pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<pic2/a_2_t_0.01.png, id=224, 642.4pt x 481.8pt>
+File: pic2/a_2_t_0.01.png Graphic file (type png)
+<use pic2/a_2_t_0.01.png>
+Package pdftex.def Info: pic2/a_2_t_0.01.png  used on input line 417.
+(pdftex.def)             Requested size: 161.81125pt x 121.35396pt.
+<pic2/a_2_t_0.1.png, id=225, 642.4pt x 481.8pt>
+File: pic2/a_2_t_0.1.png Graphic file (type png)
+<use pic2/a_2_t_0.1.png>
+Package pdftex.def Info: pic2/a_2_t_0.1.png  used on input line 421.
+(pdftex.def)             Requested size: 161.81125pt x 121.35396pt.
+<pic2/a_2_t_0.5.png, id=226, 642.4pt x 481.8pt>
+File: pic2/a_2_t_0.5.png Graphic file (type png)
+<use pic2/a_2_t_0.5.png>
+Package pdftex.def Info: pic2/a_2_t_0.5.png  used on input line 425.
+(pdftex.def)             Requested size: 161.81125pt x 121.35396pt.
+<pic2/a_2_t_1.png, id=227, 642.4pt x 481.8pt>
+File: pic2/a_2_t_1.png Graphic file (type png)
+<use pic2/a_2_t_1.png>
+Package pdftex.def Info: pic2/a_2_t_1.png  used on input line 429.
+(pdftex.def)             Requested size: 161.81125pt x 121.35396pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 438--453
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 438--453
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 438--453
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 438--453
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 438--453
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 438--453
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 438--453
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 438--453
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 438--453
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 438--453
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 438--453
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 438--453
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 438--453
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 438--453
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 438--453
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 438--453
+
+ []
+
 
 Package fancyhdr Warning: \footskip is too small (0.0pt): 
 (fancyhdr)                Make it at least 12.0pt, for example:
@@ -1851,25 +2002,53 @@ Package fancyhdr Warning: \footskip is too small (0.0pt):
 (fancyhdr)                Make it at least 12.0pt, for example:
 (fancyhdr)                \setlength{\footskip}{12.0pt}.
 
-[21]
+[21 <./pic2/a_0.1_0.01.png (PNG copy)> <./pic2/a_0.1_0.1.png (PNG copy)> <./pic
+2/a_0.1_0.5.png (PNG copy)> <./pic2/a_0.1_1.png (PNG copy)>]
 
 Package fancyhdr Warning: \footskip is too small (0.0pt): 
 (fancyhdr)                Make it at least 12.0pt, for example:
 (fancyhdr)                \setlength{\footskip}{12.0pt}.
 
-[22] (./my_report.aux)
+[22 <./pic2/a_0.5_0.01.png (PNG copy)> <./pic2/a_0.5_0.1.png (PNG copy)> <./pic
+2/a_0.5_0.5.png (PNG copy)> <./pic2/a_0.5_1.png (PNG copy)>]
+
+Package fancyhdr Warning: \footskip is too small (0.0pt): 
+(fancyhdr)                Make it at least 12.0pt, for example:
+(fancyhdr)                \setlength{\footskip}{12.0pt}.
+
+[23 <./pic2/a_1_0.1.png (PNG copy)> <./pic2/a_1_t_0.1.png (PNG copy)> <./pic2/a
+_1_t_0.5.png (PNG copy)> <./pic2/a_1_t_1.png (PNG copy)>]
+
+Package fancyhdr Warning: \footskip is too small (0.0pt): 
+(fancyhdr)                Make it at least 12.0pt, for example:
+(fancyhdr)                \setlength{\footskip}{12.0pt}.
+
+[24 <./pic2/a_2_t_0.01.png (PNG copy)> <./pic2/a_2_t_0.1.png (PNG copy)> <./pic
+2/a_2_t_0.5.png (PNG copy)> <./pic2/a_2_t_1.png (PNG copy)>]
+
+Package fancyhdr Warning: \footskip is too small (0.0pt): 
+(fancyhdr)                Make it at least 12.0pt, for example:
+(fancyhdr)                \setlength{\footskip}{12.0pt}.
+
+[25]
+
+Package fancyhdr Warning: \footskip is too small (0.0pt): 
+(fancyhdr)                Make it at least 12.0pt, for example:
+(fancyhdr)                \setlength{\footskip}{12.0pt}.
+
+[26] (./my_report.aux)
  ***********
 LaTeX2e <2023-06-01>
 L3 programming layer <2023-06-05>
  ***********
 Package rerunfilecheck Info: File `my_report.out' has not changed.
-(rerunfilecheck)             Checksum: 3FBEE1705221942DB420B85C5084A9F3;2189.
+(rerunfilecheck)             Checksum: 67DB18C52531ED22EA0F134FFE24F5D1;3681.
  ) 
 Here is how much of TeX's memory you used:
- 53247 strings out of 475734
- 1316427 string characters out of 5786229
- 2000907 words of memory out of 5000000
- 73307 multiletter control sequences out of 15000+600000
+ 53441 strings out of 475734
+ 1320858 string characters out of 5786229
+ 2004907 words of memory out of 5000000
+ 73489 multiletter control sequences out of 15000+600000
  530358 words of font info for 77 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  84i,11n,89p,1157b,609s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -1889,10 +2068,10 @@ onts/type1/public/cm-super/sfrm0800.pfb><c:/texlive/2023/texmf-dist/fonts/type1
 m1200.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfti0900.pfb>
 <c:/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfti1000.pfb><c:/texliv
 e/2023/texmf-dist/fonts/type1/public/cm-super/sfti1200.pfb>
-Output written on my_report.pdf (23 pages, 1760521 bytes).
+Output written on my_report.pdf (27 pages, 2439492 bytes).
 PDF statistics:
- 301 PDF objects out of 1000 (max. 8388607)
- 207 compressed objects within 3 object streams
- 54 named destinations out of 1000 (max. 500000)
- 235 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 356 PDF objects out of 1000 (max. 8388607)
+ 242 compressed objects within 3 object streams
+ 66 named destinations out of 1000 (max. 500000)
+ 347 words of extra memory for PDF output out of 10000 (max. 10000000)
 
