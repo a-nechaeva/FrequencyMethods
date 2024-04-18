@@ -31,9 +31,10 @@ def integral_counter(X, f_1, f_2):
     return np.dot(f_1, f_2) * dt
 
 
-def _fourier_img_0(f, V):
-    X = np.linspace(-10, 10, 1000)
-    return np.array([1 / (np.sqrt(2 * np.pi)) * integral_counter(X, f, (lambda t:  np.e ** (-1j * image_clip * t))(X)) * 1j * image_clip
+def _fourier_img_0(f, V, X):
+
+    #return np.array([1 / (np.sqrt(2 * np.pi)) * integral_counter(X, f, (lambda t:  np.e ** (-1j * image_clip * t))(X)) * 1j * image_clip
+    return np.array([1 / (np.sqrt(2 * np.pi)) * integral_counter(X, f, (lambda t: np.e ** (-1j * image_clip * t))(X))
                      for image_clip in V])
 
 
@@ -46,7 +47,9 @@ def _noise_diff(t, dt):
     n = a * (np.random.rand(10000) - 0.5)
     return (np.sin(t + dt) + n - (np.sin(t) + n)) / dt
 
+
 def _draw_fun(f):
+
     t = np.linspace(-10, 10, 1000)
     plt.plot(t, f(t), label=r'$g(t)$', color='midnightblue')
     plt.ylabel(r'$g(t)$')
@@ -89,7 +92,7 @@ def _draw_spectrum_diff(f):
     t = np.linspace(-10, 10, 1000)
     v = np.linspace(-10, 10, 1000)
 
-    img = _fourier_img_0(f, v)
+    img = _fourier_img_0(f, v, t)
     fun = _inverse_fourier(img, v)
 
     plt.plot(t, fun.real, label=r'$Re \, f\'(t)$', color='b')
@@ -106,7 +109,7 @@ def _draw_image(f):
     t = np.linspace(-10, 10, 1000)
     v = np.linspace(-10, 10, 1000)
 
-    img = _fourier_img_0(f, v)
+    img = _fourier_img_0(f, v, t)
 
     plt.plot(t, img.real, label=r'$Re \, \hat{f}(\omega)$', color='b')
     plt.plot(t, img.imag, label=r'$Im \, \hat{f}(\omega)$', color='r')
