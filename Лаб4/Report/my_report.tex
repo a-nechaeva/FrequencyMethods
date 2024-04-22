@@ -517,15 +517,16 @@ W_2(p)=\frac{\left( T_1p+1\right)^2}{\left(T_2p+1\right) \left(T_3p+1\right)}=\f
 
 
 
-
-
-\newpage
 \section{Задание. Сглаживание биржевых линий.}
+Рассмотрим график котировок акций \textit{Sber} в период с 17.04.2023 по 17.04.2024.
+
+\begin{figure}[h!]
+\center{\includegraphics[width=1\linewidth]{pic4/start.png}}
+\caption{Исходные данные о стоимости акций компании \textit{Sber} в период с 17.04.2023 по 17.04.2024.}
+\end{figure}
+Применим к данным о стоимости акций линейную фильтрацию с помощью фильтра первого порядка. Последовательно возьмем следующие значения постоянной времени $T$: 1 день, 1 неделя, 1 месяц, 3 месяца, 1 год.
 
 
-\newpage
-Для визуализации был написан код на языке \textit{Python}. \\
-Код расположен на \href{https://github.com/a-nechaeva/practical_Linal/tree/main/lab4}{\textbf{GitHub}}.
 \end{document}
 
 
