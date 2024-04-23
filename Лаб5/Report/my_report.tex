@@ -170,7 +170,7 @@
 \begin{multline}
 \hat{\Pi}(\nu) = \int \limits_{-\infty}^{+\infty} \Pi(t) e^{-2\pi i \nu t} dt = \int \limits_{-0.5}^{0.5} e^{-2\pi i \nu t} dt =
 \left. -\frac{e^{-2\pi i \nu t}}{2\pi i \nu} \right|_{-0.5}^{0.5} = \\
-= -\frac{e^{-\pi i \nu} - e^{\pi i \nu}}{2\pi i \nu} = \frac{e^{\pi i \nu} - e^{-\pi i \nu}}{2\pi i \nu} = \frac{sin(\pi \nu)}{\pi \nu} = sinc(\pi \nu)
+= -\frac{e^{-\pi i \nu} - e^{\pi i \nu}}{2\pi i \nu} = \frac{e^{\pi i \nu} - e^{-\pi i \nu}}{2\pi i \nu} = \frac{sin(\pi \nu)}{\pi \nu} = sinc(\nu)
 \end{multline}
 
 \begin{figure}[h!]
@@ -180,9 +180,51 @@
 
 \newpage
 \subsection{Численное интегрирование}
+Теперь найдем Фурье-образ $\Pi(t)$ с помощью численного интегрирования (функции \textit{trapz} библиотеки \textit{NumPy} языка \textit{Python}), а затем с помощью численного интегрирования восстановим исходную функцию $\Pi(t)$.\\
+
+Число шагов интегрирования будем задавать переменной $n$.
+
+\begin{figure}[h!]
+\begin{minipage}[h!]{0.5\linewidth}
+\center{\includegraphics[width=1\linewidth]{pic1/im_c_1}} a) \\
+\end{minipage}
+\hfill
+\begin{minipage}[h!]{0.5\linewidth}
+\center{\includegraphics[width=1\linewidth]{pic1/f_re_1}} \\б)
+\end{minipage}
+\caption{a) График Фурье-образа функции $\Pi(t)$, полученный с помощью численного интегрирования, б) график восстановленной функции.}
+\end{figure}
+
+Заметим, что при $n=1000$ график Фурье-образа (рисунок 3а) совпадает с графиком Фурье-образа, построенного с помощью аналитической фомулы (рисунок 2). В то же время, график восстановленной функции (рисунок 3б) имеет заметные отличия от исходного графика функции (рисунок 1). Далее построим сравнительные графики Фурье-образов, исходной функции и восстановленной при разных значениях $n$, также будем фиксировать время работы программы. Промежуток интегрирования обозначим $[-d, d]$.
+ Основные характеристики графиков представлены в таблице 1.
 
 
 
+\begin{table}[h!]
+\caption{Параметры графиков восстановленной функции.}
+\label{tabular:timesandtenses}
+\begin{center}
+\begin{tabular}{|c|c|c|c|c|}
+\hline
+№ рисунка & $n$ & $d$ & $t, mc$  \\
+\hline
+4 & 1000 & 5 & 381 \\
+\hline
+2 & 1 & 5 & 10.000\\
+\hline
+3 & 5 & 1 & 50.000 \\
+\hline
+4 & 5 & 5 & 250.000\\
+\hline
+\end{tabular}
+\end{center}
+\end{table}
+
+
+\begin{figure}[h!]
+\center{\includegraphics[width=1\linewidth]{pic1/f_n_1000_5.png}}
+\caption{Графики восстановленной и исходной функции $\Pi(t)$.}
+\end{figure}
 
 
 
