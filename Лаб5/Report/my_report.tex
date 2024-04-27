@@ -201,32 +201,69 @@
 
 
 \begin{table}[h!]
-\caption{Параметры графиков восстановленной функции.}
+\caption{Параметры графиков восстановленной функции на промежутке интегрирования $[-5, 5]$.}
 \label{tabular:timesandtenses}
 \begin{center}
 \begin{tabular}{|c|c|c|c|c|}
 \hline
 № рисунка & $n$ & $d$ & $t, mc$  \\
 \hline
-4 & 1000 & 5 & 381 \\
+ 4 а& 10000 & 5 &10369  \\
 \hline
-2 & 1 & 5 & 10.000\\
+4 б & 1000 & 5 & 381 \\
 \hline
-3 & 5 & 1 & 50.000 \\
+5 а &200  & 5 & 196 \\
 \hline
-4 & 5 & 5 & 250.000\\
+5 б & 100  & 5  & 198 \\
+\hline
+5 в & 90  & 5  & 270 \\
+\hline
+5 г & 30  & 5  & 260 \\
 \hline
 \end{tabular}
 \end{center}
 \end{table}
 
 
+
 \begin{figure}[h!]
-\center{\includegraphics[width=1\linewidth]{pic1/f_n_1000_5.png}}
-\caption{Графики восстановленной и исходной функции $\Pi(t)$.}
+\begin{minipage}[h!]{0.5\linewidth}
+\center{\includegraphics[width=1\linewidth]{pic1/f_n_10000_5.png}} a) \\
+\end{minipage}
+\hfill
+\begin{minipage}[h!]{0.5\linewidth}
+\center{\includegraphics[width=1\linewidth]{pic1/f_n_1000_5.png}} \\б)
+\end{minipage}
+\caption{ Графики восстановленной и исходной функции $\Pi(t)$ при a) $n=10000$, б) $n=1000$.}
+\end{figure}
+
+\begin{figure}[h!]
+\begin{minipage}[h!]{0.5\linewidth}
+\center{\includegraphics[width=1\linewidth]{pic1/f_n_200_5.png}} \\а)
+\end{minipage}
+\hfill
+\begin{minipage}[h!]{0.5\linewidth}
+\center{\includegraphics[width=1\linewidth]{pic1/f_n_100_5.png}} \\б)
+\end{minipage}
+\vfill
+\begin{minipage}[h!]{0.5\linewidth}
+\center{\includegraphics[width=1\linewidth]{pic1/f_n_90_5.png}} \\в)
+\end{minipage}
+\hfill
+\begin{minipage}[h!]{0.5\linewidth}
+\center{\includegraphics[width=1\linewidth]{pic1/f_n_30_5.png}} \\г)
+\end{minipage}
+\caption{ Графики восстановленной и исходной функции $\Pi(t)$ при a) $n=200$, б) $n=100$, a) $n=90$, б) $n=30$.}
 \end{figure}
 
 
+\newpage
+
+Сравнивая графики на рисунках 4, 5а-б, можно сделать вывод о том, что при уменьшении числа итераций в вычислении интегралов для нахождения Фурье-образа и последующего восстановления функции, сходство графиков исходной и восстановленной функций возрастает.\\
+
+ Однако при дальнейшем уменьшении $n$ $(n < 100)$ различия между графиками исходной и восстановленной функций возрастают (рисунки 5в и 5г). Время выполнения также возрастает (таблица 1).\\
+
+Наиболее оптимальным по результату и времени выполнения в нашем случае является $n=100$.
 
 
 

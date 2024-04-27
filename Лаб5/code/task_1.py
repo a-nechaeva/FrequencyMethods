@@ -6,7 +6,7 @@ import datetime
 _start = datetime.datetime.now()
 
 
-n = 1000
+n = 30
 #  start function
 _f = lambda t: 1 if abs(t) <= 0.5 else 0
 
@@ -39,8 +39,8 @@ def _draw_graph_im(f, t, title):
 
 
 def _draw_graph_f(f, t, title):
-
-    plt.plot(t,  _vf(t), label=r'$\Pi(t)$', color='midnightblue')
+    new_t = np.linspace(-5, 5, 5000)
+    plt.plot(new_t,  _vf(new_t), label=r'$\Pi(t)$', color='midnightblue')
     plt.plot(t, f, label=r'восстановленная $\Pi(t)$', color='darkmagenta')
     plt.xlabel(r'$t$')
     plt.ylabel(r'$\Pi(t)$')
@@ -53,7 +53,7 @@ def _draw_graph_f(f, t, title):
 
 
 time = np.linspace(-5, 5, n)
-_v = np.linspace(-1, 1, 1000)
+_v = np.linspace(-5, 5, n)
 
 #  _draw_graph(_vf, time, 'График исходной функции')
 #_draw_graph(_f_image, time, 'График Фурье-образа')
