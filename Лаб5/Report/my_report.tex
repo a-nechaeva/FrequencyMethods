@@ -132,7 +132,7 @@
 		\vspace*{5ex}
 		
 		{\large 
-			\underline{Преподаватель}: \textit{Перегудин Алексей Алексеевич}
+			\underline{Преподаватели}: \textit{Перегудин Алексей Алексеевич,}\\ \textit{Пашенко Артём Витальевич}
 		}
 	\end{flushright}	
 	\newpage
@@ -210,15 +210,19 @@
 \hline
  4 а& 10000 & 5 &10369  \\
 \hline
-4 б & 1000 & 5 & 381 \\
+4 б & 10000 & 5 & 5341 \\
 \hline
 5 а &200  & 5 & 196 \\
 \hline
-5 б & 100  & 5  & 198 \\
+5 б & 200  & 5  & 202 \\
 \hline
-5 в & 90  & 5  & 270 \\
+5 в & 100  & 5  & 198 \\
 \hline
-5 г & 30  & 5  & 260 \\
+5 г & 100  & 5  & 276 \\
+\hline
+6 а & 90  & 5  & 270 \\
+\hline
+6 б & 90  & 5  & 236 \\
 \hline
 \end{tabular}
 \end{center}
@@ -232,9 +236,9 @@
 \end{minipage}
 \hfill
 \begin{minipage}[h!]{0.5\linewidth}
-\center{\includegraphics[width=1\linewidth]{pic1/f_n_1000_5.png}} \\б)
+\center{\includegraphics[width=1\linewidth]{pic1/im_n_10000_5.png}} \\б)
 \end{minipage}
-\caption{ Графики восстановленной и исходной функции $\Pi(t)$ при a) $n=10000$, б) $n=1000$.}
+\caption{ Графики восстановленной и исходной функции и их Фурье-образов при $n=10000$.}
 \end{figure}
 
 \begin{figure}[h!]
@@ -243,39 +247,227 @@
 \end{minipage}
 \hfill
 \begin{minipage}[h!]{0.5\linewidth}
-\center{\includegraphics[width=1\linewidth]{pic1/f_n_100_5.png}} \\б)
+\center{\includegraphics[width=1\linewidth]{pic1/im_n_200_5.png}} \\б)
 \end{minipage}
 \vfill
 \begin{minipage}[h!]{0.5\linewidth}
-\center{\includegraphics[width=1\linewidth]{pic1/f_n_90_5.png}} \\в)
+\center{\includegraphics[width=1\linewidth]{pic1/f_n_100_5.png}} \\в)
 \end{minipage}
 \hfill
 \begin{minipage}[h!]{0.5\linewidth}
-\center{\includegraphics[width=1\linewidth]{pic1/f_n_30_5.png}} \\г)
+\center{\includegraphics[width=1\linewidth]{pic1/im_n_100_5.png}} \\г)
 \end{minipage}
-\caption{ Графики восстановленной и исходной функции $\Pi(t)$ при a) $n=200$, б) $n=100$, a) $n=90$, б) $n=30$.}
+\caption{ Графики восстановленной и исходной функции и их Фурье-образов при $n=200, \, 100$.}
+\end{figure}
+
+\begin{figure}[h!]
+\begin{minipage}[h!]{0.5\linewidth}
+\center{\includegraphics[width=1\linewidth]{pic1/f_n_90_5.png}} a) \\
+\end{minipage}
+\hfill
+\begin{minipage}[h!]{0.5\linewidth}
+\center{\includegraphics[width=1\linewidth]{pic1/im_n_90_5.png}} \\б)
+\end{minipage}
+\caption{ Графики восстановленной и исходной функции и их Фурье-образов при $n=90$.}
 \end{figure}
 
 
 \newpage
 
-Сравнивая графики на рисунках 4, 5а-б, можно сделать вывод о том, что при уменьшении числа итераций в вычислении интегралов для нахождения Фурье-образа и последующего восстановления функции, сходство графиков исходной и восстановленной функций возрастает.\\
+Сравнивая графики на рисунках 4 а, 5 а, 5 в, можно сделать вывод о том, что при уменьшении числа итераций в вычислении интегралов для нахождения Фурье-образа и последующего восстановления функции, сходство графиков исходной и восстановленной функций возрастает.\\
 
  Однако при дальнейшем уменьшении $n$ $(n < 100)$ различия между графиками исходной и восстановленной функций возрастают (рисунки 5в и 5г). Время выполнения также возрастает (таблица 1).\\
 
 Наиболее оптимальным по результату и времени выполнения в нашем случае является $n=100$.
 
+\begin{table}[h!]
+\caption{Параметры графиков восстановленной функции на промежутке интегрирования $[-1, 1]$.}
+\label{tabular:timesandtenses}
+\begin{center}
+\begin{tabular}{|c|c|c|c|c|}
+\hline
+№ рисунка & $n$ & $d$ & $t, mc$  \\
+\hline
+ 7 а& 1000 & 1 & 486 \\
+\hline
+ 7 б& 1000 & 1 & 287 \\
+\hline
+8 а  & 30 & 1 & 241 \\
+\hline
+8 б & 30  & 1 &  211\\
+\hline
+8 в & 10  & 1  & 191 \\
+\hline
+8 г & 10  & 1  & 274 \\
+\hline
+9 а & 5  & 1  & 161 \\
+\hline
+9 б & 5  & 1  & 188 \\
+\hline
+\end{tabular}
+\end{center}
+\end{table}
 
+
+
+\begin{figure}[h!]
+\begin{minipage}[h!]{0.5\linewidth}
+\center{\includegraphics[width=1\linewidth]{pic1/f_n_1000_1.png}} \\а)
+\end{minipage}
+\hfill
+\begin{minipage}[h!]{0.5\linewidth}
+\center{\includegraphics[width=1\linewidth]{pic1/im_n_1000_1.png}} \\б)
+\end{minipage}
+\caption{ Графики восстановленной и исходной функции и их Фурье-образов при $n=1000$.}
+\end{figure}
+
+\begin{figure}[h!]
+\begin{minipage}[h!]{0.5\linewidth}
+\center{\includegraphics[width=1\linewidth]{pic1/f_n_30_1.png}} \\а)
+\end{minipage}
+\hfill
+\begin{minipage}[h!]{0.5\linewidth}
+\center{\includegraphics[width=1\linewidth]{pic1/im_n_30_1.png}} \\б)
+\end{minipage}
+\vfill
+\begin{minipage}[h!]{0.5\linewidth}
+\center{\includegraphics[width=1\linewidth]{pic1/f_n_10_1.png}} \\в)
+\end{minipage}
+\hfill
+\begin{minipage}[h!]{0.5\linewidth}
+\center{\includegraphics[width=1\linewidth]{pic1/im_n_10_1.png}} \\г)
+\end{minipage}
+\caption{ Графики восстановленной и исходной функции и их Фурье-образов при $n=30, \, 10$.}
+\end{figure}
+
+\begin{figure}[h!]
+\begin{minipage}[h!]{0.5\linewidth}
+\center{\includegraphics[width=1\linewidth]{pic1/f_n_5_1.png}} \\а)
+\end{minipage}
+\hfill
+\begin{minipage}[h!]{0.5\linewidth}
+\center{\includegraphics[width=1\linewidth]{pic1/im_n_5_1.png}} \\б)
+\end{minipage}
+\caption{ Графики восстановленной и исходной функции и их Фурье-образов при $n=5$.}
+\end{figure}
+
+
+\newpage
+\,
+\newpage
+Заметим, что при $n=1000$ и при $n=30$ существенной разницы между восстановленными функциями нет (рисунок 7 а и 8 а), кроме того, что в восстановаленной функции на рисунке 8 а отчетливее видны ломанная, из которой она состоит. При дельнейшем уменьшении $n$ точность восстановленной функции снижается. Время работы программы также снижается и достигает минимума при $n=5$, далее опять увеличивается.\\
+
+ Наиболее оптимальными с точки зрения точности приближения исходного графика функции и времени выполнения в данном случае являются $n=5$ и $n=6$.\\
+
+
+Теперь рассмотрим интегрирование на промежутке $[-10, 10]$, то есть при $d=10$.
+
+
+
+
+
+\begin{table}[h!]
+\caption{Параметры графиков восстановленной функции на промежутке интегрирования $[-10, 10]$.}
+\label{tabular:timesandtenses}
+\begin{center}
+\begin{tabular}{|c|c|c|c|c|}
+\hline
+№ рисунка & $n$ & $d$ & $t, mc$  \\
+\hline
+ 10 а& 10000 & 10 &  10766\\
+\hline
+ 10 б& 10000 & 10 & 5302 \\
+\hline
+10 в  & 1000 & 10 & 390 \\
+\hline
+10 г & 1000  & 10 & 281 \\
+\hline
+11 а  & 500 & 10 & 271 \\
+\hline
+11 б & 500  & 10 & 192 \\
+\hline
+11 в & 250  & 10 & 223 \\
+\hline
+11 г & 250  & 10  &  188 \\
+\hline
+\end{tabular}
+\end{center}
+\end{table}
+
+
+
+\begin{figure}[h!]
+\begin{minipage}[h!]{0.5\linewidth}
+\center{\includegraphics[width=1\linewidth]{pic1/f_n_10000_10.png}} \\а)
+\end{minipage}
+\hfill
+\begin{minipage}[h!]{0.5\linewidth}
+\center{\includegraphics[width=1\linewidth]{pic1/im_n_10000_10.png}} \\б)
+\end{minipage}
+\vfill
+\begin{minipage}[h!]{0.5\linewidth}
+\center{\includegraphics[width=1\linewidth]{pic1/f_n_1000_10.png}} \\в)
+\end{minipage}
+\hfill
+\begin{minipage}[h!]{0.5\linewidth}
+\center{\includegraphics[width=1\linewidth]{pic1/im_n_1000_10.png}} \\г)
+\end{minipage}
+\caption{ Графики восстановленной и исходной функции и их Фурье-образов при $n=10000, \, 1000$.}
+\end{figure}
+
+\newpage
+Заметим, что при $n=10000$ и $n=1000$ для случая $d=10$ результат на графике практически идентичен, но время, затраченное на вычисление последнего примерно в 30 раз меньше. С точки зрения точности приближения в обоих случаях график исходной функции узнаваем, наибольшие различия замечены в точках скачков функции.\\
+
+
+
+
+\begin{figure}[h!]
+\vfill
+\begin{minipage}[h!]{0.5\linewidth}
+\center{\includegraphics[width=1\linewidth]{pic1/f_n_500_10.png}} \\а)
+\end{minipage}
+\hfill
+\begin{minipage}[h!]{0.5\linewidth}
+\center{\includegraphics[width=1\linewidth]{pic1/im_n_500_10.png}} \\б)
+\end{minipage}
+\vfill
+\begin{minipage}[h!]{0.5\linewidth}
+\center{\includegraphics[width=1\linewidth]{pic1/f_n_250_10.png}} \\в)
+\end{minipage}
+\hfill
+\begin{minipage}[h!]{0.5\linewidth}
+\center{\includegraphics[width=1\linewidth]{pic1/im_n_250_10.png}} \\г)
+\end{minipage}
+\caption{ Графики восстановленной и исходной функции и их Фурье-образов при $n=500, \, 250$.}
+\end{figure}
+
+
+\newpage
+При $n=500$ получаем еще удовлетворительный результат: исходная функция угадывается по графику восстановленной, в ходе дальнейшего уменьшении $n < 500$ график восстановленной функции все меньше похож на исходную.\\
+
+
+\newpage
+\,
+\newpage
+\textbf{Вывод.} Для получения оптимального результата требуется достаточно большое количество времени: $200-300$ мс. Точность позволяет узнать в восстановленной функции исходную, пусть и с небольшими помехами в областях скачков функции. 
+
+\newpage
+\subsection{Использование DFT}
+\textit{...В работе...}
 
 \newpage
 \section{Задание. Сэмплирование.}
 
 \subsection{Сэмплирование синусов}
 
+\textit{...В работе...}
+
 
 
 
 \subsection{Сэмплирование sinus cardinalis}
+\textit{...В работе...}
+
 \end{document}
 
 
