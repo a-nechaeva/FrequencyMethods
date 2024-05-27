@@ -1,0 +1,282 @@
+\documentclass[a5paper, 10pt]{article}
+
+% Текст
+\usepackage[utf8]{inputenc} % UTF-8 кодировка
+\usepackage[russian]{babel} % Русский язык
+\usepackage{indentfirst} % красная строка в первом параграфе в главе
+% Отображение страниц
+\usepackage{geometry} % размеры листа и отступов
+\usepackage{listings}
+\usepackage{color}
+
+\geometry{
+	left=12mm,
+	top=25mm,
+	right=15mm,
+	bottom=17mm,
+	marginparsep=0mm,
+	marginparwidth=0mm,
+	headheight=10mm,
+	headsep=7mm,
+	nofoot}
+\usepackage{afterpage,fancyhdr} % настройка колонтитулов
+\pagestyle{fancy}
+\fancypagestyle{style}{ % создание нового стиля style
+	\fancyhf{} % очистка колонтитулов
+	\fancyhead[LO, RE]{Контрольная работа} % название документа наверху
+	\fancyhead[RO, LE]{Вариант 8} % название section наверху
+	\fancyfoot[RO, LE]{\thepage} % номер страницы справа внизу на нечетных и слева внизу на четных
+	\renewcommand{\headrulewidth}{0.25pt} % толщина линии сверху
+	\renewcommand{\footrulewidth}{0pt} % толцина линии снизу
+}
+\fancypagestyle{plain}{ % создание нового стиля plain -- полностью пустого
+	\fancyhf{}
+	\renewcommand{\headrulewidth}{0pt}
+}
+\fancypagestyle{title}{ % создание нового стиля title -- для титульной страницы
+	\fancyhf{}
+	\fancyhead[C]{{\footnotesize
+			Министерство образования и науки Российской Федерации\\
+			Федеральное государственное автономное образовательное учреждение высшего образования
+	}}
+	\fancyfoot[C]{{\large 
+			Санкт-Петербург, 2024
+	}}
+	\renewcommand{\headrulewidth}{0pt}
+}
+
+% Математика
+\usepackage{amsmath, amsfonts, amssymb, amsthm} % Набор пакетов для математических текстов
+%\usepackage{dmvnbase} % мехматовский пакет latex-сокращений
+\usepackage{cancel} % зачеркивание для сокращений
+% Рисунки и фигуры
+\usepackage[pdftex]{graphicx} % вставка рисунков
+\usepackage{wrapfig, subcaption} % вставка фигур, обтекая текст
+\usepackage{caption} % для настройки подписей
+\captionsetup{figurewithin=none,labelsep=period, font={small,it}} % настройка подписей к рисункам
+% Рисование
+\usepackage{tikz} % рисование
+\usepackage{circuitikz}
+\usepackage{pgfplots} % графики
+% Таблицы
+\usepackage{multirow} % объединение строк
+\usepackage{multicol} % объединение столбцов
+% Остальное
+\usepackage[unicode, pdftex]{hyperref} % гиперссылки
+\usepackage{enumitem} % нормальное оформление списков
+\setlist{itemsep=0.15cm,topsep=0.15cm,parsep=1pt} % настройки списков
+% Теоремы, леммы, определения...
+\theoremstyle{definition}
+\newtheorem{Def}{Определение}
+\newtheorem*{Axiom}{Аксиома}
+\theoremstyle{plain}
+\newtheorem{Th}{Теорема}
+\newtheorem{Lem}{Лемма}
+\newtheorem{Cor}{Следствие}
+\newtheorem{Ex}{Пример}
+\theoremstyle{remark}
+\newtheorem*{Note}{Замечание}
+\newtheorem*{Solution}{Решение}
+\newtheorem*{Proof}{Доказательство}
+% Свои команды
+\newcommand{\comb}[1]{\left[\hspace{-4pt}\begin{array}{l}#1\end{array}\right.\hspace{-5pt} } % совокупность уравнений
+% Титульный лист
+\usepackage{csvsimple-l3}
+\newcommand*{\titlePage}{
+	\thispagestyle{title}
+	\begingroup
+	\begin{center}
+		%		{\footnotesize
+			%			Министерство образования и науки Российской Федерации\\
+			%			Федеральное государственное автономное образовательное учреждение высшего образования
+			%		}
+		%		
+		\vspace*{6ex}
+		
+		{\small
+			САНКТ-ПЕТЕРБУРГСКИЙ НАЦИОНАЛЬНЫЙ ИССЛЕДОВАТЕЛЬСКИЙ УНИВЕРСИТЕТ ИТМО	
+		}
+		
+		\vspace*{2ex}
+		
+		{\normalsize
+			Факультет систем управления и робототехники
+		}
+		
+		\vspace*{15ex}
+		
+		{\Large \bfseries 
+			Контрольная работа
+		}
+\vspace*{2ex}
+	{\Large \bfseries 
+			
+Вариант 8
+		}
+\vspace*{2ex}
+		
+		{\normalsize
+			по дисциплине Частотные методы
+		}
+
+	\end{center}
+	\vspace*{20ex}
+	\begin{flushright}
+		{\large 
+			\underline{Выполнила}: студентка гр. \textbf{R3238}\\
+			\begin{flushright}
+				\textbf{Нечаева А. А.}\\
+			\end{flushright}
+		}
+		
+		\vspace*{5ex}
+		
+		{\large 
+			\underline{Преподаватель}: \textit{Перегудин Алексей Алексеевич}
+		}
+	\end{flushright}	
+	\newpage
+	\setcounter{page}{1}
+	\endgroup}
+
+\begin{document}
+	\titlePage
+	\pagestyle{style}
+\newpage
+
+\section{Задание}
+
+\textit{Разложить в ряд Фурье функцию, определить значения в точках разрыва:}
+
+\begin{equation}
+f(t) = 
+\begin{cases}
+1, & -\pi \leq t \leq 0,\\
+3, & 0 < t \leq \pi
+\end{cases}
+\end{equation}
+
+\subsection{Разложение в ряд Фурье}
+
+Функция $f(t)$ удовлетворяет условию теоремы Дирихле о разложении периодической функции в ряд Фурье.
+
+\begin{equation}
+f(t) \sim \frac{a_0}{2} + \sum \limits_{n=1}^{\infty} \left( a_n \cos (nt) + b_n \sin (nt) \right),
+\end{equation}
+
+где $a_0$, $a_n$, $b_n$ -- коэффициенты Фурье:
+
+\begin{equation}
+a_0 = \frac{1}{\pi} \int \limits_{-\pi}^{\pi} f(t) dt,
+\end{equation}
+
+\begin{equation}
+a_n = \frac{1}{\pi} \int \limits_{-\pi}^{\pi} f(t) \cos (nt) dt,
+\end{equation}
+
+
+\begin{equation}
+b_n = \frac{1}{\pi} \int \limits_{-\pi}^{\pi} f(t) \sin (nt) dt,
+\end{equation}
+
+Вычислим значения коэффициентов:
+
+\begin{equation}
+a_0 = \frac{1}{\pi} \int \limits_{-\pi}^{\pi} f(t) dt = \frac{1}{\pi} \left( \int \limits_{-\pi}^{0} dt  + 3 \int \limits_{0}^{\pi} dt \right) = \frac{1}{\pi} \left( \pi  + 3 \pi \right) = 4
+\end{equation}
+
+\begin{multline}
+a_n = \frac{1}{\pi} \int \limits_{-\pi}^{\pi} f(t) \cos (nt) dt = \frac{1}{\pi} \left( \int \limits_{-\pi}^{0} \cos (nt) dt  + 3 \int \limits_{0}^{\pi} \cos (nt) dt \right) = \\ =  \frac{1}{n\pi} \left( \left. \sin (nt) \right|_{-\pi}^{0} + 3 \left. \sin (nt) \right|_{0}^{\pi} \right) = \frac{1}{n\pi} \left( 0 + 3 \cdot 0 \right) = 0
+\end{multline}
+
+
+\begin{multline}
+b_n = \frac{1}{\pi} \int \limits_{-\pi}^{\pi} f(t) \sin (nt) dt = \frac{1}{\pi} \left( \int \limits_{-\pi}^{0} \sin (nt) dt  + 3 \int \limits_{0}^{\pi} \sin (nt) dt \right) = \\ =  -\frac{1}{n\pi} \left( \left. \cos (nt) \right|_{-\pi}^{0} + 3 \left. \cos (nt) \right|_{0}^{\pi} \right) = -\frac{1}{n\pi} \left( 1 - (-1)^n + 3 \cdot \left((-1)^n - 1 \right) \right) = \\ = -\frac{1}{n\pi} \left( 2 \cdot \left((-1)^n - 1 \right) \right) = \frac{2 - 2(-1)^n}{n \pi}
+\end{multline}
+
+В итоге, запишем, полученное разложение в ряд Фурье:
+
+\begin{equation}
+f(t) \sim 2+ \frac{2}{\pi}\sum \limits_{n=1}^{\infty} \left( \frac{1 - (-1)^n}{n} \sin (nt) \right)
+\end{equation}
+
+
+\subsection{Нахождение значений в точках разрыва}
+Согласно теореме Дирихле: \textit{если функция имеет ограниченную вариацию (конечное число точек строгого экстремума и точек разрыва первого рода), то в точках непрерывности ряд сходится к функции поточечно, а в точках разрыва сходится }\textbf{к среднему арифметическому значений двух концов}.\\
+
+Точка разрыва первого рода $t = 0$, значение в точках разрыва\\
+ $$\phi (0) = \frac{1 + 3}{2} = 2.$$
+
+
+
+
+
+
+
+
+\newpage
+\section{Задание}
+
+\textit{Найти образ Фурье от функции}
+
+\begin{equation}
+f(t) = 
+\begin{cases}
+1 - e^{1 + t}, &  t \leq -1,\\
+1 - e^{1 - t}, &  t \geq 1, \\
+0, else
+\end{cases}
+\end{equation}
+
+\subsection{Нахождение образа Фурье от функции}
+
+Фурье-образ функции $f(t)$ будем находить по формуле:
+
+\begin{equation}
+\hat{f} (\omega) = \frac{1}{\sqrt{2 \pi}} \int \limits_{-\infty}^{\infty} f(t) e^{-i \omega t} dt
+\end{equation}
+
+\begin{multline}
+\hat{f} (\omega) = \frac{1}{\sqrt{2 \pi}} \int \limits_{-\infty}^{\infty} f(t) e^{-i \omega t} dt =\\= \frac{1}{\sqrt{2 \pi}} \left( \int \limits_{-\infty}^{-1} (1 - e^{1 + t}) e^{-i \omega t} dt + \int \limits_{1}^{\infty} (1 - e^{1 - t}) e^{-i \omega t} dt + \int \limits_{-1}^{1} 0 \cdot e^{-i \omega t} dt \right) =\\=
+\frac{1}{\sqrt{2 \pi}} \left( \int \limits_{-\infty}^{-1} (1 - e^{1 + t}) e^{-i \omega t} dt + \int \limits_{1}^{\infty} (1 - e^{1 - t}) e^{-i \omega t} dt \right) = \\ = \frac{1}{\sqrt{2 \pi}} \left( \int \limits_{-\infty}^{-1}  e^{-i \omega t} - e^{1 + t -i \omega t} dt + \int \limits_{1}^{\infty}  e^{-i \omega t} - e^{1 - t -i \omega t} dt \right) \fbox{=}
+\end{multline}
+
+\begin{equation}
+\int e^{-i \omega t} dt = -\frac{1}{i \omega} e^{-i \omega t} = \frac{i}{\omega} e^{-i \omega t}  + C
+\end{equation}
+
+\begin{equation}
+\int e^{1 + t -i \omega t} dt = e \int e^{ t (1 -i \omega)} dt = \frac{e}{1 - i \omega}  e^{ t (1 -i \omega)} + C
+\end{equation}
+
+
+
+\begin{equation}
+\int e^{1 - t -i \omega t} dt = e \int e^{- t (1 + i \omega)} dt = -\frac{e}{1 + i \omega}  e^{- t (1 +i \omega)} + C
+\end{equation}
+
+
+\begin{equation}
+\int \limits_{-\infty}^{-1}  e^{-i \omega t} dt  = \left. \frac{i}{\omega} e^{-i \omega t} \right|_{-\infty}^{-1} = \frac{i}{\omega} e^{i \omega} - \frac{i}{\omega} e^{i \omega \infty}
+\end{equation}
+
+
+\begin{equation}
+\int \limits_{1}^{\infty}  e^{-i \omega t} dt  = \left. \frac{i}{\omega} e^{-i \omega t} \right|_{1}^{\infty} = \frac{i}{\omega} e^{-i \omega \infty} - \frac{i}{\omega} e^{-i \omega }
+\end{equation}
+
+
+\end{document}
+
+
+
+
+
+
+
+
+
+
+
+
+

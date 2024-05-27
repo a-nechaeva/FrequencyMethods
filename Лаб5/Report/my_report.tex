@@ -524,6 +524,18 @@ y(j + n) = \sum \limits_{k=0}^{n-1} x(k) \cdot \exp \left\{ - \frac{2\pi  i (n +
 \newpage
 \subsubsection{Отличие образа после DFT.}
 
+Предположим, что различия вызваны несоответствием дискретной формулы, использованной в DFT, непрерывной фурмуле для нахождения Фурье-образа. Запишем аналитическое выражение для Фурье-образа
+
+\begin{equation}
+\hat{\Pi}(\nu) = \int \limits_{-\infty}^{+\infty} \Pi(t) e^{-2\pi i \nu t} dt
+\end{equation}
+И попробуем от непрерывного интеграла перейти к дискретной сумме. 
+\begin{multline}
+\hat{\Pi}(\nu) = \int \limits_{-\infty}^{+\infty} \Pi(t) e^{-2\pi i \nu t} dt \sim \sum \limits_{k=0}^{n-1} \Pi(t + k \cdot \Delta t)  \exp \left\{ - 2\pi  i \nu (t + k \cdot \Delta t) \right\} \Delta t = \\ = \exp \left\{ - 2\pi  i \nu t \right\} \Delta t  \sum \limits_{k=0}^{n-1} \Pi(t + k \cdot \Delta t)  \exp \left\{ - 2\pi  i \nu  k \cdot \Delta t\right\}
+\end{multline}
+Пусть $j =  $ -- дискретная частота
+
+
 
 
 
