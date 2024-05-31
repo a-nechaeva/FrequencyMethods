@@ -241,14 +241,10 @@ f(t) =
 \frac{1}{\sqrt{2 \pi}} \left( \int \limits_{-\infty}^{-1} (1 - e^{1 + t}) e^{-i \omega t} dt + \int \limits_{1}^{\infty} (1 - e^{1 - t}) e^{-i \omega t} dt \right) = \\ = \frac{1}{\sqrt{2 \pi}} \left( \int \limits_{-\infty}^{-1}  e^{-i \omega t} - e^{1 + t -i \omega t} dt + \int \limits_{1}^{\infty}  e^{-i \omega t} - e^{1 - t -i \omega t} dt \right) \fbox{=}
 \end{multline}
 
-\begin{equation}
-\int e^{-i \omega t} dt = -\frac{1}{i \omega} e^{-i \omega t} = \frac{i}{\omega} e^{-i \omega t}  + C
-\end{equation}
 
 \begin{equation}
-\int e^{1 + t -i \omega t} dt = e \int e^{ t (1 -i \omega)} dt = \frac{e}{1 - i \omega}  e^{ t (1 -i \omega)} + C
+\int \limits_{-\infty}^{-1} e^{1 + t -i \omega t} dt = e \int \limits_{-\infty}^{-1} e^{ t (1 -i \omega)} dt = \left. \frac{e^{1 + t (1 -i \omega)}}{1 - i \omega} \right|_{-\infty}^{-1} = \frac{e^{1 - (1 -i \omega)}}{1 - i \omega} - \frac{e^{1 + \infty (1 -i \omega)}}{1 - i \omega}
 \end{equation}
-
 
 
 \begin{equation}
