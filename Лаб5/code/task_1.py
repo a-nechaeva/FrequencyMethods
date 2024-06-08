@@ -11,6 +11,8 @@ d = 5
 #  start function
 _f = lambda t: 1 if abs(t) <= 0.5 else 0
 
+get_wave_func = lambda: np.vectorize(lambda t: 1 if abs(t) <= 0.5 else 0, otypes=[complex])
+
 _f_image = lambda v: np.sinc(v)
 
 _vf = np.vectorize(_f, otypes=[complex])
@@ -71,11 +73,48 @@ def _fft_im(t, title):
     plt.show()
 
 
+_steps = 1000
+
+
+def _fft_im_correct(title):
+
+    new_t = np.linspace(-d, d, _steps)
+    ff = get_wave_func()
+    f = ff(new_t)
+    # im_ff = np.fft.fftshift(np.fft.fft(ff)) / np.sqrt(n)
+    #  res_ff = num_restored = np.fft.ifft(np.fft.ifftshift(im_ff)) * np.sqrt(n)
+    nu = np.fft.fftshift(np.fft.fftfreq(_steps, 10 / _steps))
+    image_dft = np.fft.fftshift(np.fft.fft(f, norm='ortho'))
+
+    dt = new_t[1] - new_t[0]
+
+    dft_cont_image = image_dft * dt * np.exp(-1j * nu * 2 * np.pi * new_t[0]) * np.sqrt(_steps)
+    #  plt.plot(nu, np.sinc(nu), label=r'истинный Фурье-образ', color='midnightblue')
+    #  plt.plot(nu, dft_cont_image, '.', label=r'приближение', color='darkmagenta')
+
+    dv = nu[1] - nu[0]
+    f_restored_cont = np.fft.fftshift(np.fft.ifft(np.fft.ifftshift(dft_cont_image), norm='ortho') * np.sqrt(_steps) * dv)
+    plt.plot(new_t, f, label='исходная функция', color='midnightblue')
+    plt.plot(new_t, f_restored_cont, '.', label=r'приближение', color='darkmagenta')
+
+
+    #  plt.xlabel(r'$\nu$')
+    #  plt.ylabel(r'$\hat{\Pi}(\nu)$')
+    plt.xlabel(r'$t$')
+    plt.ylabel(r'$\Pi(t)$')
+    plt.xlim([-5, 5])
+    plt.grid()
+    plt.legend()
+    plt.title(title)
+    plt.show()
+
+
 
 time = np.linspace(-d, d, n)
 _v = np.linspace(-d, d, n)
 
-_fft_im(time, r'График восстановленной функции $ifft$ при $n=$' + str(n))
+_fft_im_correct(r"Приближение непрерывного с помощью DFT")
+#_fft_im(time, r'График восстановленной функции $ifft$ при $n=$' + str(n))
 #  _draw_graph(_vf, time, 'График исходной функции')
 #_draw_graph(_f_image, time, 'График Фурье-образа')
 #_draw_graph_im(_fourier_image(_vf(time), time, time), time, r'График Фурье-образа при $n = $' + str(n))

@@ -531,22 +531,37 @@ y(j + n) = \sum \limits_{k=0}^{n-1} x(k) \cdot \exp \left\{ - \frac{2\pi  i (n +
 \end{equation}
 И попробуем от непрерывного интеграла перейти к дискретной сумме. 
 \begin{multline}
-\hat{\Pi}(\nu) = \int \limits_{-\infty}^{+\infty} \Pi(t) e^{-2\pi i \nu t} dt \sim \sum \limits_{k=0}^{n-1} \Pi(t + k \cdot \Delta t)  \exp \left\{ - 2\pi  i \nu (t + k \cdot \Delta t) \right\} \Delta t = \\ = \exp \left\{ - 2\pi  i \nu t \right\} \Delta t  \sum \limits_{k=0}^{n-1} \Pi(t + k \cdot \Delta t)  \exp \left\{ - 2\pi  i \nu  k \cdot \Delta t\right\}
+\hat{\Pi}(\nu) = \int \limits_{-\infty}^{+\infty} \Pi(t) e^{-2\pi i \nu t} dt \sim \sum \limits_{k=0}^{n-1} \Pi(t_0 + k \cdot \Delta t)  \exp \left\{ - 2\pi  i \nu (t_0 + k \cdot \Delta t) \right\} \Delta t = \\ = e^{ - 2\pi  i \nu t_0 } \Delta t  \sum \limits_{k=0}^{n-1} \Pi(t_0 + k \cdot \Delta t)  e^{ - 2\pi  i \nu  k \cdot \Delta t}
 \end{multline}
-Пусть $j =  $ -- дискретная частота
+Пусть $\widetilde{\nu} = m \Delta \nu $ -- дискретная частота, $\widetilde{t} = t_0 + k \Delta t$ -- дискретное время.
 
+\begin{multline}
+\hat{\Pi}(\widetilde{\nu}) = e^{ - 2\pi  i \widetilde{\nu} t_0} \Delta t  \sum \limits_{k=0}^{n-1} \Pi(t_0 + k \cdot \Delta t)  e^{ - 2\pi  i \Delta \nu  k \cdot \Delta t}= \\ = e^{ - 2\pi  i \widetilde{\nu} t_0} \Delta t  \sum \limits_{k=0}^{n-1} \Pi(\widetilde{t})  \exp \left\{ - \frac{2\pi  i  m \cdot k}{n} \right\}
+\end{multline}
 
-
+Заметим, что полученное выражение похоже на формулу для Фурье-образа DFT с точностью до множителя перед знаком сумматора.
 
 
 
 
 \subsection{Приближение непрерывного с помощью DFT}
-\textit{...В работе...}
+Запишем формулу для приближения непрерывного с помощью унитарного DFT -- умное использование fft:
 
+\begin{equation}
+\hat{\Pi}(\widetilde{\nu}) = \frac{\Delta t }{\sqrt{n}} e^{ - 2\pi  i \widetilde{\nu} t_0}  \sum \limits_{k=0}^{n-1} \Pi(\widetilde{t})  \exp \left\{ - \frac{2\pi  i  m \cdot k}{n} \right\}
+\end{equation}
 
+Теперь запишем умное использование ifft:
+\begin{equation}
+\Pi (\widetilde{t}) = \frac{\Delta \nu }{\sqrt{n}}   \sum \limits_{m=0}^{n-1} \Pi(\widetilde{\nu})  \exp \left\{  \frac{2\pi  i  k \cdot m}{n} \right\} 
+\end{equation}
 
-
+\begin{figure}[h!]
+\center{\includegraphics[width=0.77\linewidth]{pic1/DFT_cor.png}}
+\caption{Графики истинного и Фурье-образа, полученного с помощью умного fft.}
+\center{\includegraphics[width=0.77\linewidth]{pic1/cor_fun.png}}
+\caption{Графики исходной и функции, полученной с помощью умного ifft.}
+\end{figure}
 
 
 
@@ -561,7 +576,24 @@ y(j + n) = \sum \limits_{k=0}^{n-1} x(k) \cdot \exp \left\{ - \frac{2\pi  i (n +
 y(t) =  \sin \left( 3 t + \pi \right) + 2 \sin \left(  4 t + 2\pi \right)
 \end{equation}
 
+\subsubsection{Построение непрерывного графика}
+\begin{figure}[h!]
+\center{\includegraphics[width=1\linewidth]{pic2/fsin.png}}
+\caption{График исходной функции $y(t)$.}
+\end{figure}
 
+\subsubsection{Сэмплированный вариант функции}
+
+Рассмотрим разреженный вариант массива времени и соответствующий ему массив значений.
+\begin{figure}[h!]
+\center{\includegraphics[width=0.77\linewidth]{pic2/s_sample_p.png}}
+\caption{Исходный и график после сэмплирования (точки).}
+\center{\includegraphics[width=0.77\linewidth]{pic2/s_sample_c.png}}
+\caption{Исходный и график после сэмплирования.}
+\end{figure}
+
+\subsubsection{Восстановление функции}
+Применим интерполяционную формулу $f(t) = \sum \limits_{-\infty}^{\infty} f \left( t_n \right) sinc \left(2Bt - t_n \right)$
 
 
 \subsection{Сэмплирование sinus cardinalis}
