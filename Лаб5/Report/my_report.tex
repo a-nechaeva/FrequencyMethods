@@ -593,7 +593,14 @@ y(t) =  \sin \left( 3 t + \pi \right) + 2 \sin \left(  4 t + 2\pi \right)
 \end{figure}
 
 \subsubsection{Восстановление функции}
-Применим интерполяционную формулу $f(t) = \sum \limits_{-\infty}^{\infty} f \left( t_n \right) sinc \left(2Bt - t_n \right)$
+Применим интерполяционную формулу $f(t) = \sum \limits_{-\infty}^{\infty} f \left( t_n \right) sinc \left(2Bt - t_n \right)$ к сэмплированным данным с целью восстановления непрерывной функции.
+
+\begin{figure}[h!]
+\center{\includegraphics[width=1\linewidth]{pic2/restore_sin.png}}
+\caption{Исходный график функции и восстановленный после сэмплирования.}
+\end{figure}
+
+\subsubsection{Влияние шага дискретизации}
 
 
 \subsection{Сэмплирование sinus cardinalis}
