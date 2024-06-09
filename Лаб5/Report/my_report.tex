@@ -600,11 +600,68 @@ y(t) =  \sin \left( 3 t + \pi \right) + 2 \sin \left(  4 t + 2\pi \right)
 \caption{Исходный график функции и восстановленный после сэмплирования.}
 \end{figure}
 
+
+\newpage
 \subsubsection{Влияние шага дискретизации}
+\begin{figure}[h!]
+\center{\includegraphics[width=0.75\linewidth]{pic2/b_5_d_0.1.png}}
+\caption{Исходная и восстановленная функции при $\Delta t = 0.1$.}
+\center{\includegraphics[width=0.75\linewidth]{pic2/b_1_d_0.5.png}}
+\caption{Исходная и восстановленная функции при $\Delta t = 0.5$.}
+\end{figure}
 
+\begin{figure}[h!]
+\center{\includegraphics[width=0.75\linewidth]{pic2/b_10_d_0.05.png}}
+\caption{Исходная и восстановленная функции при $\Delta t = 0.05$.}
+\end{figure}
 
+На рисунках 19, 20 и 21 изображены исходные и восстановленные графики функции $y(t)$ при шагах дискретизации 0.1, 0.5 и 0.05 соответственно. Так как для всех трех случаев восстановленная функция практически совпадает с исходной, успешность восстановления не зависит от шага дискретизации при условии  $\Delta t = \frac{1}{2 B}$. Следовательно, результаты подтверждают теорему Найквиста-Шеннона-Котельникова.
+
+\newpage
 \subsection{Сэмплирование sinus cardinalis}
-\textit{...В работе...}
+Зададимся параметром $b=2$ и рассмотрим функцию $y(t) = sinc(bt)$:
+
+\begin{equation}
+y(t) = sinc(2t)
+\end{equation}
+
+\subsubsection{Построение непрерывного графика}
+\begin{figure}[h!]
+\center{\includegraphics[width=1\linewidth]{pic2/fsinc.png}}
+\caption{График исходной функции $y(t)$.}
+\end{figure}
+
+
+
+
+\newpage
+\subsubsection{Влияние шага дискретизации}
+\begin{figure}[h!]
+\center{\includegraphics[width=0.7\linewidth]{pic2/sinc_5_0.1.png}}
+\caption{Исходная и восстановленная функции при $\Delta t = 0.01$.}
+\center{\includegraphics[width=0.7\linewidth]{pic2/im_5_0.1.png}}
+\caption{Фурье-образ исходной и восстановленной функции при $\Delta t = 0.01$.}
+\end{figure}
+
+\begin{figure}[h!]
+\center{\includegraphics[width=0.7\linewidth]{pic2/sinc_10_0.05.png}}
+\caption{Исходная и восстановленная функции при $\Delta t = 0.05$.}
+\center{\includegraphics[width=0.7\linewidth]{pic2/im_10_0.05.png}}
+\caption{Фурье-образ исходной и восстановленной функции при $\Delta t = 0.05$.}
+\end{figure}
+
+\begin{figure}[h!]
+\center{\includegraphics[width=0.7\linewidth]{pic2/sinc_0.5_0.75.png}}
+\caption{Исходная и восстановленная функции при $\Delta t = 0.75$.}
+\center{\includegraphics[width=0.7\linewidth]{pic2/im_0.5_0.75.png}}
+\caption{Фурье-образ исходной и восстановленной функции при $\Delta t = 0.75$.}
+\end{figure}
+\newpage
+\,
+\newpage
+Заметим, что при шаге дискретизации $\Delta t = 0.75$ возникают проблемы как с образом восстановленной функции, так и с ее графиком. \\
+
+Согласно теореме Найквиста-Шеннона-Котельникова, для сигнала, представленного последовательностью дискретных отсчетов, точное восстановление возможно, только если частота дискретизации более чем в 2 раза выше максимальной частоты в спектре сигнала. Максимальная частота для $y(t) = sinc(bt)$ соответствует $\frac{b}{2}$, в нашем случае $\frac{1}{2}$. Таким образом, шаг дискретизации должен быть меньше $\frac{1}{2}$.
 
 \end{document}
 
