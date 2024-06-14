@@ -174,12 +174,73 @@
 \caption{Результат обработки. }
 \end{figure}
 
-
+\newpage
+\,
+\newpage
 При сравнении изображений на рисунках 1 и 4 заметна разница: периодические темные полосы стали прозрачнее и практически незаметны после обработки нормализованного логарифма модуля Фурье-образа.
 
 
 \newpage
 \section{Размытие изображения}
+Будем работать с изображением на рисунке 5.
+
+\begin{figure}[h!]
+\center{\includegraphics[width=1\linewidth]{pic/eule.jpg}}
+\caption{Исходное изображение. }
+\end{figure}
+
+\newpage
+Преобразуем его в черно-белое с помощью команды \textit{im2gray}, получим картинку на рисунке 6.
+
+\begin{figure}[h!]
+\center{\includegraphics[width=1\linewidth]{pic/gray_0.png}}
+\caption{Преобразованное в черно-белые цвета изображение. }
+\end{figure}
+
+\newpage
+\subsection{Блочное размытие и размытие по Гауссу (conv2)}
+
+\begin{figure}[h!]
+\begin{minipage}[h!]{0.47\linewidth}
+\center{\includegraphics[width=1\linewidth]{pic/p_9_cov_b.jpg}} а) \\
+\end{minipage}
+\hfill
+\begin{minipage}[h!]{0.47\linewidth}
+\center{\includegraphics[width=1\linewidth]{pic/p_9_cov_g.jpg}} \\б)
+\end{minipage}
+\caption{Размытие при $n= 9$: а) блочное, б) по Гауссу.}
+\,
+\vfill
+\begin{minipage}[h!]{0.47\linewidth}
+\center{\includegraphics[width=1\linewidth]{pic/p_13_cov_b.jpg}} а) \\
+\end{minipage}
+\hfill
+\begin{minipage}[h!]{0.47\linewidth}
+\center{\includegraphics[width=1\linewidth]{pic/p_13_cov_g.jpg}} б) \\
+\end{minipage}
+\caption{Размытие при $n= 13$: а) блочное, б) по Гауссу.}
+\end{figure}
+
+
+\begin{figure}[h!]
+\begin{minipage}[h!]{0.47\linewidth}
+\center{\includegraphics[width=1\linewidth]{pic/p_17_cov_b.jpg}} а) \\
+\end{minipage}
+\hfill
+\begin{minipage}[h!]{0.47\linewidth}
+\center{\includegraphics[width=1\linewidth]{pic/p_17_cov_g.jpg}} б) \\
+\end{minipage}
+\caption{Размытие при $n= 17$: а) блочное, б) по Гауссу.}
+\end{figure}
+
+\newpage
+Результаты на рисунках 7 - 9 получены с помощью команды \textit{conv2}. 
+
+Заметно, что при увеличении значения $n$ размытие становится сильнее, как в случае блочного, так и по Гауссу. Но для одинаковых значений $n$ блочное размытие сильнее выражено, чем размытие по Гауссу.
+
+
+\subsection{Блочное размытие и размытие по Гауссу (Фурье)}
+
 
 
 \newpage

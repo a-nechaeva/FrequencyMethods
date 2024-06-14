@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.6.14)  13 JUN 2024 02:21
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.6.14)  15 JUN 2024 00:41
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1360,12 +1360,12 @@ Overfull \hbox (3.15948pt too wide) in paragraph at lines 147--147
 []\T2A/cmr/bx/n/14.4 ‘ильтраци€ изоб-ра-же-ний с пе-ри-о-дич-но-стью. 
  []
 
-<pic/pic_0.png, id=23, 1027.84pt x 1027.84pt>
+<pic/pic_0.png, id=43, 1027.84pt x 1027.84pt>
 File: pic/pic_0.png Graphic file (type png)
 <use pic/pic_0.png>
 Package pdftex.def Info: pic/pic_0.png  used on input line 152.
 (pdftex.def)             Requested size: 344.27837pt x 344.2854pt.
-<pic/pic_res.png, id=24, 1027.84pt x 1027.84pt>
+<pic/pic_res.png, id=44, 1027.84pt x 1027.84pt>
 File: pic/pic_res.png Graphic file (type png)
 <use pic/pic_res.png>
 Package pdftex.def Info: pic/pic_res.png  used on input line 158.
@@ -1385,7 +1385,7 @@ been already used, duplicate ignored
                    \relax 
 l.161 \newpage
                [1 <./pic/pic_0.png>]
-<pic/pic_res_n.png, id=30, 616.704pt x 616.704pt>
+<pic/pic_res_n.png, id=50, 616.704pt x 616.704pt>
 File: pic/pic_res_n.png Graphic file (type png)
 <use pic/pic_res_n.png>
 Package pdftex.def Info: pic/pic_res_n.png  used on input line 168.
@@ -1394,7 +1394,7 @@ Package pdftex.def Info: pic/pic_res_n.png  used on input line 168.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<pic/pic_fin.png, id=32, 1027.84pt x 1027.84pt>
+<pic/pic_fin.png, id=52, 1027.84pt x 1027.84pt>
 File: pic/pic_fin.png Graphic file (type png)
 <use pic/pic_fin.png>
 Package pdftex.def Info: pic/pic_fin.png  used on input line 173.
@@ -1419,34 +1419,120 @@ Package fancyhdr Warning: \footskip is too small (0.0pt):
 (fancyhdr)                Make it at least 12.0pt, for example:
 (fancyhdr)                \setlength{\footskip}{12.0pt}.
 
-[4 <./pic/pic_fin.png (PNG copy)>] (./report.aux)
+[4 <./pic/pic_fin.png (PNG copy)>]
+<pic/eule.jpg, id=69, 1027.84pt x 1027.84pt>
+File: pic/eule.jpg Graphic file (type jpg)
+<use pic/eule.jpg>
+Package pdftex.def Info: pic/eule.jpg  used on input line 188.
+(pdftex.def)             Requested size: 344.27837pt x 344.2854pt.
+
+
+Package fancyhdr Warning: \footskip is too small (0.0pt): 
+(fancyhdr)                Make it at least 12.0pt, for example:
+(fancyhdr)                \setlength{\footskip}{12.0pt}.
+
+[5 <./pic/eule.jpg>]
+<pic/gray_0.png, id=75, 385.44pt x 384.9582pt>
+File: pic/gray_0.png Graphic file (type png)
+<use pic/gray_0.png>
+Package pdftex.def Info: pic/gray_0.png  used on input line 196.
+(pdftex.def)             Requested size: 344.27837pt x 343.84526pt.
+
+
+Package fancyhdr Warning: \footskip is too small (0.0pt): 
+(fancyhdr)                Make it at least 12.0pt, for example:
+(fancyhdr)                \setlength{\footskip}{12.0pt}.
+
+[6 <./pic/gray_0.png (PNG copy)>]
+<pic/p_9_cov_b.jpg, id=83, 1035.87pt x 1035.87pt>
+File: pic/p_9_cov_b.jpg Graphic file (type jpg)
+<use pic/p_9_cov_b.jpg>
+Package pdftex.def Info: pic/p_9_cov_b.jpg  used on input line 205.
+(pdftex.def)             Requested size: 161.81125pt x 161.80687pt.
+<pic/p_9_cov_g.jpg, id=84, 1035.87pt x 1035.87pt>
+File: pic/p_9_cov_g.jpg Graphic file (type jpg)
+<use pic/p_9_cov_g.jpg>
+Package pdftex.def Info: pic/p_9_cov_g.jpg  used on input line 209.
+(pdftex.def)             Requested size: 161.81125pt x 161.80687pt.
+<pic/p_13_cov_b.jpg, id=85, 1039.885pt x 1039.885pt>
+File: pic/p_13_cov_b.jpg Graphic file (type jpg)
+<use pic/p_13_cov_b.jpg>
+Package pdftex.def Info: pic/p_13_cov_b.jpg  used on input line 215.
+(pdftex.def)             Requested size: 161.81125pt x 161.79933pt.
+<pic/p_13_cov_g.jpg, id=86, 1039.885pt x 1039.885pt>
+File: pic/p_13_cov_g.jpg Graphic file (type jpg)
+<use pic/p_13_cov_g.jpg>
+Package pdftex.def Info: pic/p_13_cov_g.jpg  used on input line 219.
+(pdftex.def)             Requested size: 161.81125pt x 161.79933pt.
+<pic/p_17_cov_b.jpg, id=87, 1043.9pt x 1043.9pt>
+File: pic/p_17_cov_b.jpg Graphic file (type jpg)
+<use pic/p_17_cov_b.jpg>
+Package pdftex.def Info: pic/p_17_cov_b.jpg  used on input line 227.
+(pdftex.def)             Requested size: 161.81125pt x 161.80283pt.
+<pic/p_17_cov_g.jpg, id=88, 1043.9pt x 1043.9pt>
+File: pic/p_17_cov_g.jpg Graphic file (type jpg)
+<use pic/p_17_cov_g.jpg>
+Package pdftex.def Info: pic/p_17_cov_g.jpg  used on input line 231.
+(pdftex.def)             Requested size: 161.81125pt x 161.80283pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Package fancyhdr Warning: \footskip is too small (0.0pt): 
+(fancyhdr)                Make it at least 12.0pt, for example:
+(fancyhdr)                \setlength{\footskip}{12.0pt}.
+
+[7 <./pic/p_9_cov_b.jpg> <./pic/p_9_cov_g.jpg> <./pic/p_13_cov_b.jpg> <./pic/p_
+13_cov_g.jpg>]
+
+Package fancyhdr Warning: \footskip is too small (0.0pt): 
+(fancyhdr)                Make it at least 12.0pt, for example:
+(fancyhdr)                \setlength{\footskip}{12.0pt}.
+
+[8 <./pic/p_17_cov_b.jpg> <./pic/p_17_cov_g.jpg>]
+
+Package fancyhdr Warning: \footskip is too small (0.0pt): 
+(fancyhdr)                Make it at least 12.0pt, for example:
+(fancyhdr)                \setlength{\footskip}{12.0pt}.
+
+[9]
+
+Package fancyhdr Warning: \footskip is too small (0.0pt): 
+(fancyhdr)                Make it at least 12.0pt, for example:
+(fancyhdr)                \setlength{\footskip}{12.0pt}.
+
+[10] (./report.aux)
  ***********
 LaTeX2e <2023-06-01>
 L3 programming layer <2023-06-05>
  ***********
 Package rerunfilecheck Info: File `report.out' has not changed.
-(rerunfilecheck)             Checksum: 8F987968F0AD718AA169636C71515ED4;360.
+(rerunfilecheck)             Checksum: A17CC65C0436227F4A3C778D42E1754B;1740.
  ) 
 Here is how much of TeX's memory you used:
- 52987 strings out of 475734
- 1311201 string characters out of 5786229
- 1999952 words of memory out of 5000000
- 73099 multiletter control sequences out of 15000+600000
- 525423 words of font info for 61 fonts, out of 8000000 for 9000
+ 53087 strings out of 475734
+ 1313015 string characters out of 5786229
+ 1999953 words of memory out of 5000000
+ 73177 multiletter control sequences out of 15000+600000
+ 529541 words of font info for 76 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  84i,11n,89p,806b,609s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<c:/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb><c:/texl
-ive/2023/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb><c:/texlive/2023/t
-exmf-dist/fonts/type1/public/cm-super/sfrm0800.pfb><c:/texlive/2023/texmf-dist/
-fonts/type1/public/cm-super/sfrm0900.pfb><c:/texlive/2023/texmf-dist/fonts/type
-1/public/cm-super/sfrm1000.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/c
-m-super/sfrm1200.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sf
-ti0900.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfti1200.pfb
->
-Output written on report.pdf (5 pages, 9169162 bytes).
+<c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/tex
+live/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb><c:/texlive/2023/
+texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb><c:/texlive/2023/texmf-dist/
+fonts/type1/public/cm-super/sfbx1200.pfb><c:/texlive/2023/texmf-dist/fonts/type
+1/public/cm-super/sfbx1440.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/c
+m-super/sfrm0800.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sf
+rm0900.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb
+><c:/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb><c:/texli
+ve/2023/texmf-dist/fonts/type1/public/cm-super/sfti0900.pfb><c:/texlive/2023/te
+xmf-dist/fonts/type1/public/cm-super/sfti1000.pfb><c:/texlive/2023/texmf-dist/f
+onts/type1/public/cm-super/sfti1200.pfb>
+Output written on report.pdf (11 pages, 10343691 bytes).
 PDF statistics:
- 89 PDF objects out of 1000 (max. 8388607)
- 60 compressed objects within 1 object stream
- 10 named destinations out of 1000 (max. 500000)
- 41 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 171 PDF objects out of 1000 (max. 8388607)
+ 119 compressed objects within 2 object streams
+ 25 named destinations out of 1000 (max. 500000)
+ 121 words of extra memory for PDF output out of 10000 (max. 10000000)
 
