@@ -198,7 +198,7 @@
 \end{figure}
 
 \newpage
-\subsection{Блочное размытие и размытие по Гауссу (conv2)}
+\subsection{Блочное размытие и размытие по Гауссу (свёртка)}
 
 \begin{figure}[h!]
 \begin{minipage}[h!]{0.47\linewidth}
@@ -208,7 +208,7 @@
 \begin{minipage}[h!]{0.47\linewidth}
 \center{\includegraphics[width=1\linewidth]{pic/p_9_cov_g.jpg}} \\б)
 \end{minipage}
-\caption{Размытие при $n= 9$: а) блочное, б) по Гауссу.}
+\caption{Размытие при $n= 9$ (свёртка): а) блочное, б) по Гауссу.}
 \,
 \vfill
 \begin{minipage}[h!]{0.47\linewidth}
@@ -218,7 +218,7 @@
 \begin{minipage}[h!]{0.47\linewidth}
 \center{\includegraphics[width=1\linewidth]{pic/p_13_cov_g.jpg}} б) \\
 \end{minipage}
-\caption{Размытие при $n= 13$: а) блочное, б) по Гауссу.}
+\caption{Размытие при $n= 13$ (свёртка): а) блочное, б) по Гауссу.}
 \end{figure}
 
 
@@ -230,7 +230,7 @@
 \begin{minipage}[h!]{0.47\linewidth}
 \center{\includegraphics[width=1\linewidth]{pic/p_17_cov_g.jpg}} б) \\
 \end{minipage}
-\caption{Размытие при $n= 17$: а) блочное, б) по Гауссу.}
+\caption{Размытие при $n= 17$ (свёртка): а) блочное, б) по Гауссу.}
 \end{figure}
 
 \newpage
@@ -241,8 +241,64 @@
 
 \subsection{Блочное размытие и размытие по Гауссу (Фурье)}
 
+Найдем Фурье-образ от исходного изображения и от каждого из ядер, заполнив пропуски нулями. Для этого используем дополнительные параметры функции \textit{fft2(myimage, h + k - 1, w + l - 1)}, где h и w -- высота и ширина исходного изображения ($[h, w] = size(arr)$), k и l -- высота и ширина ядра.
+
+Затем поэлементно перемножим Фурье-образ изображния с Фурье образами каждого из ядер (А .* B). Выполним обратное преобразование Фурье от полученных произведений.
+
+\begin{figure}[h!]
+\begin{minipage}[h!]{0.47\linewidth}
+\center{\includegraphics[width=1\linewidth]{pic/p_9_b.jpg}} а) \\
+\end{minipage}
+\hfill
+\begin{minipage}[h!]{0.47\linewidth}
+\center{\includegraphics[width=1\linewidth]{pic/p_9_g.jpg}} \\б)
+\end{minipage}
+\caption{Размытие при $n= 9$ (Фурье): а) блочное, б) по Гауссу.}
+\,
+\vfill
+\begin{minipage}[h!]{0.47\linewidth}
+\center{\includegraphics[width=1\linewidth]{pic/p_13_b.jpg}} а) \\
+\end{minipage}
+\hfill
+\begin{minipage}[h!]{0.47\linewidth}
+\center{\includegraphics[width=1\linewidth]{pic/p_13_g.jpg}} б) \\
+\end{minipage}
+\caption{Размытие при $n= 13$ (Фурье): а) блочное, б) по Гауссу.}
+\end{figure}
 
 
+\begin{figure}[h!]
+\begin{minipage}[h!]{0.47\linewidth}
+\center{\includegraphics[width=1\linewidth]{pic/p_17_b.jpg}} а) \\
+\end{minipage}
+\hfill
+\begin{minipage}[h!]{0.47\linewidth}
+\center{\includegraphics[width=1\linewidth]{pic/p_17_g.jpg}} б) \\
+\end{minipage}
+\caption{Размытие при $n= 17$ (Фурье): а) блочное, б) по Гауссу.}
+\end{figure}
+
+\newpage
+Для размытия с использованием преобразования Фурье при увеличении $n$ также размытие усиливается. Как и в случае с применением свёртки, при одинаковом значении $n$ блочное размытие сильнее, чем по Гауссу.
+\newpage
+Дополнительно сравним изображения, полученные с применением свёртки и преобразования Фурье.
+
+\begin{figure}[h!]
+\begin{minipage}[h!]{0.47\linewidth}
+\center{\includegraphics[width=1\linewidth]{pic/p_17_cov_b.jpg}} а) \\
+\end{minipage}
+\hfill
+\begin{minipage}[h!]{0.47\linewidth}
+\center{\includegraphics[width=1\linewidth]{pic/p_17_b.jpg}} б) \\
+\end{minipage}
+\caption{Блочное размытие при $n= 17$: а) свёртка, б) Фурье.}
+\end{figure}
+
+
+
+
+\newpage
+\,
 \newpage
 \section{Увеличение резкости}
 

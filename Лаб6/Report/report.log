@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.6.14)  15 JUN 2024 00:41
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.6.14)  15 JUN 2024 01:26
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1485,6 +1485,43 @@ Package fancyhdr Warning: \footskip is too small (0.0pt):
 
 [7 <./pic/p_9_cov_b.jpg> <./pic/p_9_cov_g.jpg> <./pic/p_13_cov_b.jpg> <./pic/p_
 13_cov_g.jpg>]
+<pic/p_9_b.jpg, id=96, 1035.87pt x 1035.87pt>
+File: pic/p_9_b.jpg Graphic file (type jpg)
+<use pic/p_9_b.jpg>
+Package pdftex.def Info: pic/p_9_b.jpg  used on input line 250.
+(pdftex.def)             Requested size: 161.81125pt x 161.80687pt.
+<pic/p_9_g.jpg, id=97, 1035.87pt x 1035.87pt>
+File: pic/p_9_g.jpg Graphic file (type jpg)
+<use pic/p_9_g.jpg>
+Package pdftex.def Info: pic/p_9_g.jpg  used on input line 254.
+(pdftex.def)             Requested size: 161.81125pt x 161.80687pt.
+<pic/p_13_b.jpg, id=98, 1039.885pt x 1039.885pt>
+File: pic/p_13_b.jpg Graphic file (type jpg)
+<use pic/p_13_b.jpg>
+Package pdftex.def Info: pic/p_13_b.jpg  used on input line 260.
+(pdftex.def)             Requested size: 161.81125pt x 161.79933pt.
+<pic/p_13_g.jpg, id=99, 1039.885pt x 1039.885pt>
+File: pic/p_13_g.jpg Graphic file (type jpg)
+<use pic/p_13_g.jpg>
+Package pdftex.def Info: pic/p_13_g.jpg  used on input line 264.
+(pdftex.def)             Requested size: 161.81125pt x 161.79933pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<pic/p_17_b.jpg, id=100, 1043.9pt x 1043.9pt>
+File: pic/p_17_b.jpg Graphic file (type jpg)
+<use pic/p_17_b.jpg>
+Package pdftex.def Info: pic/p_17_b.jpg  used on input line 272.
+(pdftex.def)             Requested size: 161.81125pt x 161.80283pt.
+<pic/p_17_g.jpg, id=101, 1043.9pt x 1043.9pt>
+File: pic/p_17_g.jpg Graphic file (type jpg)
+<use pic/p_17_g.jpg>
+Package pdftex.def Info: pic/p_17_g.jpg  used on input line 276.
+(pdftex.def)             Requested size: 161.81125pt x 161.80283pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
 
 Package fancyhdr Warning: \footskip is too small (0.0pt): 
 (fancyhdr)                Make it at least 12.0pt, for example:
@@ -1496,43 +1533,75 @@ Package fancyhdr Warning: \footskip is too small (0.0pt):
 (fancyhdr)                Make it at least 12.0pt, for example:
 (fancyhdr)                \setlength{\footskip}{12.0pt}.
 
-[9]
+[9 <./pic/p_9_b.jpg> <./pic/p_9_g.jpg> <./pic/p_13_b.jpg> <./pic/p_13_g.jpg>]
+Overfull \hbox (1.05875pt too wide) in paragraph at lines 284--285
+[]\T2A/cmr/m/n/10 Дополнительно срав-ним изоб-ра-же-ния, по-лу-чен-ные с при-ме
+-не-ни-ем свјрт-
+ []
+
+File: pic/p_17_cov_b.jpg Graphic file (type jpg)
+<use pic/p_17_cov_b.jpg>
+Package pdftex.def Info: pic/p_17_cov_b.jpg  used on input line 288.
+(pdftex.def)             Requested size: 161.81125pt x 161.80283pt.
+File: pic/p_17_b.jpg Graphic file (type jpg)
+<use pic/p_17_b.jpg>
+Package pdftex.def Info: pic/p_17_b.jpg  used on input line 292.
+(pdftex.def)             Requested size: 161.81125pt x 161.80283pt.
 
 Package fancyhdr Warning: \footskip is too small (0.0pt): 
 (fancyhdr)                Make it at least 12.0pt, for example:
 (fancyhdr)                \setlength{\footskip}{12.0pt}.
 
-[10] (./report.aux)
+[10 <./pic/p_17_b.jpg> <./pic/p_17_g.jpg>]
+
+Package fancyhdr Warning: \footskip is too small (0.0pt): 
+(fancyhdr)                Make it at least 12.0pt, for example:
+(fancyhdr)                \setlength{\footskip}{12.0pt}.
+
+[11]
+
+Package fancyhdr Warning: \footskip is too small (0.0pt): 
+(fancyhdr)                Make it at least 12.0pt, for example:
+(fancyhdr)                \setlength{\footskip}{12.0pt}.
+
+[12]
+
+Package fancyhdr Warning: \footskip is too small (0.0pt): 
+(fancyhdr)                Make it at least 12.0pt, for example:
+(fancyhdr)                \setlength{\footskip}{12.0pt}.
+
+[13] (./report.aux)
  ***********
 LaTeX2e <2023-06-01>
 L3 programming layer <2023-06-05>
  ***********
 Package rerunfilecheck Info: File `report.out' has not changed.
-(rerunfilecheck)             Checksum: A17CC65C0436227F4A3C778D42E1754B;1740.
+(rerunfilecheck)             Checksum: 5D3E18532977883859AB48B885ADEFF0;1771.
  ) 
 Here is how much of TeX's memory you used:
- 53087 strings out of 475734
- 1313015 string characters out of 5786229
- 1999953 words of memory out of 5000000
- 73177 multiletter control sequences out of 15000+600000
+ 53135 strings out of 475734
+ 1313948 string characters out of 5786229
+ 2001954 words of memory out of 5000000
+ 73219 multiletter control sequences out of 15000+600000
  529541 words of font info for 76 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  84i,11n,89p,806b,609s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/tex
 live/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb><c:/texlive/2023/
-texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb><c:/texlive/2023/texmf-dist/
-fonts/type1/public/cm-super/sfbx1200.pfb><c:/texlive/2023/texmf-dist/fonts/type
-1/public/cm-super/sfbx1440.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/c
-m-super/sfrm0800.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sf
-rm0900.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb
-><c:/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb><c:/texli
-ve/2023/texmf-dist/fonts/type1/public/cm-super/sfti0900.pfb><c:/texlive/2023/te
-xmf-dist/fonts/type1/public/cm-super/sfti1000.pfb><c:/texlive/2023/texmf-dist/f
-onts/type1/public/cm-super/sfti1200.pfb>
-Output written on report.pdf (11 pages, 10343691 bytes).
+texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2023/texmf-dist
+/fonts/type1/public/amsfonts/cm/cmr9.pfb><c:/texlive/2023/texmf-dist/fonts/type
+1/public/cm-super/sfbx1200.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/c
+m-super/sfbx1440.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sf
+rm0800.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm0900.pfb
+><c:/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb><c:/texli
+ve/2023/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb><c:/texlive/2023/te
+xmf-dist/fonts/type1/public/cm-super/sfti0900.pfb><c:/texlive/2023/texmf-dist/f
+onts/type1/public/cm-super/sfti1000.pfb><c:/texlive/2023/texmf-dist/fonts/type1
+/public/cm-super/sfti1200.pfb>
+Output written on report.pdf (14 pages, 10738561 bytes).
 PDF statistics:
- 171 PDF objects out of 1000 (max. 8388607)
- 119 compressed objects within 2 object streams
- 25 named destinations out of 1000 (max. 500000)
- 121 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 199 PDF objects out of 1000 (max. 8388607)
+ 136 compressed objects within 2 object streams
+ 31 named destinations out of 1000 (max. 500000)
+ 151 words of extra memory for PDF output out of 10000 (max. 10000000)
 
